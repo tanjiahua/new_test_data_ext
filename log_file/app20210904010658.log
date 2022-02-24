@@ -1,0 +1,12 @@
+INFO - 2021-09-04 01:06:58,623 - new_apply_order.py[line:521]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-04 01:06:58,623 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630688818 ======
+ERROR - 2021-09-04 01:07:00,092 - new_apply_order.py[line:92]: {"code":"10099001","msg":"The Server is busy, Please try again later","data":null} 检测用户存在失败！
+INFO - 2021-09-04 01:07:00,094 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630688820 ======
+ERROR - 2021-09-04 01:07:00,094 - new_apply_order.py[line:567]: module 'common.params_init' has no attribute 'data_sendSmsCode'
+ERROR - 2021-09-04 01:07:00,096 - new_apply_order.py[line:568]: None
+INFO - 2021-09-04 01:07:00,102 - new_apply_order.py[line:521]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-04 01:07:00,104 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630688820 ======
+ERROR - 2021-09-04 01:07:01,605 - new_apply_order.py[line:92]: {"code":"10099001","msg":"The Server is busy, Please try again later","data":null} 检测用户存在失败！
+INFO - 2021-09-04 01:07:01,607 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630688821 ======
+ERROR - 2021-09-04 01:07:01,607 - new_apply_order.py[line:567]: module 'common.params_init' has no attribute 'data_sendSmsCode'
+ERROR - 2021-09-04 01:07:01,608 - new_apply_order.py[line:568]: None

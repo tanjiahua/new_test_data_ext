@@ -1,0 +1,17 @@
+INFO - 2021-09-15 11:26:16,797 - new_apply_order.py[line:683]: 开始第 pcamion【1】次进件……
+INFO - 2021-09-15 11:26:16,797 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3631676376 ======
+INFO - 2021-09-15 11:26:17,208 - new_apply_order.py[line:95]: 3631676376 检测用户存在成功！
+INFO - 2021-09-15 11:26:17,330 - new_apply_order.py[line:104]: 3631676376 短信发送成功！
+INFO - 2021-09-15 11:26:17,409 - new_apply_order.py[line:117]: 3631676376 注册成功！
+INFO - 2021-09-15 11:26:17,541 - new_apply_order.py[line:133]: 3631676376 登录短信发送成功！
+INFO - 2021-09-15 11:26:17,640 - new_apply_order.py[line:143]: userId=4951079310723522560,mobile=3631676376,token=c078cf32080e503e6a70f7fb9c0dcf6b 登录成功
+INFO - 2021-09-15 11:26:17,818 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-09-15 11:26:18,400 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-09-15 11:26:18,418 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-15 11:26:18,437 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-15 11:26:18,758 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-15 11:26:18,833 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-09-15 11:26:20,056 - new_apply_order.py[line:331]: curp上传成功!
+INFO - 2021-09-15 11:26:20,170 - new_apply_order.py[line:340]: curp_rfc校验通过！
+ERROR - 2021-09-15 11:26:20,171 - new_apply_order.py[line:729]: not all arguments converted during string formatting
+ERROR - 2021-09-15 11:26:20,172 - new_apply_order.py[line:730]: None

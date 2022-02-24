@@ -1,0 +1,39 @@
+INFO - 2021-09-27 09:53:29,156 - new_apply_order.py[line:792]: 开始第 oranch【1】次进件……
+INFO - 2021-09-27 09:53:29,156 - new_apply_order.py[line:82]: ======【ke测试环境】生成手机号：732707609 ======
+INFO - 2021-09-27 09:53:29,526 - new_apply_order.py[line:95]: 732707609 检测用户存在成功！
+INFO - 2021-09-27 09:53:29,571 - new_apply_order.py[line:104]: 732707609 短信发送成功！
+INFO - 2021-09-27 09:53:29,612 - new_apply_order.py[line:117]: 732707609 注册成功！
+INFO - 2021-09-27 09:53:29,664 - new_apply_order.py[line:133]: 732707609 登录短信发送成功！
+INFO - 2021-09-27 09:53:29,708 - new_apply_order.py[line:143]: userId=6213695811927941120,mobile=732707609,token=eacfcbce4aa835ee3007e07777a069a1 登录成功
+INFO - 2021-09-27 09:53:30,356 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-09-27 09:53:30,405 - new_apply_order.py[line:225]: 联系人信息提交成功！
+INFO - 2021-09-27 09:53:30,789 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-09-27 09:53:30,806 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-27 09:53:30,818 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-27 09:53:31,146 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-27 09:53:31,183 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-09-27 09:53:31,473 - new_apply_order.py[line:500]: 绑卡成功！
+INFO - 2021-09-27 09:53:31,640 - new_apply_order.py[line:522]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-09-27 09:53:32,684 - new_apply_order.py[line:528]: 订单表更新1条，信审更新1条
+INFO - 2021-09-27 09:53:33,029 - new_apply_order.py[line:542]: 查询loan_order_id成功！
+INFO - 2021-09-27 09:53:33,072 - new_apply_order.py[line:557]: 订单回调复审通过成功！
+INFO - 2021-09-27 09:53:33,879 - new_apply_order.py[line:579]: 获取token成功！token=bearer eb2359a1-5cef-4502-9c4d-c725949a5a2b！
+INFO - 2021-09-27 09:53:34,220 - new_apply_order.py[line:542]: 查询loan_order_id成功！
+INFO - 2021-09-27 09:53:34,709 - new_apply_order.py[line:597]: 后台已触发放款成功！
+INFO - 2021-09-27 09:53:34,723 - new_apply_order.py[line:611]: xxl_job web 登录成功！
+INFO - 2021-09-27 09:53:34,734 - new_apply_order.py[line:627]: xxl_job 放款准备作业执行成功！
+INFO - 2021-09-27 09:53:36,082 - new_apply_order.py[line:542]: 查询loan_order_id成功！
+INFO - 2021-09-27 09:53:36,097 - new_apply_order.py[line:635]: 修改放款准备完成时间成功！
+INFO - 2021-09-27 09:53:36,104 - new_apply_order.py[line:643]: xxl_job 放款完成作业执行成功！
+INFO - 2021-09-27 09:53:36,451 - new_apply_order.py[line:542]: 查询loan_order_id成功！
+INFO - 2021-09-27 09:53:36,584 - new_apply_order.py[line:682]: 放款回调失败！
+INFO - 2021-09-27 09:53:36,885 - new_apply_order.py[line:815]: 校验重试查询第1次
+ERROR - 2021-09-27 09:53:37,900 - new_apply_order.py[line:711]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-09-27 09:53:37,900 - new_apply_order.py[line:712]: {'app': 'oranch', 'loan_order_id': '1442306371861876736', 'mobile': '732707609', 'order_status': 35}
+INFO - 2021-09-27 09:53:38,756 - new_apply_order.py[line:542]: 查询loan_order_id成功！
+INFO - 2021-09-27 09:53:38,963 - new_apply_order.py[line:680]: 放款回调成功！
+INFO - 2021-09-27 09:53:38,963 - new_apply_order.py[line:815]: 校验重试查询第2次
+INFO - 2021-09-27 09:53:39,980 - new_apply_order.py[line:709]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-09-27 09:53:39,981 - new_apply_order.py[line:712]: {'app': 'oranch', 'loan_order_id': '1442306371861876736', 'mobile': '732707609', 'order_status': 40}
+INFO - 2021-09-27 09:53:39,983 - new_apply_order.py[line:832]: ===========完成第【1】次进件===========
+INFO - 2021-09-27 09:53:39,983 - new_apply_order.py[line:835]: ======完成第【1】次进件,耗时10.83s=====

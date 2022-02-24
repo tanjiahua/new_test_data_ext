@@ -1,0 +1,18 @@
+INFO - 2021-10-19 10:11:55,385 - new_apply_order.py[line:880]: 开始第 jopay【1】次进件……
+INFO - 2021-10-19 10:11:55,387 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01634609515 ======
+INFO - 2021-10-19 10:11:55,780 - new_apply_order.py[line:97]: 01634609515 检测用户存在成功！
+INFO - 2021-10-19 10:11:55,841 - new_apply_order.py[line:106]: 01634609515 短信发送成功！
+INFO - 2021-10-19 10:11:55,896 - new_apply_order.py[line:119]: 01634609515 注册成功！
+INFO - 2021-10-19 10:11:55,950 - new_apply_order.py[line:135]: 01634609515 登录短信发送成功！
+INFO - 2021-10-19 10:11:55,998 - new_apply_order.py[line:145]: userId=6221672985063858176,mobile=01634609515,token=db5b26f6847de8d764a385ef114e586e 登录成功
+INFO - 2021-10-19 10:11:56,063 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-10-19 10:11:56,110 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-10-19 10:11:56,409 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-10-19 10:11:56,433 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-19 10:11:56,448 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-10-19 10:11:56,750 - new_apply_order.py[line:283]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-19 10:11:56,784 - new_apply_order.py[line:293]: 视频认证通过！
+INFO - 2021-10-19 10:11:57,820 - new_apply_order.py[line:518]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-19 10:11:58,100 - new_apply_order.py[line:569]: user更新1条
+ERROR - 2021-10-19 10:11:58,103 - new_apply_order.py[line:926]: 'url_createApply'
+ERROR - 2021-10-19 10:11:58,104 - new_apply_order.py[line:927]: None

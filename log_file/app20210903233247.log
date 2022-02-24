@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:32:47,766 - new_apply_order.py[line:520]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:32:47,767 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630683167 ======
+ERROR - 2021-09-03 23:32:48,076 - new_apply_order.py[line:566]: name 'cfg_' is not defined
+ERROR - 2021-09-03 23:32:48,077 - new_apply_order.py[line:567]: None
+INFO - 2021-09-03 23:32:48,081 - new_apply_order.py[line:520]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:32:48,082 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630683168 ======
+ERROR - 2021-09-03 23:32:48,390 - new_apply_order.py[line:566]: name 'cfg_' is not defined
+ERROR - 2021-09-03 23:32:48,391 - new_apply_order.py[line:567]: None

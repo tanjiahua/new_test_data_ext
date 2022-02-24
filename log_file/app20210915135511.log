@@ -1,0 +1,19 @@
+INFO - 2021-09-15 13:55:11,953 - new_apply_order.py[line:683]: 开始第 pcamion【1】次进件……
+INFO - 2021-09-15 13:55:11,953 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3631685311 ======
+INFO - 2021-09-15 13:55:12,374 - new_apply_order.py[line:95]: 3631685311 检测用户存在成功！
+INFO - 2021-09-15 13:55:13,825 - new_apply_order.py[line:104]: 3631685311 短信发送成功！
+INFO - 2021-09-15 13:55:13,928 - new_apply_order.py[line:117]: 3631685311 注册成功！
+INFO - 2021-09-15 13:55:14,066 - new_apply_order.py[line:133]: 3631685311 登录短信发送成功！
+INFO - 2021-09-15 13:55:14,198 - new_apply_order.py[line:143]: userId=4951116792882143232,mobile=3631685311,token=f3d72a6d937bb7428abde37ae9c4beb1 登录成功
+INFO - 2021-09-15 13:55:14,407 - new_apply_order.py[line:205]: 个人信息提交成功！
+ERROR - 2021-09-15 13:55:14,667 - new_apply_order.py[line:240]: 创建预审失败{"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2021-09-15 13:55:14,679 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 0
+INFO - 2021-09-15 13:55:14,699 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-15 13:55:15,122 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-15 13:55:15,225 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-09-15 13:55:16,554 - new_apply_order.py[line:331]: curp上传成功!
+INFO - 2021-09-15 13:55:16,901 - new_apply_order.py[line:340]: curp_rfc校验通过！
+INFO - 2021-09-15 13:55:19,283 - new_apply_order.py[line:413]: 不绑卡成功跳过！
+ERROR - 2021-09-15 13:55:19,464 - new_apply_order.py[line:434]: {"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+ERROR - 2021-09-15 13:55:19,923 - new_apply_order.py[line:729]: 'NoneType' object is not subscriptable
+ERROR - 2021-09-15 13:55:19,928 - new_apply_order.py[line:730]: None

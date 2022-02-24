@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:03:07,202 - new_apply_order.py[line:517]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:03:07,203 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630681387 ======
+ERROR - 2021-09-03 23:03:07,510 - new_apply_order.py[line:565]: 'NewUserApplyOrder' object has no attribute 'app_name'
+ERROR - 2021-09-03 23:03:07,511 - new_apply_order.py[line:566]: None
+INFO - 2021-09-03 23:03:07,515 - new_apply_order.py[line:517]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:03:07,516 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630681387 ======
+ERROR - 2021-09-03 23:03:07,819 - new_apply_order.py[line:565]: 'NewUserApplyOrder' object has no attribute 'app_name'
+ERROR - 2021-09-03 23:03:07,820 - new_apply_order.py[line:566]: None

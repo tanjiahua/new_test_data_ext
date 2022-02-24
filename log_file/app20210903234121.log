@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:41:21,969 - new_apply_order.py[line:522]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:41:21,970 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630683681 ======
+ERROR - 2021-09-03 23:41:22,279 - new_apply_order.py[line:568]: No section: 'borrowme'
+ERROR - 2021-09-03 23:41:22,282 - new_apply_order.py[line:569]: None
+INFO - 2021-09-03 23:41:22,286 - new_apply_order.py[line:522]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:41:22,287 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630683682 ======
+ERROR - 2021-09-03 23:41:22,593 - new_apply_order.py[line:568]: No section: 'quickcash'
+ERROR - 2021-09-03 23:41:22,594 - new_apply_order.py[line:569]: None

@@ -1,0 +1,11 @@
+INFO - 2021-08-31 13:25:28,012 - new_apply_order.py[line:511]: 开始第 borrowme【1】次进件……
+INFO - 2021-08-31 13:25:28,014 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630387528 ======
+INFO - 2021-08-31 13:25:28,396 - new_apply_order.py[line:86]: 01630387528 检测用户存在成功！
+INFO - 2021-08-31 13:25:28,461 - new_apply_order.py[line:93]: 01630387528 短信发送成功！
+INFO - 2021-08-31 13:25:28,505 - new_apply_order.py[line:103]: 01630387528 注册成功！
+ERROR - 2021-08-31 13:25:32,431 - new_apply_order.py[line:122]: 登录失败!
+INFO - 2021-08-31 13:25:37,215 - new_apply_order.py[line:166]: 个人信息提交成功！
+INFO - 2021-08-31 13:25:37,273 - new_apply_order.py[line:175]: 联系人信息提交成功！
+ERROR - 2021-08-31 13:25:37,984 - new_apply_order.py[line:194]: 创建预审失败{"code":"9999","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2021-08-31 13:25:38,287 - new_apply_order.py[line:200]: 预审状态修改为通过,更新条数 0
+INFO - 2021-08-31 13:25:38,302 - new_apply_order.py[line:203]: 更新初始额度！更新条数 0

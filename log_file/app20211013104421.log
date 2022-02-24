@@ -1,0 +1,15 @@
+INFO - 2021-10-13 10:44:21,797 - new_apply_order.py[line:795]: 开始第 ikash【1】次进件……
+INFO - 2021-10-13 10:44:21,797 - new_apply_order.py[line:82]: ======【ke测试环境】生成手机号：734093061 ======
+INFO - 2021-10-13 10:44:22,280 - new_apply_order.py[line:95]: 734093061 检测用户存在成功！
+INFO - 2021-10-13 10:44:22,605 - new_apply_order.py[line:104]: 734093061 短信发送成功！
+INFO - 2021-10-13 10:44:22,773 - new_apply_order.py[line:117]: 734093061 注册成功！
+INFO - 2021-10-13 10:44:22,893 - new_apply_order.py[line:133]: 734093061 登录短信发送成功！
+INFO - 2021-10-13 10:44:23,378 - new_apply_order.py[line:143]: userId=6219506823539466240,mobile=734093061,token=ee7d54e513b7daa83a943398c9489d15 登录成功
+INFO - 2021-10-13 10:44:24,047 - new_apply_order.py[line:208]: 个人信息提交成功！
+INFO - 2021-10-13 10:44:24,241 - new_apply_order.py[line:228]: 联系人信息提交成功！
+ERROR - 2021-10-13 10:44:26,597 - new_apply_order.py[line:243]: 创建预审失败{"code":"30001012","msg":"System unknown error","data":null}
+INFO - 2021-10-13 10:44:27,618 - new_apply_order.py[line:249]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-13 10:44:27,627 - new_apply_order.py[line:252]: 更新初始额度！更新条数 1
+INFO - 2021-10-13 10:44:28,214 - new_apply_order.py[line:269]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-13 10:44:28,310 - new_apply_order.py[line:279]: 视频认证通过！
+INFO - 2021-10-13 10:44:28,796 - new_apply_order.py[line:503]: 绑卡成功！

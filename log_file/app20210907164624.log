@@ -1,0 +1,44 @@
+INFO - 2021-09-07 16:46:24,208 - new_apply_order.py[line:618]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-07 16:46:24,209 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01631004384 ======
+INFO - 2021-09-07 16:46:24,598 - new_apply_order.py[line:93]: 01631004384 检测用户存在成功！
+INFO - 2021-09-07 16:46:24,662 - new_apply_order.py[line:102]: 01631004384 短信发送成功！
+INFO - 2021-09-07 16:46:24,704 - new_apply_order.py[line:115]: 01631004384 注册成功！
+INFO - 2021-09-07 16:46:24,757 - new_apply_order.py[line:131]: 01631004384 登录短信发送成功！
+INFO - 2021-09-07 16:46:24,798 - new_apply_order.py[line:141]: userId=6206551969060102144,mobile=01631004384,token=1b89c3977f75e8c0fe067dc03e37d182 登录成功
+INFO - 2021-09-07 16:46:24,875 - new_apply_order.py[line:198]: 个人信息提交成功！
+INFO - 2021-09-07 16:46:24,927 - new_apply_order.py[line:209]: 联系人信息提交成功！
+INFO - 2021-09-07 16:46:25,427 - new_apply_order.py[line:231]: 创建预审订单成功！
+INFO - 2021-09-07 16:46:25,446 - new_apply_order.py[line:239]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-07 16:46:25,462 - new_apply_order.py[line:242]: 更新初始额度！更新条数 1
+INFO - 2021-09-07 16:46:25,740 - new_apply_order.py[line:259]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-07 16:46:25,780 - new_apply_order.py[line:269]: 视频认证通过！
+INFO - 2021-09-07 16:46:26,809 - new_apply_order.py[line:325]: bvn和银行卡绑卡认证通过！
+INFO - 2021-09-07 16:46:27,104 - new_apply_order.py[line:346]: user更新1条
+INFO - 2021-09-07 16:46:27,337 - new_apply_order.py[line:375]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-09-07 16:46:28,377 - new_apply_order.py[line:381]: 订单表更新1条，信审更新1条
+INFO - 2021-09-07 16:46:28,750 - new_apply_order.py[line:395]: 查询loan_order_id成功！
+INFO - 2021-09-07 16:46:28,794 - new_apply_order.py[line:410]: 订单回调复审通过成功！
+ERROR - 2021-09-07 16:46:29,308 - new_apply_order.py[line:664]: module 'common.params_init' has no attribute 'data_admin'
+ERROR - 2021-09-07 16:46:29,310 - new_apply_order.py[line:665]: None
+INFO - 2021-09-07 16:46:29,313 - new_apply_order.py[line:618]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-07 16:46:29,314 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01631004389 ======
+INFO - 2021-09-07 16:46:29,657 - new_apply_order.py[line:93]: 01631004389 检测用户存在成功！
+INFO - 2021-09-07 16:46:29,696 - new_apply_order.py[line:102]: 01631004389 短信发送成功！
+INFO - 2021-09-07 16:46:29,729 - new_apply_order.py[line:115]: 01631004389 注册成功！
+INFO - 2021-09-07 16:46:29,772 - new_apply_order.py[line:131]: 01631004389 登录短信发送成功！
+INFO - 2021-09-07 16:46:29,815 - new_apply_order.py[line:141]: userId=6206551990170034176,mobile=01631004389,token=6115ea7cc4c3f3b395416eb96ddb21d3 登录成功
+INFO - 2021-09-07 16:46:29,878 - new_apply_order.py[line:198]: 个人信息提交成功！
+INFO - 2021-09-07 16:46:29,930 - new_apply_order.py[line:209]: 联系人信息提交成功！
+INFO - 2021-09-07 16:46:30,201 - new_apply_order.py[line:231]: 创建预审订单成功！
+INFO - 2021-09-07 16:46:30,219 - new_apply_order.py[line:239]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-07 16:46:30,236 - new_apply_order.py[line:242]: 更新初始额度！更新条数 1
+INFO - 2021-09-07 16:46:30,496 - new_apply_order.py[line:259]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-07 16:46:30,531 - new_apply_order.py[line:269]: 视频认证通过！
+INFO - 2021-09-07 16:46:31,397 - new_apply_order.py[line:325]: bvn和银行卡绑卡认证通过！
+INFO - 2021-09-07 16:46:31,705 - new_apply_order.py[line:346]: user更新1条
+INFO - 2021-09-07 16:46:31,885 - new_apply_order.py[line:375]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-09-07 16:46:32,917 - new_apply_order.py[line:381]: 订单表更新1条，信审更新1条
+INFO - 2021-09-07 16:46:33,271 - new_apply_order.py[line:395]: 查询loan_order_id成功！
+INFO - 2021-09-07 16:46:33,308 - new_apply_order.py[line:410]: 订单回调复审通过成功！
+ERROR - 2021-09-07 16:46:33,821 - new_apply_order.py[line:664]: module 'common.params_init' has no attribute 'data_admin'
+ERROR - 2021-09-07 16:46:33,821 - new_apply_order.py[line:665]: None

@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:37:24,272 - new_apply_order.py[line:520]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:37:24,273 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630683444 ======
+ERROR - 2021-09-03 23:37:24,584 - new_apply_order.py[line:566]: 'NewUserApplyOrder' object has no attribute 'mark'
+ERROR - 2021-09-03 23:37:24,585 - new_apply_order.py[line:567]: None
+INFO - 2021-09-03 23:37:24,589 - new_apply_order.py[line:520]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:37:24,589 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630683444 ======
+ERROR - 2021-09-03 23:37:24,897 - new_apply_order.py[line:566]: 'NewUserApplyOrder' object has no attribute 'mark'
+ERROR - 2021-09-03 23:37:24,897 - new_apply_order.py[line:567]: None

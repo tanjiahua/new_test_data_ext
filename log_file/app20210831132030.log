@@ -1,0 +1,18 @@
+INFO - 2021-08-31 13:20:30,505 - new_apply_order.py[line:511]: 开始第 borrowme【1】次进件……
+INFO - 2021-08-31 13:20:30,506 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630387230 ======
+INFO - 2021-08-31 13:20:31,050 - new_apply_order.py[line:86]: 01630387230 检测用户存在成功！
+INFO - 2021-08-31 13:20:31,291 - new_apply_order.py[line:93]: 01630387230 短信发送成功！
+INFO - 2021-08-31 13:20:31,437 - new_apply_order.py[line:103]: 01630387230 注册成功！
+ERROR - 2021-08-31 13:20:31,567 - new_apply_order.py[line:122]: 登录失败!
+INFO - 2021-08-31 13:20:31,733 - new_apply_order.py[line:166]: 个人信息提交成功！
+INFO - 2021-08-31 13:20:31,830 - new_apply_order.py[line:175]: 联系人信息提交成功！
+ERROR - 2021-08-31 13:20:32,068 - new_apply_order.py[line:194]: 创建预审失败{"code":"9999","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2021-08-31 13:20:32,082 - new_apply_order.py[line:200]: 预审状态修改为通过,更新条数 0
+INFO - 2021-08-31 13:20:32,090 - new_apply_order.py[line:203]: 更新初始额度！更新条数 0
+INFO - 2021-08-31 13:20:32,511 - new_apply_order.py[line:215]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-08-31 13:20:32,553 - new_apply_order.py[line:224]: 视频认证通过！
+INFO - 2021-08-31 13:20:33,808 - new_apply_order.py[line:270]: bvn和银行卡绑卡认证通过！
+INFO - 2021-08-31 13:20:34,102 - new_apply_order.py[line:291]: user更新1条
+ERROR - 2021-08-31 13:20:34,426 - new_apply_order.py[line:319]: {"code":"50001004","msg":"Not eligible for borrowing","data":null}
+INFO - 2021-08-31 13:20:34,922 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 13:20:34,999 - new_apply_order.py[line:336]: 订单回调复审通过成功！

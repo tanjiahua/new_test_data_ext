@@ -1,0 +1,42 @@
+INFO - 2021-12-25 16:36:19,217 - new_apply_order.py[line:893]: 开始第 creditmatchs【1】次进件……
+INFO - 2021-12-25 16:36:19,218 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01640421379 ======
+INFO - 2021-12-25 16:36:19,673 - new_apply_order.py[line:97]: 01640421379 检测用户存在成功！
+INFO - 2021-12-25 16:36:19,743 - new_apply_order.py[line:106]: 01640421379 短信发送成功！
+INFO - 2021-12-25 16:36:19,805 - new_apply_order.py[line:119]: 01640421379 注册成功！
+INFO - 2021-12-25 16:36:19,874 - new_apply_order.py[line:135]: 01640421379 登录短信发送成功！
+INFO - 2021-12-25 16:36:19,924 - new_apply_order.py[line:145]: userId=6246049709261856768,mobile=01640421379,token=236da36505d6666b9ec2725fa2fc5448 登录成功
+INFO - 2021-12-25 16:36:20,065 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-25 16:36:20,121 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-12-25 16:36:22,019 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-25 16:36:22,038 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-25 16:36:22,053 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-25 16:36:22,332 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-25 16:36:22,395 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-12-25 16:36:23,828 - new_apply_order.py[line:511]: bvn和银行卡绑卡认证通过！
+INFO - 2021-12-25 16:36:24,169 - new_apply_order.py[line:562]: user更新1条
+INFO - 2021-12-25 16:36:25,169 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-25 16:36:26,217 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-25 16:36:26,592 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-25 16:36:26,652 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-25 16:36:27,456 - new_apply_order.py[line:680]: 获取token成功！token=bearer 13217b9d-4144-41ef-82ab-a4ef98fb7993！
+INFO - 2021-12-25 16:36:27,831 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-25 16:36:28,564 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-25 16:36:28,583 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-25 16:36:28,593 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-25 16:36:29,947 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-25 16:36:29,960 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-25 16:36:29,966 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-25 16:36:30,274 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-25 16:36:31,285 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-25 16:36:31,285 - new_apply_order.py[line:813]: {'app': 'creditmatchs', 'loan_order_id': '1474660267277815808', 'mobile': '01640421379', 'order_status': 35}
+INFO - 2021-12-25 16:36:31,800 - new_apply_order.py[line:916]: 校验重试查询第2次
+ERROR - 2021-12-25 16:36:32,811 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-25 16:36:32,811 - new_apply_order.py[line:813]: {'app': 'creditmatchs', 'loan_order_id': '1474660267277815808', 'mobile': '01640421379', 'order_status': 35}
+INFO - 2021-12-25 16:36:33,316 - new_apply_order.py[line:916]: 校验重试查询第3次
+ERROR - 2021-12-25 16:36:34,334 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-25 16:36:34,334 - new_apply_order.py[line:813]: {'app': 'creditmatchs', 'loan_order_id': '1474660267277815808', 'mobile': '01640421379', 'order_status': 35}
+INFO - 2021-12-25 16:36:34,845 - new_apply_order.py[line:916]: 校验重试查询第4次
+INFO - 2021-12-25 16:36:35,859 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-25 16:36:35,859 - new_apply_order.py[line:813]: {'app': 'creditmatchs', 'loan_order_id': '1474660267277815808', 'mobile': '01640421379', 'order_status': 40}
+INFO - 2021-12-25 16:36:35,860 - new_apply_order.py[line:933]: ===========完成第【1】次进件===========
+INFO - 2021-12-25 16:36:35,860 - new_apply_order.py[line:936]: ======完成第【1】次进件,耗时16.64s=====

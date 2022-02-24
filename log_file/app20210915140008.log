@@ -1,0 +1,13 @@
+INFO - 2021-09-15 14:00:08,752 - new_apply_order.py[line:683]: 开始第 pcamion【1】次进件……
+INFO - 2021-09-15 14:00:08,752 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3631685608 ======
+INFO - 2021-09-15 14:00:09,173 - new_apply_order.py[line:95]: 3631685608 检测用户存在成功！
+INFO - 2021-09-15 14:00:09,288 - new_apply_order.py[line:104]: 3631685608 短信发送成功！
+INFO - 2021-09-15 14:00:09,380 - new_apply_order.py[line:117]: 3631685608 注册成功！
+INFO - 2021-09-15 14:00:09,559 - new_apply_order.py[line:133]: 3631685608 登录短信发送成功！
+INFO - 2021-09-15 14:00:09,659 - new_apply_order.py[line:143]: userId=4951118032416415744,mobile=3631685608,token=e53beff02174f638873dac555d23d8bd 登录成功
+INFO - 2021-09-15 14:00:09,837 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-09-15 14:00:10,625 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-09-15 14:00:10,646 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-15 14:00:10,663 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-15 14:00:10,943 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-15 14:00:11,032 - new_apply_order.py[line:276]: 视频认证通过！

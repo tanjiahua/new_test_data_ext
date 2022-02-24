@@ -1,0 +1,18 @@
+INFO - 2021-10-13 11:45:34,890 - new_apply_order.py[line:798]: 开始第 Mipeso【1】次进件……
+INFO - 2021-10-13 11:45:35,049 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4961228540654002176"
+INFO - 2021-10-13 11:45:35,065 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-10-13 11:45:35,066 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1634096734 ======
+INFO - 2021-10-13 11:45:35,452 - new_apply_order.py[line:95]: 1634096734 检测用户存在成功！
+INFO - 2021-10-13 11:45:35,496 - new_apply_order.py[line:104]: 1634096734 短信发送成功！
+INFO - 2021-10-13 11:45:35,537 - new_apply_order.py[line:117]: 1634096734 注册成功！
+INFO - 2021-10-13 11:45:35,596 - new_apply_order.py[line:133]: 1634096734 登录短信发送成功！
+INFO - 2021-10-13 11:45:35,641 - new_apply_order.py[line:143]: userId=4961231037279903744,mobile=1634096734,token=d243e7b007db798d4064c166474d5602 登录成功
+INFO - 2021-10-13 11:45:35,717 - new_apply_order.py[line:208]: 个人信息提交成功！
+INFO - 2021-10-13 11:45:36,227 - new_apply_order.py[line:241]: 创建预审订单成功！
+INFO - 2021-10-13 11:45:36,236 - new_apply_order.py[line:249]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-13 11:45:36,245 - new_apply_order.py[line:252]: 更新初始额度！更新条数 1
+INFO - 2021-10-13 11:45:38,762 - new_apply_order.py[line:288]: curp上传成功!
+INFO - 2021-10-13 11:45:38,895 - new_apply_order.py[line:297]: curp_rfc校验通过！
+INFO - 2021-10-13 11:45:39,644 - new_apply_order.py[line:308]: 人脸识别成功!
+INFO - 2021-10-13 11:45:40,255 - new_apply_order.py[line:494]: 绑卡成功！
+INFO - 2021-10-13 11:45:40,485 - new_apply_order.py[line:528]: 进件成功！执行sql将订单改为风控中……

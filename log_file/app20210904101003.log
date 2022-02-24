@@ -1,0 +1,8 @@
+INFO - 2021-09-04 10:10:03,476 - new_apply_order.py[line:522]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-04 10:10:03,477 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630721403 ======
+ERROR - 2021-09-04 10:10:03,782 - new_apply_order.py[line:568]: type object 'loan_data' has no attribute 'data'
+ERROR - 2021-09-04 10:10:03,784 - new_apply_order.py[line:569]: None
+INFO - 2021-09-04 10:10:03,788 - new_apply_order.py[line:522]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-04 10:10:03,789 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630721403 ======
+ERROR - 2021-09-04 10:10:04,095 - new_apply_order.py[line:568]: type object 'loan_data' has no attribute 'data'
+ERROR - 2021-09-04 10:10:04,096 - new_apply_order.py[line:569]: None

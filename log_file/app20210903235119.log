@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:51:19,519 - new_apply_order.py[line:525]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:51:19,520 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630684279 ======
+ERROR - 2021-09-03 23:51:19,827 - new_apply_order.py[line:571]: __init__() missing 4 required positional arguments: 'env_mark', 'test_ini', 'sql_ini', and 'app_name'
+ERROR - 2021-09-03 23:51:19,828 - new_apply_order.py[line:572]: None
+INFO - 2021-09-03 23:51:19,832 - new_apply_order.py[line:525]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:51:19,833 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630684279 ======
+ERROR - 2021-09-03 23:51:20,139 - new_apply_order.py[line:571]: __init__() missing 4 required positional arguments: 'env_mark', 'test_ini', 'sql_ini', and 'app_name'
+ERROR - 2021-09-03 23:51:20,139 - new_apply_order.py[line:572]: None

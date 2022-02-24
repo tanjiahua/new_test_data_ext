@@ -1,0 +1,19 @@
+INFO - 2021-12-02 16:19:59,597 - new_apply_order.py[line:882]: 开始第 kencash【1】次进件……
+INFO - 2021-12-02 16:19:59,598 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：738433199 ======
+INFO - 2021-12-02 16:19:59,997 - new_apply_order.py[line:97]: 738433199 检测用户存在成功！
+INFO - 2021-12-02 16:20:00,085 - new_apply_order.py[line:106]: 738433199 短信发送成功！
+INFO - 2021-12-02 16:20:00,178 - new_apply_order.py[line:119]: 738433199 注册成功！
+INFO - 2021-12-02 16:20:00,248 - new_apply_order.py[line:135]: 738433199 登录短信发送成功！
+INFO - 2021-12-02 16:20:00,314 - new_apply_order.py[line:145]: userId=6237710679053180928,mobile=738433199,token=c8cea19f38585b24366cd093cc4a8a0a 登录成功
+INFO - 2021-12-02 16:20:00,512 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-02 16:20:00,607 - new_apply_order.py[line:232]: 联系人信息提交成功！
+INFO - 2021-12-02 16:20:01,017 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-02 16:20:01,036 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-02 16:20:01,053 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-02 16:20:01,254 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-02 16:20:01,301 - new_apply_order.py[line:352]: 视频认证通过！
+ERROR - 2021-12-02 16:20:01,546 - new_apply_order.py[line:579]: 绑卡失败！{"code":"60001004","msg":"The OTP has expired.please regenerate OTP to try again","data":null}
+INFO - 2021-12-02 16:20:01,830 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-02 16:20:02,872 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-12-02 16:20:03,223 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-12-02 16:20:03,280 - new_apply_order.py[line:647]: 订单回调复审通过成功！

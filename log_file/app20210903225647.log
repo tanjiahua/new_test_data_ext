@@ -1,0 +1,8 @@
+INFO - 2021-09-03 22:56:47,681 - new_apply_order.py[line:517]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 22:56:47,682 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630681007 ======
+ERROR - 2021-09-03 22:56:47,984 - new_apply_order.py[line:563]: name 'mark' is not defined
+ERROR - 2021-09-03 22:56:47,985 - new_apply_order.py[line:564]: None
+INFO - 2021-09-03 22:56:47,988 - new_apply_order.py[line:517]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 22:56:47,988 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630681007 ======
+ERROR - 2021-09-03 22:56:48,292 - new_apply_order.py[line:563]: name 'mark' is not defined
+ERROR - 2021-09-03 22:56:48,293 - new_apply_order.py[line:564]: None

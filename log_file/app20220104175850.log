@@ -1,0 +1,39 @@
+INFO - 2022-01-04 17:58:50,659 - new_apply_order.py[line:892]: 开始第 aceloan【1】次进件……
+INFO - 2022-01-04 17:58:51,040 - new_apply_order.py[line:96]: 01641290314 检测用户存在成功！
+INFO - 2022-01-04 17:58:51,128 - new_apply_order.py[line:105]: 01641290314 短信发送成功！
+ERROR - 2022-01-04 17:58:51,192 - new_apply_order.py[line:120]: 注册失败！{'accept': 'application/json', 'appversion': '1.3.0.9', 'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD', 'accept-language': 'en-US', 'clientCode': 'aceloani1300', 'Content-Type': 'application/json; charset=UTF-8', 'Host': '172.20.240.143:8012', 'User-Agent': 'okhttp/4.9.0'}
+ERROR - 2022-01-04 17:58:51,193 - new_apply_order.py[line:121]: {"code":"20001003","msg":"This number already exists, please use another number","data":null}
+INFO - 2022-01-04 17:58:51,272 - new_apply_order.py[line:134]: 01641290314 登录短信发送成功！
+INFO - 2022-01-04 17:58:51,339 - new_apply_order.py[line:144]: userId=6249694287106154496,mobile=01641290314,token=1b7f4e21d63d7953961302b4b2ba7862 登录成功
+INFO - 2022-01-04 17:58:51,422 - new_apply_order.py[line:211]: 个人信息提交成功！
+INFO - 2022-01-04 17:58:51,484 - new_apply_order.py[line:222]: 联系人信息提交成功！
+ERROR - 2022-01-04 17:58:51,621 - new_apply_order.py[line:256]: 创建预审失败{"code":"9999","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2022-01-04 17:58:51,691 - new_apply_order.py[line:262]: 预审状态修改为通过,更新条数 0
+INFO - 2022-01-04 17:58:51,771 - new_apply_order.py[line:265]: 更新初始额度！更新条数 1
+INFO - 2022-01-04 17:58:52,101 - new_apply_order.py[line:341]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2022-01-04 17:58:52,169 - new_apply_order.py[line:351]: 视频认证通过！
+INFO - 2022-01-04 17:58:53,048 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2022-01-04 17:58:53,690 - new_apply_order.py[line:561]: user更新1条
+INFO - 2022-01-04 17:58:53,921 - new_apply_order.py[line:622]: 进件成功！执行sql将订单改为风控中……
+INFO - 2022-01-04 17:58:55,147 - new_apply_order.py[line:628]: 订单表更新1条，信审更新1条
+INFO - 2022-01-04 17:58:55,547 - new_apply_order.py[line:642]: 查询loan_order_id成功！
+INFO - 2022-01-04 17:58:55,611 - new_apply_order.py[line:657]: 订单回调复审通过成功！
+INFO - 2022-01-04 17:58:56,431 - new_apply_order.py[line:679]: 获取token成功！token=bearer 34794530-00c8-4f3a-b447-1b4364ec2241！
+INFO - 2022-01-04 17:58:56,829 - new_apply_order.py[line:642]: 查询loan_order_id成功！
+INFO - 2022-01-04 17:58:57,385 - new_apply_order.py[line:697]: 后台已触发放款成功！
+INFO - 2022-01-04 17:58:57,433 - new_apply_order.py[line:711]: xxl_job web 登录成功！
+INFO - 2022-01-04 17:58:57,464 - new_apply_order.py[line:727]: xxl_job 放款准备作业执行成功！
+INFO - 2022-01-04 17:58:58,858 - new_apply_order.py[line:642]: 查询loan_order_id成功！
+INFO - 2022-01-04 17:58:58,957 - new_apply_order.py[line:735]: 修改放款准备完成时间成功！
+INFO - 2022-01-04 17:58:58,976 - new_apply_order.py[line:743]: xxl_job 放款完成作业执行成功！
+INFO - 2022-01-04 17:58:59,287 - new_apply_order.py[line:915]: 校验重试查询第1次
+ERROR - 2022-01-04 17:59:00,312 - new_apply_order.py[line:811]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2022-01-04 17:59:00,312 - new_apply_order.py[line:812]: {'app': 'aceloan', 'loan_order_id': '1478304845426724864', 'mobile': '01641290314', 'order_status': 35}
+INFO - 2022-01-04 17:59:00,820 - new_apply_order.py[line:915]: 校验重试查询第2次
+ERROR - 2022-01-04 17:59:01,849 - new_apply_order.py[line:811]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2022-01-04 17:59:01,850 - new_apply_order.py[line:812]: {'app': 'aceloan', 'loan_order_id': '1478304845426724864', 'mobile': '01641290314', 'order_status': 35}
+INFO - 2022-01-04 17:59:02,356 - new_apply_order.py[line:915]: 校验重试查询第3次
+INFO - 2022-01-04 17:59:03,385 - new_apply_order.py[line:809]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2022-01-04 17:59:03,385 - new_apply_order.py[line:812]: {'app': 'aceloan', 'loan_order_id': '1478304845426724864', 'mobile': '01641290314', 'order_status': 40}
+INFO - 2022-01-04 17:59:03,388 - new_apply_order.py[line:932]: ===========完成第【1】次进件===========
+INFO - 2022-01-04 17:59:03,389 - new_apply_order.py[line:935]: ======完成第【1】次进件,耗时12.73s=====

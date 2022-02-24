@@ -1,0 +1,12 @@
+INFO - 2021-09-04 10:59:02,322 - new_apply_order.py[line:532]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-04 10:59:02,324 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630724342 ======
+INFO - 2021-09-04 10:59:03,195 - new_apply_order.py[line:95]: 01630724342 检测用户存在成功！
+INFO - 2021-09-04 10:59:06,168 - new_apply_order.py[line:105]: 01630724342 短信发送成功！
+ERROR - 2021-09-04 10:59:06,169 - new_apply_order.py[line:578]: tuple index out of range
+ERROR - 2021-09-04 10:59:06,170 - new_apply_order.py[line:579]: None
+INFO - 2021-09-04 10:59:06,176 - new_apply_order.py[line:532]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-04 10:59:06,177 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630724346 ======
+INFO - 2021-09-04 10:59:07,820 - new_apply_order.py[line:95]: 01630724346 检测用户存在成功！
+INFO - 2021-09-04 10:59:09,032 - new_apply_order.py[line:105]: 01630724346 短信发送成功！
+ERROR - 2021-09-04 10:59:09,032 - new_apply_order.py[line:578]: tuple index out of range
+ERROR - 2021-09-04 10:59:09,033 - new_apply_order.py[line:579]: None

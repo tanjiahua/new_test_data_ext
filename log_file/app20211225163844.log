@@ -1,0 +1,14 @@
+INFO - 2021-12-25 16:38:44,151 - new_apply_order.py[line:893]: 开始第 borrowme【1】次进件……
+INFO - 2021-12-25 16:38:44,153 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01640421524 ======
+INFO - 2021-12-25 16:38:44,580 - new_apply_order.py[line:97]: 01640421524 检测用户存在成功！
+INFO - 2021-12-25 16:38:44,649 - new_apply_order.py[line:106]: 01640421524 短信发送成功！
+INFO - 2021-12-25 16:38:44,709 - new_apply_order.py[line:119]: 01640421524 注册成功！
+INFO - 2021-12-25 16:38:44,794 - new_apply_order.py[line:135]: 01640421524 登录短信发送成功！
+INFO - 2021-12-25 16:38:44,844 - new_apply_order.py[line:145]: userId=6246050317024894976,mobile=01640421524,token=b5dbe2f58c368aaf6dde5688e0111ea6 登录成功
+INFO - 2021-12-25 16:38:44,951 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-25 16:38:45,023 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-12-25 16:38:45,239 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-25 16:38:45,264 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-25 16:38:45,278 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-25 16:38:45,576 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-25 16:38:45,626 - new_apply_order.py[line:352]: 视频认证通过！

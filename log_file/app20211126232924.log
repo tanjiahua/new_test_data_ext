@@ -1,0 +1,25 @@
+INFO - 2021-11-26 23:29:24,390 - new_apply_order.py[line:882]: 开始第 pickcash【1】次进件……
+INFO - 2021-11-26 23:29:24,390 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637940564 ======
+INFO - 2021-11-26 23:29:24,760 - new_apply_order.py[line:97]: 01637940564 检测用户存在成功！
+INFO - 2021-11-26 23:29:24,802 - new_apply_order.py[line:106]: 01637940564 短信发送成功！
+INFO - 2021-11-26 23:29:24,847 - new_apply_order.py[line:119]: 01637940564 注册成功！
+INFO - 2021-11-26 23:29:24,899 - new_apply_order.py[line:135]: 01637940564 登录短信发送成功！
+INFO - 2021-11-26 23:29:24,941 - new_apply_order.py[line:145]: userId=6235644416939401216,mobile=01637940564,token=c8fbb592c60d029ba9a049fba46cd528 登录成功
+INFO - 2021-11-26 23:29:25,037 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-26 23:29:25,088 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-26 23:29:25,312 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-26 23:29:25,324 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-26 23:29:25,336 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-26 23:29:25,610 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-26 23:29:25,647 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-26 23:29:26,509 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-26 23:29:26,817 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-26 23:29:27,028 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-26 23:29:28,065 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-26 23:29:28,412 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-26 23:29:28,454 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-26 23:29:29,245 - new_apply_order.py[line:669]: 获取token成功！token=bearer 61542376-2a67-4654-8151-fe2cfc801cf7！
+INFO - 2021-11-26 23:29:29,597 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-26 23:29:29,916 - new_apply_order.py[line:687]: 后台已触发放款成功！
+ERROR - 2021-11-26 23:29:55,836 - new_apply_order.py[line:928]: HTTPConnectionPool(host='172.20.240.225', port=8066): Max retries exceeded with url: /xxl-job-admin/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc0d371b2b0>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+ERROR - 2021-11-26 23:29:55,845 - new_apply_order.py[line:929]: None

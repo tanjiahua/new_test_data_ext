@@ -1,0 +1,32 @@
+INFO - 2021-10-13 10:38:06,147 - new_apply_order.py[line:795]: 开始第 ikash【1】次进件……
+INFO - 2021-10-13 10:38:06,148 - new_apply_order.py[line:82]: ======【ke测试环境】生成手机号：734092686 ======
+INFO - 2021-10-13 10:38:06,531 - new_apply_order.py[line:95]: 734092686 检测用户存在成功！
+INFO - 2021-10-13 10:38:06,616 - new_apply_order.py[line:104]: 734092686 短信发送成功！
+INFO - 2021-10-13 10:38:06,693 - new_apply_order.py[line:117]: 734092686 注册成功！
+INFO - 2021-10-13 10:38:06,784 - new_apply_order.py[line:133]: 734092686 登录短信发送成功！
+INFO - 2021-10-13 10:38:06,859 - new_apply_order.py[line:143]: userId=6219505246414053376,mobile=734092686,token=71a90bc916f1b44dbf2db30e4a8a003c 登录成功
+INFO - 2021-10-13 10:38:07,065 - new_apply_order.py[line:208]: 个人信息提交成功！
+INFO - 2021-10-13 10:38:07,169 - new_apply_order.py[line:228]: 联系人信息提交成功！
+ERROR - 2021-10-13 10:38:07,623 - new_apply_order.py[line:243]: 创建预审失败{"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2021-10-13 10:38:07,632 - new_apply_order.py[line:249]: 预审状态修改为通过,更新条数 0
+INFO - 2021-10-13 10:38:07,656 - new_apply_order.py[line:252]: 更新初始额度！更新条数 1
+INFO - 2021-10-13 10:38:07,959 - new_apply_order.py[line:269]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-13 10:38:08,007 - new_apply_order.py[line:279]: 视频认证通过！
+INFO - 2021-10-13 10:38:08,366 - new_apply_order.py[line:503]: 绑卡成功！
+ERROR - 2021-10-13 10:38:08,643 - new_apply_order.py[line:533]: {"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+ERROR - 2021-10-13 10:38:08,989 - new_apply_order.py[line:841]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-13 10:38:08,994 - new_apply_order.py[line:842]: None
+INFO - 2021-10-13 10:38:08,996 - new_apply_order.py[line:795]: 开始第 kencash【1】次进件……
+INFO - 2021-10-13 10:38:08,997 - new_apply_order.py[line:82]: ======【ke测试环境】生成手机号：734092688 ======
+INFO - 2021-10-13 10:38:09,384 - new_apply_order.py[line:95]: 734092688 检测用户存在成功！
+INFO - 2021-10-13 10:38:09,475 - new_apply_order.py[line:104]: 734092688 短信发送成功！
+INFO - 2021-10-13 10:38:09,537 - new_apply_order.py[line:117]: 734092688 注册成功！
+INFO - 2021-10-13 10:38:09,616 - new_apply_order.py[line:133]: 734092688 登录短信发送成功！
+INFO - 2021-10-13 10:38:09,692 - new_apply_order.py[line:143]: userId=6219505258372014080,mobile=734092688,token=ac29393e67ca4816f9d88187b4036684 登录成功
+INFO - 2021-10-13 10:38:09,858 - new_apply_order.py[line:208]: 个人信息提交成功！
+INFO - 2021-10-13 10:38:09,984 - new_apply_order.py[line:228]: 联系人信息提交成功！
+ERROR - 2021-10-13 10:38:10,332 - new_apply_order.py[line:243]: 创建预审失败{"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2021-10-13 10:38:10,343 - new_apply_order.py[line:249]: 预审状态修改为通过,更新条数 0
+INFO - 2021-10-13 10:38:10,356 - new_apply_order.py[line:252]: 更新初始额度！更新条数 1
+INFO - 2021-10-13 10:38:10,625 - new_apply_order.py[line:269]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-13 10:38:10,674 - new_apply_order.py[line:279]: 视频认证通过！

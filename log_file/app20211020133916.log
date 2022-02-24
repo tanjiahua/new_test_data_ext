@@ -1,0 +1,64 @@
+INFO - 2021-10-20 13:39:16,351 - new_apply_order.py[line:882]: 开始第 ikash【1】次进件……
+INFO - 2021-10-20 13:39:16,351 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：734708356 ======
+ERROR - 2021-10-20 13:39:16,772 - new_apply_order.py[line:99]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null} 检测用户存在失败！
+INFO - 2021-10-20 13:39:16,774 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：734708356 ======
+ERROR - 2021-10-20 13:39:16,847 - new_apply_order.py[line:108]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null} 短信发送失败！
+ERROR - 2021-10-20 13:39:16,898 - new_apply_order.py[line:121]: 注册失败！{'accept': 'application/json', 'appversion': '1.3.0.6', 'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD', 'accept-language': 'en-US', 'clientCode': 'ikash300', 'Content-Type': 'application/json; charset=UTF-8', 'Host': '172.20.240.138:8012', 'User-Agent': 'okhttp/4.9.0'}
+ERROR - 2021-10-20 13:39:16,898 - new_apply_order.py[line:122]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null}
+ERROR - 2021-10-20 13:39:16,949 - new_apply_order.py[line:137]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null} 登录短信发送失败！
+ERROR - 2021-10-20 13:39:17,007 - new_apply_order.py[line:152]: 登录失败!
+ERROR - 2021-10-20 13:39:17,073 - new_apply_order.py[line:214]: 个人信息提交失败！
+ERROR - 2021-10-20 13:39:17,144 - new_apply_order.py[line:234]: 联系人信息提交失败！
+ERROR - 2021-10-20 13:39:17,254 - new_apply_order.py[line:257]: 创建预审失败{"msg":"The Server is busy, Please try again later","code":"9999","data":null}
+INFO - 2021-10-20 13:39:17,265 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 0
+INFO - 2021-10-20 13:39:17,272 - new_apply_order.py[line:266]: 更新初始额度！更新条数 0
+ERROR - 2021-10-20 13:39:17,312 - new_apply_order.py[line:928]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-20 13:39:17,317 - new_apply_order.py[line:929]: None
+INFO - 2021-10-20 13:39:17,320 - new_apply_order.py[line:882]: 开始第 kencash【1】次进件……
+INFO - 2021-10-20 13:39:17,321 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：734708357 ======
+ERROR - 2021-10-20 13:39:17,684 - new_apply_order.py[line:99]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null} 检测用户存在失败！
+INFO - 2021-10-20 13:39:17,686 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：734708357 ======
+ERROR - 2021-10-20 13:39:17,778 - new_apply_order.py[line:108]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null} 短信发送失败！
+ERROR - 2021-10-20 13:39:17,814 - new_apply_order.py[line:121]: 注册失败！{'accept': 'application/json', 'appversion': '1.3.0.6', 'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD', 'accept-language': 'en-US', 'clientCode': 'kencash1300', 'Content-Type': 'application/json; charset=UTF-8', 'Host': '172.20.240.138:8012', 'User-Agent': 'okhttp/4.9.0'}
+ERROR - 2021-10-20 13:39:17,814 - new_apply_order.py[line:122]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null}
+ERROR - 2021-10-20 13:39:17,903 - new_apply_order.py[line:137]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null} 登录短信发送失败！
+ERROR - 2021-10-20 13:39:17,974 - new_apply_order.py[line:152]: 登录失败!
+ERROR - 2021-10-20 13:39:18,069 - new_apply_order.py[line:214]: 个人信息提交失败！
+ERROR - 2021-10-20 13:39:18,168 - new_apply_order.py[line:234]: 联系人信息提交失败！
+ERROR - 2021-10-20 13:39:18,257 - new_apply_order.py[line:257]: 创建预审失败{"msg":"The Server is busy, Please try again later","code":"9999","data":null}
+INFO - 2021-10-20 13:39:18,267 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 0
+INFO - 2021-10-20 13:39:18,273 - new_apply_order.py[line:266]: 更新初始额度！更新条数 0
+ERROR - 2021-10-20 13:39:18,356 - new_apply_order.py[line:928]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-20 13:39:18,357 - new_apply_order.py[line:929]: None
+INFO - 2021-10-20 13:39:18,358 - new_apply_order.py[line:882]: 开始第 oranch【1】次进件……
+INFO - 2021-10-20 13:39:18,359 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：734708358 ======
+ERROR - 2021-10-20 13:39:18,746 - new_apply_order.py[line:99]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null} 检测用户存在失败！
+INFO - 2021-10-20 13:39:18,747 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：734708358 ======
+ERROR - 2021-10-20 13:39:18,779 - new_apply_order.py[line:108]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null} 短信发送失败！
+ERROR - 2021-10-20 13:39:18,856 - new_apply_order.py[line:121]: 注册失败！{'accept': 'application/json', 'appversion': '1.3.0.6', 'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD', 'accept-language': 'en-US', 'clientCode': 'oranch1300', 'Content-Type': 'application/json; charset=UTF-8', 'Host': '172.20.240.138:8012', 'User-Agent': 'okhttp/4.9.0'}
+ERROR - 2021-10-20 13:39:18,856 - new_apply_order.py[line:122]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null}
+ERROR - 2021-10-20 13:39:18,938 - new_apply_order.py[line:137]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null} 登录短信发送失败！
+ERROR - 2021-10-20 13:39:19,022 - new_apply_order.py[line:152]: 登录失败!
+ERROR - 2021-10-20 13:39:19,072 - new_apply_order.py[line:214]: 个人信息提交失败！
+ERROR - 2021-10-20 13:39:19,097 - new_apply_order.py[line:234]: 联系人信息提交失败！
+ERROR - 2021-10-20 13:39:19,122 - new_apply_order.py[line:257]: 创建预审失败{"msg":"The Server is busy, Please try again later","code":"9999","data":null}
+INFO - 2021-10-20 13:39:19,134 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 0
+INFO - 2021-10-20 13:39:19,140 - new_apply_order.py[line:266]: 更新初始额度！更新条数 0
+ERROR - 2021-10-20 13:39:19,163 - new_apply_order.py[line:928]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-20 13:39:19,164 - new_apply_order.py[line:929]: None
+INFO - 2021-10-20 13:39:19,165 - new_apply_order.py[line:882]: 开始第 faikash【1】次进件……
+INFO - 2021-10-20 13:39:19,165 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：734708359 ======
+ERROR - 2021-10-20 13:39:19,494 - new_apply_order.py[line:99]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null} 检测用户存在失败！
+INFO - 2021-10-20 13:39:19,494 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：734708359 ======
+ERROR - 2021-10-20 13:39:19,522 - new_apply_order.py[line:108]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null} 短信发送失败！
+ERROR - 2021-10-20 13:39:19,553 - new_apply_order.py[line:121]: 注册失败！{'accept': 'application/json', 'appversion': '1.3.0.6', 'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD', 'accept-language': 'en-US', 'clientCode': 'faikash1300', 'Content-Type': 'application/json; charset=UTF-8', 'Host': '172.20.240.138:8012', 'User-Agent': 'okhttp/4.9.0'}
+ERROR - 2021-10-20 13:39:19,554 - new_apply_order.py[line:122]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null}
+ERROR - 2021-10-20 13:39:19,584 - new_apply_order.py[line:137]: {"msg":"The Server is busy, Please try again later","code":"9999","data":null} 登录短信发送失败！
+ERROR - 2021-10-20 13:39:19,614 - new_apply_order.py[line:152]: 登录失败!
+ERROR - 2021-10-20 13:39:19,660 - new_apply_order.py[line:214]: 个人信息提交失败！
+ERROR - 2021-10-20 13:39:19,689 - new_apply_order.py[line:234]: 联系人信息提交失败！
+ERROR - 2021-10-20 13:39:19,779 - new_apply_order.py[line:257]: 创建预审失败{"msg":"The Server is busy, Please try again later","code":"9999","data":null}
+INFO - 2021-10-20 13:39:19,790 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 0
+INFO - 2021-10-20 13:39:19,796 - new_apply_order.py[line:266]: 更新初始额度！更新条数 0
+ERROR - 2021-10-20 13:39:19,847 - new_apply_order.py[line:928]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-20 13:39:19,848 - new_apply_order.py[line:929]: None

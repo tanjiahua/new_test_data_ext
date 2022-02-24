@@ -1,0 +1,12 @@
+INFO - 2021-09-07 15:12:49,826 - new_apply_order.py[line:534]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-07 15:12:49,826 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630998769 ======
+INFO - 2021-09-07 15:12:50,196 - new_apply_order.py[line:93]: 01630998769 检测用户存在成功！
+INFO - 2021-09-07 15:12:50,252 - new_apply_order.py[line:102]: 01630998769 短信发送成功！
+ERROR - 2021-09-07 15:12:50,252 - new_apply_order.py[line:580]: 6
+ERROR - 2021-09-07 15:12:50,253 - new_apply_order.py[line:581]: None
+INFO - 2021-09-07 15:12:50,258 - new_apply_order.py[line:534]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-07 15:12:50,259 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630998770 ======
+INFO - 2021-09-07 15:12:50,598 - new_apply_order.py[line:93]: 01630998770 检测用户存在成功！
+INFO - 2021-09-07 15:12:50,645 - new_apply_order.py[line:102]: 01630998770 短信发送成功！
+ERROR - 2021-09-07 15:12:50,645 - new_apply_order.py[line:580]: 6
+ERROR - 2021-09-07 15:12:50,646 - new_apply_order.py[line:581]: None

@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:01:22,887 - new_apply_order.py[line:517]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:01:22,887 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630681282 ======
+ERROR - 2021-09-03 23:01:23,193 - new_apply_order.py[line:570]: name 'env_mark' is not defined
+ERROR - 2021-09-03 23:01:23,195 - new_apply_order.py[line:571]: None
+INFO - 2021-09-03 23:01:23,199 - new_apply_order.py[line:517]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:01:23,200 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630681283 ======
+ERROR - 2021-09-03 23:01:23,505 - new_apply_order.py[line:570]: name 'env_mark' is not defined
+ERROR - 2021-09-03 23:01:23,505 - new_apply_order.py[line:571]: None

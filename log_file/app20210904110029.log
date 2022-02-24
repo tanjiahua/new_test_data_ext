@@ -1,0 +1,14 @@
+INFO - 2021-09-04 11:00:29,601 - new_apply_order.py[line:532]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-04 11:00:29,602 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630724429 ======
+INFO - 2021-09-04 11:00:32,075 - new_apply_order.py[line:95]: 01630724429 检测用户存在成功！
+INFO - 2021-09-04 11:00:32,896 - new_apply_order.py[line:105]: 01630724429 短信发送成功！
+INFO - 2021-09-04 11:00:33,178 - new_apply_order.py[line:118]: 01630724429 注册成功！
+ERROR - 2021-09-04 11:00:33,179 - new_apply_order.py[line:578]: module 'common.params_init' has no attribute 'data_sendloginSmsCode'
+ERROR - 2021-09-04 11:00:33,179 - new_apply_order.py[line:579]: None
+INFO - 2021-09-04 11:00:33,183 - new_apply_order.py[line:532]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-04 11:00:33,184 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630724433 ======
+INFO - 2021-09-04 11:00:34,330 - new_apply_order.py[line:95]: 01630724433 检测用户存在成功！
+INFO - 2021-09-04 11:01:29,252 - new_apply_order.py[line:105]: 01630724433 短信发送成功！
+INFO - 2021-09-04 11:01:30,634 - new_apply_order.py[line:118]: 01630724433 注册成功！
+ERROR - 2021-09-04 11:01:30,634 - new_apply_order.py[line:578]: module 'common.params_init' has no attribute 'data_sendloginSmsCode'
+ERROR - 2021-09-04 11:01:30,635 - new_apply_order.py[line:579]: None

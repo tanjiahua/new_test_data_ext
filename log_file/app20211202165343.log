@@ -1,0 +1,24 @@
+INFO - 2021-12-02 16:53:43,455 - new_apply_order.py[line:882]: 开始第 monni【1】次进件……
+INFO - 2021-12-02 16:53:43,455 - new_apply_order.py[line:84]: ======【co测试环境】生成手机号：3638435223 ======
+INFO - 2021-12-02 16:53:47,404 - new_apply_order.py[line:97]: 3638435223 检测用户存在成功！
+INFO - 2021-12-02 16:54:25,114 - new_apply_order.py[line:106]: 3638435223 短信发送成功！
+ERROR - 2021-12-02 16:54:37,542 - new_apply_order.py[line:121]: 注册失败！{'accept': 'application/json', 'appversion': '1.3.0.6', 'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD', 'accept-language': 'en-US', 'clientCode': 'monni1300', 'Content-Type': 'application/json; charset=UTF-8', 'Host': '172.20.240.245:8012', 'User-Agent': 'okhttp/4.9.0'}
+ERROR - 2021-12-02 16:54:37,542 - new_apply_order.py[line:122]: {"code":"60001004","msg":"The OTP has expired.please regenerate OTP to try again","data":null}
+INFO - 2021-12-02 16:55:05,627 - new_apply_order.py[line:135]: 3638435223 登录短信发送成功！
+ERROR - 2021-12-02 16:55:18,039 - new_apply_order.py[line:152]: 登录失败!
+ERROR - 2021-12-02 16:55:30,582 - new_apply_order.py[line:214]: 个人信息提交失败！
+ERROR - 2021-12-02 16:55:43,206 - new_apply_order.py[line:257]: 创建预审失败{"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2021-12-02 16:55:43,222 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 0
+INFO - 2021-12-02 16:55:43,233 - new_apply_order.py[line:266]: 更新初始额度！更新条数 0
+ERROR - 2021-12-02 16:55:55,768 - new_apply_order.py[line:311]: curp上传失败!
+ERROR - 2021-12-02 16:55:55,769 - new_apply_order.py[line:928]: 'NoneType' object is not subscriptable
+ERROR - 2021-12-02 16:55:55,770 - new_apply_order.py[line:929]: None
+INFO - 2021-12-02 16:55:55,773 - new_apply_order.py[line:882]: 开始第 prestamodinero【1】次进件……
+INFO - 2021-12-02 16:55:55,774 - new_apply_order.py[line:84]: ======【co测试环境】生成手机号：3638435355 ======
+INFO - 2021-12-02 16:55:56,161 - new_apply_order.py[line:97]: 3638435355 检测用户存在成功！
+ERROR - 2021-12-02 16:56:08,681 - new_apply_order.py[line:108]: {"code":"10099001","msg":"The Server is busy, Please try again later","data":null} 短信发送失败！
+ERROR - 2021-12-02 16:56:21,220 - new_apply_order.py[line:121]: 注册失败！{'accept': 'application/json', 'appversion': '1.3.0.6', 'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD', 'accept-language': 'en-US', 'clientCode': 'prestamodinero1300', 'Content-Type': 'application/json; charset=UTF-8', 'Host': '172.20.240.245:8012', 'User-Agent': 'okhttp/4.9.0'}
+ERROR - 2021-12-02 16:56:21,221 - new_apply_order.py[line:122]: {"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+ERROR - 2021-12-02 16:56:33,772 - new_apply_order.py[line:137]: {"code":"10099001","msg":"The Server is busy, Please try again later","data":null} 登录短信发送失败！
+ERROR - 2021-12-02 16:56:46,137 - new_apply_order.py[line:152]: 登录失败!
+ERROR - 2021-12-02 16:56:58,681 - new_apply_order.py[line:214]: 个人信息提交失败！

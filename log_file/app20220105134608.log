@@ -1,0 +1,41 @@
+INFO - 2022-01-05 13:46:08,306 - new_apply_order.py[line:929]: 开始第 aceloan【1】次进件……
+INFO - 2022-01-05 13:46:08,708 - new_apply_order.py[line:95]: 01634872793 检测用户存在成功！
+INFO - 2022-01-05 13:46:08,772 - new_apply_order.py[line:104]: 01634872793 短信发送成功！
+INFO - 2022-01-05 13:46:08,830 - new_apply_order.py[line:117]: 01634872793 注册成功！
+INFO - 2022-01-05 13:46:08,892 - new_apply_order.py[line:133]: 01634872793 登录短信发送成功！
+INFO - 2022-01-05 13:46:08,941 - new_apply_order.py[line:143]: userId=6249993147762352128,mobile=01634872793,token=7ec5ec3b8b13ace8a4700d725680163c 登录成功
+INFO - 2022-01-05 13:46:09,041 - new_apply_order.py[line:210]: 个人信息提交成功！
+INFO - 2022-01-05 13:46:09,091 - new_apply_order.py[line:221]: 联系人信息提交成功！
+INFO - 2022-01-05 13:46:09,426 - new_apply_order.py[line:253]: 创建预审订单成功！
+INFO - 2022-01-05 13:46:09,459 - new_apply_order.py[line:261]: 预审状态修改为通过,更新条数 1
+INFO - 2022-01-05 13:46:09,489 - new_apply_order.py[line:264]: 更新初始额度！更新条数 1
+INFO - 2022-01-05 13:46:09,775 - new_apply_order.py[line:340]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2022-01-05 13:46:09,811 - new_apply_order.py[line:350]: 视频认证通过！
+INFO - 2022-01-05 13:46:10,819 - new_apply_order.py[line:509]: bvn和银行卡绑卡认证通过！
+INFO - 2022-01-05 13:46:11,212 - new_apply_order.py[line:560]: user更新1条
+INFO - 2022-01-05 13:46:11,398 - new_apply_order.py[line:621]: 进件成功！执行sql将订单改为风控中……
+INFO - 2022-01-05 13:46:12,462 - new_apply_order.py[line:627]: 订单表更新1条，信审更新1条
+INFO - 2022-01-05 13:46:12,854 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:46:12,899 - new_apply_order.py[line:656]: 订单回调复审通过成功！
+INFO - 2022-01-05 13:46:13,727 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 13:46:14,090 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:46:14,412 - new_apply_order.py[line:696]: 后台已触发放款成功！
+INFO - 2022-01-05 13:46:14,432 - new_apply_order.py[line:710]: xxl_job web 登录成功！
+INFO - 2022-01-05 13:46:14,449 - new_apply_order.py[line:726]: xxl_job 放款准备作业执行成功！
+INFO - 2022-01-05 13:46:15,813 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:46:15,845 - new_apply_order.py[line:734]: 修改放款准备完成时间成功！
+INFO - 2022-01-05 13:46:15,857 - new_apply_order.py[line:742]: xxl_job 放款完成作业执行成功！
+INFO - 2022-01-05 13:46:16,170 - new_apply_order.py[line:952]: 校验重试查询第1次
+ERROR - 2022-01-05 13:46:17,206 - new_apply_order.py[line:810]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2022-01-05 13:46:17,207 - new_apply_order.py[line:811]: {'app': 'aceloan', 'loan_order_id': '1478603705747378176', 'mobile': '01634872793', 'order_status': 35}
+INFO - 2022-01-05 13:46:17,716 - new_apply_order.py[line:952]: 校验重试查询第2次
+INFO - 2022-01-05 13:46:18,747 - new_apply_order.py[line:808]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2022-01-05 13:46:18,747 - new_apply_order.py[line:811]: {'app': 'aceloan', 'loan_order_id': '1478603705747378176', 'mobile': '01634872793', 'order_status': 40}
+INFO - 2022-01-05 13:46:18,748 - new_apply_order.py[line:969]: ===========完成第【1】次进件===========
+INFO - 2022-01-05 13:46:18,749 - new_apply_order.py[line:972]: ======完成第【1】次进件,耗时10.44s=====
+INFO - 2022-01-05 13:46:19,257 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 13:46:19,876 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 13:46:20,376 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:46:20,672 - new_apply_order.py[line:894]: {'code': '0000', 'data': {'loanType': '小贷资金放款', 'reductionCount': 0, 'randomReduceAmount': 0.0, 'paymentAmount': 0.0, 'totalRepayConfirmAmount': 0, 'payAmount': 770.0, 'periodUnits': '7', 'orderStatusValue': 40, 'repayLogCount': 0, 'totalRepayment': 1133.0, 'period': '1', 'funderName': '20006', 'transferTime': '2022-01-05 06:46:18', 'waitingAmount': '1133.00', 'bankCardNo': '0156676402', 'derateAmount': '0.00', 'mobile': '01634872793', 'extensionCount': 0, 'list': [{'overdueFee': '0.00', 'isCanExtend': '0', 'statusStr': 'Unpaid(normal)', 'realGstFee': '0.00', 'morethanPreRepayDateFlag': -1, 'reduceAmount': '0.00', 'realInterest': '0.00', 'randomReduceAmount': 0.0, 'principal': '1100.00', 'realAmount': '0.00', 'realOverdueFee': '0.00', 'isApplyRepaying': False, 'gstFee': '25.00', 'membershipFee': '330.00', 'manageFee1': '0.00', 'preRepayDate': '2022-01-11', 'interest': '8.00', 'manageFee2': '0.00', 'remainAmount': '1133.00', 'appId': 'AL158', 'realManageFee2': '0.00', 'overdueDays': '0', 'realManageFee1': '0.00', 'realConsultFee': '0.00', 'realMembershipFee': '0.00', 'settleWay': 'PRINCIPAL_FIRST', 'agreementLoanAmountSource': 'LOAN_AMOUNT', 'loanBillPlanId': '1478603741390573568', 'period': '1', 'amount': '1133.00', 'loanOrderId': '1478603705747378176', 'exemptionAmount': '0.00', 'realPrincipal': '0.00', 'unpaidAmount': '1133.00', 'consultFee': '0.00', 'paidAmount': '0.00', 'status': 40, 'realReloanExemptionAmount': '0.00'}], 'loanOrderId': '1478603705747378176', 'shouldRepayAmount': '1133.00', 'realName': 'Jack Duke', 'extOrderId': 'Ext1478603715285225473', 'periodType': 'day', 'realRepayAmount': '0.00', 'repayConfirmList': []}, 'msg': 'success', 'notSuccess': False, 'success': True}
+ERROR - 2022-01-05 13:46:20,673 - new_apply_order.py[line:976]: 'str' object has no attribute 'text'
+ERROR - 2022-01-05 13:46:20,674 - new_apply_order.py[line:977]: None

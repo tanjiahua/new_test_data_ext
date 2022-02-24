@@ -1,0 +1,43 @@
+INFO - 2022-01-05 14:09:11,121 - new_apply_order.py[line:930]: 开始第 aceloan【1】次进件……
+INFO - 2022-01-05 14:09:11,522 - new_apply_order.py[line:95]: 01634872801 检测用户存在成功！
+INFO - 2022-01-05 14:09:11,583 - new_apply_order.py[line:104]: 01634872801 短信发送成功！
+INFO - 2022-01-05 14:09:11,652 - new_apply_order.py[line:117]: 01634872801 注册成功！
+INFO - 2022-01-05 14:09:11,715 - new_apply_order.py[line:133]: 01634872801 登录短信发送成功！
+INFO - 2022-01-05 14:09:11,767 - new_apply_order.py[line:143]: userId=6249998947889192960,mobile=01634872801,token=cbfe1e946391a6c2aa642ba7f57920b3 登录成功
+INFO - 2022-01-05 14:09:11,869 - new_apply_order.py[line:210]: 个人信息提交成功！
+INFO - 2022-01-05 14:09:11,927 - new_apply_order.py[line:221]: 联系人信息提交成功！
+INFO - 2022-01-05 14:09:12,266 - new_apply_order.py[line:253]: 创建预审订单成功！
+INFO - 2022-01-05 14:09:12,297 - new_apply_order.py[line:261]: 预审状态修改为通过,更新条数 1
+INFO - 2022-01-05 14:09:12,332 - new_apply_order.py[line:264]: 更新初始额度！更新条数 1
+INFO - 2022-01-05 14:09:12,632 - new_apply_order.py[line:340]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2022-01-05 14:09:12,668 - new_apply_order.py[line:350]: 视频认证通过！
+INFO - 2022-01-05 14:09:13,677 - new_apply_order.py[line:509]: bvn和银行卡绑卡认证通过！
+INFO - 2022-01-05 14:09:14,058 - new_apply_order.py[line:560]: user更新1条
+INFO - 2022-01-05 14:09:14,256 - new_apply_order.py[line:621]: 进件成功！执行sql将订单改为风控中……
+INFO - 2022-01-05 14:09:15,325 - new_apply_order.py[line:627]: 订单表更新1条，信审更新1条
+INFO - 2022-01-05 14:09:15,704 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 14:09:15,750 - new_apply_order.py[line:656]: 订单回调复审通过成功！
+INFO - 2022-01-05 14:09:16,531 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 14:09:16,895 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 14:09:17,211 - new_apply_order.py[line:696]: 后台已触发放款成功！
+INFO - 2022-01-05 14:09:52,244 - new_apply_order.py[line:710]: xxl_job web 登录成功！
+INFO - 2022-01-05 14:09:52,279 - new_apply_order.py[line:726]: xxl_job 放款准备作业执行成功！
+INFO - 2022-01-05 14:09:53,689 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 14:09:53,720 - new_apply_order.py[line:734]: 修改放款准备完成时间成功！
+INFO - 2022-01-05 14:09:53,734 - new_apply_order.py[line:742]: xxl_job 放款完成作业执行成功！
+INFO - 2022-01-05 14:09:54,046 - new_apply_order.py[line:953]: 校验重试查询第1次
+ERROR - 2022-01-05 14:09:55,082 - new_apply_order.py[line:810]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2022-01-05 14:09:55,083 - new_apply_order.py[line:811]: {'app': 'aceloan', 'loan_order_id': '1478609505865830400', 'mobile': '01634872801', 'order_status': 35}
+INFO - 2022-01-05 14:09:55,590 - new_apply_order.py[line:953]: 校验重试查询第2次
+INFO - 2022-01-05 14:09:56,623 - new_apply_order.py[line:808]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2022-01-05 14:09:56,624 - new_apply_order.py[line:811]: {'app': 'aceloan', 'loan_order_id': '1478609505865830400', 'mobile': '01634872801', 'order_status': 40}
+INFO - 2022-01-05 14:09:56,625 - new_apply_order.py[line:970]: ===========完成第【1】次进件===========
+INFO - 2022-01-05 14:09:56,625 - new_apply_order.py[line:973]: ======完成第【1】次进件,耗时45.50s=====
+INFO - 2022-01-05 14:09:57,061 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 14:09:57,658 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 14:09:58,295 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 14:09:59,046 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+ERROR - 2022-01-05 14:09:59,047 - new_apply_order.py[line:899]: 订单号：1478609505865830400
+INFO - 2022-01-05 14:09:59,578 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 14:09:59,578 - new_apply_order.py[line:914]: {"repayTime": "2022-01-05 14:02:56", "applyReductionAmount": 0, "amount": 1100, "thirdOrderId": "1478609505865830400", "fileUrl": "", "loanBillPlanId": "1478609688150282240"}
+ERROR - 2022-01-05 14:09:59,870 - new_apply_order.py[line:919]: 后台已触发还款失败{"code":"30003006","msg":"Bank transfer amount isnt enough,please add amount or deduction.","notSuccess":true,"success":false}!

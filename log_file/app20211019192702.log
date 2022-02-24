@@ -1,0 +1,28 @@
+INFO - 2021-10-19 19:27:02,627 - new_apply_order.py[line:794]: 开始第 monni【1】次进件……
+INFO - 2021-10-19 19:27:02,628 - new_apply_order.py[line:84]: ======【co测试环境】生成手机号：3634642822 ======
+INFO - 2021-10-19 19:27:03,001 - new_apply_order.py[line:97]: 3634642822 检测用户存在成功！
+INFO - 2021-10-19 19:27:03,068 - new_apply_order.py[line:106]: 3634642822 短信发送成功！
+INFO - 2021-10-19 19:27:03,122 - new_apply_order.py[line:119]: 3634642822 注册成功！
+INFO - 2021-10-19 19:27:03,196 - new_apply_order.py[line:135]: 3634642822 登录短信发送成功！
+INFO - 2021-10-19 19:27:03,252 - new_apply_order.py[line:145]: userId=4963521485710041088,mobile=3634642822,token=bac0c442534d31febbd60884516f503a 登录成功
+INFO - 2021-10-19 19:27:03,338 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-10-19 19:27:03,615 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-10-19 19:27:03,635 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-19 19:27:03,652 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-10-19 19:27:04,751 - new_apply_order.py[line:305]: curp上传成功!
+ERROR - 2021-10-19 19:27:04,775 - new_apply_order.py[line:318]: curp_rfc校验失败！
+ERROR - 2021-10-19 19:27:05,438 - new_apply_order.py[line:500]: 绑卡跳过失败！{"code":"60006008","msg":"Please enter correct CLABE.","data":null}
+ERROR - 2021-10-19 19:27:05,518 - new_apply_order.py[line:532]: {"code":"50001003","msg":"Please complete the application information","data":null}
+ERROR - 2021-10-19 19:27:05,860 - new_apply_order.py[line:840]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-19 19:27:05,862 - new_apply_order.py[line:841]: None
+INFO - 2021-10-19 19:27:05,864 - new_apply_order.py[line:794]: 开始第 prestamodinero【1】次进件……
+INFO - 2021-10-19 19:27:05,865 - new_apply_order.py[line:84]: ======【co测试环境】生成手机号：3634642825 ======
+INFO - 2021-10-19 19:27:06,211 - new_apply_order.py[line:97]: 3634642825 检测用户存在成功！
+INFO - 2021-10-19 19:27:06,274 - new_apply_order.py[line:106]: 3634642825 短信发送成功！
+INFO - 2021-10-19 19:27:06,320 - new_apply_order.py[line:119]: 3634642825 注册成功！
+INFO - 2021-10-19 19:27:06,385 - new_apply_order.py[line:135]: 3634642825 登录短信发送成功！
+INFO - 2021-10-19 19:27:06,441 - new_apply_order.py[line:145]: userId=4963521499127619584,mobile=3634642825,token=1c57370b0100443acec0c6cd94e9dc81 登录成功
+INFO - 2021-10-19 19:27:06,533 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-10-19 19:27:06,793 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-10-19 19:27:06,810 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-19 19:27:06,828 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1

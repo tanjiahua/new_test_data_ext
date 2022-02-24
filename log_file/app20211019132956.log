@@ -1,0 +1,22 @@
+INFO - 2021-10-19 13:29:56,258 - new_apply_order.py[line:954]: 开始第 quickmoney【1】次进件……
+INFO - 2021-10-19 13:29:56,258 - new_apply_order.py[line:84]: ======【pk测试环境】生成手机号：1634621396 ======
+INFO - 2021-10-19 13:29:56,626 - new_apply_order.py[line:97]: 1634621396 检测用户存在成功！
+INFO - 2021-10-19 13:29:56,687 - new_apply_order.py[line:106]: 1634621396 短信发送成功！
+INFO - 2021-10-19 13:29:56,733 - new_apply_order.py[line:119]: 1634621396 注册成功！
+INFO - 2021-10-19 13:29:56,797 - new_apply_order.py[line:135]: 1634621396 登录短信发送成功！
+INFO - 2021-10-19 13:29:56,850 - new_apply_order.py[line:145]: userId=6221722816826974208,mobile=1634621396,token=95c4d7fc42f7ce7d0fe6e4a154af2243 登录成功
+INFO - 2021-10-19 13:29:56,934 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-10-19 13:29:56,992 - new_apply_order.py[line:241]: 联系人信息提交成功！
+INFO - 2021-10-19 13:29:57,427 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-10-19 13:29:57,449 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-19 13:29:57,466 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-10-19 13:30:06,501 - new_apply_order.py[line:280]: curp上传成功!
+INFO - 2021-10-19 13:30:06,537 - new_apply_order.py[line:289]: curp_rfc校验通过！
+INFO - 2021-10-19 13:30:09,339 - new_apply_order.py[line:347]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-19 13:30:09,381 - new_apply_order.py[line:357]: 视频认证通过！
+INFO - 2021-10-19 13:30:09,699 - new_apply_order.py[line:668]: 绑卡成功！
+INFO - 2021-10-19 13:30:09,912 - new_apply_order.py[line:684]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-10-19 13:30:10,957 - new_apply_order.py[line:690]: 订单表更新1条，信审更新1条
+INFO - 2021-10-19 13:30:11,302 - new_apply_order.py[line:704]: 查询loan_order_id成功！
+ERROR - 2021-10-19 13:30:11,323 - new_apply_order.py[line:1000]: module 'common.params_init' has no attribute 'url_callback_order'
+ERROR - 2021-10-19 13:30:11,324 - new_apply_order.py[line:1001]: None

@@ -1,0 +1,20 @@
+INFO - 2021-08-31 19:23:11,968 - new_apply_order.py[line:517]: 开始第 kencash【1】次进件……
+INFO - 2021-08-31 19:23:11,968 - new_apply_order.py[line:79]: ======【ke测试环境】生成手机号：730408991 ======
+INFO - 2021-08-31 19:23:12,346 - new_apply_order.py[line:86]: 730408991 检测用户存在成功！
+INFO - 2021-08-31 19:23:12,409 - new_apply_order.py[line:93]: 730408991 短信发送成功！
+INFO - 2021-08-31 19:23:12,447 - new_apply_order.py[line:103]: 730408991 注册成功！
+INFO - 2021-08-31 19:23:12,490 - new_apply_order.py[line:113]: 730408991 登录短信发送成功！
+INFO - 2021-08-31 19:23:12,530 - new_apply_order.py[line:121]: userId=6204054712682815488,mobile=730408991,token=6ae568b69f806de644d1e6e539976070 登录成功
+INFO - 2021-08-31 19:23:13,253 - new_apply_order.py[line:172]: 个人信息提交成功！
+INFO - 2021-08-31 19:23:13,304 - new_apply_order.py[line:188]: 联系人信息提交成功！
+INFO - 2021-08-31 19:23:13,671 - new_apply_order.py[line:198]: 创建预审订单成功！
+INFO - 2021-08-31 19:23:13,684 - new_apply_order.py[line:206]: 预审状态修改为通过,更新条数 1
+INFO - 2021-08-31 19:23:13,692 - new_apply_order.py[line:209]: 更新初始额度！更新条数 1
+INFO - 2021-08-31 19:23:13,980 - new_apply_order.py[line:221]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-08-31 19:23:14,016 - new_apply_order.py[line:230]: 视频认证通过！
+INFO - 2021-08-31 19:23:14,301 - new_apply_order.py[line:309]: 绑卡成功！
+INFO - 2021-08-31 19:23:14,475 - new_apply_order.py[line:317]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-08-31 19:23:15,558 - new_apply_order.py[line:323]: 订单表更新1条，信审更新1条
+INFO - 2021-08-31 19:23:15,905 - new_apply_order.py[line:332]: 查询loan_order_id成功！
+ERROR - 2021-08-31 19:23:15,914 - new_apply_order.py[line:563]: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: //172.20.240.138/:8030/facade/risk/call (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff2ec2e71f0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+ERROR - 2021-08-31 19:23:15,937 - new_apply_order.py[line:564]: None

@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:28:58,538 - new_apply_order.py[line:520]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:28:58,539 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630682938 ======
+ERROR - 2021-09-03 23:28:58,845 - new_apply_order.py[line:566]: name 'get_init_file' is not defined
+ERROR - 2021-09-03 23:28:58,848 - new_apply_order.py[line:567]: None
+INFO - 2021-09-03 23:28:58,852 - new_apply_order.py[line:520]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:28:58,853 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630682938 ======
+ERROR - 2021-09-03 23:28:59,158 - new_apply_order.py[line:566]: name 'get_init_file' is not defined
+ERROR - 2021-09-03 23:28:59,159 - new_apply_order.py[line:567]: None

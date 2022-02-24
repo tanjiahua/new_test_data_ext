@@ -1,0 +1,48 @@
+INFO - 2021-10-11 09:56:42,232 - new_apply_order.py[line:792]: 开始第 monni【1】次进件……
+INFO - 2021-10-11 09:56:42,233 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3633917402 ======
+INFO - 2021-10-11 09:56:42,783 - new_apply_order.py[line:95]: 3633917402 检测用户存在成功！
+INFO - 2021-10-11 09:56:42,894 - new_apply_order.py[line:104]: 3633917402 短信发送成功！
+INFO - 2021-10-11 09:56:42,975 - new_apply_order.py[line:117]: 3633917402 注册成功！
+INFO - 2021-10-11 09:56:43,095 - new_apply_order.py[line:133]: 3633917402 登录短信发送成功！
+INFO - 2021-10-11 09:56:43,208 - new_apply_order.py[line:143]: userId=4960478853245181952,mobile=3633917402,token=aa59eaaa637cdf0579e1a1881482db0a 登录成功
+INFO - 2021-10-11 09:56:43,969 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-11 09:56:46,703 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-11 09:56:46,726 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-11 09:56:46,745 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-11 09:56:47,322 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-11 09:56:47,483 - new_apply_order.py[line:276]: 视频认证通过！
+ERROR - 2021-10-11 09:56:48,748 - new_apply_order.py[line:366]: curp上传失败!
+ERROR - 2021-10-11 09:56:48,748 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-11 09:56:48,753 - new_apply_order.py[line:839]: None
+INFO - 2021-10-11 09:56:48,756 - new_apply_order.py[line:792]: 开始第 prestamodinero【1】次进件……
+INFO - 2021-10-11 09:56:48,757 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3633917408 ======
+INFO - 2021-10-11 09:56:49,117 - new_apply_order.py[line:95]: 3633917408 检测用户存在成功！
+INFO - 2021-10-11 09:56:49,193 - new_apply_order.py[line:104]: 3633917408 短信发送成功！
+INFO - 2021-10-11 09:56:49,261 - new_apply_order.py[line:117]: 3633917408 注册成功！
+INFO - 2021-10-11 09:56:49,348 - new_apply_order.py[line:133]: 3633917408 登录短信发送成功！
+INFO - 2021-10-11 09:56:49,428 - new_apply_order.py[line:143]: userId=4960478879618965504,mobile=3633917408,token=063f0d60276b44b924677c13e355da54 登录成功
+INFO - 2021-10-11 09:56:49,565 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-11 09:56:49,967 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-11 09:56:49,988 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-11 09:56:50,008 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-11 09:56:50,278 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-11 09:56:50,345 - new_apply_order.py[line:276]: 视频认证通过！
+ERROR - 2021-10-11 09:56:51,193 - new_apply_order.py[line:366]: curp上传失败!
+ERROR - 2021-10-11 09:56:51,193 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-11 09:56:51,193 - new_apply_order.py[line:839]: None
+INFO - 2021-10-11 09:56:51,194 - new_apply_order.py[line:792]: 开始第 pcamion【1】次进件……
+INFO - 2021-10-11 09:56:51,195 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3633917411 ======
+INFO - 2021-10-11 09:56:51,572 - new_apply_order.py[line:95]: 3633917411 检测用户存在成功！
+INFO - 2021-10-11 09:56:51,654 - new_apply_order.py[line:104]: 3633917411 短信发送成功！
+INFO - 2021-10-11 09:56:51,722 - new_apply_order.py[line:117]: 3633917411 注册成功！
+INFO - 2021-10-11 09:56:51,807 - new_apply_order.py[line:133]: 3633917411 登录短信发送成功！
+INFO - 2021-10-11 09:56:51,880 - new_apply_order.py[line:143]: userId=4960478889945341952,mobile=3633917411,token=870ab4ca1070faf00447d1e9e9310de3 登录成功
+INFO - 2021-10-11 09:56:52,011 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-11 09:56:52,334 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-11 09:56:52,366 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-11 09:56:52,388 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-11 09:56:52,652 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-11 09:56:52,716 - new_apply_order.py[line:276]: 视频认证通过！
+ERROR - 2021-10-11 09:56:53,558 - new_apply_order.py[line:366]: curp上传失败!
+ERROR - 2021-10-11 09:56:53,558 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-11 09:56:53,559 - new_apply_order.py[line:839]: None

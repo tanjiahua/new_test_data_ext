@@ -1,0 +1,17 @@
+INFO - 2021-12-29 10:22:33,958 - new_apply_order.py[line:892]: 开始第 kucash【1】次进件……
+INFO - 2021-12-29 10:22:33,959 - new_apply_order.py[line:83]: ======【nga测试环境】生成手机号：01640744553 ======
+INFO - 2021-12-29 10:22:34,336 - new_apply_order.py[line:96]: 01640744553 检测用户存在成功！
+INFO - 2021-12-29 10:22:34,407 - new_apply_order.py[line:105]: 01640744553 短信发送成功！
+INFO - 2021-12-29 10:22:34,461 - new_apply_order.py[line:118]: 01640744553 注册成功！
+INFO - 2021-12-29 10:22:34,529 - new_apply_order.py[line:134]: 01640744553 登录短信发送成功！
+INFO - 2021-12-29 10:22:34,588 - new_apply_order.py[line:144]: userId=6247405201804500992,mobile=01640744553,token=82318824c11078e70c50fe2eecc10e6a 登录成功
+INFO - 2021-12-29 10:22:34,695 - new_apply_order.py[line:211]: 个人信息提交成功！
+INFO - 2021-12-29 10:22:34,751 - new_apply_order.py[line:222]: 联系人信息提交成功！
+INFO - 2021-12-29 10:22:35,057 - new_apply_order.py[line:254]: 创建预审订单成功！
+INFO - 2021-12-29 10:22:35,079 - new_apply_order.py[line:262]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-29 10:22:35,095 - new_apply_order.py[line:265]: 更新初始额度！更新条数 1
+INFO - 2021-12-29 10:22:35,371 - new_apply_order.py[line:341]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-29 10:22:35,406 - new_apply_order.py[line:351]: 视频认证通过！
+INFO - 2021-12-29 10:22:36,344 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-12-29 10:22:36,656 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-12-29 10:22:36,861 - new_apply_order.py[line:622]: 进件成功！执行sql将订单改为风控中……

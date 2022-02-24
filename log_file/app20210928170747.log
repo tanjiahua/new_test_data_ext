@@ -1,0 +1,57 @@
+INFO - 2021-09-28 17:07:47,856 - new_apply_order.py[line:792]: 开始第 pcamion【1】次进件……
+INFO - 2021-09-28 17:07:47,857 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3632820067 ======
+INFO - 2021-09-28 17:07:48,266 - new_apply_order.py[line:95]: 3632820067 检测用户存在成功！
+INFO - 2021-09-28 17:07:48,338 - new_apply_order.py[line:104]: 3632820067 短信发送成功！
+INFO - 2021-09-28 17:07:48,404 - new_apply_order.py[line:117]: 3632820067 注册成功！
+INFO - 2021-09-28 17:07:48,493 - new_apply_order.py[line:133]: 3632820067 登录短信发送成功！
+INFO - 2021-09-28 17:07:48,551 - new_apply_order.py[line:143]: userId=4955876298207928320,mobile=3632820067,token=24df2032232216eacf89663597b42591 登录成功
+INFO - 2021-09-28 17:07:48,660 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-09-28 17:07:48,983 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-09-28 17:07:49,003 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-28 17:07:49,019 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-28 17:07:49,294 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-28 17:07:49,341 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-09-28 17:07:50,524 - new_apply_order.py[line:364]: curp上传成功!
+INFO - 2021-09-28 17:07:50,641 - new_apply_order.py[line:373]: curp_rfc校验通过！
+INFO - 2021-09-28 17:07:51,224 - new_apply_order.py[line:509]: 不绑卡成功跳过！
+INFO - 2021-09-28 17:07:51,490 - new_apply_order.py[line:522]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-09-28 17:07:52,537 - new_apply_order.py[line:528]: 订单表更新1条，信审更新1条
+INFO - 2021-09-28 17:07:53,110 - new_apply_order.py[line:542]: 查询loan_order_id成功！
+INFO - 2021-09-28 17:07:53,154 - new_apply_order.py[line:557]: 订单回调复审通过成功！
+INFO - 2021-09-28 17:07:53,936 - new_apply_order.py[line:579]: 获取token成功！token=bearer 865c2336-1deb-4ab5-a340-be6a1b6488ee！
+INFO - 2021-09-28 17:07:54,425 - new_apply_order.py[line:542]: 查询loan_order_id成功！
+INFO - 2021-09-28 17:07:54,729 - new_apply_order.py[line:597]: 后台已触发放款成功！
+INFO - 2021-09-28 17:07:54,740 - new_apply_order.py[line:611]: xxl_job web 登录成功！
+INFO - 2021-09-28 17:07:54,750 - new_apply_order.py[line:627]: xxl_job 放款准备作业执行成功！
+INFO - 2021-09-28 17:07:56,278 - new_apply_order.py[line:542]: 查询loan_order_id成功！
+INFO - 2021-09-28 17:07:56,292 - new_apply_order.py[line:635]: 修改放款准备完成时间成功！
+INFO - 2021-09-28 17:07:56,301 - new_apply_order.py[line:643]: xxl_job 放款完成作业执行成功！
+INFO - 2021-09-28 17:07:56,604 - new_apply_order.py[line:815]: 校验重试查询第1次
+ERROR - 2021-09-28 17:07:57,618 - new_apply_order.py[line:711]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-09-28 17:07:57,618 - new_apply_order.py[line:712]: {'app': 'pcamion', 'loan_order_id': '1442778056066994176', 'mobile': '3632820067', 'order_status': 35}
+INFO - 2021-09-28 17:07:58,124 - new_apply_order.py[line:815]: 校验重试查询第2次
+ERROR - 2021-09-28 17:07:59,136 - new_apply_order.py[line:711]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-09-28 17:07:59,136 - new_apply_order.py[line:712]: {'app': 'pcamion', 'loan_order_id': '1442778056066994176', 'mobile': '3632820067', 'order_status': 35}
+INFO - 2021-09-28 17:07:59,642 - new_apply_order.py[line:815]: 校验重试查询第3次
+ERROR - 2021-09-28 17:08:00,654 - new_apply_order.py[line:711]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-09-28 17:08:00,655 - new_apply_order.py[line:712]: {'app': 'pcamion', 'loan_order_id': '1442778056066994176', 'mobile': '3632820067', 'order_status': 35}
+INFO - 2021-09-28 17:08:01,158 - new_apply_order.py[line:815]: 校验重试查询第4次
+ERROR - 2021-09-28 17:08:02,167 - new_apply_order.py[line:711]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-09-28 17:08:02,168 - new_apply_order.py[line:712]: {'app': 'pcamion', 'loan_order_id': '1442778056066994176', 'mobile': '3632820067', 'order_status': 35}
+INFO - 2021-09-28 17:08:02,671 - new_apply_order.py[line:815]: 校验重试查询第5次
+ERROR - 2021-09-28 17:08:03,685 - new_apply_order.py[line:711]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-09-28 17:08:03,685 - new_apply_order.py[line:712]: {'app': 'pcamion', 'loan_order_id': '1442778056066994176', 'mobile': '3632820067', 'order_status': 35}
+INFO - 2021-09-28 17:08:04,191 - new_apply_order.py[line:815]: 校验重试查询第6次
+ERROR - 2021-09-28 17:08:05,203 - new_apply_order.py[line:711]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-09-28 17:08:05,204 - new_apply_order.py[line:712]: {'app': 'pcamion', 'loan_order_id': '1442778056066994176', 'mobile': '3632820067', 'order_status': 35}
+INFO - 2021-09-28 17:08:05,711 - new_apply_order.py[line:815]: 校验重试查询第7次
+ERROR - 2021-09-28 17:08:06,726 - new_apply_order.py[line:711]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-09-28 17:08:06,726 - new_apply_order.py[line:712]: {'app': 'pcamion', 'loan_order_id': '1442778056066994176', 'mobile': '3632820067', 'order_status': 35}
+INFO - 2021-09-28 17:08:07,231 - new_apply_order.py[line:815]: 校验重试查询第8次
+ERROR - 2021-09-28 17:08:08,246 - new_apply_order.py[line:711]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-09-28 17:08:08,247 - new_apply_order.py[line:712]: {'app': 'pcamion', 'loan_order_id': '1442778056066994176', 'mobile': '3632820067', 'order_status': 35}
+INFO - 2021-09-28 17:08:08,753 - new_apply_order.py[line:815]: 校验重试查询第9次
+INFO - 2021-09-28 17:08:09,765 - new_apply_order.py[line:709]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-09-28 17:08:09,766 - new_apply_order.py[line:712]: {'app': 'pcamion', 'loan_order_id': '1442778056066994176', 'mobile': '3632820067', 'order_status': 40}
+INFO - 2021-09-28 17:08:09,768 - new_apply_order.py[line:832]: ===========完成第【1】次进件===========
+INFO - 2021-09-28 17:08:09,768 - new_apply_order.py[line:835]: ======完成第【1】次进件,耗时21.91s=====

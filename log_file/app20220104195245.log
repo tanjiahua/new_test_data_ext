@@ -1,0 +1,18 @@
+INFO - 2022-01-04 19:52:45,963 - new_apply_order.py[line:892]: 开始第 aceloan【1】次进件……
+INFO - 2022-01-04 19:52:46,366 - new_apply_order.py[line:96]: 01634872782 检测用户存在成功！
+INFO - 2022-01-04 19:52:46,439 - new_apply_order.py[line:105]: 01634872782 短信发送成功！
+INFO - 2022-01-04 19:52:46,510 - new_apply_order.py[line:118]: 01634872782 注册成功！
+INFO - 2022-01-04 19:52:46,573 - new_apply_order.py[line:134]: 01634872782 登录短信发送成功！
+INFO - 2022-01-04 19:52:46,652 - new_apply_order.py[line:144]: userId=6249723024774275072,mobile=01634872782,token=fbbc1dabf32dd491a21347daec28dd4a 登录成功
+INFO - 2022-01-04 19:52:46,763 - new_apply_order.py[line:211]: 个人信息提交成功！
+INFO - 2022-01-04 19:52:46,818 - new_apply_order.py[line:222]: 联系人信息提交成功！
+INFO - 2022-01-04 19:52:47,131 - new_apply_order.py[line:254]: 创建预审订单成功！
+INFO - 2022-01-04 19:52:47,239 - new_apply_order.py[line:262]: 预审状态修改为通过,更新条数 1
+INFO - 2022-01-04 19:52:47,318 - new_apply_order.py[line:265]: 更新初始额度！更新条数 1
+INFO - 2022-01-04 19:52:47,655 - new_apply_order.py[line:341]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2022-01-04 19:52:47,720 - new_apply_order.py[line:351]: 视频认证通过！
+INFO - 2022-01-04 19:52:48,782 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2022-01-04 19:52:49,461 - new_apply_order.py[line:561]: user更新1条
+ERROR - 2022-01-04 19:52:49,681 - new_apply_order.py[line:630]: {"code":"50001004","msg":"Not eligible for borrowing","data":null}
+ERROR - 2022-01-04 19:52:50,033 - new_apply_order.py[line:938]: 'NoneType' object is not subscriptable
+ERROR - 2022-01-04 19:52:50,037 - new_apply_order.py[line:939]: None

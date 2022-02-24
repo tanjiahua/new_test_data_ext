@@ -1,0 +1,4 @@
+INFO - 2021-08-27 19:18:29,804 - new_apply_order.py[line:449]: 开始第 faircash【1】次进件……
+INFO - 2021-08-27 19:18:29,805 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630063109 ======
+ERROR - 2021-08-27 19:18:47,721 - new_apply_order.py[line:495]: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: //172.20.240.143:8012/app/api/multi/v2/checkUserExist/FC101 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8264a7cc40>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+ERROR - 2021-08-27 19:18:48,342 - new_apply_order.py[line:496]: None

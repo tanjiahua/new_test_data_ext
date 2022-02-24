@@ -1,0 +1,27 @@
+INFO - 2021-11-03 18:20:50,788 - new_apply_order.py[line:882]: 开始第 ncredit【1】次进件……
+INFO - 2021-11-03 18:20:50,789 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01635934850 ======
+INFO - 2021-11-03 18:20:51,181 - new_apply_order.py[line:97]: 01635934850 检测用户存在成功！
+INFO - 2021-11-03 18:20:51,249 - new_apply_order.py[line:106]: 01635934850 短信发送成功！
+INFO - 2021-11-03 18:20:51,310 - new_apply_order.py[line:119]: 01635934850 注册成功！
+INFO - 2021-11-03 18:20:51,389 - new_apply_order.py[line:135]: 01635934850 登录短信发送成功！
+INFO - 2021-11-03 18:20:51,448 - new_apply_order.py[line:145]: userId=6227231844865155072,mobile=01635934850,token=33fb173606c5cd54087749445969b2f5 登录成功
+INFO - 2021-11-03 18:20:51,567 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-03 18:20:51,639 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-03 18:20:52,049 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-03 18:20:52,063 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-03 18:20:52,076 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-03 18:20:52,394 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-03 18:20:52,455 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-03 18:20:53,599 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-03 18:20:53,933 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-03 18:20:54,290 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-03 18:20:55,337 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-03 18:20:55,703 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-03 18:20:55,757 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-03 18:20:56,536 - new_apply_order.py[line:669]: 获取token成功！token=bearer 45888e1b-5415-42e3-9e3a-7a1a0c4de94c！
+INFO - 2021-11-03 18:20:56,892 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-03 18:20:57,235 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-03 18:20:57,243 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-03 18:20:57,253 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+ERROR - 2021-11-03 18:21:58,589 - new_apply_order.py[line:928]: 'NoneType' object is not subscriptable
+ERROR - 2021-11-03 18:21:58,594 - new_apply_order.py[line:929]: None

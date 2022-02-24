@@ -1,0 +1,8 @@
+INFO - 2021-09-06 20:11:33,152 - new_apply_order.py[line:534]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-06 20:11:33,153 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630930293 ======
+ERROR - 2021-09-06 20:11:33,463 - new_apply_order.py[line:580]: name 'data_checkUserExist' is not defined
+ERROR - 2021-09-06 20:11:33,464 - new_apply_order.py[line:581]: None
+INFO - 2021-09-06 20:11:33,468 - new_apply_order.py[line:534]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-06 20:11:33,469 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630930293 ======
+ERROR - 2021-09-06 20:11:33,775 - new_apply_order.py[line:580]: name 'data_checkUserExist' is not defined
+ERROR - 2021-09-06 20:11:33,775 - new_apply_order.py[line:581]: None

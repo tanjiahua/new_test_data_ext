@@ -1,0 +1,13 @@
+INFO - 2021-08-30 20:15:48,801 - new_apply_order.py[line:450]: 开始第 borrowme【1】次进件……
+INFO - 2021-08-30 20:15:48,801 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630325748 ======
+INFO - 2021-08-30 20:15:49,190 - new_apply_order.py[line:86]: 01630325748 检测用户存在成功！
+INFO - 2021-08-30 20:15:49,258 - new_apply_order.py[line:93]: 01630325748 短信发送成功！
+INFO - 2021-08-30 20:15:49,298 - new_apply_order.py[line:103]: 01630325748 注册成功！
+ERROR - 2021-08-30 20:15:49,326 - new_apply_order.py[line:123]: 登录失败!
+ERROR - 2021-08-30 20:15:49,351 - new_apply_order.py[line:169]: 个人信息提交失败！
+ERROR - 2021-08-30 20:15:49,368 - new_apply_order.py[line:178]: 联系人信息提交失败！
+ERROR - 2021-08-30 20:15:49,392 - new_apply_order.py[line:195]: 创建预审失败{"code":"9001","msg":"System unknown error","data":null}
+INFO - 2021-08-30 20:15:49,404 - new_apply_order.py[line:201]: 预审状态修改为通过,更新条数 0
+INFO - 2021-08-30 20:15:49,412 - new_apply_order.py[line:204]: 更新初始额度！更新条数 0
+ERROR - 2021-08-30 20:15:49,448 - new_apply_order.py[line:496]: 'NoneType' object is not subscriptable
+ERROR - 2021-08-30 20:15:49,449 - new_apply_order.py[line:497]: None

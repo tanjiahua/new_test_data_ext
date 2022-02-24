@@ -1,0 +1,8 @@
+INFO - 2021-09-04 10:24:45,900 - new_apply_order.py[line:523]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-04 10:24:45,901 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630722285 ======
+ERROR - 2021-09-04 10:24:46,209 - new_apply_order.py[line:569]: 'NoneType' object is not subscriptable
+ERROR - 2021-09-04 10:24:46,210 - new_apply_order.py[line:570]: None
+INFO - 2021-09-04 10:24:46,214 - new_apply_order.py[line:523]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-04 10:24:46,215 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630722286 ======
+ERROR - 2021-09-04 10:24:46,523 - new_apply_order.py[line:569]: 'NoneType' object is not subscriptable
+ERROR - 2021-09-04 10:24:46,524 - new_apply_order.py[line:570]: None

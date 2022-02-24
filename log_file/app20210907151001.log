@@ -1,0 +1,8 @@
+INFO - 2021-09-07 15:10:01,754 - new_apply_order.py[line:534]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-07 15:10:01,754 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630998601 ======
+ERROR - 2021-09-07 15:10:02,058 - new_apply_order.py[line:580]: 'NewUserApplyOrder' object has no attribute 'headers_getOrderDetai'
+ERROR - 2021-09-07 15:10:02,058 - new_apply_order.py[line:581]: None
+INFO - 2021-09-07 15:10:02,060 - new_apply_order.py[line:534]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-07 15:10:02,060 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630998602 ======
+ERROR - 2021-09-07 15:10:02,364 - new_apply_order.py[line:580]: 'NewUserApplyOrder' object has no attribute 'headers_getOrderDetai'
+ERROR - 2021-09-07 15:10:02,364 - new_apply_order.py[line:581]: None

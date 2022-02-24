@@ -1,0 +1,22 @@
+INFO - 2021-09-07 15:33:08,791 - new_apply_order.py[line:548]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-07 15:33:08,792 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630999988 ======
+INFO - 2021-09-07 15:33:09,310 - new_apply_order.py[line:93]: 01630999988 检测用户存在成功！
+INFO - 2021-09-07 15:33:09,486 - new_apply_order.py[line:102]: 01630999988 短信发送成功！
+INFO - 2021-09-07 15:33:09,652 - new_apply_order.py[line:115]: 01630999988 注册成功！
+INFO - 2021-09-07 15:33:09,762 - new_apply_order.py[line:131]: 01630999988 登录短信发送成功！
+INFO - 2021-09-07 15:33:09,825 - new_apply_order.py[line:141]: userId=6206533534141915136,mobile=01630999988,token=cc94a155f2ff12a6248344dae75d3163 登录成功
+INFO - 2021-09-07 15:33:09,995 - new_apply_order.py[line:198]: 个人信息提交成功！
+INFO - 2021-09-07 15:33:10,132 - new_apply_order.py[line:209]: 联系人信息提交成功！
+ERROR - 2021-09-07 15:33:10,132 - new_apply_order.py[line:594]: module 'common.params_init' has no attribute 'data_createApplyPreOrder'
+ERROR - 2021-09-07 15:33:10,134 - new_apply_order.py[line:595]: None
+INFO - 2021-09-07 15:33:10,138 - new_apply_order.py[line:548]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-07 15:33:10,139 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630999990 ======
+INFO - 2021-09-07 15:33:10,482 - new_apply_order.py[line:93]: 01630999990 检测用户存在成功！
+INFO - 2021-09-07 15:33:10,544 - new_apply_order.py[line:102]: 01630999990 短信发送成功！
+INFO - 2021-09-07 15:33:10,579 - new_apply_order.py[line:115]: 01630999990 注册成功！
+INFO - 2021-09-07 15:33:10,644 - new_apply_order.py[line:131]: 01630999990 登录短信发送成功！
+INFO - 2021-09-07 15:33:10,684 - new_apply_order.py[line:141]: userId=6206533538537545728,mobile=01630999990,token=606089ea1fe88174591f2a8cddc24433 登录成功
+INFO - 2021-09-07 15:33:10,746 - new_apply_order.py[line:198]: 个人信息提交成功！
+INFO - 2021-09-07 15:33:10,797 - new_apply_order.py[line:209]: 联系人信息提交成功！
+ERROR - 2021-09-07 15:33:10,798 - new_apply_order.py[line:594]: module 'common.params_init' has no attribute 'data_createApplyPreOrder'
+ERROR - 2021-09-07 15:33:10,798 - new_apply_order.py[line:595]: None

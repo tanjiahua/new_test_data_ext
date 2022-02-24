@@ -1,0 +1,11 @@
+INFO - 2021-09-15 10:31:01,411 - new_apply_order.py[line:646]: 开始第 pcamion【1】次进件……
+INFO - 2021-09-15 10:31:01,411 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3631673061 ======
+INFO - 2021-09-15 10:31:01,842 - new_apply_order.py[line:95]: 3631673061 检测用户存在成功！
+INFO - 2021-09-15 10:31:01,959 - new_apply_order.py[line:104]: 3631673061 短信发送成功！
+INFO - 2021-09-15 10:31:02,046 - new_apply_order.py[line:117]: 3631673061 注册成功！
+INFO - 2021-09-15 10:31:02,168 - new_apply_order.py[line:133]: 3631673061 登录短信发送成功！
+INFO - 2021-09-15 10:31:02,248 - new_apply_order.py[line:143]: userId=4951065405305528320,mobile=3631673061,token=6909d27915158fa758bb797ddaef1618 登录成功
+ERROR - 2021-09-15 10:31:02,306 - new_apply_order.py[line:205]: 个人信息提交失败！
+ERROR - 2021-09-15 10:31:02,509 - new_apply_order.py[line:238]: 创建预审失败{"code":"30001043","msg":"System unknown error","data":null}
+ERROR - 2021-09-15 10:31:02,511 - new_apply_order.py[line:692]: local variable 'test_ini_name' referenced before assignment
+ERROR - 2021-09-15 10:31:02,513 - new_apply_order.py[line:693]: None

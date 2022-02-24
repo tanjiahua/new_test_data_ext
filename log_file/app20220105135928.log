@@ -1,0 +1,43 @@
+INFO - 2022-01-05 13:59:28,277 - new_apply_order.py[line:930]: 开始第 aceloan【1】次进件……
+INFO - 2022-01-05 13:59:28,670 - new_apply_order.py[line:95]: 01634872799 检测用户存在成功！
+INFO - 2022-01-05 13:59:28,737 - new_apply_order.py[line:104]: 01634872799 短信发送成功！
+INFO - 2022-01-05 13:59:28,782 - new_apply_order.py[line:117]: 01634872799 注册成功！
+INFO - 2022-01-05 13:59:28,847 - new_apply_order.py[line:133]: 01634872799 登录短信发送成功！
+INFO - 2022-01-05 13:59:28,893 - new_apply_order.py[line:143]: userId=6249996503171997696,mobile=01634872799,token=e44408f0aca2022ed90b420e52366fae 登录成功
+INFO - 2022-01-05 13:59:28,992 - new_apply_order.py[line:210]: 个人信息提交成功！
+INFO - 2022-01-05 13:59:29,045 - new_apply_order.py[line:221]: 联系人信息提交成功！
+INFO - 2022-01-05 13:59:29,328 - new_apply_order.py[line:253]: 创建预审订单成功！
+INFO - 2022-01-05 13:59:29,364 - new_apply_order.py[line:261]: 预审状态修改为通过,更新条数 1
+INFO - 2022-01-05 13:59:29,398 - new_apply_order.py[line:264]: 更新初始额度！更新条数 1
+INFO - 2022-01-05 13:59:29,761 - new_apply_order.py[line:340]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2022-01-05 13:59:29,808 - new_apply_order.py[line:350]: 视频认证通过！
+INFO - 2022-01-05 13:59:30,790 - new_apply_order.py[line:509]: bvn和银行卡绑卡认证通过！
+INFO - 2022-01-05 13:59:31,182 - new_apply_order.py[line:560]: user更新1条
+INFO - 2022-01-05 13:59:31,386 - new_apply_order.py[line:621]: 进件成功！执行sql将订单改为风控中……
+INFO - 2022-01-05 13:59:32,481 - new_apply_order.py[line:627]: 订单表更新1条，信审更新1条
+INFO - 2022-01-05 13:59:32,847 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:59:32,887 - new_apply_order.py[line:656]: 订单回调复审通过成功！
+INFO - 2022-01-05 13:59:33,752 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 13:59:34,130 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:59:34,469 - new_apply_order.py[line:696]: 后台已触发放款成功！
+INFO - 2022-01-05 13:59:34,493 - new_apply_order.py[line:710]: xxl_job web 登录成功！
+INFO - 2022-01-05 13:59:34,509 - new_apply_order.py[line:726]: xxl_job 放款准备作业执行成功！
+INFO - 2022-01-05 13:59:35,872 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:59:35,902 - new_apply_order.py[line:734]: 修改放款准备完成时间成功！
+INFO - 2022-01-05 13:59:35,915 - new_apply_order.py[line:742]: xxl_job 放款完成作业执行成功！
+INFO - 2022-01-05 13:59:36,223 - new_apply_order.py[line:953]: 校验重试查询第1次
+ERROR - 2022-01-05 13:59:37,245 - new_apply_order.py[line:810]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2022-01-05 13:59:37,245 - new_apply_order.py[line:811]: {'app': 'aceloan', 'loan_order_id': '1478607061052166144', 'mobile': '01634872799', 'order_status': 35}
+INFO - 2022-01-05 13:59:37,752 - new_apply_order.py[line:953]: 校验重试查询第2次
+INFO - 2022-01-05 13:59:38,842 - new_apply_order.py[line:808]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2022-01-05 13:59:38,842 - new_apply_order.py[line:811]: {'app': 'aceloan', 'loan_order_id': '1478607061052166144', 'mobile': '01634872799', 'order_status': 40}
+INFO - 2022-01-05 13:59:38,843 - new_apply_order.py[line:970]: ===========完成第【1】次进件===========
+INFO - 2022-01-05 13:59:38,843 - new_apply_order.py[line:973]: ======完成第【1】次进件,耗时10.57s=====
+INFO - 2022-01-05 13:59:39,337 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 13:59:40,009 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 13:59:40,542 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:59:41,393 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+ERROR - 2022-01-05 13:59:41,394 - new_apply_order.py[line:899]: 订单号：1478607061052166144
+INFO - 2022-01-05 13:59:41,889 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:59:41,889 - new_apply_order.py[line:914]: "{\"repayTime\": \"2022-01-05 13:01:39\", \"applyReductionAmount\": 0, \"amount\": 1100, \"thirdOrderId\": [\"1478607061052166144\"], \"fileUrl\": \"\", \"loanBillPlanId\": [\"1478607096129130496\"]}"
+ERROR - 2022-01-05 13:59:42,349 - new_apply_order.py[line:919]: 后台已触发还款失败{"code":"10099001","msg":"Service Currently Unavailable","notSuccess":true,"success":false}!

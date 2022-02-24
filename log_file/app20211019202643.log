@@ -1,0 +1,64 @@
+INFO - 2021-10-19 20:26:43,135 - new_apply_order.py[line:882]: 开始第 monni【1】次进件……
+INFO - 2021-10-19 20:26:43,135 - new_apply_order.py[line:84]: ======【co测试环境】生成手机号：3634646403 ======
+INFO - 2021-10-19 20:26:43,521 - new_apply_order.py[line:97]: 3634646403 检测用户存在成功！
+INFO - 2021-10-19 20:26:43,592 - new_apply_order.py[line:106]: 3634646403 短信发送成功！
+INFO - 2021-10-19 20:26:43,648 - new_apply_order.py[line:119]: 3634646403 注册成功！
+INFO - 2021-10-19 20:26:43,740 - new_apply_order.py[line:135]: 3634646403 登录短信发送成功！
+INFO - 2021-10-19 20:26:43,797 - new_apply_order.py[line:145]: userId=4963536503524564992,mobile=3634646403,token=2f68d17049f8aec65d312e81f8e994bd 登录成功
+INFO - 2021-10-19 20:26:43,894 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-10-19 20:26:44,166 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-10-19 20:26:44,188 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-19 20:26:44,209 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-10-19 20:26:45,402 - new_apply_order.py[line:309]: curp上传成功!
+INFO - 2021-10-19 20:26:45,514 - new_apply_order.py[line:318]: curp_rfc校验通过！
+INFO - 2021-10-19 20:26:45,820 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-19 20:26:45,866 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-10-19 20:26:46,407 - new_apply_order.py[line:586]: 不绑卡成功跳过！
+INFO - 2021-10-19 20:26:46,681 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-10-19 20:26:47,730 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-10-19 20:26:48,343 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-10-19 20:26:48,404 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-10-19 20:26:49,241 - new_apply_order.py[line:669]: 获取token成功！token=bearer 1126b2a8-213b-453b-abd7-e23f0a411253！
+INFO - 2021-10-19 20:26:49,819 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-10-19 20:26:50,391 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-10-19 20:26:50,406 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-10-19 20:26:50,420 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-10-19 20:26:51,963 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-10-19 20:26:51,975 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-10-19 20:26:51,978 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-10-19 20:26:52,280 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-10-19 20:26:53,291 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-19 20:26:53,292 - new_apply_order.py[line:802]: {'app': 'monni', 'loan_order_id': '1450438261202882560', 'mobile': '3634646403', 'order_status': 35}
+INFO - 2021-10-19 20:26:53,795 - new_apply_order.py[line:905]: 校验重试查询第2次
+ERROR - 2021-10-19 20:26:54,808 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-19 20:26:54,808 - new_apply_order.py[line:802]: {'app': 'monni', 'loan_order_id': '1450438261202882560', 'mobile': '3634646403', 'order_status': 35}
+INFO - 2021-10-19 20:26:55,316 - new_apply_order.py[line:905]: 校验重试查询第3次
+ERROR - 2021-10-19 20:26:56,330 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-19 20:26:56,330 - new_apply_order.py[line:802]: {'app': 'monni', 'loan_order_id': '1450438261202882560', 'mobile': '3634646403', 'order_status': 35}
+INFO - 2021-10-19 20:26:56,833 - new_apply_order.py[line:905]: 校验重试查询第4次
+ERROR - 2021-10-19 20:26:57,851 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-19 20:26:57,852 - new_apply_order.py[line:802]: {'app': 'monni', 'loan_order_id': '1450438261202882560', 'mobile': '3634646403', 'order_status': 35}
+INFO - 2021-10-19 20:26:58,358 - new_apply_order.py[line:905]: 校验重试查询第5次
+ERROR - 2021-10-19 20:26:59,373 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-19 20:26:59,374 - new_apply_order.py[line:802]: {'app': 'monni', 'loan_order_id': '1450438261202882560', 'mobile': '3634646403', 'order_status': 35}
+INFO - 2021-10-19 20:26:59,882 - new_apply_order.py[line:905]: 校验重试查询第6次
+ERROR - 2021-10-19 20:27:00,900 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-19 20:27:00,901 - new_apply_order.py[line:802]: {'app': 'monni', 'loan_order_id': '1450438261202882560', 'mobile': '3634646403', 'order_status': 35}
+INFO - 2021-10-19 20:27:01,403 - new_apply_order.py[line:905]: 校验重试查询第7次
+ERROR - 2021-10-19 20:27:02,421 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-19 20:27:02,421 - new_apply_order.py[line:802]: {'app': 'monni', 'loan_order_id': '1450438261202882560', 'mobile': '3634646403', 'order_status': 35}
+INFO - 2021-10-19 20:27:02,925 - new_apply_order.py[line:905]: 校验重试查询第8次
+ERROR - 2021-10-19 20:27:03,937 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-19 20:27:03,937 - new_apply_order.py[line:802]: {'app': 'monni', 'loan_order_id': '1450438261202882560', 'mobile': '3634646403', 'order_status': 35}
+INFO - 2021-10-19 20:27:04,440 - new_apply_order.py[line:905]: 校验重试查询第9次
+ERROR - 2021-10-19 20:27:05,454 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-19 20:27:05,454 - new_apply_order.py[line:802]: {'app': 'monni', 'loan_order_id': '1450438261202882560', 'mobile': '3634646403', 'order_status': 35}
+INFO - 2021-10-19 20:27:05,960 - new_apply_order.py[line:905]: 校验重试查询第10次
+ERROR - 2021-10-19 20:27:06,967 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是36
+INFO - 2021-10-19 20:27:06,967 - new_apply_order.py[line:802]: {'app': 'monni', 'loan_order_id': '1450438261202882560', 'mobile': '3634646403', 'order_status': 36}
+INFO - 2021-10-19 20:27:06,970 - new_apply_order.py[line:922]: ===========完成第【1】次进件===========
+INFO - 2021-10-19 20:27:06,970 - new_apply_order.py[line:925]: ======完成第【1】次进件,耗时23.84s=====
+INFO - 2021-10-19 20:27:06,971 - new_apply_order.py[line:882]: 开始第 prestamodinero【1】次进件……
+INFO - 2021-10-19 20:27:06,971 - new_apply_order.py[line:84]: ======【co测试环境】生成手机号：3634646426 ======
+INFO - 2021-10-19 20:27:07,312 - new_apply_order.py[line:97]: 3634646426 检测用户存在成功！
+INFO - 2021-10-19 20:27:07,416 - new_apply_order.py[line:106]: 3634646426 短信发送成功！

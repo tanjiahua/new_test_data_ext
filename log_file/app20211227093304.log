@@ -1,0 +1,21 @@
+INFO - 2021-12-27 09:33:04,173 - new_apply_order.py[line:892]: 开始第 kucash【1】次进件……
+INFO - 2021-12-27 09:33:04,174 - new_apply_order.py[line:83]: ======【nga测试环境】生成手机号：01640568784 ======
+INFO - 2021-12-27 09:33:04,582 - new_apply_order.py[line:96]: 01640568784 检测用户存在成功！
+INFO - 2021-12-27 09:33:04,651 - new_apply_order.py[line:105]: 01640568784 短信发送成功！
+INFO - 2021-12-27 09:33:04,711 - new_apply_order.py[line:118]: 01640568784 注册成功！
+INFO - 2021-12-27 09:33:04,798 - new_apply_order.py[line:134]: 01640568784 登录短信发送成功！
+INFO - 2021-12-27 09:33:04,859 - new_apply_order.py[line:144]: userId=6246667970001903616,mobile=01640568784,token=67708fb5cec2eb6693adb68d8d4ad56d 登录成功
+INFO - 2021-12-27 09:33:04,975 - new_apply_order.py[line:211]: 个人信息提交成功！
+INFO - 2021-12-27 09:33:05,067 - new_apply_order.py[line:222]: 联系人信息提交成功！
+INFO - 2021-12-27 09:33:05,469 - new_apply_order.py[line:254]: 创建预审订单成功！
+INFO - 2021-12-27 09:33:05,490 - new_apply_order.py[line:262]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-27 09:33:05,509 - new_apply_order.py[line:265]: 更新初始额度！更新条数 1
+INFO - 2021-12-27 09:33:05,887 - new_apply_order.py[line:341]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-27 09:33:05,980 - new_apply_order.py[line:351]: 视频认证通过！
+INFO - 2021-12-27 09:33:10,930 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-12-27 09:33:11,286 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-12-27 09:33:11,825 - new_apply_order.py[line:622]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-27 09:33:13,614 - new_apply_order.py[line:628]: 订单表更新1条，信审更新1条
+INFO - 2021-12-27 09:33:14,007 - new_apply_order.py[line:642]: 查询loan_order_id成功！
+ERROR - 2021-12-27 09:33:14,023 - new_apply_order.py[line:938]: unsupported operand type(s) for +: 'dict' and 'str'
+ERROR - 2021-12-27 09:33:14,024 - new_apply_order.py[line:939]: None

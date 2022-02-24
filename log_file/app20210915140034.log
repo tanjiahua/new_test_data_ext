@@ -1,0 +1,25 @@
+INFO - 2021-09-15 14:00:34,601 - new_apply_order.py[line:683]: 开始第 pcamion【1】次进件……
+INFO - 2021-09-15 14:00:34,602 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3631685634 ======
+INFO - 2021-09-15 14:00:35,016 - new_apply_order.py[line:95]: 3631685634 检测用户存在成功！
+INFO - 2021-09-15 14:00:35,148 - new_apply_order.py[line:104]: 3631685634 短信发送成功！
+INFO - 2021-09-15 14:00:35,241 - new_apply_order.py[line:117]: 3631685634 注册成功！
+INFO - 2021-09-15 14:00:35,385 - new_apply_order.py[line:133]: 3631685634 登录短信发送成功！
+INFO - 2021-09-15 14:00:35,497 - new_apply_order.py[line:143]: userId=4951118140847562752,mobile=3631685634,token=c7a996b992e04e4929f53466e90d8540 登录成功
+INFO - 2021-09-15 14:00:35,662 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-09-15 14:00:36,399 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-09-15 14:00:36,418 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-15 14:00:36,437 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-15 14:00:36,756 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-15 14:00:36,833 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-09-15 14:00:38,235 - new_apply_order.py[line:331]: curp上传成功!
+INFO - 2021-09-15 14:00:38,417 - new_apply_order.py[line:340]: curp_rfc校验通过！
+INFO - 2021-09-15 14:00:39,173 - new_apply_order.py[line:413]: 不绑卡成功跳过！
+INFO - 2021-09-15 14:00:39,670 - new_apply_order.py[line:426]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-09-15 14:00:40,715 - new_apply_order.py[line:432]: 订单表更新1条，信审更新1条
+INFO - 2021-09-15 14:00:41,749 - new_apply_order.py[line:446]: 查询loan_order_id成功！
+INFO - 2021-09-15 14:00:41,827 - new_apply_order.py[line:461]: 订单回调复审通过成功！
+INFO - 2021-09-15 14:00:42,669 - new_apply_order.py[line:483]: 获取token成功！token=bearer 8a896575-c293-423c-873f-d7d6312422e8！
+INFO - 2021-09-15 14:00:43,276 - new_apply_order.py[line:446]: 查询loan_order_id成功！
+INFO - 2021-09-15 14:00:43,654 - new_apply_order.py[line:501]: 后台已触发放款成功！
+ERROR - 2021-09-15 14:00:43,663 - new_apply_order.py[line:729]: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: //172.20.240.247/:8066/xxl-job-admin/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7ff11e3c8340>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+ERROR - 2021-09-15 14:00:43,682 - new_apply_order.py[line:730]: None

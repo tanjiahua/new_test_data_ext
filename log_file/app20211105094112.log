@@ -1,0 +1,414 @@
+INFO - 2021-11-05 09:41:12,785 - new_apply_order.py[line:882]: 开始第 ncredit【1】次进件……
+INFO - 2021-11-05 09:41:12,786 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01636076472 ======
+INFO - 2021-11-05 09:41:13,159 - new_apply_order.py[line:97]: 01636076472 检测用户存在成功！
+INFO - 2021-11-05 09:41:13,209 - new_apply_order.py[line:106]: 01636076472 短信发送成功！
+INFO - 2021-11-05 09:41:13,267 - new_apply_order.py[line:119]: 01636076472 注册成功！
+INFO - 2021-11-05 09:41:13,327 - new_apply_order.py[line:135]: 01636076472 登录短信发送成功！
+INFO - 2021-11-05 09:41:13,375 - new_apply_order.py[line:145]: userId=6227825850396188672,mobile=01636076472,token=f739438b6bde0a0c3b3cb4b3a2b0bf87 登录成功
+INFO - 2021-11-05 09:41:13,466 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-05 09:41:13,531 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-05 09:41:13,864 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-05 09:41:13,889 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-05 09:41:13,908 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-05 09:41:14,181 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-05 09:41:14,223 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-05 09:41:15,354 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-05 09:41:15,688 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-05 09:41:15,919 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-05 09:41:16,960 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-05 09:41:17,318 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:17,374 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-05 09:41:18,181 - new_apply_order.py[line:669]: 获取token成功！token=bearer d5992460-d0b8-41c1-a203-8106a462060d！
+INFO - 2021-11-05 09:41:18,525 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:19,201 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-05 09:41:19,217 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:41:19,229 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:41:20,588 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:20,604 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:41:20,611 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:41:20,919 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-05 09:41:21,932 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-11-05 09:41:21,933 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436408263643136', 'mobile': '01636076472', 'order_status': 32}
+INFO - 2021-11-05 09:41:21,943 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:41:21,951 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:41:23,332 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:23,344 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:41:23,350 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:41:23,855 - new_apply_order.py[line:905]: 校验重试查询第2次
+ERROR - 2021-11-05 09:41:24,868 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-05 09:41:24,869 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436408263643136', 'mobile': '01636076472', 'order_status': 35}
+INFO - 2021-11-05 09:41:25,376 - new_apply_order.py[line:905]: 校验重试查询第3次
+ERROR - 2021-11-05 09:41:26,389 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-05 09:41:26,390 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436408263643136', 'mobile': '01636076472', 'order_status': 35}
+INFO - 2021-11-05 09:41:26,898 - new_apply_order.py[line:905]: 校验重试查询第4次
+ERROR - 2021-11-05 09:41:27,909 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-05 09:41:27,909 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436408263643136', 'mobile': '01636076472', 'order_status': 35}
+INFO - 2021-11-05 09:41:28,418 - new_apply_order.py[line:905]: 校验重试查询第5次
+ERROR - 2021-11-05 09:41:29,430 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是36
+INFO - 2021-11-05 09:41:29,430 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436408263643136', 'mobile': '01636076472', 'order_status': 36}
+INFO - 2021-11-05 09:41:29,431 - new_apply_order.py[line:922]: ===========完成第【1】次进件===========
+INFO - 2021-11-05 09:41:29,431 - new_apply_order.py[line:882]: 开始第 ncredit【2】次进件……
+INFO - 2021-11-05 09:41:29,432 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01636076489 ======
+INFO - 2021-11-05 09:41:29,779 - new_apply_order.py[line:97]: 01636076489 检测用户存在成功！
+INFO - 2021-11-05 09:41:29,827 - new_apply_order.py[line:106]: 01636076489 短信发送成功！
+INFO - 2021-11-05 09:41:29,873 - new_apply_order.py[line:119]: 01636076489 注册成功！
+INFO - 2021-11-05 09:41:29,928 - new_apply_order.py[line:135]: 01636076489 登录短信发送成功！
+INFO - 2021-11-05 09:41:29,983 - new_apply_order.py[line:145]: userId=6227825920042606592,mobile=01636076489,token=56ce7e760dfd8bf35369455ad1e9f094 登录成功
+INFO - 2021-11-05 09:41:30,083 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-05 09:41:30,153 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-05 09:41:30,431 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-05 09:41:30,450 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-05 09:41:30,470 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-05 09:41:30,766 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-05 09:41:30,805 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-05 09:41:31,961 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-05 09:41:32,266 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-05 09:41:32,539 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-05 09:41:33,580 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-05 09:41:33,928 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:33,964 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-05 09:41:34,706 - new_apply_order.py[line:669]: 获取token成功！token=bearer d5992460-d0b8-41c1-a203-8106a462060d！
+INFO - 2021-11-05 09:41:35,055 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:35,356 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-05 09:41:35,373 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:41:35,399 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:41:36,769 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:36,777 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:41:36,782 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:41:37,088 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-05 09:41:38,103 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-11-05 09:41:38,104 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436477905866752', 'mobile': '01636076489', 'order_status': 32}
+INFO - 2021-11-05 09:41:38,112 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:41:38,121 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:41:39,468 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:39,479 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:41:39,486 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:41:39,990 - new_apply_order.py[line:905]: 校验重试查询第2次
+ERROR - 2021-11-05 09:41:41,005 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是36
+INFO - 2021-11-05 09:41:41,005 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436477905866752', 'mobile': '01636076489', 'order_status': 36}
+INFO - 2021-11-05 09:41:41,005 - new_apply_order.py[line:922]: ===========完成第【2】次进件===========
+INFO - 2021-11-05 09:41:41,005 - new_apply_order.py[line:882]: 开始第 ncredit【3】次进件……
+INFO - 2021-11-05 09:41:41,006 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01636076501 ======
+INFO - 2021-11-05 09:41:41,354 - new_apply_order.py[line:97]: 01636076501 检测用户存在成功！
+INFO - 2021-11-05 09:41:41,406 - new_apply_order.py[line:106]: 01636076501 短信发送成功！
+INFO - 2021-11-05 09:41:41,462 - new_apply_order.py[line:119]: 01636076501 注册成功！
+INFO - 2021-11-05 09:41:41,512 - new_apply_order.py[line:135]: 01636076501 登录短信发送成功！
+INFO - 2021-11-05 09:41:41,564 - new_apply_order.py[line:145]: userId=6227825968616841216,mobile=01636076501,token=73833596881b68324e92be77ef3c885c 登录成功
+INFO - 2021-11-05 09:41:41,658 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-05 09:41:41,718 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-05 09:41:41,985 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-05 09:41:42,001 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-05 09:41:42,015 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-05 09:41:42,282 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-05 09:41:42,321 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-05 09:41:43,435 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-05 09:41:43,734 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-05 09:41:43,992 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-05 09:41:45,020 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-05 09:41:45,375 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:45,410 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-05 09:41:46,192 - new_apply_order.py[line:669]: 获取token成功！token=bearer d5992460-d0b8-41c1-a203-8106a462060d！
+INFO - 2021-11-05 09:41:46,554 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:46,862 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-05 09:41:46,871 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:41:46,879 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:41:48,230 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:48,243 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:41:48,250 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:41:48,555 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-05 09:41:49,569 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-11-05 09:41:49,570 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436526366855168', 'mobile': '01636076501', 'order_status': 32}
+INFO - 2021-11-05 09:41:49,583 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:41:49,591 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:41:50,947 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:50,969 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:41:50,979 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:41:51,481 - new_apply_order.py[line:905]: 校验重试查询第2次
+ERROR - 2021-11-05 09:41:52,502 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是36
+INFO - 2021-11-05 09:41:52,502 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436526366855168', 'mobile': '01636076501', 'order_status': 36}
+INFO - 2021-11-05 09:41:52,503 - new_apply_order.py[line:922]: ===========完成第【3】次进件===========
+INFO - 2021-11-05 09:41:52,503 - new_apply_order.py[line:882]: 开始第 ncredit【4】次进件……
+INFO - 2021-11-05 09:41:52,505 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01636076512 ======
+INFO - 2021-11-05 09:41:52,869 - new_apply_order.py[line:97]: 01636076512 检测用户存在成功！
+INFO - 2021-11-05 09:41:52,924 - new_apply_order.py[line:106]: 01636076512 短信发送成功！
+INFO - 2021-11-05 09:41:52,974 - new_apply_order.py[line:119]: 01636076512 注册成功！
+INFO - 2021-11-05 09:41:53,032 - new_apply_order.py[line:135]: 01636076512 登录短信发送成功！
+INFO - 2021-11-05 09:41:53,082 - new_apply_order.py[line:145]: userId=6227826016939417600,mobile=01636076512,token=590c2c6cd1490c1b4729c6f50155417c 登录成功
+INFO - 2021-11-05 09:41:53,194 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-05 09:41:53,259 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-05 09:41:53,515 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-05 09:41:53,538 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-05 09:41:53,550 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-05 09:41:53,807 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-05 09:41:53,843 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-05 09:41:54,846 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-05 09:41:55,173 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-05 09:41:55,403 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-05 09:41:56,431 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-05 09:41:56,787 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:56,829 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-05 09:41:57,588 - new_apply_order.py[line:669]: 获取token成功！token=bearer d5992460-d0b8-41c1-a203-8106a462060d！
+INFO - 2021-11-05 09:41:57,938 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:58,252 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-05 09:41:58,262 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:41:58,269 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:41:59,630 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:41:59,642 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:41:59,647 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:41:59,950 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-05 09:42:00,965 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-11-05 09:42:00,965 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436574890758144', 'mobile': '01636076512', 'order_status': 32}
+INFO - 2021-11-05 09:42:00,978 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:42:00,987 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:42:02,345 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:02,361 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:42:02,370 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:42:02,875 - new_apply_order.py[line:905]: 校验重试查询第2次
+ERROR - 2021-11-05 09:42:03,889 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-05 09:42:03,890 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436574890758144', 'mobile': '01636076512', 'order_status': 35}
+INFO - 2021-11-05 09:42:04,396 - new_apply_order.py[line:905]: 校验重试查询第3次
+ERROR - 2021-11-05 09:42:05,408 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是36
+INFO - 2021-11-05 09:42:05,408 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436574890758144', 'mobile': '01636076512', 'order_status': 36}
+INFO - 2021-11-05 09:42:05,408 - new_apply_order.py[line:922]: ===========完成第【4】次进件===========
+INFO - 2021-11-05 09:42:05,409 - new_apply_order.py[line:882]: 开始第 ncredit【5】次进件……
+INFO - 2021-11-05 09:42:05,410 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01636076525 ======
+INFO - 2021-11-05 09:42:05,763 - new_apply_order.py[line:97]: 01636076525 检测用户存在成功！
+INFO - 2021-11-05 09:42:05,803 - new_apply_order.py[line:106]: 01636076525 短信发送成功！
+INFO - 2021-11-05 09:42:05,855 - new_apply_order.py[line:119]: 01636076525 注册成功！
+INFO - 2021-11-05 09:42:05,903 - new_apply_order.py[line:135]: 01636076525 登录短信发送成功！
+INFO - 2021-11-05 09:42:05,950 - new_apply_order.py[line:145]: userId=6227826070949470208,mobile=01636076525,token=eeb6b4f95ab2142f48531effc22411ad 登录成功
+INFO - 2021-11-05 09:42:06,078 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-05 09:42:06,144 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-05 09:42:06,412 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-05 09:42:06,438 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-05 09:42:06,455 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-05 09:42:06,746 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-05 09:42:06,790 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-05 09:42:07,876 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-05 09:42:08,203 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-05 09:42:08,416 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-05 09:42:09,448 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-05 09:42:09,802 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:09,838 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-05 09:42:10,660 - new_apply_order.py[line:669]: 获取token成功！token=bearer d5992460-d0b8-41c1-a203-8106a462060d！
+INFO - 2021-11-05 09:42:11,018 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:11,334 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-05 09:42:11,350 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:42:11,361 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:42:12,714 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:12,725 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:42:12,731 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:42:13,034 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-05 09:42:14,050 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-11-05 09:42:14,050 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436628816924672', 'mobile': '01636076525', 'order_status': 32}
+INFO - 2021-11-05 09:42:14,062 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:42:14,071 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:42:15,437 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:15,453 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:42:15,460 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:42:15,962 - new_apply_order.py[line:905]: 校验重试查询第2次
+ERROR - 2021-11-05 09:42:16,979 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是36
+INFO - 2021-11-05 09:42:16,980 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436628816924672', 'mobile': '01636076525', 'order_status': 36}
+INFO - 2021-11-05 09:42:16,980 - new_apply_order.py[line:922]: ===========完成第【5】次进件===========
+INFO - 2021-11-05 09:42:16,981 - new_apply_order.py[line:882]: 开始第 ncredit【6】次进件……
+INFO - 2021-11-05 09:42:16,982 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01636076536 ======
+INFO - 2021-11-05 09:42:17,333 - new_apply_order.py[line:97]: 01636076536 检测用户存在成功！
+INFO - 2021-11-05 09:42:17,375 - new_apply_order.py[line:106]: 01636076536 短信发送成功！
+INFO - 2021-11-05 09:42:17,417 - new_apply_order.py[line:119]: 01636076536 注册成功！
+INFO - 2021-11-05 09:42:17,463 - new_apply_order.py[line:135]: 01636076536 登录短信发送成功！
+INFO - 2021-11-05 09:42:17,511 - new_apply_order.py[line:145]: userId=6227826119473373184,mobile=01636076536,token=1325d260edecf2be2b9b3f95e8e98ffc 登录成功
+INFO - 2021-11-05 09:42:17,600 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-05 09:42:17,657 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-05 09:42:17,886 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-05 09:42:17,904 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-05 09:42:17,921 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-05 09:42:18,172 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-05 09:42:18,212 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-05 09:42:19,215 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-05 09:42:19,546 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-05 09:42:19,759 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-05 09:42:20,799 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-05 09:42:21,148 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:21,186 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-05 09:42:21,952 - new_apply_order.py[line:669]: 获取token成功！token=bearer d5992460-d0b8-41c1-a203-8106a462060d！
+INFO - 2021-11-05 09:42:22,297 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:22,647 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-05 09:42:22,664 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:42:22,675 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:42:24,044 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:24,054 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:42:24,060 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:42:24,367 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-05 09:42:25,378 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-11-05 09:42:25,378 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436677105946624', 'mobile': '01636076536', 'order_status': 32}
+INFO - 2021-11-05 09:42:25,389 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:42:25,398 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:42:26,756 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:26,774 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:42:26,781 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:42:27,286 - new_apply_order.py[line:905]: 校验重试查询第2次
+ERROR - 2021-11-05 09:42:28,300 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-05 09:42:28,300 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436677105946624', 'mobile': '01636076536', 'order_status': 35}
+INFO - 2021-11-05 09:42:28,803 - new_apply_order.py[line:905]: 校验重试查询第3次
+ERROR - 2021-11-05 09:42:29,815 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是36
+INFO - 2021-11-05 09:42:29,815 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436677105946624', 'mobile': '01636076536', 'order_status': 36}
+INFO - 2021-11-05 09:42:29,815 - new_apply_order.py[line:922]: ===========完成第【6】次进件===========
+INFO - 2021-11-05 09:42:29,815 - new_apply_order.py[line:882]: 开始第 ncredit【7】次进件……
+INFO - 2021-11-05 09:42:29,816 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01636076549 ======
+INFO - 2021-11-05 09:42:30,184 - new_apply_order.py[line:97]: 01636076549 检测用户存在成功！
+INFO - 2021-11-05 09:42:30,233 - new_apply_order.py[line:106]: 01636076549 短信发送成功！
+INFO - 2021-11-05 09:42:30,293 - new_apply_order.py[line:119]: 01636076549 注册成功！
+INFO - 2021-11-05 09:42:30,356 - new_apply_order.py[line:135]: 01636076549 登录短信发送成功！
+INFO - 2021-11-05 09:42:30,411 - new_apply_order.py[line:145]: userId=6227826173420511232,mobile=01636076549,token=6c0c6ac5c84b02e07da63f6d7b0c28a6 登录成功
+INFO - 2021-11-05 09:42:30,494 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-05 09:42:30,572 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-05 09:42:30,839 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-05 09:42:30,854 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-05 09:42:30,862 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-05 09:42:31,154 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-05 09:42:31,203 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-05 09:42:32,235 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-05 09:42:32,545 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-05 09:42:32,840 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-05 09:42:33,878 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-05 09:42:34,236 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:34,280 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-05 09:42:35,051 - new_apply_order.py[line:669]: 获取token成功！token=bearer d5992460-d0b8-41c1-a203-8106a462060d！
+INFO - 2021-11-05 09:42:35,410 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:35,721 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-05 09:42:35,731 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:42:35,738 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:42:37,090 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:37,100 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:42:37,106 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:42:37,413 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-05 09:42:38,427 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-11-05 09:42:38,427 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436731287965696', 'mobile': '01636076549', 'order_status': 32}
+INFO - 2021-11-05 09:42:38,439 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:42:38,449 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:42:39,799 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:39,813 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:42:39,820 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:42:40,323 - new_apply_order.py[line:905]: 校验重试查询第2次
+ERROR - 2021-11-05 09:42:41,337 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-05 09:42:41,337 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436731287965696', 'mobile': '01636076549', 'order_status': 35}
+INFO - 2021-11-05 09:42:41,844 - new_apply_order.py[line:905]: 校验重试查询第3次
+ERROR - 2021-11-05 09:42:42,861 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是36
+INFO - 2021-11-05 09:42:42,861 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436731287965696', 'mobile': '01636076549', 'order_status': 36}
+INFO - 2021-11-05 09:42:42,862 - new_apply_order.py[line:922]: ===========完成第【7】次进件===========
+INFO - 2021-11-05 09:42:42,862 - new_apply_order.py[line:882]: 开始第 ncredit【8】次进件……
+INFO - 2021-11-05 09:42:42,863 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01636076562 ======
+INFO - 2021-11-05 09:42:43,216 - new_apply_order.py[line:97]: 01636076562 检测用户存在成功！
+INFO - 2021-11-05 09:42:43,262 - new_apply_order.py[line:106]: 01636076562 短信发送成功！
+INFO - 2021-11-05 09:42:43,334 - new_apply_order.py[line:119]: 01636076562 注册成功！
+INFO - 2021-11-05 09:42:43,417 - new_apply_order.py[line:135]: 01636076562 登录短信发送成功！
+INFO - 2021-11-05 09:42:43,484 - new_apply_order.py[line:145]: userId=6227826228160372736,mobile=01636076562,token=f11b59a90b4a41ac24714e394530242c 登录成功
+INFO - 2021-11-05 09:42:43,609 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-05 09:42:43,671 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-05 09:42:43,894 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-05 09:42:43,908 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-05 09:42:43,921 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-05 09:42:44,172 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-05 09:42:44,208 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-05 09:42:45,228 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-05 09:42:45,569 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-05 09:42:45,775 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-05 09:42:46,813 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-05 09:42:47,176 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:47,217 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-05 09:42:48,007 - new_apply_order.py[line:669]: 获取token成功！token=bearer d5992460-d0b8-41c1-a203-8106a462060d！
+INFO - 2021-11-05 09:42:48,357 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:48,606 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-05 09:42:48,620 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:42:48,630 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:42:50,006 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:50,020 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:42:50,026 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:42:50,334 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-05 09:42:51,344 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-11-05 09:42:51,344 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436786216570880', 'mobile': '01636076562', 'order_status': 32}
+INFO - 2021-11-05 09:42:51,353 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:42:51,360 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:42:52,717 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:52,728 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:42:52,733 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:42:53,236 - new_apply_order.py[line:905]: 校验重试查询第2次
+ERROR - 2021-11-05 09:42:54,246 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是36
+INFO - 2021-11-05 09:42:54,246 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436786216570880', 'mobile': '01636076562', 'order_status': 36}
+INFO - 2021-11-05 09:42:54,246 - new_apply_order.py[line:922]: ===========完成第【8】次进件===========
+INFO - 2021-11-05 09:42:54,246 - new_apply_order.py[line:882]: 开始第 ncredit【9】次进件……
+INFO - 2021-11-05 09:42:54,247 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01636076574 ======
+INFO - 2021-11-05 09:42:54,600 - new_apply_order.py[line:97]: 01636076574 检测用户存在成功！
+INFO - 2021-11-05 09:42:54,654 - new_apply_order.py[line:106]: 01636076574 短信发送成功！
+INFO - 2021-11-05 09:42:54,693 - new_apply_order.py[line:119]: 01636076574 注册成功！
+INFO - 2021-11-05 09:42:54,756 - new_apply_order.py[line:135]: 01636076574 登录短信发送成功！
+INFO - 2021-11-05 09:42:54,800 - new_apply_order.py[line:145]: userId=6227826275820249088,mobile=01636076574,token=9575a76a58f496b92178e7faa1b8488a 登录成功
+INFO - 2021-11-05 09:42:54,881 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-05 09:42:54,940 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-05 09:42:55,193 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-05 09:42:55,215 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-05 09:42:55,234 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-05 09:42:55,514 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-05 09:42:55,556 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-05 09:42:56,591 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-05 09:42:56,913 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-05 09:42:57,120 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-05 09:42:58,154 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-05 09:42:58,504 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:58,542 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-05 09:42:59,310 - new_apply_order.py[line:669]: 获取token成功！token=bearer d5992460-d0b8-41c1-a203-8106a462060d！
+INFO - 2021-11-05 09:42:59,660 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:42:59,992 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-05 09:43:00,006 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:43:00,020 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:43:01,405 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:43:01,417 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:43:01,423 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:43:01,732 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-05 09:43:02,747 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-11-05 09:43:02,747 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436833524125696', 'mobile': '01636076574', 'order_status': 32}
+INFO - 2021-11-05 09:43:02,757 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:43:02,764 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:43:04,115 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:43:04,126 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:43:04,132 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:43:04,635 - new_apply_order.py[line:905]: 校验重试查询第2次
+ERROR - 2021-11-05 09:43:05,648 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-05 09:43:05,648 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436833524125696', 'mobile': '01636076574', 'order_status': 35}
+INFO - 2021-11-05 09:43:06,153 - new_apply_order.py[line:905]: 校验重试查询第3次
+ERROR - 2021-11-05 09:43:07,167 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是36
+INFO - 2021-11-05 09:43:07,168 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436833524125696', 'mobile': '01636076574', 'order_status': 36}
+INFO - 2021-11-05 09:43:07,168 - new_apply_order.py[line:922]: ===========完成第【9】次进件===========
+INFO - 2021-11-05 09:43:07,169 - new_apply_order.py[line:882]: 开始第 ncredit【10】次进件……
+INFO - 2021-11-05 09:43:07,170 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01636076587 ======
+INFO - 2021-11-05 09:43:07,520 - new_apply_order.py[line:97]: 01636076587 检测用户存在成功！
+INFO - 2021-11-05 09:43:07,563 - new_apply_order.py[line:106]: 01636076587 短信发送成功！
+INFO - 2021-11-05 09:43:07,605 - new_apply_order.py[line:119]: 01636076587 注册成功！
+INFO - 2021-11-05 09:43:07,656 - new_apply_order.py[line:135]: 01636076587 登录短信发送成功！
+INFO - 2021-11-05 09:43:07,707 - new_apply_order.py[line:145]: userId=6227826329968713728,mobile=01636076587,token=339456fc7c61927a6269fa26ceb8adca 登录成功
+INFO - 2021-11-05 09:43:07,842 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-05 09:43:07,944 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-05 09:43:08,210 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-05 09:43:08,230 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-05 09:43:08,247 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-05 09:43:08,549 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-05 09:43:08,583 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-05 09:43:09,605 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-05 09:43:09,919 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-05 09:43:10,132 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-05 09:43:11,168 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-05 09:43:11,528 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:43:11,569 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-05 09:43:12,341 - new_apply_order.py[line:669]: 获取token成功！token=bearer d5992460-d0b8-41c1-a203-8106a462060d！
+INFO - 2021-11-05 09:43:12,711 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:43:12,996 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-05 09:43:13,012 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-05 09:43:13,023 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-05 09:43:14,400 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-05 09:43:14,412 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-05 09:43:14,420 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-05 09:43:14,728 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-05 09:43:15,745 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-11-05 09:43:15,745 - new_apply_order.py[line:802]: {'app': 'ncredit', 'loan_order_id': '1456436888092020736', 'mobile': '01636076587', 'order_status': 32}
+ERROR - 2021-11-05 09:43:41,664 - new_apply_order.py[line:928]: HTTPConnectionPool(host='172.20.240.225', port=8066): Max retries exceeded with url: /xxl-job-admin/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9a526daf10>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+ERROR - 2021-11-05 09:43:41,687 - new_apply_order.py[line:929]: None

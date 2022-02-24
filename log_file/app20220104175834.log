@@ -1,0 +1,11 @@
+INFO - 2022-01-04 17:58:34,287 - new_apply_order.py[line:892]: 开始第 aceloan【1】次进件……
+INFO - 2022-01-04 17:58:34,288 - new_apply_order.py[line:83]: ======【nga测试环境】生成手机号：01641290314 ======
+INFO - 2022-01-04 17:58:34,713 - new_apply_order.py[line:96]: 01641290314 检测用户存在成功！
+INFO - 2022-01-04 17:58:34,791 - new_apply_order.py[line:105]: 01641290314 短信发送成功！
+INFO - 2022-01-04 17:58:34,879 - new_apply_order.py[line:118]: 01641290314 注册成功！
+INFO - 2022-01-04 17:58:34,963 - new_apply_order.py[line:134]: 01641290314 登录短信发送成功！
+INFO - 2022-01-04 17:58:35,035 - new_apply_order.py[line:144]: userId=6249694287106154496,mobile=01641290314,token=814f3efd0c1d1d6d371f86d8a9eb9935 登录成功
+INFO - 2022-01-04 17:58:35,152 - new_apply_order.py[line:211]: 个人信息提交成功！
+INFO - 2022-01-04 17:58:35,229 - new_apply_order.py[line:222]: 联系人信息提交成功！
+INFO - 2022-01-04 17:58:35,549 - new_apply_order.py[line:254]: 创建预审订单成功！
+INFO - 2022-01-04 17:58:35,604 - new_apply_order.py[line:262]: 预审状态修改为通过,更新条数 1

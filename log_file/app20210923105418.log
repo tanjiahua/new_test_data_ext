@@ -1,0 +1,40 @@
+INFO - 2021-09-23 10:54:18,923 - new_apply_order.py[line:726]: 开始第 muchodinero【1】次进件……
+INFO - 2021-09-23 10:54:18,980 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4953968883832856576"
+INFO - 2021-09-23 10:54:19,107 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-09-23 10:54:19,108 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1632365658 ======
+INFO - 2021-09-23 10:54:19,496 - new_apply_order.py[line:95]: 1632365658 检测用户存在成功！
+INFO - 2021-09-23 10:54:19,554 - new_apply_order.py[line:104]: 1632365658 短信发送成功！
+INFO - 2021-09-23 10:54:19,611 - new_apply_order.py[line:117]: 1632365658 注册成功！
+INFO - 2021-09-23 10:54:19,666 - new_apply_order.py[line:133]: 1632365658 登录短信发送成功！
+INFO - 2021-09-23 10:54:19,710 - new_apply_order.py[line:143]: userId=4953970369732157440,mobile=1632365658,token=bb9289c1761517ed6a384f24f2bb9146 登录成功
+INFO - 2021-09-23 10:54:19,784 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-09-23 10:54:20,232 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-09-23 10:54:20,252 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-23 10:54:20,269 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-23 10:54:22,679 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-09-23 10:54:22,797 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-09-23 10:54:23,606 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-09-23 10:54:24,175 - new_apply_order.py[line:425]: 绑卡成功！
+INFO - 2021-09-23 10:54:24,377 - new_apply_order.py[line:456]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-09-23 10:54:25,409 - new_apply_order.py[line:462]: 订单表更新1条，信审更新1条
+INFO - 2021-09-23 10:54:25,768 - new_apply_order.py[line:476]: 查询loan_order_id成功！
+INFO - 2021-09-23 10:54:25,816 - new_apply_order.py[line:491]: 订单回调复审通过成功！
+INFO - 2021-09-23 10:54:26,616 - new_apply_order.py[line:513]: 获取token成功！token=bearer 55b0db8d-4fe5-44a5-b4e7-b3d9054557dd！
+INFO - 2021-09-23 10:54:26,965 - new_apply_order.py[line:476]: 查询loan_order_id成功！
+INFO - 2021-09-23 10:54:27,288 - new_apply_order.py[line:531]: 后台已触发放款成功！
+INFO - 2021-09-23 10:54:27,300 - new_apply_order.py[line:545]: xxl_job web 登录成功！
+INFO - 2021-09-23 10:54:27,310 - new_apply_order.py[line:561]: xxl_job 放款准备作业执行成功！
+INFO - 2021-09-23 10:54:28,660 - new_apply_order.py[line:476]: 查询loan_order_id成功！
+INFO - 2021-09-23 10:54:28,674 - new_apply_order.py[line:569]: 修改放款准备完成时间成功！
+INFO - 2021-09-23 10:54:28,682 - new_apply_order.py[line:577]: xxl_job 放款完成作业执行成功！
+INFO - 2021-09-23 10:54:29,029 - new_apply_order.py[line:476]: 查询loan_order_id成功！
+INFO - 2021-09-23 10:54:29,340 - new_apply_order.py[line:749]: 校验重试查询第1次
+ERROR - 2021-09-23 10:54:30,355 - new_apply_order.py[line:645]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-09-23 10:54:30,355 - new_apply_order.py[line:646]: {'app': 'muchodinero', 'loan_order_id': '1440872127085416448', 'mobile': '1632365658', 'order_status': 35}
+INFO - 2021-09-23 10:54:31,207 - new_apply_order.py[line:476]: 查询loan_order_id成功！
+INFO - 2021-09-23 10:54:31,292 - new_apply_order.py[line:598]: 放款回调成功！
+INFO - 2021-09-23 10:54:31,292 - new_apply_order.py[line:749]: 校验重试查询第2次
+INFO - 2021-09-23 10:54:32,304 - new_apply_order.py[line:643]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-09-23 10:54:32,305 - new_apply_order.py[line:646]: {'app': 'muchodinero', 'loan_order_id': '1440872127085416448', 'mobile': '1632365658', 'order_status': 40}
+INFO - 2021-09-23 10:54:32,307 - new_apply_order.py[line:766]: ===========完成第【1】次进件===========
+INFO - 2021-09-23 10:54:32,307 - new_apply_order.py[line:769]: ======完成第【1】次进件,耗时13.38s=====

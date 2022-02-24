@@ -1,0 +1,15 @@
+INFO - 2021-10-19 19:58:10,139 - new_apply_order.py[line:795]: 开始第 monni【1】次进件……
+INFO - 2021-10-19 19:58:10,139 - new_apply_order.py[line:84]: ======【co测试环境】生成手机号：3634644690 ======
+INFO - 2021-10-19 19:58:10,525 - new_apply_order.py[line:97]: 3634644690 检测用户存在成功！
+INFO - 2021-10-19 19:58:10,583 - new_apply_order.py[line:106]: 3634644690 短信发送成功！
+INFO - 2021-10-19 19:58:10,634 - new_apply_order.py[line:119]: 3634644690 注册成功！
+INFO - 2021-10-19 19:58:10,703 - new_apply_order.py[line:135]: 3634644690 登录短信发送成功！
+INFO - 2021-10-19 19:58:10,745 - new_apply_order.py[line:145]: userId=4963529318467903488,mobile=3634644690,token=0a1bfb40a0eef1f6e58c617af20a7fd6 登录成功
+INFO - 2021-10-19 19:58:10,819 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-10-19 19:58:11,071 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-10-19 19:58:11,088 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-19 19:58:11,103 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-10-19 19:58:12,147 - new_apply_order.py[line:305]: curp上传成功!
+ERROR - 2021-10-19 19:58:12,178 - new_apply_order.py[line:319]: curp_rfc校验失败！
+ERROR - 2021-10-19 19:58:12,845 - new_apply_order.py[line:501]: 绑卡跳过失败！{"code":"60006008","msg":"Please enter correct CLABE.","data":null}
+ERROR - 2021-10-19 19:58:12,929 - new_apply_order.py[line:533]: {"code":"50001003","msg":"Please complete the application information","data":null}

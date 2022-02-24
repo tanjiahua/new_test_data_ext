@@ -1,0 +1,38 @@
+INFO - 2021-09-07 17:10:29,482 - new_apply_order.py[line:618]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-07 17:10:29,483 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01631005829 ======
+INFO - 2021-09-07 17:10:29,859 - new_apply_order.py[line:93]: 01631005829 检测用户存在成功！
+INFO - 2021-09-07 17:10:36,037 - new_apply_order.py[line:102]: 01631005829 短信发送成功！
+INFO - 2021-09-07 17:10:36,076 - new_apply_order.py[line:115]: 01631005829 注册成功！
+INFO - 2021-09-07 17:10:42,303 - new_apply_order.py[line:131]: 01631005829 登录短信发送成功！
+INFO - 2021-09-07 17:10:42,350 - new_apply_order.py[line:141]: userId=6206558056488378368,mobile=01631005829,token=f2f5490df9904c6909dfcc5f38be2c14 登录成功
+INFO - 2021-09-07 17:10:42,416 - new_apply_order.py[line:198]: 个人信息提交成功！
+INFO - 2021-09-07 17:10:42,465 - new_apply_order.py[line:209]: 联系人信息提交成功！
+INFO - 2021-09-07 17:11:01,380 - new_apply_order.py[line:231]: 创建预审订单成功！
+INFO - 2021-09-07 17:11:01,396 - new_apply_order.py[line:239]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-07 17:11:01,408 - new_apply_order.py[line:242]: 更新初始额度！更新条数 1
+INFO - 2021-09-07 17:11:01,672 - new_apply_order.py[line:259]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-07 17:11:01,705 - new_apply_order.py[line:269]: 视频认证通过！
+INFO - 2021-09-07 17:11:27,365 - new_apply_order.py[line:325]: bvn和银行卡绑卡认证通过！
+INFO - 2021-09-07 17:11:27,651 - new_apply_order.py[line:346]: user更新1条
+ERROR - 2021-09-07 17:11:40,220 - new_apply_order.py[line:383]: {"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+ERROR - 2021-09-07 17:11:46,935 - new_apply_order.py[line:664]: 'NoneType' object is not subscriptable
+ERROR - 2021-09-07 17:11:46,939 - new_apply_order.py[line:665]: None
+INFO - 2021-09-07 17:11:46,945 - new_apply_order.py[line:618]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-07 17:11:46,946 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01631005906 ======
+INFO - 2021-09-07 17:11:47,292 - new_apply_order.py[line:93]: 01631005906 检测用户存在成功！
+ERROR - 2021-09-07 17:11:59,820 - new_apply_order.py[line:104]: {"code":"10099001","msg":"The Server is busy, Please try again later","data":null} 短信发送失败！
+INFO - 2021-09-07 17:11:59,905 - new_apply_order.py[line:115]: 01631005906 注册成功！
+ERROR - 2021-09-07 17:12:00,139 - new_apply_order.py[line:133]: {"code":"10099001","msg":"The Server is busy, Please try again later","data":null} 登录短信发送失败！
+INFO - 2021-09-07 17:12:00,190 - new_apply_order.py[line:141]: userId=6206558408033968128,mobile=01631005906,token=6dd6c4ed7c7a40b5022f307b148a61ba 登录成功
+ERROR - 2021-09-07 17:12:12,739 - new_apply_order.py[line:200]: 个人信息提交失败！
+INFO - 2021-09-07 17:12:12,809 - new_apply_order.py[line:209]: 联系人信息提交成功！
+ERROR - 2021-09-07 17:12:13,033 - new_apply_order.py[line:233]: 创建预审失败{"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2021-09-07 17:12:13,044 - new_apply_order.py[line:239]: 预审状态修改为通过,更新条数 0
+INFO - 2021-09-07 17:12:13,056 - new_apply_order.py[line:242]: 更新初始额度！更新条数 1
+INFO - 2021-09-07 17:12:13,303 - new_apply_order.py[line:259]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-07 17:12:13,359 - new_apply_order.py[line:269]: 视频认证通过！
+ERROR - 2021-09-07 17:12:21,359 - new_apply_order.py[line:327]: 绑卡失败！{"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2021-09-07 17:12:21,658 - new_apply_order.py[line:346]: user更新1条
+ERROR - 2021-09-07 17:12:21,895 - new_apply_order.py[line:383]: {"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+ERROR - 2021-09-07 17:12:22,397 - new_apply_order.py[line:664]: 'NoneType' object is not subscriptable
+ERROR - 2021-09-07 17:12:22,398 - new_apply_order.py[line:665]: None

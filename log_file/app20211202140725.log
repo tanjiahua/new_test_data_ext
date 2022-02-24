@@ -1,0 +1,60 @@
+INFO - 2021-12-02 14:07:25,299 - new_apply_order.py[line:882]: 开始第 kencash【1】次进件……
+INFO - 2021-12-02 14:07:25,300 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：738425245 ======
+INFO - 2021-12-02 14:07:25,711 - new_apply_order.py[line:97]: 738425245 检测用户存在成功！
+INFO - 2021-12-02 14:07:25,801 - new_apply_order.py[line:106]: 738425245 短信发送成功！
+INFO - 2021-12-02 14:07:25,881 - new_apply_order.py[line:119]: 738425245 注册成功！
+INFO - 2021-12-02 14:07:25,959 - new_apply_order.py[line:135]: 738425245 登录短信发送成功！
+INFO - 2021-12-02 14:07:26,034 - new_apply_order.py[line:145]: userId=6237677316833419264,mobile=738425245,token=f62bfa248cb3a2533132fef08a8f4f06 登录成功
+INFO - 2021-12-02 14:07:26,224 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-02 14:07:26,306 - new_apply_order.py[line:232]: 联系人信息提交成功！
+INFO - 2021-12-02 14:07:26,745 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-02 14:07:26,760 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-02 14:07:26,775 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-02 14:07:27,076 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-02 14:07:27,150 - new_apply_order.py[line:352]: 视频认证通过！
+ERROR - 2021-12-02 14:07:27,392 - new_apply_order.py[line:579]: 绑卡失败！{"code":"60001004","msg":"The OTP has expired.please regenerate OTP to try again","data":null}
+INFO - 2021-12-02 14:07:27,698 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-02 14:07:28,735 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-12-02 14:07:29,105 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-12-02 14:07:29,161 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-12-02 14:07:30,088 - new_apply_order.py[line:669]: 获取token成功！token=bearer 79c1b5ea-9238-47e0-a22f-ee222d185aac！
+INFO - 2021-12-02 14:07:30,455 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-12-02 14:07:30,836 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-12-02 14:07:30,845 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-12-02 14:07:30,860 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-02 14:07:32,226 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-12-02 14:07:32,244 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-12-02 14:07:32,252 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-02 14:07:32,639 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-12-02 14:07:32,957 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-12-02 14:07:33,970 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-12-02 14:07:33,970 - new_apply_order.py[line:802]: {'app': 'kencash', 'loan_order_id': '1466287875624275968', 'mobile': '738425245', 'order_status': 30}
+INFO - 2021-12-02 14:07:33,970 - new_apply_order.py[line:905]: 校验重试查询第2次
+ERROR - 2021-12-02 14:07:34,986 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-12-02 14:07:34,986 - new_apply_order.py[line:802]: {'app': 'kencash', 'loan_order_id': '1466287875624275968', 'mobile': '738425245', 'order_status': 30}
+INFO - 2021-12-02 14:07:34,986 - new_apply_order.py[line:905]: 校验重试查询第3次
+ERROR - 2021-12-02 14:07:36,002 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-12-02 14:07:36,003 - new_apply_order.py[line:802]: {'app': 'kencash', 'loan_order_id': '1466287875624275968', 'mobile': '738425245', 'order_status': 30}
+INFO - 2021-12-02 14:07:36,003 - new_apply_order.py[line:905]: 校验重试查询第4次
+ERROR - 2021-12-02 14:07:37,017 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-12-02 14:07:37,017 - new_apply_order.py[line:802]: {'app': 'kencash', 'loan_order_id': '1466287875624275968', 'mobile': '738425245', 'order_status': 30}
+INFO - 2021-12-02 14:07:37,017 - new_apply_order.py[line:905]: 校验重试查询第5次
+ERROR - 2021-12-02 14:07:38,034 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-12-02 14:07:38,034 - new_apply_order.py[line:802]: {'app': 'kencash', 'loan_order_id': '1466287875624275968', 'mobile': '738425245', 'order_status': 30}
+INFO - 2021-12-02 14:07:38,034 - new_apply_order.py[line:905]: 校验重试查询第6次
+ERROR - 2021-12-02 14:07:39,048 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-12-02 14:07:39,049 - new_apply_order.py[line:802]: {'app': 'kencash', 'loan_order_id': '1466287875624275968', 'mobile': '738425245', 'order_status': 30}
+INFO - 2021-12-02 14:07:39,049 - new_apply_order.py[line:905]: 校验重试查询第7次
+ERROR - 2021-12-02 14:07:40,066 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-12-02 14:07:40,066 - new_apply_order.py[line:802]: {'app': 'kencash', 'loan_order_id': '1466287875624275968', 'mobile': '738425245', 'order_status': 30}
+INFO - 2021-12-02 14:07:40,067 - new_apply_order.py[line:905]: 校验重试查询第8次
+ERROR - 2021-12-02 14:07:41,083 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-12-02 14:07:41,084 - new_apply_order.py[line:802]: {'app': 'kencash', 'loan_order_id': '1466287875624275968', 'mobile': '738425245', 'order_status': 30}
+INFO - 2021-12-02 14:07:41,084 - new_apply_order.py[line:905]: 校验重试查询第9次
+ERROR - 2021-12-02 14:07:42,091 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-12-02 14:07:42,091 - new_apply_order.py[line:802]: {'app': 'kencash', 'loan_order_id': '1466287875624275968', 'mobile': '738425245', 'order_status': 30}
+INFO - 2021-12-02 14:07:42,091 - new_apply_order.py[line:905]: 校验重试查询第10次
+ERROR - 2021-12-02 14:07:43,107 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-12-02 14:07:43,108 - new_apply_order.py[line:802]: {'app': 'kencash', 'loan_order_id': '1466287875624275968', 'mobile': '738425245', 'order_status': 30}
+INFO - 2021-12-02 14:07:43,108 - new_apply_order.py[line:922]: ===========完成第【1】次进件===========
+INFO - 2021-12-02 14:07:43,108 - new_apply_order.py[line:925]: ======完成第【1】次进件,耗时17.81s=====

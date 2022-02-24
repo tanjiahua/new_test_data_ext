@@ -1,0 +1,49 @@
+INFO - 2021-12-15 16:36:06,916 - new_apply_order.py[line:893]: 开始第 G_Prestamo【1】次进件……
+INFO - 2021-12-15 16:36:07,013 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4984122003880419328"
+INFO - 2021-12-15 16:36:07,021 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4984133343009316864"
+INFO - 2021-12-15 16:36:07,092 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-12-15 16:36:07,092 - new_apply_order.py[line:84]: ======【mx测试环境】生成手机号：1639557366 ======
+INFO - 2021-12-15 16:36:07,474 - new_apply_order.py[line:97]: 1639557366 检测用户存在成功！
+INFO - 2021-12-15 16:36:07,537 - new_apply_order.py[line:106]: 1639557366 短信发送成功！
+INFO - 2021-12-15 16:36:07,589 - new_apply_order.py[line:119]: 1639557366 注册成功！
+INFO - 2021-12-15 16:36:07,675 - new_apply_order.py[line:135]: 1639557366 登录短信发送成功！
+INFO - 2021-12-15 16:36:07,735 - new_apply_order.py[line:145]: userId=4984134579183951872,mobile=1639557366,token=380fea2d1db579a1516bbafac82a14e4 登录成功
+INFO - 2021-12-15 16:36:07,893 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-15 16:36:08,362 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-15 16:36:08,379 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-15 16:36:08,393 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-15 16:36:10,906 - new_apply_order.py[line:361]: curp上传成功!
+INFO - 2021-12-15 16:36:11,073 - new_apply_order.py[line:370]: curp_rfc校验通过！
+INFO - 2021-12-15 16:36:11,890 - new_apply_order.py[line:381]: 人脸识别成功!
+INFO - 2021-12-15 16:36:12,534 - new_apply_order.py[line:569]: 绑卡成功！
+INFO - 2021-12-15 16:36:12,786 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-15 16:36:13,817 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-15 16:36:14,183 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-15 16:36:14,252 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-15 16:36:15,075 - new_apply_order.py[line:680]: 获取token成功！token=bearer f8877a6e-308c-470d-aa9d-54834b3a07ff！
+INFO - 2021-12-15 16:36:15,435 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-15 16:36:15,816 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-15 16:36:15,831 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-15 16:36:15,840 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-15 16:36:17,261 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-15 16:36:17,268 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-15 16:36:17,276 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-15 16:36:17,638 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-15 16:36:17,948 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-15 16:36:18,956 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-12-15 16:36:18,956 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1471036337154560000', 'mobile': '1639557366', 'order_status': 32}
+INFO - 2021-12-15 16:36:18,970 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-15 16:36:18,981 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-15 16:36:20,332 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-15 16:36:20,340 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-15 16:36:20,348 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-15 16:36:20,853 - new_apply_order.py[line:916]: 校验重试查询第2次
+ERROR - 2021-12-15 16:36:21,867 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-15 16:36:21,867 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1471036337154560000', 'mobile': '1639557366', 'order_status': 35}
+INFO - 2021-12-15 16:36:22,728 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-15 16:36:22,863 - new_apply_order.py[line:765]: 放款回调成功！
+INFO - 2021-12-15 16:36:22,863 - new_apply_order.py[line:916]: 校验重试查询第3次
+INFO - 2021-12-15 16:36:23,881 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-15 16:36:23,881 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1471036337154560000', 'mobile': '1639557366', 'order_status': 40}
+INFO - 2021-12-15 16:36:23,883 - new_apply_order.py[line:933]: ===========完成第【1】次进件===========
+INFO - 2021-12-15 16:36:23,883 - new_apply_order.py[line:936]: ======完成第【1】次进件,耗时16.97s=====

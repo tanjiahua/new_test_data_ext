@@ -1,0 +1,8 @@
+INFO - 2021-09-04 01:18:05,503 - new_apply_order.py[line:524]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-04 01:18:05,505 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630689485 ======
+ERROR - 2021-09-04 01:18:05,813 - new_apply_order.py[line:570]: 'str' object has no attribute 'items'
+ERROR - 2021-09-04 01:18:05,819 - new_apply_order.py[line:571]: None
+INFO - 2021-09-04 01:18:05,823 - new_apply_order.py[line:524]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-04 01:18:05,824 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630689485 ======
+ERROR - 2021-09-04 01:18:06,134 - new_apply_order.py[line:570]: 'str' object has no attribute 'items'
+ERROR - 2021-09-04 01:18:06,135 - new_apply_order.py[line:571]: None

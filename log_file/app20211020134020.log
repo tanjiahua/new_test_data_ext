@@ -1,0 +1,18 @@
+INFO - 2021-10-20 13:40:20,874 - new_apply_order.py[line:882]: 开始第 ikash【1】次进件……
+INFO - 2021-10-20 13:40:20,874 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：734708420 ======
+INFO - 2021-10-20 13:40:24,611 - new_apply_order.py[line:97]: 734708420 检测用户存在成功！
+INFO - 2021-10-20 13:40:25,598 - new_apply_order.py[line:106]: 734708420 短信发送成功！
+INFO - 2021-10-20 13:40:25,919 - new_apply_order.py[line:119]: 734708420 注册成功！
+INFO - 2021-10-20 13:40:26,138 - new_apply_order.py[line:135]: 734708420 登录短信发送成功！
+INFO - 2021-10-20 13:40:26,942 - new_apply_order.py[line:145]: userId=6222087843564494848,mobile=734708420,token=0d51c446d6da7c165ff5d08f1254c586 登录成功
+INFO - 2021-10-20 13:40:28,416 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-10-20 13:40:28,754 - new_apply_order.py[line:232]: 联系人信息提交成功！
+ERROR - 2021-10-20 13:40:32,050 - new_apply_order.py[line:257]: 创建预审失败{"code":"30001012","msg":"System unknown error","data":null}
+INFO - 2021-10-20 13:40:32,058 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 0
+INFO - 2021-10-20 13:40:32,068 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-10-20 13:40:33,053 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-20 13:40:33,283 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-10-20 13:40:34,616 - new_apply_order.py[line:577]: 绑卡成功！
+ERROR - 2021-10-20 13:40:35,979 - new_apply_order.py[line:620]: {"code":"50001004","msg":"Not eligible for borrowing","data":null}
+ERROR - 2021-10-20 13:40:36,420 - new_apply_order.py[line:928]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-20 13:40:36,424 - new_apply_order.py[line:929]: None

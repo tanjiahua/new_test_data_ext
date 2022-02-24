@@ -1,0 +1,23 @@
+INFO - 2021-08-31 11:11:21,533 - new_apply_order.py[line:511]: 开始第 borrowme【1】次进件……
+INFO - 2021-08-31 11:11:21,534 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630379481 ======
+INFO - 2021-08-31 11:11:21,936 - new_apply_order.py[line:86]: 01630379481 检测用户存在成功！
+INFO - 2021-08-31 11:11:21,990 - new_apply_order.py[line:93]: 01630379481 短信发送成功！
+INFO - 2021-08-31 11:11:22,045 - new_apply_order.py[line:103]: 01630379481 注册成功！
+ERROR - 2021-08-31 11:11:22,076 - new_apply_order.py[line:122]: 登录失败!
+INFO - 2021-08-31 11:11:22,205 - new_apply_order.py[line:166]: 个人信息提交成功！
+INFO - 2021-08-31 11:11:22,253 - new_apply_order.py[line:175]: 联系人信息提交成功！
+ERROR - 2021-08-31 11:11:22,400 - new_apply_order.py[line:194]: 创建预审失败{"code":"9999","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2021-08-31 11:11:22,408 - new_apply_order.py[line:200]: 预审状态修改为通过,更新条数 0
+INFO - 2021-08-31 11:11:22,415 - new_apply_order.py[line:203]: 更新初始额度！更新条数 0
+INFO - 2021-08-31 11:11:22,652 - new_apply_order.py[line:215]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-08-31 11:11:22,703 - new_apply_order.py[line:224]: 视频认证通过！
+INFO - 2021-08-31 11:11:23,723 - new_apply_order.py[line:270]: bvn和银行卡绑卡认证通过！
+INFO - 2021-08-31 11:11:24,003 - new_apply_order.py[line:291]: user更新1条
+ERROR - 2021-08-31 11:11:24,163 - new_apply_order.py[line:319]: {"code":"50001004","msg":"Not eligible for borrowing","data":null}
+INFO - 2021-08-31 11:11:24,611 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:11:24,634 - new_apply_order.py[line:336]: 订单回调复审通过成功！
+INFO - 2021-08-31 11:11:25,425 - new_apply_order.py[line:352]: 获取token成功！token=bearer bf51653c-283e-47c5-b902-66a96a35688d！
+INFO - 2021-08-31 11:11:25,842 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:11:26,170 - new_apply_order.py[line:364]: 后台已触发放款成功！
+ERROR - 2021-08-31 11:11:55,577 - new_apply_order.py[line:557]: HTTPConnectionPool(host='172.20.240.225', port=8066): Max retries exceeded with url: /xxl-job-admin/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8268ada880>: Failed to establish a new connection: [Errno 60] Operation timed out'))
+ERROR - 2021-08-31 11:11:55,598 - new_apply_order.py[line:558]: None

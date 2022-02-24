@@ -1,0 +1,463 @@
+INFO - 2021-10-08 08:57:11,555 - new_apply_order.py[line:792]: 开始第 Mipeso【1】次进件……
+INFO - 2021-10-08 08:57:11,737 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-10-08 08:57:11,738 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1633654631 ======
+INFO - 2021-10-08 08:57:12,143 - new_apply_order.py[line:95]: 1633654631 检测用户存在成功！
+INFO - 2021-10-08 08:57:12,242 - new_apply_order.py[line:104]: 1633654631 短信发送成功！
+INFO - 2021-10-08 08:57:12,306 - new_apply_order.py[line:117]: 1633654631 注册成功！
+INFO - 2021-10-08 08:57:12,367 - new_apply_order.py[line:133]: 1633654631 登录短信发送成功！
+INFO - 2021-10-08 08:57:12,417 - new_apply_order.py[line:143]: userId=4959376722323709952,mobile=1633654631,token=ee3cf2e482ed4a5779ca1961380d6355 登录成功
+INFO - 2021-10-08 08:57:12,514 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:57:14,830 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:57:14,848 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:57:14,867 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:57:17,509 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-10-08 08:57:17,663 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-10-08 08:57:18,525 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-10-08 08:57:19,199 - new_apply_order.py[line:491]: 绑卡成功！
+ERROR - 2021-10-08 08:57:19,350 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:57:19,688 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:57:19,692 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:57:19,696 - new_apply_order.py[line:792]: 开始第 m_efectivo【1】次进件……
+INFO - 2021-10-08 08:57:19,784 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4959376722323709952"
+INFO - 2021-10-08 08:57:19,867 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-10-08 08:57:19,868 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1633654639 ======
+INFO - 2021-10-08 08:57:20,215 - new_apply_order.py[line:95]: 1633654639 检测用户存在成功！
+INFO - 2021-10-08 08:57:20,265 - new_apply_order.py[line:104]: 1633654639 短信发送成功！
+INFO - 2021-10-08 08:57:20,308 - new_apply_order.py[line:117]: 1633654639 注册成功！
+INFO - 2021-10-08 08:57:20,359 - new_apply_order.py[line:133]: 1633654639 登录短信发送成功！
+INFO - 2021-10-08 08:57:20,406 - new_apply_order.py[line:143]: userId=4959376755932667904,mobile=1633654639,token=bb2c0fb1bb8431eff8a59066fd8b8443 登录成功
+INFO - 2021-10-08 08:57:20,474 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:57:20,763 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:57:20,782 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:57:20,799 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:57:23,384 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-10-08 08:57:23,540 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-10-08 08:57:24,235 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-10-08 08:57:24,767 - new_apply_order.py[line:491]: 绑卡成功！
+ERROR - 2021-10-08 08:57:24,907 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:57:25,240 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:57:25,241 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:57:25,246 - new_apply_order.py[line:792]: 开始第 porpeso【1】次进件……
+INFO - 2021-10-08 08:57:25,310 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4959376755932667904"
+INFO - 2021-10-08 08:57:25,399 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-10-08 08:57:25,400 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1633654645 ======
+INFO - 2021-10-08 08:57:25,740 - new_apply_order.py[line:95]: 1633654645 检测用户存在成功！
+INFO - 2021-10-08 08:57:25,785 - new_apply_order.py[line:104]: 1633654645 短信发送成功！
+INFO - 2021-10-08 08:57:25,825 - new_apply_order.py[line:117]: 1633654645 注册成功！
+INFO - 2021-10-08 08:57:25,876 - new_apply_order.py[line:133]: 1633654645 登录短信发送成功！
+INFO - 2021-10-08 08:57:25,928 - new_apply_order.py[line:143]: userId=4959376779072643072,mobile=1633654645,token=7adba3945841661574c0109f58ece3ac 登录成功
+INFO - 2021-10-08 08:57:26,002 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:57:26,261 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:57:26,273 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:57:26,283 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:57:29,775 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-10-08 08:57:29,900 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-10-08 08:57:30,708 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-10-08 08:57:31,266 - new_apply_order.py[line:491]: 绑卡成功！
+ERROR - 2021-10-08 08:57:31,386 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:57:31,724 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:57:31,725 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:57:31,729 - new_apply_order.py[line:792]: 开始第 Prestamo【1】次进件……
+INFO - 2021-10-08 08:57:31,811 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4959376779072643072"
+INFO - 2021-10-08 08:57:31,889 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-10-08 08:57:31,890 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1633654651 ======
+INFO - 2021-10-08 08:57:32,238 - new_apply_order.py[line:95]: 1633654651 检测用户存在成功！
+INFO - 2021-10-08 08:57:32,289 - new_apply_order.py[line:104]: 1633654651 短信发送成功！
+INFO - 2021-10-08 08:57:32,334 - new_apply_order.py[line:117]: 1633654651 注册成功！
+INFO - 2021-10-08 08:57:32,385 - new_apply_order.py[line:133]: 1633654651 登录短信发送成功！
+INFO - 2021-10-08 08:57:32,436 - new_apply_order.py[line:143]: userId=4959376806360784896,mobile=1633654651,token=85145af2aeb2a47a8ef37111995d537d 登录成功
+INFO - 2021-10-08 08:57:32,511 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:57:32,886 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:57:32,906 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:57:32,925 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:57:35,357 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-10-08 08:57:35,467 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-10-08 08:57:36,250 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-10-08 08:57:36,826 - new_apply_order.py[line:491]: 绑卡成功！
+ERROR - 2021-10-08 08:57:36,943 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:57:37,281 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:57:37,282 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:57:37,286 - new_apply_order.py[line:792]: 开始第 askborrow【1】次进件……
+INFO - 2021-10-08 08:57:37,389 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4959376806360784896"
+INFO - 2021-10-08 08:57:37,447 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-10-08 08:57:37,447 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1633654657 ======
+INFO - 2021-10-08 08:57:37,794 - new_apply_order.py[line:95]: 1633654657 检测用户存在成功！
+INFO - 2021-10-08 08:57:37,840 - new_apply_order.py[line:104]: 1633654657 短信发送成功！
+INFO - 2021-10-08 08:57:37,878 - new_apply_order.py[line:117]: 1633654657 注册成功！
+INFO - 2021-10-08 08:57:37,927 - new_apply_order.py[line:133]: 1633654657 登录短信发送成功！
+INFO - 2021-10-08 08:57:37,971 - new_apply_order.py[line:143]: userId=4959376829634977792,mobile=1633654657,token=3f830ba9042379b755eeea6cbe286ff6 登录成功
+INFO - 2021-10-08 08:57:38,039 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:57:38,251 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:57:38,268 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:57:38,279 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:57:40,732 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-10-08 08:57:40,850 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-10-08 08:57:41,614 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-10-08 08:57:42,197 - new_apply_order.py[line:491]: 绑卡成功！
+ERROR - 2021-10-08 08:57:42,311 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:57:42,645 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:57:42,647 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:57:42,651 - new_apply_order.py[line:792]: 开始第 G_Prestamo【1】次进件……
+INFO - 2021-10-08 08:57:42,710 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4959376829634977792"
+INFO - 2021-10-08 08:57:42,804 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-10-08 08:57:42,805 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1633654662 ======
+INFO - 2021-10-08 08:57:43,147 - new_apply_order.py[line:95]: 1633654662 检测用户存在成功！
+INFO - 2021-10-08 08:57:43,191 - new_apply_order.py[line:104]: 1633654662 短信发送成功！
+INFO - 2021-10-08 08:57:43,231 - new_apply_order.py[line:117]: 1633654662 注册成功！
+INFO - 2021-10-08 08:57:43,281 - new_apply_order.py[line:133]: 1633654662 登录短信发送成功！
+INFO - 2021-10-08 08:57:43,329 - new_apply_order.py[line:143]: userId=4959376852087087104,mobile=1633654662,token=6cb498d83bd5ad5bbcd266c5cafce271 登录成功
+INFO - 2021-10-08 08:57:43,398 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:57:43,607 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:57:43,619 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:57:43,629 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:57:46,104 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-10-08 08:57:46,221 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-10-08 08:57:46,963 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-10-08 08:57:47,498 - new_apply_order.py[line:491]: 绑卡成功！
+ERROR - 2021-10-08 08:57:47,625 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:57:47,965 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:57:47,966 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:57:47,971 - new_apply_order.py[line:792]: 开始第 miprestamo【1】次进件……
+INFO - 2021-10-08 08:57:48,097 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4959376852087087104"
+INFO - 2021-10-08 08:57:48,133 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-10-08 08:57:48,134 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1633654667 ======
+INFO - 2021-10-08 08:57:48,478 - new_apply_order.py[line:95]: 1633654667 检测用户存在成功！
+INFO - 2021-10-08 08:57:48,524 - new_apply_order.py[line:104]: 1633654667 短信发送成功！
+INFO - 2021-10-08 08:57:48,567 - new_apply_order.py[line:117]: 1633654667 注册成功！
+INFO - 2021-10-08 08:57:48,625 - new_apply_order.py[line:133]: 1633654667 登录短信发送成功！
+INFO - 2021-10-08 08:57:48,673 - new_apply_order.py[line:143]: userId=4959376874459504640,mobile=1633654667,token=caa28e1d0340520305257c4b4eeb32f5 登录成功
+INFO - 2021-10-08 08:57:48,761 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:57:48,970 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:57:48,986 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:57:48,999 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:57:51,390 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-10-08 08:57:51,555 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-10-08 08:57:52,255 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-10-08 08:57:52,784 - new_apply_order.py[line:491]: 绑卡成功！
+ERROR - 2021-10-08 08:57:52,892 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:57:53,226 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:57:53,227 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:57:53,231 - new_apply_order.py[line:792]: 开始第 borrowedpop【1】次进件……
+INFO - 2021-10-08 08:57:53,331 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4959376874459504640"
+INFO - 2021-10-08 08:57:53,385 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-10-08 08:57:53,390 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1633654673 ======
+INFO - 2021-10-08 08:57:53,744 - new_apply_order.py[line:95]: 1633654673 检测用户存在成功！
+INFO - 2021-10-08 08:57:53,794 - new_apply_order.py[line:104]: 1633654673 短信发送成功！
+INFO - 2021-10-08 08:57:53,838 - new_apply_order.py[line:117]: 1633654673 注册成功！
+INFO - 2021-10-08 08:57:53,886 - new_apply_order.py[line:133]: 1633654673 登录短信发送成功！
+INFO - 2021-10-08 08:57:53,935 - new_apply_order.py[line:143]: userId=4959376896567681024,mobile=1633654673,token=f17dc995c8d3859918d1033fc96a61cb 登录成功
+INFO - 2021-10-08 08:57:54,005 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:57:54,281 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:57:54,299 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:57:54,309 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:57:56,615 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-10-08 08:57:56,733 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-10-08 08:57:57,471 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-10-08 08:57:58,029 - new_apply_order.py[line:491]: 绑卡成功！
+ERROR - 2021-10-08 08:57:58,185 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:57:58,521 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:57:58,522 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:57:58,526 - new_apply_order.py[line:792]: 开始第 goodloan【1】次进件……
+INFO - 2021-10-08 08:57:58,593 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4959376896567681024"
+INFO - 2021-10-08 08:57:58,692 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-10-08 08:57:58,692 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1633654678 ======
+INFO - 2021-10-08 08:57:59,041 - new_apply_order.py[line:95]: 1633654678 检测用户存在成功！
+INFO - 2021-10-08 08:57:59,087 - new_apply_order.py[line:104]: 1633654678 短信发送成功！
+INFO - 2021-10-08 08:57:59,128 - new_apply_order.py[line:117]: 1633654678 注册成功！
+INFO - 2021-10-08 08:57:59,180 - new_apply_order.py[line:133]: 1633654678 登录短信发送成功！
+INFO - 2021-10-08 08:57:59,226 - new_apply_order.py[line:143]: userId=4959376918759743488,mobile=1633654678,token=8da4d03f974e6faff82177bfd7e4e6b8 登录成功
+INFO - 2021-10-08 08:57:59,296 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:57:59,705 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:57:59,721 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:57:59,737 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:02,235 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-10-08 08:58:02,342 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-10-08 08:58:03,108 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-10-08 08:58:03,663 - new_apply_order.py[line:491]: 绑卡成功！
+ERROR - 2021-10-08 08:58:03,793 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:04,134 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:04,135 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:04,139 - new_apply_order.py[line:792]: 开始第 Hola_efectivo【1】次进件……
+INFO - 2021-10-08 08:58:04,205 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4959376918759743488"
+INFO - 2021-10-08 08:58:04,294 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-10-08 08:58:04,295 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1633654684 ======
+INFO - 2021-10-08 08:58:04,642 - new_apply_order.py[line:95]: 1633654684 检测用户存在成功！
+INFO - 2021-10-08 08:58:04,690 - new_apply_order.py[line:104]: 1633654684 短信发送成功！
+INFO - 2021-10-08 08:58:04,730 - new_apply_order.py[line:117]: 1633654684 注册成功！
+INFO - 2021-10-08 08:58:04,776 - new_apply_order.py[line:133]: 1633654684 登录短信发送成功！
+INFO - 2021-10-08 08:58:04,822 - new_apply_order.py[line:143]: userId=4959376942256234496,mobile=1633654684,token=c57557f17781017df1034f447aa29285 登录成功
+INFO - 2021-10-08 08:58:04,897 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:05,110 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:05,129 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:05,143 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:07,614 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-10-08 08:58:07,715 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-10-08 08:58:08,466 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-10-08 08:58:09,017 - new_apply_order.py[line:491]: 绑卡成功！
+ERROR - 2021-10-08 08:58:09,113 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:09,447 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:09,448 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:09,466 - new_apply_order.py[line:792]: 开始第 kencash【1】次进件……
+INFO - 2021-10-08 08:58:09,467 - new_apply_order.py[line:82]: ======【ke测试环境】生成手机号：733654689 ======
+INFO - 2021-10-08 08:58:09,922 - new_apply_order.py[line:95]: 733654689 检测用户存在成功！
+INFO - 2021-10-08 08:58:10,110 - new_apply_order.py[line:104]: 733654689 短信发送成功！
+INFO - 2021-10-08 08:58:10,218 - new_apply_order.py[line:117]: 733654689 注册成功！
+INFO - 2021-10-08 08:58:10,320 - new_apply_order.py[line:133]: 733654689 登录短信发送成功！
+INFO - 2021-10-08 08:58:10,413 - new_apply_order.py[line:143]: userId=6217668165189509120,mobile=733654689,token=dcd5a911dfa4894d8c97715c439e43f0 登录成功
+INFO - 2021-10-08 08:58:11,268 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:11,366 - new_apply_order.py[line:225]: 联系人信息提交成功！
+INFO - 2021-10-08 08:58:12,109 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:12,129 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:12,143 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:12,440 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-08 08:58:12,494 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-08 08:58:12,869 - new_apply_order.py[line:500]: 绑卡成功！
+ERROR - 2021-10-08 08:58:13,086 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:13,433 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:13,434 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:13,436 - new_apply_order.py[line:792]: 开始第 ikash【1】次进件……
+INFO - 2021-10-08 08:58:13,437 - new_apply_order.py[line:82]: ======【ke测试环境】生成手机号：733654693 ======
+INFO - 2021-10-08 08:58:13,791 - new_apply_order.py[line:95]: 733654693 检测用户存在成功！
+INFO - 2021-10-08 08:58:13,852 - new_apply_order.py[line:104]: 733654693 短信发送成功！
+INFO - 2021-10-08 08:58:13,897 - new_apply_order.py[line:117]: 733654693 注册成功！
+INFO - 2021-10-08 08:58:13,947 - new_apply_order.py[line:133]: 733654693 登录短信发送成功！
+INFO - 2021-10-08 08:58:13,997 - new_apply_order.py[line:143]: userId=6217668180708433920,mobile=733654693,token=740b303c6abd12a126cbb08cd38bafee 登录成功
+INFO - 2021-10-08 08:58:14,731 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:14,792 - new_apply_order.py[line:225]: 联系人信息提交成功！
+INFO - 2021-10-08 08:58:15,109 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:15,125 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:15,138 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:15,429 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-08 08:58:15,471 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-08 08:58:15,797 - new_apply_order.py[line:500]: 绑卡成功！
+ERROR - 2021-10-08 08:58:15,994 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:16,336 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:16,337 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:16,347 - new_apply_order.py[line:792]: 开始第 borrowme【1】次进件……
+INFO - 2021-10-08 08:58:16,348 - new_apply_order.py[line:82]: ======【nga测试环境】生成手机号：01633654696 ======
+INFO - 2021-10-08 08:58:16,771 - new_apply_order.py[line:95]: 01633654696 检测用户存在成功！
+INFO - 2021-10-08 08:58:16,880 - new_apply_order.py[line:104]: 01633654696 短信发送成功！
+INFO - 2021-10-08 08:58:16,972 - new_apply_order.py[line:117]: 01633654696 注册成功！
+INFO - 2021-10-08 08:58:17,047 - new_apply_order.py[line:133]: 01633654696 登录短信发送成功！
+INFO - 2021-10-08 08:58:17,157 - new_apply_order.py[line:143]: userId=6217668193522032640,mobile=01633654696,token=4b87cc71f5d9e0afe941be51eba3a410 登录成功
+INFO - 2021-10-08 08:58:17,281 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:17,364 - new_apply_order.py[line:216]: 联系人信息提交成功！
+INFO - 2021-10-08 08:58:18,220 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:18,241 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:18,258 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:18,589 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-08 08:58:18,643 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-08 08:58:19,910 - new_apply_order.py[line:433]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-08 08:58:20,242 - new_apply_order.py[line:484]: user更新1条
+ERROR - 2021-10-08 08:58:20,646 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:20,995 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:20,997 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:21,001 - new_apply_order.py[line:792]: 开始第 quickcash【1】次进件……
+INFO - 2021-10-08 08:58:21,003 - new_apply_order.py[line:82]: ======【nga测试环境】生成手机号：01633654701 ======
+INFO - 2021-10-08 08:58:21,355 - new_apply_order.py[line:95]: 01633654701 检测用户存在成功！
+INFO - 2021-10-08 08:58:21,420 - new_apply_order.py[line:104]: 01633654701 短信发送成功！
+INFO - 2021-10-08 08:58:21,476 - new_apply_order.py[line:117]: 01633654701 注册成功！
+INFO - 2021-10-08 08:58:21,537 - new_apply_order.py[line:133]: 01633654701 登录短信发送成功！
+INFO - 2021-10-08 08:58:21,585 - new_apply_order.py[line:143]: userId=6217668212484481024,mobile=01633654701,token=8bf7bb43719661d8dd835720e03ae803 登录成功
+INFO - 2021-10-08 08:58:21,667 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:21,721 - new_apply_order.py[line:216]: 联系人信息提交成功！
+INFO - 2021-10-08 08:58:22,044 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:22,063 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:22,084 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:22,387 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-08 08:58:22,429 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-08 08:58:23,549 - new_apply_order.py[line:433]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-08 08:58:23,866 - new_apply_order.py[line:484]: user更新1条
+ERROR - 2021-10-08 08:58:24,228 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:24,583 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:24,584 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:24,588 - new_apply_order.py[line:792]: 开始第 borrowme【1】次进件……
+INFO - 2021-10-08 08:58:24,590 - new_apply_order.py[line:82]: ======【nga测试环境】生成手机号：01633654704 ======
+INFO - 2021-10-08 08:58:24,944 - new_apply_order.py[line:95]: 01633654704 检测用户存在成功！
+INFO - 2021-10-08 08:58:25,049 - new_apply_order.py[line:104]: 01633654704 短信发送成功！
+INFO - 2021-10-08 08:58:25,106 - new_apply_order.py[line:117]: 01633654704 注册成功！
+INFO - 2021-10-08 08:58:25,207 - new_apply_order.py[line:133]: 01633654704 登录短信发送成功！
+INFO - 2021-10-08 08:58:25,295 - new_apply_order.py[line:143]: userId=6217668227663667200,mobile=01633654704,token=9c7abb69d3f55f892fd55fbb08cfb661 登录成功
+INFO - 2021-10-08 08:58:25,442 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:25,532 - new_apply_order.py[line:216]: 联系人信息提交成功！
+INFO - 2021-10-08 08:58:25,818 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:25,832 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:25,841 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:26,193 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-08 08:58:26,248 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-08 08:58:27,399 - new_apply_order.py[line:433]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-08 08:58:27,717 - new_apply_order.py[line:484]: user更新1条
+ERROR - 2021-10-08 08:58:27,949 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:28,304 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:28,304 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:28,309 - new_apply_order.py[line:792]: 开始第 moremoney【1】次进件……
+INFO - 2021-10-08 08:58:28,310 - new_apply_order.py[line:82]: ======【nga测试环境】生成手机号：01633654708 ======
+INFO - 2021-10-08 08:58:28,660 - new_apply_order.py[line:95]: 01633654708 检测用户存在成功！
+INFO - 2021-10-08 08:58:28,759 - new_apply_order.py[line:104]: 01633654708 短信发送成功！
+INFO - 2021-10-08 08:58:28,837 - new_apply_order.py[line:117]: 01633654708 注册成功！
+INFO - 2021-10-08 08:58:28,897 - new_apply_order.py[line:133]: 01633654708 登录短信发送成功！
+INFO - 2021-10-08 08:58:28,951 - new_apply_order.py[line:143]: userId=6217668243295838208,mobile=01633654708,token=408bdc1a82c659db86e99d7cf8df901c 登录成功
+INFO - 2021-10-08 08:58:29,037 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:29,103 - new_apply_order.py[line:216]: 联系人信息提交成功！
+INFO - 2021-10-08 08:58:29,336 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:29,354 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:29,366 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:29,673 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-08 08:58:29,717 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-08 08:58:30,732 - new_apply_order.py[line:433]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-08 08:58:31,050 - new_apply_order.py[line:484]: user更新1条
+ERROR - 2021-10-08 08:58:31,197 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:31,541 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:31,542 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:31,547 - new_apply_order.py[line:792]: 开始第 creditnaira【1】次进件……
+INFO - 2021-10-08 08:58:31,548 - new_apply_order.py[line:82]: ======【nga测试环境】生成手机号：01633654711 ======
+INFO - 2021-10-08 08:58:31,899 - new_apply_order.py[line:95]: 01633654711 检测用户存在成功！
+INFO - 2021-10-08 08:58:31,979 - new_apply_order.py[line:104]: 01633654711 短信发送成功！
+INFO - 2021-10-08 08:58:32,033 - new_apply_order.py[line:117]: 01633654711 注册成功！
+INFO - 2021-10-08 08:58:32,111 - new_apply_order.py[line:133]: 01633654711 登录短信发送成功！
+INFO - 2021-10-08 08:58:32,155 - new_apply_order.py[line:143]: userId=6217668256730193920,mobile=01633654711,token=6ec705a6c7a580d8f09d32055b9e1b1c 登录成功
+INFO - 2021-10-08 08:58:32,222 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:32,278 - new_apply_order.py[line:216]: 联系人信息提交成功！
+INFO - 2021-10-08 08:58:32,480 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:32,500 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:32,518 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:32,781 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-08 08:58:32,865 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-08 08:58:33,917 - new_apply_order.py[line:433]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-08 08:58:34,229 - new_apply_order.py[line:484]: user更新1条
+ERROR - 2021-10-08 08:58:34,397 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:34,740 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:34,741 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:34,746 - new_apply_order.py[line:792]: 开始第 inaira【1】次进件……
+INFO - 2021-10-08 08:58:34,747 - new_apply_order.py[line:82]: ======【nga测试环境】生成手机号：01633654714 ======
+INFO - 2021-10-08 08:58:35,089 - new_apply_order.py[line:95]: 01633654714 检测用户存在成功！
+INFO - 2021-10-08 08:58:35,139 - new_apply_order.py[line:104]: 01633654714 短信发送成功！
+INFO - 2021-10-08 08:58:35,183 - new_apply_order.py[line:117]: 01633654714 注册成功！
+INFO - 2021-10-08 08:58:35,241 - new_apply_order.py[line:133]: 01633654714 登录短信发送成功！
+INFO - 2021-10-08 08:58:35,288 - new_apply_order.py[line:143]: userId=6217668269980000256,mobile=01633654714,token=539de8ac65fb0679cae2e819e787e3cc 登录成功
+INFO - 2021-10-08 08:58:35,373 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:35,424 - new_apply_order.py[line:216]: 联系人信息提交成功！
+INFO - 2021-10-08 08:58:35,647 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:35,670 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:35,688 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:35,936 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-08 08:58:35,975 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-08 08:58:36,923 - new_apply_order.py[line:433]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-08 08:58:37,229 - new_apply_order.py[line:484]: user更新1条
+ERROR - 2021-10-08 08:58:37,369 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:37,711 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:37,711 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:37,716 - new_apply_order.py[line:792]: 开始第 runcash【1】次进件……
+INFO - 2021-10-08 08:58:37,717 - new_apply_order.py[line:82]: ======【nga测试环境】生成手机号：01633654717 ======
+INFO - 2021-10-08 08:58:38,070 - new_apply_order.py[line:95]: 01633654717 检测用户存在成功！
+INFO - 2021-10-08 08:58:38,123 - new_apply_order.py[line:104]: 01633654717 短信发送成功！
+INFO - 2021-10-08 08:58:38,168 - new_apply_order.py[line:117]: 01633654717 注册成功！
+INFO - 2021-10-08 08:58:38,228 - new_apply_order.py[line:133]: 01633654717 登录短信发送成功！
+INFO - 2021-10-08 08:58:38,293 - new_apply_order.py[line:143]: userId=6217668282495803392,mobile=01633654717,token=fab3a12f778649c9944f864b398c5177 登录成功
+INFO - 2021-10-08 08:58:38,378 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:38,428 - new_apply_order.py[line:216]: 联系人信息提交成功！
+INFO - 2021-10-08 08:58:38,623 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:38,639 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:38,654 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:38,927 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-08 08:58:38,968 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-08 08:58:39,956 - new_apply_order.py[line:433]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-08 08:58:40,264 - new_apply_order.py[line:484]: user更新1条
+ERROR - 2021-10-08 08:58:40,404 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:40,763 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:40,764 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:40,769 - new_apply_order.py[line:792]: 开始第 formoney【1】次进件……
+INFO - 2021-10-08 08:58:40,770 - new_apply_order.py[line:82]: ======【nga测试环境】生成手机号：01633654720 ======
+INFO - 2021-10-08 08:58:41,121 - new_apply_order.py[line:95]: 01633654720 检测用户存在成功！
+INFO - 2021-10-08 08:58:41,170 - new_apply_order.py[line:104]: 01633654720 短信发送成功！
+INFO - 2021-10-08 08:58:41,214 - new_apply_order.py[line:117]: 01633654720 注册成功！
+INFO - 2021-10-08 08:58:41,276 - new_apply_order.py[line:133]: 01633654720 登录短信发送成功！
+INFO - 2021-10-08 08:58:41,327 - new_apply_order.py[line:143]: userId=6217668295280041984,mobile=01633654720,token=10458e3aa0864ca9e85c152c8f8fdb77 登录成功
+INFO - 2021-10-08 08:58:41,415 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:41,466 - new_apply_order.py[line:216]: 联系人信息提交成功！
+INFO - 2021-10-08 08:58:41,678 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:41,697 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:41,711 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:42,006 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-08 08:58:42,044 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-08 08:58:43,107 - new_apply_order.py[line:433]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-08 08:58:43,399 - new_apply_order.py[line:484]: user更新1条
+ERROR - 2021-10-08 08:58:43,586 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:43,928 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:43,929 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:43,933 - new_apply_order.py[line:792]: 开始第 Gotocash【1】次进件……
+INFO - 2021-10-08 08:58:43,935 - new_apply_order.py[line:82]: ======【nga测试环境】生成手机号：01633654723 ======
+INFO - 2021-10-08 08:58:44,279 - new_apply_order.py[line:95]: 01633654723 检测用户存在成功！
+INFO - 2021-10-08 08:58:44,341 - new_apply_order.py[line:104]: 01633654723 短信发送成功！
+INFO - 2021-10-08 08:58:44,385 - new_apply_order.py[line:117]: 01633654723 注册成功！
+INFO - 2021-10-08 08:58:44,442 - new_apply_order.py[line:133]: 01633654723 登录短信发送成功！
+INFO - 2021-10-08 08:58:44,491 - new_apply_order.py[line:143]: userId=6217668308575985664,mobile=01633654723,token=bb8cc44a3d328b7389cd5fd05eb6fa8a 登录成功
+INFO - 2021-10-08 08:58:44,569 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:44,624 - new_apply_order.py[line:216]: 联系人信息提交成功！
+INFO - 2021-10-08 08:58:44,814 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:44,833 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:44,855 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:45,140 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-08 08:58:45,184 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-08 08:58:46,117 - new_apply_order.py[line:433]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-08 08:58:46,434 - new_apply_order.py[line:484]: user更新1条
+ERROR - 2021-10-08 08:58:46,572 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:46,915 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:46,916 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:46,922 - new_apply_order.py[line:792]: 开始第 Gotcash【1】次进件……
+INFO - 2021-10-08 08:58:46,924 - new_apply_order.py[line:82]: ======【nga测试环境】生成手机号：01633654726 ======
+INFO - 2021-10-08 08:58:47,269 - new_apply_order.py[line:95]: 01633654726 检测用户存在成功！
+INFO - 2021-10-08 08:58:47,319 - new_apply_order.py[line:104]: 01633654726 短信发送成功！
+INFO - 2021-10-08 08:58:47,364 - new_apply_order.py[line:117]: 01633654726 注册成功！
+INFO - 2021-10-08 08:58:47,432 - new_apply_order.py[line:133]: 01633654726 登录短信发送成功！
+INFO - 2021-10-08 08:58:47,484 - new_apply_order.py[line:143]: userId=6217668321066622976,mobile=01633654726,token=f318823c00a5e66b2a56efad6f6fb6ae 登录成功
+INFO - 2021-10-08 08:58:47,566 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:47,624 - new_apply_order.py[line:216]: 联系人信息提交成功！
+INFO - 2021-10-08 08:58:47,825 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:47,850 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:47,869 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:48,146 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-08 08:58:48,186 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-08 08:58:49,218 - new_apply_order.py[line:433]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-08 08:58:49,519 - new_apply_order.py[line:484]: user更新1条
+ERROR - 2021-10-08 08:58:49,654 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:50,010 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:50,011 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:50,015 - new_apply_order.py[line:792]: 开始第 faircash【1】次进件……
+INFO - 2021-10-08 08:58:50,016 - new_apply_order.py[line:82]: ======【nga测试环境】生成手机号：01633654730 ======
+INFO - 2021-10-08 08:58:50,370 - new_apply_order.py[line:95]: 01633654730 检测用户存在成功！
+INFO - 2021-10-08 08:58:50,420 - new_apply_order.py[line:104]: 01633654730 短信发送成功！
+INFO - 2021-10-08 08:58:50,463 - new_apply_order.py[line:117]: 01633654730 注册成功！
+INFO - 2021-10-08 08:58:50,525 - new_apply_order.py[line:133]: 01633654730 登录短信发送成功！
+INFO - 2021-10-08 08:58:50,572 - new_apply_order.py[line:143]: userId=6217668334068965376,mobile=01633654730,token=45846d47874938f5b2f6d0dffa1a186e 登录成功
+INFO - 2021-10-08 08:58:50,645 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:50,699 - new_apply_order.py[line:216]: 联系人信息提交成功！
+INFO - 2021-10-08 08:58:50,886 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:50,906 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:50,925 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:51,179 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-08 08:58:51,219 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-08 08:58:52,211 - new_apply_order.py[line:433]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-08 08:58:52,526 - new_apply_order.py[line:484]: user更新1条
+ERROR - 2021-10-08 08:58:52,659 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:53,001 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:53,002 - new_apply_order.py[line:839]: None
+INFO - 2021-10-08 08:58:53,007 - new_apply_order.py[line:792]: 开始第 pickcredit【1】次进件……
+INFO - 2021-10-08 08:58:53,009 - new_apply_order.py[line:82]: ======【nga测试环境】生成手机号：01633654733 ======
+INFO - 2021-10-08 08:58:53,358 - new_apply_order.py[line:95]: 01633654733 检测用户存在成功！
+INFO - 2021-10-08 08:58:53,409 - new_apply_order.py[line:104]: 01633654733 短信发送成功！
+INFO - 2021-10-08 08:58:53,452 - new_apply_order.py[line:117]: 01633654733 注册成功！
+INFO - 2021-10-08 08:58:53,515 - new_apply_order.py[line:133]: 01633654733 登录短信发送成功！
+INFO - 2021-10-08 08:58:53,568 - new_apply_order.py[line:143]: userId=6217668346605740032,mobile=01633654733,token=dd8dbf53bf06c91dca6f6d99a14f92a1 登录成功
+INFO - 2021-10-08 08:58:53,638 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-10-08 08:58:53,699 - new_apply_order.py[line:216]: 联系人信息提交成功！
+INFO - 2021-10-08 08:58:53,885 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-10-08 08:58:53,903 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-08 08:58:53,917 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-08 08:58:54,172 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-08 08:58:54,208 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-08 08:58:55,198 - new_apply_order.py[line:433]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-08 08:58:55,514 - new_apply_order.py[line:484]: user更新1条
+ERROR - 2021-10-08 08:58:55,649 - new_apply_order.py[line:530]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-10-08 08:58:55,998 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-08 08:58:55,999 - new_apply_order.py[line:839]: None

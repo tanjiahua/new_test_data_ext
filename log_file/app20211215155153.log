@@ -1,0 +1,23 @@
+INFO - 2021-12-15 15:51:54,091 - new_apply_order.py[line:893]: 开始第 G_Prestamo【1】次进件……
+INFO - 2021-12-15 15:51:54,197 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4984122003880419328"
+INFO - 2021-12-15 15:51:54,224 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4971360642430410752"
+INFO - 2021-12-15 15:51:54,260 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4984121432461025280"
+INFO - 2021-12-15 15:51:54,292 - new_apply_order.py[line:75]: 更新脏数据1条
+INFO - 2021-12-15 15:51:54,293 - new_apply_order.py[line:84]: ======【mx测试环境】生成手机号：1639554714 ======
+INFO - 2021-12-15 15:51:54,732 - new_apply_order.py[line:97]: 1639554714 检测用户存在成功！
+INFO - 2021-12-15 15:51:54,825 - new_apply_order.py[line:106]: 1639554714 短信发送成功！
+INFO - 2021-12-15 15:51:54,894 - new_apply_order.py[line:119]: 1639554714 注册成功！
+INFO - 2021-12-15 15:51:54,997 - new_apply_order.py[line:135]: 1639554714 登录短信发送成功！
+INFO - 2021-12-15 15:51:55,100 - new_apply_order.py[line:145]: userId=4984123452815319040,mobile=1639554714,token=92104f798a8098cf713b3182e7c67118 登录成功
+INFO - 2021-12-15 15:51:55,289 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-15 15:51:55,977 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-15 15:51:55,989 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-15 15:51:56,003 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-15 15:51:58,544 - new_apply_order.py[line:361]: curp上传成功!
+INFO - 2021-12-15 15:51:58,770 - new_apply_order.py[line:370]: curp_rfc校验通过！
+INFO - 2021-12-15 15:51:59,719 - new_apply_order.py[line:381]: 人脸识别成功!
+ERROR - 2021-12-15 15:52:00,365 - new_apply_order.py[line:571]: 绑卡失败！{"code":"60006007","msg":"Please enter correct bank account.","data":null}
+INFO - 2021-12-15 15:52:00,722 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-15 15:52:01,815 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-15 15:52:02,182 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-15 15:52:02,286 - new_apply_order.py[line:658]: 订单回调复审通过成功！

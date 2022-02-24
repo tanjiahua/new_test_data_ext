@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:01:52,592 - new_apply_order.py[line:517]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:01:52,593 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630681312 ======
+ERROR - 2021-09-03 23:01:52,896 - new_apply_order.py[line:570]: name 'test_ini' is not defined
+ERROR - 2021-09-03 23:01:52,898 - new_apply_order.py[line:571]: None
+INFO - 2021-09-03 23:01:52,902 - new_apply_order.py[line:517]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:01:52,903 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630681312 ======
+ERROR - 2021-09-03 23:01:53,208 - new_apply_order.py[line:570]: name 'test_ini' is not defined
+ERROR - 2021-09-03 23:01:53,209 - new_apply_order.py[line:571]: None

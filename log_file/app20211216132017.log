@@ -1,0 +1,39 @@
+INFO - 2021-12-16 13:20:17,729 - new_apply_order.py[line:893]: 开始第 tiktek【1】次进件……
+INFO - 2021-12-16 13:20:17,729 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：739632017 ======
+INFO - 2021-12-16 13:20:18,117 - new_apply_order.py[line:97]: 739632017 检测用户存在成功！
+INFO - 2021-12-16 13:20:18,285 - new_apply_order.py[line:106]: 739632017 短信发送成功！
+INFO - 2021-12-16 13:20:18,347 - new_apply_order.py[line:119]: 739632017 注册成功！
+INFO - 2021-12-16 13:20:18,436 - new_apply_order.py[line:135]: 739632017 登录短信发送成功！
+INFO - 2021-12-16 13:20:18,503 - new_apply_order.py[line:145]: userId=6242738887348068352,mobile=739632017,token=a1146e6d666b692bc43d087ccd6acac8 登录成功
+INFO - 2021-12-16 13:20:18,666 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-16 13:20:18,729 - new_apply_order.py[line:232]: 联系人信息提交成功！
+INFO - 2021-12-16 13:20:19,079 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-16 13:20:19,099 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-16 13:20:19,114 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-16 13:20:19,368 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-16 13:20:19,418 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-12-16 13:20:19,678 - new_apply_order.py[line:579]: 739632017 短信发送成功！
+INFO - 2021-12-16 13:20:19,811 - new_apply_order.py[line:588]: 绑卡成功！
+INFO - 2021-12-16 13:20:20,371 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-16 13:20:21,394 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-16 13:20:21,753 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-16 13:20:21,809 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-16 13:20:22,690 - new_apply_order.py[line:680]: 获取token成功！token=bearer c69d1a29-d8cd-4a53-a299-3fc02203f2e4！
+INFO - 2021-12-16 13:20:23,048 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-16 13:20:23,790 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-16 13:20:23,804 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-16 13:20:23,813 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-16 13:20:25,173 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-16 13:20:25,186 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-16 13:20:25,192 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-16 13:20:25,557 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-16 13:20:25,870 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-16 13:20:26,882 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-16 13:20:26,882 - new_apply_order.py[line:813]: {'app': 'tiktek', 'loan_order_id': '1471349445643997184', 'mobile': '739632017', 'order_status': 35}
+INFO - 2021-12-16 13:20:27,743 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-16 13:20:28,027 - new_apply_order.py[line:781]: 放款回调成功！
+INFO - 2021-12-16 13:20:28,027 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-16 13:20:29,036 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-16 13:20:29,037 - new_apply_order.py[line:813]: {'app': 'tiktek', 'loan_order_id': '1471349445643997184', 'mobile': '739632017', 'order_status': 40}
+INFO - 2021-12-16 13:20:29,037 - new_apply_order.py[line:933]: ===========完成第【1】次进件===========
+INFO - 2021-12-16 13:20:29,037 - new_apply_order.py[line:936]: ======完成第【1】次进件,耗时11.31s=====

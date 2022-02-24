@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:29:54,541 - new_apply_order.py[line:520]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:29:54,542 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630682994 ======
+ERROR - 2021-09-03 23:29:54,845 - new_apply_order.py[line:566]: get_init_file() missing 1 required positional argument: 'test_mark'
+ERROR - 2021-09-03 23:29:54,848 - new_apply_order.py[line:567]: None
+INFO - 2021-09-03 23:29:54,852 - new_apply_order.py[line:520]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:29:54,853 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630682994 ======
+ERROR - 2021-09-03 23:29:55,156 - new_apply_order.py[line:566]: get_init_file() missing 1 required positional argument: 'test_mark'
+ERROR - 2021-09-03 23:29:55,157 - new_apply_order.py[line:567]: None

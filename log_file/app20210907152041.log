@@ -1,0 +1,14 @@
+INFO - 2021-09-07 15:20:41,517 - new_apply_order.py[line:537]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-07 15:20:41,518 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630999241 ======
+INFO - 2021-09-07 15:20:41,885 - new_apply_order.py[line:93]: 01630999241 检测用户存在成功！
+INFO - 2021-09-07 15:20:41,927 - new_apply_order.py[line:102]: 01630999241 短信发送成功！
+INFO - 2021-09-07 15:20:41,965 - new_apply_order.py[line:115]: 01630999241 注册成功！
+ERROR - 2021-09-07 15:20:42,007 - new_apply_order.py[line:583]: name 'mobile' is not defined
+ERROR - 2021-09-07 15:20:42,009 - new_apply_order.py[line:584]: None
+INFO - 2021-09-07 15:20:42,013 - new_apply_order.py[line:537]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-07 15:20:42,015 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630999242 ======
+INFO - 2021-09-07 15:20:42,358 - new_apply_order.py[line:93]: 01630999242 检测用户存在成功！
+INFO - 2021-09-07 15:20:42,395 - new_apply_order.py[line:102]: 01630999242 短信发送成功！
+INFO - 2021-09-07 15:20:42,432 - new_apply_order.py[line:115]: 01630999242 注册成功！
+ERROR - 2021-09-07 15:20:42,474 - new_apply_order.py[line:583]: name 'mobile' is not defined
+ERROR - 2021-09-07 15:20:42,475 - new_apply_order.py[line:584]: None

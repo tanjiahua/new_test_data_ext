@@ -1,0 +1,42 @@
+INFO - 2022-01-05 13:53:20,930 - new_apply_order.py[line:929]: 开始第 aceloan【1】次进件……
+INFO - 2022-01-05 13:53:21,348 - new_apply_order.py[line:95]: 01634872797 检测用户存在成功！
+INFO - 2022-01-05 13:53:21,422 - new_apply_order.py[line:104]: 01634872797 短信发送成功！
+INFO - 2022-01-05 13:53:21,494 - new_apply_order.py[line:117]: 01634872797 注册成功！
+INFO - 2022-01-05 13:53:21,562 - new_apply_order.py[line:133]: 01634872797 登录短信发送成功！
+INFO - 2022-01-05 13:53:21,638 - new_apply_order.py[line:143]: userId=6249994962595749888,mobile=01634872797,token=d3b9fd0375f2abda7211e325b89b50c3 登录成功
+INFO - 2022-01-05 13:53:21,752 - new_apply_order.py[line:210]: 个人信息提交成功！
+INFO - 2022-01-05 13:53:21,822 - new_apply_order.py[line:221]: 联系人信息提交成功！
+INFO - 2022-01-05 13:53:22,140 - new_apply_order.py[line:253]: 创建预审订单成功！
+INFO - 2022-01-05 13:53:22,251 - new_apply_order.py[line:261]: 预审状态修改为通过,更新条数 1
+INFO - 2022-01-05 13:53:22,371 - new_apply_order.py[line:264]: 更新初始额度！更新条数 1
+INFO - 2022-01-05 13:53:22,652 - new_apply_order.py[line:340]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2022-01-05 13:53:22,702 - new_apply_order.py[line:350]: 视频认证通过！
+INFO - 2022-01-05 13:53:23,717 - new_apply_order.py[line:509]: bvn和银行卡绑卡认证通过！
+INFO - 2022-01-05 13:53:24,110 - new_apply_order.py[line:560]: user更新1条
+INFO - 2022-01-05 13:53:24,335 - new_apply_order.py[line:621]: 进件成功！执行sql将订单改为风控中……
+INFO - 2022-01-05 13:53:25,413 - new_apply_order.py[line:627]: 订单表更新1条，信审更新1条
+INFO - 2022-01-05 13:53:25,801 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:53:25,845 - new_apply_order.py[line:656]: 订单回调复审通过成功！
+INFO - 2022-01-05 13:53:26,745 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 13:53:27,119 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:53:27,427 - new_apply_order.py[line:696]: 后台已触发放款成功！
+INFO - 2022-01-05 13:53:27,450 - new_apply_order.py[line:710]: xxl_job web 登录成功！
+INFO - 2022-01-05 13:53:27,477 - new_apply_order.py[line:726]: xxl_job 放款准备作业执行成功！
+INFO - 2022-01-05 13:53:28,844 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:53:28,873 - new_apply_order.py[line:734]: 修改放款准备完成时间成功！
+INFO - 2022-01-05 13:53:28,884 - new_apply_order.py[line:742]: xxl_job 放款完成作业执行成功！
+INFO - 2022-01-05 13:53:29,192 - new_apply_order.py[line:952]: 校验重试查询第1次
+ERROR - 2022-01-05 13:53:30,250 - new_apply_order.py[line:810]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2022-01-05 13:53:30,250 - new_apply_order.py[line:811]: {'app': 'aceloan', 'loan_order_id': '1478605520861794304', 'mobile': '01634872797', 'order_status': 35}
+INFO - 2022-01-05 13:53:30,762 - new_apply_order.py[line:952]: 校验重试查询第2次
+INFO - 2022-01-05 13:53:31,808 - new_apply_order.py[line:808]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2022-01-05 13:53:31,809 - new_apply_order.py[line:811]: {'app': 'aceloan', 'loan_order_id': '1478605520861794304', 'mobile': '01634872797', 'order_status': 40}
+INFO - 2022-01-05 13:53:31,809 - new_apply_order.py[line:969]: ===========完成第【1】次进件===========
+INFO - 2022-01-05 13:53:31,810 - new_apply_order.py[line:972]: ======完成第【1】次进件,耗时10.88s=====
+INFO - 2022-01-05 13:53:32,279 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 13:53:32,869 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 13:53:33,377 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:53:34,211 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+ERROR - 2022-01-05 13:53:34,212 - new_apply_order.py[line:899]: 订单号：1478605520861794304
+INFO - 2022-01-05 13:53:34,212 - new_apply_order.py[line:913]: {"repayTime": 1641362012.016651, "applyReductionAmount": 0, "amount": 1100, "thirdOrderId": ["loan_order_id"], "fileUrl": "", "1478605556479823872": ["1478605556479823872"]}
+ERROR - 2022-01-05 13:53:34,735 - new_apply_order.py[line:918]: 后台已触发还款失败{"code":"10099001","msg":"Service Currently Unavailable","notSuccess":true,"success":false}!

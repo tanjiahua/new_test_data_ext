@@ -1,0 +1,19 @@
+INFO - 2021-09-07 19:30:27,562 - new_apply_order.py[line:618]: 开始第 kencash【1】次进件……
+INFO - 2021-09-07 19:30:27,562 - new_apply_order.py[line:80]: ======【ke测试环境】生成手机号：731014227 ======
+INFO - 2021-09-07 19:30:27,949 - new_apply_order.py[line:93]: 731014227 检测用户存在成功！
+INFO - 2021-09-07 19:30:28,025 - new_apply_order.py[line:102]: 731014227 短信发送成功！
+INFO - 2021-09-07 19:30:28,071 - new_apply_order.py[line:115]: 731014227 注册成功！
+INFO - 2021-09-07 19:30:28,138 - new_apply_order.py[line:131]: 731014227 登录短信发送成功！
+INFO - 2021-09-07 19:30:28,214 - new_apply_order.py[line:141]: userId=6206593254768254976,mobile=731014227,token=bb44a5cbc8aeed7e00c661e5d959b739 登录成功
+INFO - 2021-09-07 19:30:29,183 - new_apply_order.py[line:198]: 个人信息提交成功！
+INFO - 2021-09-07 19:30:29,258 - new_apply_order.py[line:218]: 联系人信息提交成功！
+INFO - 2021-09-07 19:30:29,806 - new_apply_order.py[line:231]: 创建预审订单成功！
+INFO - 2021-09-07 19:30:29,821 - new_apply_order.py[line:239]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-07 19:30:29,831 - new_apply_order.py[line:242]: 更新初始额度！更新条数 1
+INFO - 2021-09-07 19:30:30,119 - new_apply_order.py[line:259]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-07 19:30:30,182 - new_apply_order.py[line:269]: 视频认证通过！
+ERROR - 2021-09-07 19:30:30,389 - new_apply_order.py[line:664]: name 'headers_bind_card' is not defined
+ERROR - 2021-09-07 19:30:30,390 - new_apply_order.py[line:665]: None
+INFO - 2021-09-07 19:30:30,398 - new_apply_order.py[line:618]: 开始第 Mipeso【1】次进件……
+ERROR - 2021-09-07 19:30:30,461 - new_apply_order.py[line:664]: unsupported operand type(s) for %: 'generator' and 'str'
+ERROR - 2021-09-07 19:30:30,461 - new_apply_order.py[line:665]: None

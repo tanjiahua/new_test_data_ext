@@ -1,0 +1,4 @@
+INFO - 2022-01-04 17:58:07,689 - new_apply_order.py[line:892]: 开始第 aceloan【1】次进件……
+INFO - 2022-01-04 17:58:07,690 - new_apply_order.py[line:83]: ======【nga测试环境】生成手机号：01641290287 ======
+ERROR - 2022-01-04 17:58:08,004 - new_apply_order.py[line:938]: No option 'url' in section: 'global_param_aceloan'
+ERROR - 2022-01-04 17:58:08,008 - new_apply_order.py[line:939]: None

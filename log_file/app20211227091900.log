@@ -1,0 +1,15 @@
+INFO - 2021-12-27 09:19:00,543 - new_apply_order.py[line:892]: 开始第 kucash【1】次进件……
+INFO - 2021-12-27 09:19:00,543 - new_apply_order.py[line:83]: ======【nga测试环境】生成手机号：01640567940 ======
+INFO - 2021-12-27 09:19:00,918 - new_apply_order.py[line:96]: 01637302216 检测用户存在成功！
+INFO - 2021-12-27 09:19:00,991 - new_apply_order.py[line:105]: 01637302216 短信发送成功！
+ERROR - 2021-12-27 09:19:01,026 - new_apply_order.py[line:120]: 注册失败！{'accept': 'application/json', 'appversion': '1.3.0.8', 'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD', 'accept-language': 'en-US', 'clientCode': 'kucash1300', 'Content-Type': 'application/json; charset=UTF-8', 'Host': '172.20.240.143:8012', 'User-Agent': 'okhttp/4.9.0'}
+ERROR - 2021-12-27 09:19:01,026 - new_apply_order.py[line:121]: {"code":"20001003","msg":"This number already exists, please use another number","data":null}
+INFO - 2021-12-27 09:19:01,086 - new_apply_order.py[line:134]: 01637302216 登录短信发送成功！
+INFO - 2021-12-27 09:19:01,132 - new_apply_order.py[line:144]: userId=6232966991133810688,mobile=01637302216,token=7380ddfd0aaec4e1582976106da8f997 登录成功
+ERROR - 2021-12-27 09:19:01,183 - new_apply_order.py[line:213]: 个人信息提交失败！
+ERROR - 2021-12-27 09:19:01,199 - new_apply_order.py[line:224]: 联系人信息提交失败！
+ERROR - 2021-12-27 09:19:01,217 - new_apply_order.py[line:256]: 创建预审失败{"code":"9001","msg":"System unknown error","data":null}
+INFO - 2021-12-27 09:19:01,227 - new_apply_order.py[line:262]: 预审状态修改为通过,更新条数 0
+INFO - 2021-12-27 09:19:01,234 - new_apply_order.py[line:265]: 更新初始额度！更新条数 0
+ERROR - 2021-12-27 09:19:01,269 - new_apply_order.py[line:938]: 'NoneType' object is not subscriptable
+ERROR - 2021-12-27 09:19:01,271 - new_apply_order.py[line:939]: None

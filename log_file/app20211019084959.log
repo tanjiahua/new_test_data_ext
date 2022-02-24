@@ -1,0 +1,22 @@
+INFO - 2021-10-19 08:49:59,757 - new_apply_order.py[line:798]: 开始第 Mipeso【1】次进件……
+INFO - 2021-10-19 08:49:59,931 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-10-19 08:49:59,933 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1634604599 ======
+INFO - 2021-10-19 08:50:00,332 - new_apply_order.py[line:95]: 1634604599 检测用户存在成功！
+INFO - 2021-10-19 08:50:00,409 - new_apply_order.py[line:104]: 1634604599 短信发送成功！
+INFO - 2021-10-19 08:50:00,471 - new_apply_order.py[line:117]: 1634604599 注册成功！
+INFO - 2021-10-19 08:50:00,537 - new_apply_order.py[line:133]: 1634604599 登录短信发送成功！
+INFO - 2021-10-19 08:50:00,584 - new_apply_order.py[line:143]: userId=4963361168509247488,mobile=1634604599,token=3e9b3cbe3462448d91c0b5bb2306bbcf 登录成功
+INFO - 2021-10-19 08:50:00,666 - new_apply_order.py[line:208]: 个人信息提交成功！
+INFO - 2021-10-19 08:50:01,314 - new_apply_order.py[line:241]: 创建预审订单成功！
+INFO - 2021-10-19 08:50:01,329 - new_apply_order.py[line:249]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-19 08:50:01,343 - new_apply_order.py[line:252]: 更新初始额度！更新条数 1
+INFO - 2021-10-19 08:50:03,711 - new_apply_order.py[line:288]: curp上传成功!
+INFO - 2021-10-19 08:50:03,854 - new_apply_order.py[line:297]: curp_rfc校验通过！
+INFO - 2021-10-19 08:50:04,613 - new_apply_order.py[line:308]: 人脸识别成功!
+INFO - 2021-10-19 08:50:05,263 - new_apply_order.py[line:494]: 绑卡成功！
+INFO - 2021-10-19 08:50:05,498 - new_apply_order.py[line:528]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-10-19 08:50:06,540 - new_apply_order.py[line:534]: 订单表更新1条，信审更新1条
+INFO - 2021-10-19 08:50:06,908 - new_apply_order.py[line:548]: 查询loan_order_id成功！
+INFO - 2021-10-19 08:50:06,947 - new_apply_order.py[line:563]: 订单回调复审通过成功！
+INFO - 2021-10-19 08:50:07,766 - new_apply_order.py[line:585]: 获取token成功！token=bearer e539617b-ecdb-4513-9e99-4361c152f817！
+INFO - 2021-10-19 08:50:08,112 - new_apply_order.py[line:548]: 查询loan_order_id成功！

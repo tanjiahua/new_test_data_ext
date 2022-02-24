@@ -1,0 +1,22 @@
+INFO - 2021-08-31 14:29:27,592 - new_apply_order.py[line:517]: 开始第 Mipeso【1】次进件……
+INFO - 2021-08-31 14:29:27,748 - new_apply_order.py[line:74]: 更新脏数据0条
+INFO - 2021-08-31 14:29:27,749 - new_apply_order.py[line:79]: ======【mx测试环境】生成手机号：1630391367 ======
+INFO - 2021-08-31 14:29:28,130 - new_apply_order.py[line:86]: 1630391367 检测用户存在成功！
+INFO - 2021-08-31 14:29:28,181 - new_apply_order.py[line:93]: 1630391367 短信发送成功！
+INFO - 2021-08-31 14:29:28,225 - new_apply_order.py[line:103]: 1630391367 注册成功！
+INFO - 2021-08-31 14:29:28,281 - new_apply_order.py[line:113]: 1630391367 登录短信发送成功！
+INFO - 2021-08-31 14:29:28,328 - new_apply_order.py[line:121]: userId=4945689591432224768,mobile=1630391367,token=c2d0914c8a87a10f9ccdb94dab83347a 登录成功
+INFO - 2021-08-31 14:29:28,398 - new_apply_order.py[line:172]: 个人信息提交成功！
+INFO - 2021-08-31 14:29:28,833 - new_apply_order.py[line:198]: 创建预审订单成功！
+INFO - 2021-08-31 14:29:28,846 - new_apply_order.py[line:206]: 预审状态修改为通过,更新条数 1
+INFO - 2021-08-31 14:29:28,858 - new_apply_order.py[line:209]: 更新初始额度！更新条数 1
+INFO - 2021-08-31 14:29:32,258 - new_apply_order.py[line:237]: curp上传成功!
+INFO - 2021-08-31 14:29:32,462 - new_apply_order.py[line:244]: curp_rfc校验通过！
+INFO - 2021-08-31 14:29:33,283 - new_apply_order.py[line:253]: 人脸识别成功!
+INFO - 2021-08-31 14:29:33,870 - new_apply_order.py[line:302]: 绑卡成功！
+INFO - 2021-08-31 14:29:34,061 - new_apply_order.py[line:317]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-08-31 14:29:35,101 - new_apply_order.py[line:323]: 订单表更新1条，信审更新1条
+INFO - 2021-08-31 14:29:35,449 - new_apply_order.py[line:332]: 查询loan_order_id成功！
+ERROR - 2021-08-31 14:29:35,457 - new_apply_order.py[line:563]: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: //172.20.240.89:8030/facade/risk/call (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fc0c4bbc5e0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+ERROR - 2021-08-31 14:29:35,476 - new_apply_order.py[line:564]: None
+INFO - 2021-08-31 14:29:35,581 - new_apply_order.py[line:59]: 删除redis key: "mx:cfs:user:userid:4945689591432224768"

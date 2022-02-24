@@ -1,0 +1,38 @@
+INFO - 2022-01-05 13:43:30,826 - new_apply_order.py[line:929]: 开始第 aceloan【1】次进件……
+INFO - 2022-01-05 13:43:31,214 - new_apply_order.py[line:95]: 01634872792 检测用户存在成功！
+INFO - 2022-01-05 13:43:31,281 - new_apply_order.py[line:104]: 01634872792 短信发送成功！
+INFO - 2022-01-05 13:43:31,328 - new_apply_order.py[line:117]: 01634872792 注册成功！
+INFO - 2022-01-05 13:43:31,389 - new_apply_order.py[line:133]: 01634872792 登录短信发送成功！
+INFO - 2022-01-05 13:43:31,438 - new_apply_order.py[line:143]: userId=6249992487163666432,mobile=01634872792,token=e02d468f6a1ec70ba76f4eb0535c9841 登录成功
+INFO - 2022-01-05 13:43:31,535 - new_apply_order.py[line:210]: 个人信息提交成功！
+INFO - 2022-01-05 13:43:31,593 - new_apply_order.py[line:221]: 联系人信息提交成功！
+INFO - 2022-01-05 13:43:31,932 - new_apply_order.py[line:253]: 创建预审订单成功！
+INFO - 2022-01-05 13:43:31,966 - new_apply_order.py[line:261]: 预审状态修改为通过,更新条数 1
+INFO - 2022-01-05 13:43:31,996 - new_apply_order.py[line:264]: 更新初始额度！更新条数 1
+INFO - 2022-01-05 13:43:32,285 - new_apply_order.py[line:340]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2022-01-05 13:43:32,322 - new_apply_order.py[line:350]: 视频认证通过！
+INFO - 2022-01-05 13:43:33,317 - new_apply_order.py[line:509]: bvn和银行卡绑卡认证通过！
+INFO - 2022-01-05 13:43:33,718 - new_apply_order.py[line:560]: user更新1条
+INFO - 2022-01-05 13:43:34,019 - new_apply_order.py[line:621]: 进件成功！执行sql将订单改为风控中……
+INFO - 2022-01-05 13:43:35,102 - new_apply_order.py[line:627]: 订单表更新1条，信审更新1条
+INFO - 2022-01-05 13:43:35,484 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:43:35,528 - new_apply_order.py[line:656]: 订单回调复审通过成功！
+INFO - 2022-01-05 13:43:36,334 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 13:43:36,714 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:43:37,153 - new_apply_order.py[line:696]: 后台已触发放款成功！
+INFO - 2022-01-05 13:43:37,185 - new_apply_order.py[line:710]: xxl_job web 登录成功！
+INFO - 2022-01-05 13:43:37,210 - new_apply_order.py[line:726]: xxl_job 放款准备作业执行成功！
+INFO - 2022-01-05 13:43:38,580 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:43:38,617 - new_apply_order.py[line:734]: 修改放款准备完成时间成功！
+INFO - 2022-01-05 13:43:38,630 - new_apply_order.py[line:742]: xxl_job 放款完成作业执行成功！
+INFO - 2022-01-05 13:43:38,939 - new_apply_order.py[line:952]: 校验重试查询第1次
+INFO - 2022-01-05 13:43:39,977 - new_apply_order.py[line:808]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2022-01-05 13:43:39,977 - new_apply_order.py[line:811]: {'app': 'aceloan', 'loan_order_id': '1478603045123526656', 'mobile': '01634872792', 'order_status': 40}
+INFO - 2022-01-05 13:43:39,978 - new_apply_order.py[line:969]: ===========完成第【1】次进件===========
+INFO - 2022-01-05 13:43:39,979 - new_apply_order.py[line:972]: ======完成第【1】次进件,耗时9.15s=====
+INFO - 2022-01-05 13:43:40,519 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 13:43:41,251 - new_apply_order.py[line:678]: 获取token成功！token=bearer ad65f441-35a1-4264-86d9-012a4ccbb2df！
+INFO - 2022-01-05 13:43:41,766 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-05 13:43:42,050 - new_apply_order.py[line:894]: {'code': '0000', 'data': {'loanType': '小贷资金放款', 'reductionCount': 0, 'randomReduceAmount': 0.0, 'paymentAmount': 0.0, 'totalRepayConfirmAmount': 0, 'payAmount': 770.0, 'periodUnits': '7', 'orderStatusValue': 40, 'repayLogCount': 0, 'totalRepayment': 1133.0, 'period': '1', 'funderName': '20006', 'transferTime': '2022-01-05 06:43:40', 'waitingAmount': '1133.00', 'bankCardNo': '0156676402', 'derateAmount': '0.00', 'mobile': '01634872792', 'extensionCount': 0, 'list': [{'overdueFee': '0.00', 'isCanExtend': '0', 'statusStr': 'Unpaid(normal)', 'realGstFee': '0.00', 'morethanPreRepayDateFlag': -1, 'reduceAmount': '0.00', 'realInterest': '0.00', 'randomReduceAmount': 0.0, 'principal': '1100.00', 'realAmount': '0.00', 'realOverdueFee': '0.00', 'isApplyRepaying': False, 'gstFee': '25.00', 'membershipFee': '330.00', 'manageFee1': '0.00', 'preRepayDate': '2022-01-11', 'interest': '8.00', 'manageFee2': '0.00', 'remainAmount': '1133.00', 'appId': 'AL158', 'realManageFee2': '0.00', 'overdueDays': '0', 'realManageFee1': '0.00', 'realConsultFee': '0.00', 'realMembershipFee': '0.00', 'settleWay': 'PRINCIPAL_FIRST', 'agreementLoanAmountSource': 'LOAN_AMOUNT', 'loanBillPlanId': '1478603079843975168', 'period': '1', 'amount': '1133.00', 'loanOrderId': '1478603045123526656', 'exemptionAmount': '0.00', 'realPrincipal': '0.00', 'unpaidAmount': '1133.00', 'consultFee': '0.00', 'paidAmount': '0.00', 'status': 40, 'realReloanExemptionAmount': '0.00'}], 'loanOrderId': '1478603045123526656', 'shouldRepayAmount': '1133.00', 'realName': 'Jack Francis', 'extOrderId': 'Ext1478603055248576513', 'periodType': 'day', 'realRepayAmount': '0.00', 'repayConfirmList': []}, 'msg': 'success', 'notSuccess': False, 'success': True}
+ERROR - 2022-01-05 13:43:42,051 - new_apply_order.py[line:976]: list indices must be integers or slices, not str
+ERROR - 2022-01-05 13:43:42,053 - new_apply_order.py[line:977]: None

@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:35:35,100 - new_apply_order.py[line:520]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:35:35,100 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630683335 ======
+ERROR - 2021-09-03 23:35:35,406 - new_apply_order.py[line:566]: module 'common.params_init' has no attribute 'data'
+ERROR - 2021-09-03 23:35:35,407 - new_apply_order.py[line:567]: None
+INFO - 2021-09-03 23:35:35,409 - new_apply_order.py[line:520]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:35:35,409 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630683335 ======
+ERROR - 2021-09-03 23:35:35,718 - new_apply_order.py[line:566]: module 'common.params_init' has no attribute 'data'
+ERROR - 2021-09-03 23:35:35,718 - new_apply_order.py[line:567]: None

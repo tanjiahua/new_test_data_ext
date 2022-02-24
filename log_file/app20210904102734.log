@@ -1,0 +1,8 @@
+INFO - 2021-09-04 10:27:34,256 - new_apply_order.py[line:525]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-04 10:27:34,257 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630722454 ======
+ERROR - 2021-09-04 10:28:07,299 - new_apply_order.py[line:571]: module 'common.params_init' has no attribute 'data_checkUserExist'
+ERROR - 2021-09-04 10:28:07,301 - new_apply_order.py[line:572]: None
+INFO - 2021-09-04 10:28:07,306 - new_apply_order.py[line:525]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-04 10:28:07,307 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630722487 ======
+ERROR - 2021-09-04 10:28:30,674 - new_apply_order.py[line:571]: module 'common.params_init' has no attribute 'data_checkUserExist'
+ERROR - 2021-09-04 10:28:30,675 - new_apply_order.py[line:572]: None

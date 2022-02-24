@@ -1,0 +1,20 @@
+INFO - 2021-08-30 20:20:53,932 - new_apply_order.py[line:450]: 开始第 borrowme【1】次进件……
+INFO - 2021-08-30 20:20:53,933 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630326053 ======
+INFO - 2021-08-30 20:20:54,320 - new_apply_order.py[line:86]: 01630326053 检测用户存在成功！
+INFO - 2021-08-30 20:20:54,370 - new_apply_order.py[line:93]: 01630326053 短信发送成功！
+INFO - 2021-08-30 20:20:54,413 - new_apply_order.py[line:103]: 01630326053 注册成功！
+INFO - 2021-08-30 20:20:54,461 - new_apply_order.py[line:116]: userId=6203706845329891328,mobile=01630326053,token=26883c7f8521b7471198236ab53ae4ac 登录成功
+INFO - 2021-08-30 20:20:54,538 - new_apply_order.py[line:167]: 个人信息提交成功！
+INFO - 2021-08-30 20:20:54,621 - new_apply_order.py[line:176]: 联系人信息提交成功！
+INFO - 2021-08-30 20:20:55,155 - new_apply_order.py[line:193]: 创建预审订单成功！
+INFO - 2021-08-30 20:20:55,175 - new_apply_order.py[line:201]: 预审状态修改为通过,更新条数 1
+INFO - 2021-08-30 20:20:55,193 - new_apply_order.py[line:204]: 更新初始额度！更新条数 1
+INFO - 2021-08-30 20:20:55,495 - new_apply_order.py[line:216]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-08-30 20:20:55,543 - new_apply_order.py[line:225]: 视频认证通过！
+INFO - 2021-08-30 20:20:56,569 - new_apply_order.py[line:271]: bvn和银行卡绑卡认证通过！
+INFO - 2021-08-30 20:20:56,855 - new_apply_order.py[line:292]: user更新1条
+INFO - 2021-08-30 20:20:57,102 - new_apply_order.py[line:312]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-08-30 20:20:58,141 - new_apply_order.py[line:318]: 订单表更新1条，信审更新1条
+INFO - 2021-08-30 20:20:58,492 - new_apply_order.py[line:327]: 查询loan_order_id成功！
+ERROR - 2021-08-30 20:20:58,493 - new_apply_order.py[line:496]: No connection adapters were found for '172.20.240.143:8030/facade/risk/call'
+ERROR - 2021-08-30 20:20:58,499 - new_apply_order.py[line:497]: None

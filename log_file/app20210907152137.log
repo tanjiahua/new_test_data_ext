@@ -1,0 +1,18 @@
+INFO - 2021-09-07 15:21:37,626 - new_apply_order.py[line:538]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-07 15:21:37,627 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630999297 ======
+INFO - 2021-09-07 15:21:37,999 - new_apply_order.py[line:93]: 01630999297 检测用户存在成功！
+INFO - 2021-09-07 15:21:38,079 - new_apply_order.py[line:102]: 01630999297 短信发送成功！
+INFO - 2021-09-07 15:21:38,137 - new_apply_order.py[line:115]: 01630999297 注册成功！
+INFO - 2021-09-07 15:21:38,188 - new_apply_order.py[line:131]: 01630999297 登录短信发送成功！
+INFO - 2021-09-07 15:21:38,271 - new_apply_order.py[line:141]: userId=6206530634095271936,mobile=01630999297,token=1b91b0cbf4ccd345dedd92436e2191dc 登录成功
+ERROR - 2021-09-07 15:21:38,273 - new_apply_order.py[line:584]: local variable 'data' referenced before assignment
+ERROR - 2021-09-07 15:21:38,274 - new_apply_order.py[line:585]: None
+INFO - 2021-09-07 15:21:38,277 - new_apply_order.py[line:538]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-07 15:21:38,278 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630999298 ======
+INFO - 2021-09-07 15:21:38,614 - new_apply_order.py[line:93]: 01630999298 检测用户存在成功！
+INFO - 2021-09-07 15:21:38,668 - new_apply_order.py[line:102]: 01630999298 短信发送成功！
+INFO - 2021-09-07 15:21:38,728 - new_apply_order.py[line:115]: 01630999298 注册成功！
+INFO - 2021-09-07 15:21:38,806 - new_apply_order.py[line:131]: 01630999298 登录短信发送成功！
+INFO - 2021-09-07 15:21:38,854 - new_apply_order.py[line:141]: userId=6206530636544745472,mobile=01630999298,token=9396a2594a72efd8a418e2ba2d0c5ba4 登录成功
+ERROR - 2021-09-07 15:21:38,857 - new_apply_order.py[line:584]: local variable 'data' referenced before assignment
+ERROR - 2021-09-07 15:21:38,857 - new_apply_order.py[line:585]: None

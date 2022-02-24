@@ -1,0 +1,21 @@
+INFO - 2021-09-15 11:31:12,288 - new_apply_order.py[line:683]: 开始第 pcamion【1】次进件……
+INFO - 2021-09-15 11:31:12,288 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3631676672 ======
+INFO - 2021-09-15 11:31:12,703 - new_apply_order.py[line:95]: 3631676672 检测用户存在成功！
+INFO - 2021-09-15 11:31:12,824 - new_apply_order.py[line:104]: 3631676672 短信发送成功！
+INFO - 2021-09-15 11:31:12,921 - new_apply_order.py[line:117]: 3631676672 注册成功！
+INFO - 2021-09-15 11:31:13,066 - new_apply_order.py[line:133]: 3631676672 登录短信发送成功！
+INFO - 2021-09-15 11:31:13,157 - new_apply_order.py[line:143]: userId=4951080550131965952,mobile=3631676672,token=6382752efe5f4459122bfc545b3e571a 登录成功
+INFO - 2021-09-15 11:31:13,315 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-09-15 11:31:13,874 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-09-15 11:31:13,897 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-15 11:31:13,918 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-15 11:31:14,192 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-15 11:31:14,278 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-09-15 11:31:15,520 - new_apply_order.py[line:331]: curp上传成功!
+INFO - 2021-09-15 11:31:15,654 - new_apply_order.py[line:340]: curp_rfc校验通过！
+INFO - 2021-09-15 11:31:16,264 - new_apply_order.py[line:413]: 不绑卡成功跳过！
+INFO - 2021-09-15 11:31:16,695 - new_apply_order.py[line:426]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-09-15 11:31:17,740 - new_apply_order.py[line:432]: 订单表更新1条，信审更新1条
+INFO - 2021-09-15 11:31:18,366 - new_apply_order.py[line:446]: 查询loan_order_id成功！
+ERROR - 2021-09-15 11:31:18,375 - new_apply_order.py[line:729]: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: //172.20.240.245:8030/facade/risk/call (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fdf5ba97cd0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+ERROR - 2021-09-15 11:31:18,399 - new_apply_order.py[line:730]: None

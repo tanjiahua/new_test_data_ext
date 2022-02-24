@@ -1,0 +1,8 @@
+INFO - 2021-08-31 13:37:42,431 - new_apply_order.py[line:517]: 开始第 borrowme【1】次进件……
+INFO - 2021-08-31 13:37:42,433 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630388262 ======
+INFO - 2021-08-31 13:37:42,844 - new_apply_order.py[line:86]: 01630388262 检测用户存在成功！
+INFO - 2021-08-31 13:37:42,909 - new_apply_order.py[line:93]: 01630388262 短信发送成功！
+INFO - 2021-08-31 13:37:42,966 - new_apply_order.py[line:103]: 01630388262 注册成功！
+INFO - 2021-08-31 13:37:43,025 - new_apply_order.py[line:113]: 01630388262 短信发送成功！
+ERROR - 2021-08-31 13:37:43,026 - new_apply_order.py[line:563]: module 'common.params_init' has no attribute 'url_lsmsogin'
+ERROR - 2021-08-31 13:37:43,029 - new_apply_order.py[line:564]: None

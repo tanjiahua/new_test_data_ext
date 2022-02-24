@@ -1,0 +1,14 @@
+INFO - 2021-09-07 15:20:21,648 - new_apply_order.py[line:537]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-07 15:20:21,649 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630999221 ======
+INFO - 2021-09-07 15:20:22,036 - new_apply_order.py[line:93]: 01630999221 检测用户存在成功！
+INFO - 2021-09-07 15:20:22,089 - new_apply_order.py[line:102]: 01630999221 短信发送成功！
+INFO - 2021-09-07 15:20:22,147 - new_apply_order.py[line:115]: 01630999221 注册成功！
+ERROR - 2021-09-07 15:20:22,153 - new_apply_order.py[line:583]: name 'datas' is not defined
+ERROR - 2021-09-07 15:20:22,154 - new_apply_order.py[line:584]: None
+INFO - 2021-09-07 15:20:22,157 - new_apply_order.py[line:537]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-07 15:20:22,158 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630999222 ======
+INFO - 2021-09-07 15:20:22,505 - new_apply_order.py[line:93]: 01630999222 检测用户存在成功！
+INFO - 2021-09-07 15:20:22,558 - new_apply_order.py[line:102]: 01630999222 短信发送成功！
+INFO - 2021-09-07 15:20:22,596 - new_apply_order.py[line:115]: 01630999222 注册成功！
+ERROR - 2021-09-07 15:20:22,600 - new_apply_order.py[line:583]: name 'datas' is not defined
+ERROR - 2021-09-07 15:20:22,601 - new_apply_order.py[line:584]: None

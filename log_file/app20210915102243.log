@@ -1,0 +1,4 @@
+INFO - 2021-09-15 10:22:43,344 - new_apply_order.py[line:646]: 开始第 pcamion【1】次进件……
+INFO - 2021-09-15 10:22:43,345 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3631672563 ======
+ERROR - 2021-09-15 10:22:43,652 - new_apply_order.py[line:692]: 'NewUserApplyOrder' object has no attribute 'test_ini_name'
+ERROR - 2021-09-15 10:22:43,655 - new_apply_order.py[line:693]: None

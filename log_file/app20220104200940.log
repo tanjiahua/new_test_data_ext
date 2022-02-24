@@ -1,0 +1,17 @@
+INFO - 2022-01-04 20:09:41,019 - new_apply_order.py[line:891]: 开始第 aceloan【1】次进件……
+INFO - 2022-01-04 20:09:41,412 - new_apply_order.py[line:95]: 01634872783 检测用户存在成功！
+INFO - 2022-01-04 20:09:41,483 - new_apply_order.py[line:104]: 01634872783 短信发送成功！
+ERROR - 2022-01-04 20:09:41,522 - new_apply_order.py[line:119]: 注册失败！{'accept': 'application/json', 'appversion': '1.3.0.9', 'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD', 'accept-language': 'en-US', 'clientCode': 'aceloani1300', 'Content-Type': 'application/json; charset=UTF-8', 'Host': '172.20.240.143:8012', 'User-Agent': 'okhttp/4.9.0'}
+ERROR - 2022-01-04 20:09:41,523 - new_apply_order.py[line:120]: {"code":"20001003","msg":"This number already exists, please use another number","data":null}
+INFO - 2022-01-04 20:09:41,584 - new_apply_order.py[line:133]: 01634872783 登录短信发送成功！
+INFO - 2022-01-04 20:09:41,632 - new_apply_order.py[line:143]: userId=6249724227822297088,mobile=01634872783,token=77c0259307368ef27a1a028fa5717573 登录成功
+INFO - 2022-01-04 20:09:41,721 - new_apply_order.py[line:210]: 个人信息提交成功！
+INFO - 2022-01-04 20:09:41,784 - new_apply_order.py[line:221]: 联系人信息提交成功！
+ERROR - 2022-01-04 20:09:41,937 - new_apply_order.py[line:255]: 创建预审失败{"code":"9999","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2022-01-04 20:09:41,966 - new_apply_order.py[line:261]: 预审状态修改为通过,更新条数 0
+INFO - 2022-01-04 20:09:41,996 - new_apply_order.py[line:264]: 更新初始额度！更新条数 0
+INFO - 2022-01-04 20:09:42,270 - new_apply_order.py[line:340]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2022-01-04 20:09:42,307 - new_apply_order.py[line:350]: 视频认证通过！
+INFO - 2022-01-04 20:09:43,311 - new_apply_order.py[line:509]: bvn和银行卡绑卡认证通过！
+ERROR - 2022-01-04 20:09:43,444 - new_apply_order.py[line:937]: No option 'mobile' in section: 'global_param_aceloan'
+ERROR - 2022-01-04 20:09:43,454 - new_apply_order.py[line:938]: None

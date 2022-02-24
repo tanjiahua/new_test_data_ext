@@ -1,0 +1,20 @@
+INFO - 2022-01-04 20:09:58,762 - new_apply_order.py[line:891]: 开始第 aceloan【1】次进件……
+INFO - 2022-01-04 20:09:59,128 - new_apply_order.py[line:95]: 01634872783 检测用户存在成功！
+INFO - 2022-01-04 20:09:59,191 - new_apply_order.py[line:104]: 01634872783 短信发送成功！
+ERROR - 2022-01-04 20:09:59,223 - new_apply_order.py[line:119]: 注册失败！{'accept': 'application/json', 'appversion': '1.3.0.9', 'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD', 'accept-language': 'en-US', 'clientCode': 'aceloani1300', 'Content-Type': 'application/json; charset=UTF-8', 'Host': '172.20.240.143:8012', 'User-Agent': 'okhttp/4.9.0'}
+ERROR - 2022-01-04 20:09:59,223 - new_apply_order.py[line:120]: {"code":"20001003","msg":"This number already exists, please use another number","data":null}
+INFO - 2022-01-04 20:09:59,283 - new_apply_order.py[line:133]: 01634872783 登录短信发送成功！
+INFO - 2022-01-04 20:09:59,339 - new_apply_order.py[line:143]: userId=6249724227822297088,mobile=01634872783,token=a4330670381acd23838f724d7e83707e 登录成功
+INFO - 2022-01-04 20:09:59,427 - new_apply_order.py[line:210]: 个人信息提交成功！
+INFO - 2022-01-04 20:09:59,486 - new_apply_order.py[line:221]: 联系人信息提交成功！
+ERROR - 2022-01-04 20:09:59,613 - new_apply_order.py[line:255]: 创建预审失败{"code":"9999","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2022-01-04 20:09:59,644 - new_apply_order.py[line:261]: 预审状态修改为通过,更新条数 0
+INFO - 2022-01-04 20:09:59,671 - new_apply_order.py[line:264]: 更新初始额度！更新条数 0
+INFO - 2022-01-04 20:09:59,998 - new_apply_order.py[line:340]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2022-01-04 20:10:00,039 - new_apply_order.py[line:350]: 视频认证通过！
+INFO - 2022-01-04 20:10:01,044 - new_apply_order.py[line:509]: bvn和银行卡绑卡认证通过！
+INFO - 2022-01-04 20:10:01,399 - new_apply_order.py[line:560]: user更新1条
+INFO - 2022-01-04 20:10:01,602 - new_apply_order.py[line:621]: 进件成功！执行sql将订单改为风控中……
+INFO - 2022-01-04 20:10:02,668 - new_apply_order.py[line:627]: 订单表更新1条，信审更新1条
+ERROR - 2022-01-04 20:10:02,675 - new_apply_order.py[line:937]: name 'data_callback_order' is not defined
+ERROR - 2022-01-04 20:10:02,676 - new_apply_order.py[line:938]: None

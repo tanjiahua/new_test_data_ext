@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:27:35,437 - new_apply_order.py[line:520]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:27:35,438 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630682855 ======
+ERROR - 2021-09-03 23:27:35,745 - new_apply_order.py[line:566]: data() missing 1 required positional argument: 'param'
+ERROR - 2021-09-03 23:27:35,747 - new_apply_order.py[line:567]: None
+INFO - 2021-09-03 23:27:35,751 - new_apply_order.py[line:520]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:27:35,752 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630682855 ======
+ERROR - 2021-09-03 23:27:36,057 - new_apply_order.py[line:566]: data() missing 1 required positional argument: 'param'
+ERROR - 2021-09-03 23:27:36,057 - new_apply_order.py[line:567]: None

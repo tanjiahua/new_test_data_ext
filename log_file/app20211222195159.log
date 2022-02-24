@@ -1,0 +1,191 @@
+INFO - 2021-12-22 19:52:00,117 - new_apply_order.py[line:893]: 开始第 fakash【1】次进件……
+INFO - 2021-12-22 19:52:00,118 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：740173920 ======
+INFO - 2021-12-22 19:52:00,491 - new_apply_order.py[line:97]: 740173920 检测用户存在成功！
+INFO - 2021-12-22 19:52:00,546 - new_apply_order.py[line:106]: 740173920 短信发送成功！
+INFO - 2021-12-22 19:52:00,592 - new_apply_order.py[line:119]: 740173920 注册成功！
+INFO - 2021-12-22 19:52:00,652 - new_apply_order.py[line:135]: 740173920 登录短信发送成功！
+INFO - 2021-12-22 19:52:00,750 - new_apply_order.py[line:145]: userId=6245011790152867840,mobile=740173920,token=c64c0912e8e519429b32940644b8f2e5 登录成功
+INFO - 2021-12-22 19:52:00,872 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-22 19:52:00,933 - new_apply_order.py[line:232]: 联系人信息提交成功！
+INFO - 2021-12-22 19:52:01,196 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-22 19:52:01,217 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-22 19:52:01,236 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-22 19:52:01,528 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-22 19:52:01,567 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-12-22 19:52:01,820 - new_apply_order.py[line:579]: 740173920 短信发送成功！
+INFO - 2021-12-22 19:52:01,952 - new_apply_order.py[line:588]: 绑卡成功！
+INFO - 2021-12-22 19:52:02,198 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-22 19:52:03,228 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-22 19:52:03,585 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:03,620 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-22 19:52:04,438 - new_apply_order.py[line:680]: 获取token成功！token=bearer b197b4fc-fb24-408d-bdd7-c1056a12272a！
+INFO - 2021-12-22 19:52:04,793 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:05,122 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-22 19:52:05,131 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-22 19:52:05,137 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-22 19:52:06,502 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:06,520 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-22 19:52:06,528 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-22 19:52:06,907 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:07,215 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-22 19:52:08,229 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-22 19:52:08,230 - new_apply_order.py[line:813]: {'app': 'fakash', 'loan_order_id': '1473622348213653504', 'mobile': '740173920', 'order_status': 35}
+INFO - 2021-12-22 19:52:09,105 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:09,298 - new_apply_order.py[line:781]: 放款回调成功！
+INFO - 2021-12-22 19:52:09,298 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-22 19:52:10,307 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-22 19:52:10,308 - new_apply_order.py[line:813]: {'app': 'fakash', 'loan_order_id': '1473622348213653504', 'mobile': '740173920', 'order_status': 40}
+INFO - 2021-12-22 19:52:10,309 - new_apply_order.py[line:933]: ===========完成第【1】次进件===========
+INFO - 2021-12-22 19:52:10,309 - new_apply_order.py[line:893]: 开始第 fakash【2】次进件……
+INFO - 2021-12-22 19:52:10,309 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：740173930 ======
+INFO - 2021-12-22 19:52:10,659 - new_apply_order.py[line:97]: 740173930 检测用户存在成功！
+INFO - 2021-12-22 19:52:10,714 - new_apply_order.py[line:106]: 740173930 短信发送成功！
+INFO - 2021-12-22 19:52:10,761 - new_apply_order.py[line:119]: 740173930 注册成功！
+INFO - 2021-12-22 19:52:10,812 - new_apply_order.py[line:135]: 740173930 登录短信发送成功！
+INFO - 2021-12-22 19:52:10,872 - new_apply_order.py[line:145]: userId=6245011832808939520,mobile=740173930,token=23a36b6f79b9c6ce299d39075735d4b5 登录成功
+INFO - 2021-12-22 19:52:10,984 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-22 19:52:11,034 - new_apply_order.py[line:232]: 联系人信息提交成功！
+INFO - 2021-12-22 19:52:11,264 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-22 19:52:11,276 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-22 19:52:11,286 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-22 19:52:11,567 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-22 19:52:11,604 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-12-22 19:52:11,854 - new_apply_order.py[line:579]: 740173930 短信发送成功！
+INFO - 2021-12-22 19:52:12,034 - new_apply_order.py[line:588]: 绑卡成功！
+INFO - 2021-12-22 19:52:12,287 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-22 19:52:13,327 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-22 19:52:13,682 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:13,722 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-22 19:52:14,506 - new_apply_order.py[line:680]: 获取token成功！token=bearer b197b4fc-fb24-408d-bdd7-c1056a12272a！
+INFO - 2021-12-22 19:52:14,882 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:15,218 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-22 19:52:15,230 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-22 19:52:15,239 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-22 19:52:16,608 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:16,622 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-22 19:52:16,627 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-22 19:52:16,995 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:17,309 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-22 19:52:18,323 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-22 19:52:18,323 - new_apply_order.py[line:813]: {'app': 'fakash', 'loan_order_id': '1473622390563540992', 'mobile': '740173930', 'order_status': 35}
+INFO - 2021-12-22 19:52:19,194 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:19,451 - new_apply_order.py[line:781]: 放款回调成功！
+INFO - 2021-12-22 19:52:19,451 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-22 19:52:20,464 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-22 19:52:20,465 - new_apply_order.py[line:813]: {'app': 'fakash', 'loan_order_id': '1473622390563540992', 'mobile': '740173930', 'order_status': 40}
+INFO - 2021-12-22 19:52:20,465 - new_apply_order.py[line:933]: ===========完成第【2】次进件===========
+INFO - 2021-12-22 19:52:20,465 - new_apply_order.py[line:893]: 开始第 fakash【3】次进件……
+INFO - 2021-12-22 19:52:20,466 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：740173940 ======
+INFO - 2021-12-22 19:52:20,809 - new_apply_order.py[line:97]: 740173940 检测用户存在成功！
+INFO - 2021-12-22 19:52:20,873 - new_apply_order.py[line:106]: 740173940 短信发送成功！
+INFO - 2021-12-22 19:52:20,917 - new_apply_order.py[line:119]: 740173940 注册成功！
+INFO - 2021-12-22 19:52:20,966 - new_apply_order.py[line:135]: 740173940 登录短信发送成功！
+INFO - 2021-12-22 19:52:21,025 - new_apply_order.py[line:145]: userId=6245011875406290944,mobile=740173940,token=cec8cfeed2fec1de18ddd9e0704dae74 登录成功
+INFO - 2021-12-22 19:52:21,131 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-22 19:52:21,215 - new_apply_order.py[line:232]: 联系人信息提交成功！
+INFO - 2021-12-22 19:52:21,468 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-22 19:52:21,486 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-22 19:52:21,501 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-22 19:52:21,792 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-22 19:52:21,833 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-12-22 19:52:22,088 - new_apply_order.py[line:579]: 740173940 短信发送成功！
+INFO - 2021-12-22 19:52:22,241 - new_apply_order.py[line:588]: 绑卡成功！
+INFO - 2021-12-22 19:52:22,459 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-22 19:52:23,501 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-22 19:52:23,860 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:23,899 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-22 19:52:24,706 - new_apply_order.py[line:680]: 获取token成功！token=bearer b197b4fc-fb24-408d-bdd7-c1056a12272a！
+INFO - 2021-12-22 19:52:25,059 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:25,459 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-22 19:52:25,474 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-22 19:52:25,485 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-22 19:52:26,851 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:26,861 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-22 19:52:26,865 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-22 19:52:27,234 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:27,544 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-22 19:52:28,552 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-22 19:52:28,553 - new_apply_order.py[line:813]: {'app': 'fakash', 'loan_order_id': '1473622433320275968', 'mobile': '740173940', 'order_status': 35}
+INFO - 2021-12-22 19:52:29,427 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:29,614 - new_apply_order.py[line:781]: 放款回调成功！
+INFO - 2021-12-22 19:52:29,614 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-22 19:52:30,625 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-22 19:52:30,625 - new_apply_order.py[line:813]: {'app': 'fakash', 'loan_order_id': '1473622433320275968', 'mobile': '740173940', 'order_status': 40}
+INFO - 2021-12-22 19:52:30,626 - new_apply_order.py[line:933]: ===========完成第【3】次进件===========
+INFO - 2021-12-22 19:52:30,626 - new_apply_order.py[line:893]: 开始第 fakash【4】次进件……
+INFO - 2021-12-22 19:52:30,626 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：740173950 ======
+INFO - 2021-12-22 19:52:30,967 - new_apply_order.py[line:97]: 740173950 检测用户存在成功！
+INFO - 2021-12-22 19:52:31,007 - new_apply_order.py[line:106]: 740173950 短信发送成功！
+INFO - 2021-12-22 19:52:31,050 - new_apply_order.py[line:119]: 740173950 注册成功！
+INFO - 2021-12-22 19:52:31,094 - new_apply_order.py[line:135]: 740173950 登录短信发送成功！
+INFO - 2021-12-22 19:52:31,143 - new_apply_order.py[line:145]: userId=6245011917911367680,mobile=740173950,token=198e2bfc320c057005b2c69a8002e86f 登录成功
+INFO - 2021-12-22 19:52:31,235 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-22 19:52:31,291 - new_apply_order.py[line:232]: 联系人信息提交成功！
+INFO - 2021-12-22 19:52:31,504 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-22 19:52:31,521 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-22 19:52:31,534 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-22 19:52:31,805 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-22 19:52:31,846 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-12-22 19:52:32,099 - new_apply_order.py[line:579]: 740173950 短信发送成功！
+INFO - 2021-12-22 19:52:32,219 - new_apply_order.py[line:588]: 绑卡成功！
+INFO - 2021-12-22 19:52:32,420 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-22 19:52:33,462 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-22 19:52:33,826 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:33,865 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-22 19:52:34,619 - new_apply_order.py[line:680]: 获取token成功！token=bearer b197b4fc-fb24-408d-bdd7-c1056a12272a！
+INFO - 2021-12-22 19:52:34,985 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:35,323 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-22 19:52:35,336 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-22 19:52:35,346 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-22 19:52:36,711 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:36,731 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-22 19:52:36,740 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-22 19:52:37,134 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:37,449 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-22 19:52:38,461 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-22 19:52:38,461 - new_apply_order.py[line:813]: {'app': 'fakash', 'loan_order_id': '1473622475535945728', 'mobile': '740173950', 'order_status': 35}
+INFO - 2021-12-22 19:52:39,405 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:39,627 - new_apply_order.py[line:781]: 放款回调成功！
+INFO - 2021-12-22 19:52:39,627 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-22 19:52:40,639 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-22 19:52:40,639 - new_apply_order.py[line:813]: {'app': 'fakash', 'loan_order_id': '1473622475535945728', 'mobile': '740173950', 'order_status': 40}
+INFO - 2021-12-22 19:52:40,639 - new_apply_order.py[line:933]: ===========完成第【4】次进件===========
+INFO - 2021-12-22 19:52:40,639 - new_apply_order.py[line:893]: 开始第 fakash【5】次进件……
+INFO - 2021-12-22 19:52:40,640 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：740173960 ======
+INFO - 2021-12-22 19:52:40,986 - new_apply_order.py[line:97]: 740173960 检测用户存在成功！
+INFO - 2021-12-22 19:52:41,023 - new_apply_order.py[line:106]: 740173960 短信发送成功！
+INFO - 2021-12-22 19:52:41,062 - new_apply_order.py[line:119]: 740173960 注册成功！
+INFO - 2021-12-22 19:52:41,106 - new_apply_order.py[line:135]: 740173960 登录短信发送成功！
+INFO - 2021-12-22 19:52:41,155 - new_apply_order.py[line:145]: userId=6245011959904739328,mobile=740173960,token=10365b08bd52acd7f6e610ac13eac4ec 登录成功
+INFO - 2021-12-22 19:52:41,261 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-22 19:52:41,316 - new_apply_order.py[line:232]: 联系人信息提交成功！
+INFO - 2021-12-22 19:52:41,566 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-22 19:52:41,585 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-22 19:52:41,606 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-22 19:52:41,844 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-22 19:52:41,887 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-12-22 19:52:42,142 - new_apply_order.py[line:579]: 740173960 短信发送成功！
+INFO - 2021-12-22 19:52:42,265 - new_apply_order.py[line:588]: 绑卡成功！
+INFO - 2021-12-22 19:52:42,468 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-22 19:52:43,503 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-22 19:52:43,860 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:43,890 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-22 19:52:44,699 - new_apply_order.py[line:680]: 获取token成功！token=bearer b197b4fc-fb24-408d-bdd7-c1056a12272a！
+INFO - 2021-12-22 19:52:45,058 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:45,369 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-22 19:52:45,382 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-22 19:52:45,393 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-22 19:52:46,763 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:46,779 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-22 19:52:46,786 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-22 19:52:47,152 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:47,468 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-22 19:52:48,481 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-22 19:52:48,482 - new_apply_order.py[line:813]: {'app': 'fakash', 'loan_order_id': '1473622517583843328', 'mobile': '740173960', 'order_status': 35}
+INFO - 2021-12-22 19:52:49,359 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-22 19:52:49,571 - new_apply_order.py[line:781]: 放款回调成功！
+INFO - 2021-12-22 19:52:49,571 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-22 19:52:50,589 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-22 19:52:50,590 - new_apply_order.py[line:813]: {'app': 'fakash', 'loan_order_id': '1473622517583843328', 'mobile': '740173960', 'order_status': 40}
+INFO - 2021-12-22 19:52:50,590 - new_apply_order.py[line:933]: ===========完成第【5】次进件===========
+INFO - 2021-12-22 19:52:50,591 - new_apply_order.py[line:936]: ======完成第【5】次进件,耗时50.47s=====

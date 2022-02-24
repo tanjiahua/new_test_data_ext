@@ -1,0 +1,45 @@
+INFO - 2022-01-11 20:16:56,353 - new_apply_order.py[line:933]: 开始第 lendcash【1】次进件……
+INFO - 2022-01-11 20:16:56,957 - new_apply_order.py[line:95]: 01641903248 检测用户存在成功！
+INFO - 2022-01-11 20:16:57,812 - new_apply_order.py[line:104]: 01641903248 短信发送成功！
+ERROR - 2022-01-11 20:16:58,164 - new_apply_order.py[line:119]: 注册失败！{'accept': 'application/json', 'appversion': '1.3.0.8', 'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD', 'accept-language': 'en-US', 'clientCode': 'lendcash1300', 'Content-Type': 'application/json; charset=UTF-8', 'Host': '172.20.240.143:8012', 'User-Agent': 'okhttp/4.9.0'}
+ERROR - 2022-01-11 20:16:58,164 - new_apply_order.py[line:120]: {"code":"20001003","msg":"This number already exists, please use another number","data":null}
+INFO - 2022-01-11 20:16:58,501 - new_apply_order.py[line:133]: 01641903248 登录短信发送成功！
+INFO - 2022-01-11 20:16:58,732 - new_apply_order.py[line:143]: userId=6252265507211190272,mobile=01641903248,token=f33d651062f66bc9610dcc6c4045d391 登录成功
+INFO - 2022-01-11 20:16:59,026 - new_apply_order.py[line:210]: 个人信息提交成功！
+INFO - 2022-01-11 20:16:59,281 - new_apply_order.py[line:221]: 联系人信息提交成功！
+ERROR - 2022-01-11 20:16:59,642 - new_apply_order.py[line:255]: 创建预审失败{"code":"9999","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2022-01-11 20:17:00,241 - new_apply_order.py[line:261]: 预审状态修改为通过,更新条数 0
+INFO - 2022-01-11 20:17:00,985 - new_apply_order.py[line:264]: 更新初始额度！更新条数 0
+INFO - 2022-01-11 20:17:01,874 - new_apply_order.py[line:340]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2022-01-11 20:17:02,132 - new_apply_order.py[line:350]: 视频认证通过！
+INFO - 2022-01-11 20:17:03,210 - new_apply_order.py[line:509]: bvn和银行卡绑卡认证通过！
+INFO - 2022-01-11 20:17:06,472 - new_apply_order.py[line:560]: user更新1条
+INFO - 2022-01-11 20:17:06,898 - new_apply_order.py[line:621]: 进件成功！执行sql将订单改为风控中……
+INFO - 2022-01-11 20:17:09,266 - new_apply_order.py[line:627]: 订单表更新1条，信审更新1条
+INFO - 2022-01-11 20:17:09,895 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-11 20:17:10,152 - new_apply_order.py[line:656]: 订单回调复审通过成功！
+INFO - 2022-01-11 20:17:11,171 - new_apply_order.py[line:678]: 获取token成功！token=bearer ebf30517-108a-4fe6-a60f-8918ab8cd9d8！
+INFO - 2022-01-11 20:17:11,714 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-11 20:17:12,559 - new_apply_order.py[line:696]: 后台已触发放款成功！
+INFO - 2022-01-11 20:17:12,857 - new_apply_order.py[line:710]: xxl_job web 登录成功！
+INFO - 2022-01-11 20:17:13,067 - new_apply_order.py[line:726]: xxl_job 放款准备作业执行成功！
+INFO - 2022-01-11 20:17:14,612 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-11 20:17:15,333 - new_apply_order.py[line:734]: 修改放款准备完成时间成功！
+INFO - 2022-01-11 20:17:15,526 - new_apply_order.py[line:742]: xxl_job 放款完成作业执行成功！
+INFO - 2022-01-11 20:17:15,834 - new_apply_order.py[line:956]: 校验重试查询第1次
+ERROR - 2022-01-11 20:17:17,390 - new_apply_order.py[line:810]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2022-01-11 20:17:17,390 - new_apply_order.py[line:811]: {'app': 'lendcash', 'loan_order_id': '1480876070653267968', 'mobile': '01641903248', 'order_status': 35}
+INFO - 2022-01-11 20:17:17,905 - new_apply_order.py[line:956]: 校验重试查询第2次
+INFO - 2022-01-11 20:17:19,529 - new_apply_order.py[line:808]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2022-01-11 20:17:19,530 - new_apply_order.py[line:811]: {'app': 'lendcash', 'loan_order_id': '1480876070653267968', 'mobile': '01641903248', 'order_status': 40}
+INFO - 2022-01-11 20:17:19,532 - new_apply_order.py[line:973]: ===========完成第【1】次进件===========
+INFO - 2022-01-11 20:17:19,532 - new_apply_order.py[line:976]: ======完成第【1】次进件,耗时23.18s=====
+INFO - 2022-01-11 20:17:20,316 - new_apply_order.py[line:678]: 获取token成功！token=bearer ebf30517-108a-4fe6-a60f-8918ab8cd9d8！
+INFO - 2022-01-11 20:17:21,061 - new_apply_order.py[line:678]: 获取token成功！token=bearer ebf30517-108a-4fe6-a60f-8918ab8cd9d8！
+INFO - 2022-01-11 20:17:21,773 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-11 20:17:23,138 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+ERROR - 2022-01-11 20:17:23,138 - new_apply_order.py[line:900]: 订单号：1480876070653267968
+INFO - 2022-01-11 20:17:24,045 - new_apply_order.py[line:678]: 获取token成功！token=bearer ebf30517-108a-4fe6-a60f-8918ab8cd9d8！
+INFO - 2022-01-11 20:17:24,891 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+INFO - 2022-01-11 20:17:26,290 - new_apply_order.py[line:641]: 查询loan_order_id成功！
+ERROR - 2022-01-11 20:17:26,291 - new_apply_order.py[line:900]: 订单号：1480876070653267968

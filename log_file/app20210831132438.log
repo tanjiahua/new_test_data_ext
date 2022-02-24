@@ -1,0 +1,8 @@
+INFO - 2021-08-31 13:24:38,480 - new_apply_order.py[line:511]: 开始第 borrowme【1】次进件……
+INFO - 2021-08-31 13:24:38,484 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630387478 ======
+INFO - 2021-08-31 13:24:38,860 - new_apply_order.py[line:86]: 01630387478 检测用户存在成功！
+INFO - 2021-08-31 13:24:38,926 - new_apply_order.py[line:93]: 01630387478 短信发送成功！
+INFO - 2021-08-31 13:24:38,987 - new_apply_order.py[line:103]: 01630387478 注册成功！
+ERROR - 2021-08-31 13:24:39,038 - new_apply_order.py[line:122]: 登录失败!
+INFO - 2021-08-31 13:24:53,295 - new_apply_order.py[line:166]: 个人信息提交成功！
+INFO - 2021-08-31 13:24:53,391 - new_apply_order.py[line:175]: 联系人信息提交成功！

@@ -1,0 +1,49 @@
+INFO - 2021-10-19 13:47:29,126 - new_apply_order.py[line:955]: 开始第 jopay【1】次进件……
+INFO - 2021-10-19 13:47:29,127 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01634622449 ======
+INFO - 2021-10-19 13:47:29,547 - new_apply_order.py[line:97]: 01634622449 检测用户存在成功！
+INFO - 2021-10-19 13:47:29,628 - new_apply_order.py[line:106]: 01634622449 短信发送成功！
+INFO - 2021-10-19 13:47:29,690 - new_apply_order.py[line:119]: 01634622449 注册成功！
+INFO - 2021-10-19 13:47:29,758 - new_apply_order.py[line:135]: 01634622449 登录短信发送成功！
+INFO - 2021-10-19 13:47:29,808 - new_apply_order.py[line:145]: userId=6221727233159995392,mobile=01634622449,token=49a41067d9ad65d149c88a91c6d9e17a 登录成功
+INFO - 2021-10-19 13:47:29,896 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-10-19 13:47:29,946 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-10-19 13:47:30,235 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-10-19 13:47:30,256 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-19 13:47:30,271 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-10-19 13:47:30,561 - new_apply_order.py[line:347]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-19 13:47:30,594 - new_apply_order.py[line:357]: 视频认证通过！
+INFO - 2021-10-19 13:47:31,637 - new_apply_order.py[line:582]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-19 13:47:31,958 - new_apply_order.py[line:633]: user更新1条
+INFO - 2021-10-19 13:47:32,185 - new_apply_order.py[line:684]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-10-19 13:47:33,229 - new_apply_order.py[line:690]: 订单表更新1条，信审更新1条
+INFO - 2021-10-19 13:47:33,582 - new_apply_order.py[line:704]: 查询loan_order_id成功！
+INFO - 2021-10-19 13:47:33,633 - new_apply_order.py[line:719]: 订单回调复审通过成功！
+INFO - 2021-10-19 13:47:34,459 - new_apply_order.py[line:741]: 获取token成功！token=bearer a527dd26-2c1d-4c7f-9a46-cde43713dded！
+INFO - 2021-10-19 13:47:34,804 - new_apply_order.py[line:704]: 查询loan_order_id成功！
+INFO - 2021-10-19 13:47:35,147 - new_apply_order.py[line:704]: 查询loan_order_id成功！
+INFO - 2021-10-19 13:47:35,736 - new_apply_order.py[line:760]: 后台已触发放款成功！
+INFO - 2021-10-19 13:47:35,750 - new_apply_order.py[line:774]: xxl_job web 登录成功！
+INFO - 2021-10-19 13:47:35,762 - new_apply_order.py[line:790]: xxl_job 放款准备作业执行成功！
+INFO - 2021-10-19 13:47:37,112 - new_apply_order.py[line:704]: 查询loan_order_id成功！
+INFO - 2021-10-19 13:47:37,129 - new_apply_order.py[line:798]: 修改放款准备完成时间成功！
+INFO - 2021-10-19 13:47:37,136 - new_apply_order.py[line:806]: xxl_job 放款完成作业执行成功！
+INFO - 2021-10-19 13:47:37,445 - new_apply_order.py[line:978]: 校验重试查询第1次
+ERROR - 2021-10-19 13:47:38,460 - new_apply_order.py[line:874]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-19 13:47:38,460 - new_apply_order.py[line:875]: {'app': 'jopay', 'loan_order_id': '1450337791038328832', 'mobile': '01634622449', 'order_status': 35}
+INFO - 2021-10-19 13:47:38,970 - new_apply_order.py[line:978]: 校验重试查询第2次
+ERROR - 2021-10-19 13:47:39,981 - new_apply_order.py[line:874]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-19 13:47:39,981 - new_apply_order.py[line:875]: {'app': 'jopay', 'loan_order_id': '1450337791038328832', 'mobile': '01634622449', 'order_status': 35}
+INFO - 2021-10-19 13:47:40,491 - new_apply_order.py[line:978]: 校验重试查询第3次
+ERROR - 2021-10-19 13:47:41,510 - new_apply_order.py[line:874]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-19 13:47:41,510 - new_apply_order.py[line:875]: {'app': 'jopay', 'loan_order_id': '1450337791038328832', 'mobile': '01634622449', 'order_status': 35}
+INFO - 2021-10-19 13:47:42,015 - new_apply_order.py[line:978]: 校验重试查询第4次
+ERROR - 2021-10-19 13:47:43,033 - new_apply_order.py[line:874]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-19 13:47:43,033 - new_apply_order.py[line:875]: {'app': 'jopay', 'loan_order_id': '1450337791038328832', 'mobile': '01634622449', 'order_status': 35}
+INFO - 2021-10-19 13:47:43,546 - new_apply_order.py[line:978]: 校验重试查询第5次
+ERROR - 2021-10-19 13:47:44,562 - new_apply_order.py[line:874]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-19 13:47:44,562 - new_apply_order.py[line:875]: {'app': 'jopay', 'loan_order_id': '1450337791038328832', 'mobile': '01634622449', 'order_status': 35}
+INFO - 2021-10-19 13:47:45,072 - new_apply_order.py[line:978]: 校验重试查询第6次
+INFO - 2021-10-19 13:47:46,089 - new_apply_order.py[line:872]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-10-19 13:47:46,090 - new_apply_order.py[line:875]: {'app': 'jopay', 'loan_order_id': '1450337791038328832', 'mobile': '01634622449', 'order_status': 40}
+INFO - 2021-10-19 13:47:46,094 - new_apply_order.py[line:995]: ===========完成第【1】次进件===========
+INFO - 2021-10-19 13:47:46,094 - new_apply_order.py[line:998]: ======完成第【1】次进件,耗时16.97s=====

@@ -1,0 +1,18 @@
+INFO - 2022-01-11 20:15:40,294 - new_apply_order.py[line:933]: 开始第 lendcash【1】次进件……
+INFO - 2022-01-11 20:15:40,910 - new_apply_order.py[line:95]: 01641903248 检测用户存在成功！
+INFO - 2022-01-11 20:15:41,312 - new_apply_order.py[line:104]: 01641903248 短信发送成功！
+INFO - 2022-01-11 20:15:41,600 - new_apply_order.py[line:117]: 01641903248 注册成功！
+INFO - 2022-01-11 20:15:41,942 - new_apply_order.py[line:133]: 01641903248 登录短信发送成功！
+INFO - 2022-01-11 20:15:42,260 - new_apply_order.py[line:143]: userId=6252265507211190272,mobile=01641903248,token=79da5a11cc287f521dd62ff6788d3bb3 登录成功
+INFO - 2022-01-11 20:15:42,610 - new_apply_order.py[line:210]: 个人信息提交成功！
+INFO - 2022-01-11 20:15:42,898 - new_apply_order.py[line:221]: 联系人信息提交成功！
+INFO - 2022-01-11 20:15:43,480 - new_apply_order.py[line:253]: 创建预审订单成功！
+INFO - 2022-01-11 20:15:44,189 - new_apply_order.py[line:261]: 预审状态修改为通过,更新条数 1
+INFO - 2022-01-11 20:15:44,852 - new_apply_order.py[line:264]: 更新初始额度！更新条数 1
+INFO - 2022-01-11 20:15:45,714 - new_apply_order.py[line:340]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2022-01-11 20:15:46,014 - new_apply_order.py[line:350]: 视频认证通过！
+INFO - 2022-01-11 20:15:47,296 - new_apply_order.py[line:509]: bvn和银行卡绑卡认证通过！
+INFO - 2022-01-11 20:15:50,478 - new_apply_order.py[line:560]: user更新1条
+ERROR - 2022-01-11 20:15:50,688 - new_apply_order.py[line:629]: {"code":"60009004","msg":"System under maintenance this week for better service. Sorry for your inconvenience. Come back next week.","data":null}
+ERROR - 2022-01-11 20:15:51,207 - new_apply_order.py[line:981]: 'NoneType' object is not subscriptable
+ERROR - 2022-01-11 20:15:51,209 - new_apply_order.py[line:982]: None

@@ -1,0 +1,47 @@
+INFO - 2021-10-30 16:00:51,868 - new_apply_order.py[line:882]: 开始第 pickcash【1】次进件……
+INFO - 2021-10-30 16:00:51,869 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01635580851 ======
+INFO - 2021-10-30 16:00:52,268 - new_apply_order.py[line:97]: 01635580851 检测用户存在成功！
+INFO - 2021-10-30 16:00:52,325 - new_apply_order.py[line:106]: 01635580851 短信发送成功！
+INFO - 2021-10-30 16:00:52,385 - new_apply_order.py[line:119]: 01635580851 注册成功！
+INFO - 2021-10-30 16:00:52,463 - new_apply_order.py[line:135]: 01635580851 登录短信发送成功！
+INFO - 2021-10-30 16:00:52,525 - new_apply_order.py[line:145]: userId=6225747065581608960,mobile=01635580851,token=914c3b2dc837829b224b0b5dbd57d751 登录成功
+INFO - 2021-10-30 16:00:52,659 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-10-30 16:00:52,725 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-10-30 16:00:53,027 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-10-30 16:00:53,045 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-30 16:00:53,063 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-10-30 16:00:53,328 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-30 16:00:53,381 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-10-30 16:00:54,406 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-10-30 16:00:54,763 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-10-30 16:00:55,026 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-10-30 16:00:56,069 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-10-30 16:00:56,429 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-10-30 16:00:56,480 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-10-30 16:00:57,310 - new_apply_order.py[line:669]: 获取token成功！token=bearer d730ddac-5574-4de5-9a0d-79be610b9183！
+INFO - 2021-10-30 16:00:57,662 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-10-30 16:00:58,237 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-10-30 16:00:58,251 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-10-30 16:00:58,265 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-10-30 16:00:59,618 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-10-30 16:00:59,630 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-10-30 16:00:59,636 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-10-30 16:00:59,944 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-10-30 16:01:00,964 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-10-30 16:01:00,964 - new_apply_order.py[line:802]: {'app': 'pickcash', 'loan_order_id': '1454357623755902976', 'mobile': '01635580851', 'order_status': 32}
+INFO - 2021-10-30 16:01:00,976 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-10-30 16:01:00,989 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-10-30 16:01:02,357 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-10-30 16:01:02,374 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-10-30 16:01:02,381 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-10-30 16:01:02,884 - new_apply_order.py[line:905]: 校验重试查询第2次
+ERROR - 2021-10-30 16:01:03,900 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-30 16:01:03,901 - new_apply_order.py[line:802]: {'app': 'pickcash', 'loan_order_id': '1454357623755902976', 'mobile': '01635580851', 'order_status': 35}
+INFO - 2021-10-30 16:01:04,408 - new_apply_order.py[line:905]: 校验重试查询第3次
+ERROR - 2021-10-30 16:01:05,425 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-30 16:01:05,425 - new_apply_order.py[line:802]: {'app': 'pickcash', 'loan_order_id': '1454357623755902976', 'mobile': '01635580851', 'order_status': 35}
+INFO - 2021-10-30 16:01:05,936 - new_apply_order.py[line:905]: 校验重试查询第4次
+INFO - 2021-10-30 16:01:06,948 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-10-30 16:01:06,948 - new_apply_order.py[line:802]: {'app': 'pickcash', 'loan_order_id': '1454357623755902976', 'mobile': '01635580851', 'order_status': 40}
+INFO - 2021-10-30 16:01:06,951 - new_apply_order.py[line:922]: ===========完成第【1】次进件===========
+INFO - 2021-10-30 16:01:06,951 - new_apply_order.py[line:925]: ======完成第【1】次进件,耗时15.08s=====

@@ -1,0 +1,12 @@
+INFO - 2022-01-11 20:15:08,703 - new_apply_order.py[line:933]: 开始第 lendcash【1】次进件……
+INFO - 2022-01-11 20:15:09,283 - new_apply_order.py[line:95]: 1641903248 检测用户存在成功！
+ERROR - 2022-01-11 20:15:09,539 - new_apply_order.py[line:106]: {"code":"60001006","msg":"Please enter an 11-digit number starting with 0 or 1.","data":null} 短信发送失败！
+ERROR - 2022-01-11 20:15:09,794 - new_apply_order.py[line:119]: 注册失败！{'accept': 'application/json', 'appversion': '1.3.0.8', 'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD', 'accept-language': 'en-US', 'clientCode': 'lendcash1300', 'Content-Type': 'application/json; charset=UTF-8', 'Host': '172.20.240.143:8012', 'User-Agent': 'okhttp/4.9.0'}
+ERROR - 2022-01-11 20:15:09,794 - new_apply_order.py[line:120]: {"code":"60001006","msg":"Please enter an 11-digit number starting with 0 or 1.","data":null}
+ERROR - 2022-01-11 20:15:10,064 - new_apply_order.py[line:135]: {"code":"60001006","msg":"Please enter an 11-digit number starting with 0 or 1.","data":null} 登录短信发送失败！
+ERROR - 2022-01-11 20:15:10,322 - new_apply_order.py[line:150]: 登录失败!
+ERROR - 2022-01-11 20:15:10,616 - new_apply_order.py[line:212]: 个人信息提交失败！
+ERROR - 2022-01-11 20:15:10,927 - new_apply_order.py[line:223]: 联系人信息提交失败！
+ERROR - 2022-01-11 20:15:11,272 - new_apply_order.py[line:255]: 创建预审失败{"code":"9001","msg":"Token expired, please log in again","data":null}
+ERROR - 2022-01-11 20:15:11,272 - new_apply_order.py[line:981]: 'NewUserApplyOrder' object has no attribute 'user_id'
+ERROR - 2022-01-11 20:15:11,273 - new_apply_order.py[line:982]: None

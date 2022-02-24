@@ -1,0 +1,8 @@
+INFO - 2021-09-07 15:09:44,445 - new_apply_order.py[line:534]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-07 15:09:44,446 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630998584 ======
+ERROR - 2021-09-07 15:09:44,752 - new_apply_order.py[line:580]: name 'cardNo_mx' is not defined
+ERROR - 2021-09-07 15:09:44,754 - new_apply_order.py[line:581]: None
+INFO - 2021-09-07 15:09:44,757 - new_apply_order.py[line:534]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-07 15:09:44,757 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630998584 ======
+ERROR - 2021-09-07 15:09:45,063 - new_apply_order.py[line:580]: name 'cardNo_mx' is not defined
+ERROR - 2021-09-07 15:09:45,064 - new_apply_order.py[line:581]: None

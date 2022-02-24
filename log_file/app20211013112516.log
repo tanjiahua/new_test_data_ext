@@ -1,0 +1,50 @@
+INFO - 2021-10-13 11:25:16,246 - new_apply_order.py[line:798]: 开始第 monni【1】次进件……
+INFO - 2021-10-13 11:25:16,246 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3634095516 ======
+INFO - 2021-10-13 11:25:16,626 - new_apply_order.py[line:95]: 3634095516 检测用户存在成功！
+INFO - 2021-10-13 11:25:16,679 - new_apply_order.py[line:104]: 3634095516 短信发送成功！
+INFO - 2021-10-13 11:25:16,734 - new_apply_order.py[line:117]: 3634095516 注册成功！
+INFO - 2021-10-13 11:25:16,831 - new_apply_order.py[line:133]: 3634095516 登录短信发送成功！
+INFO - 2021-10-13 11:25:16,883 - new_apply_order.py[line:143]: userId=4961225916559925248,mobile=3634095516,token=4751ac81b140794aa13dc9b54c07c05f 登录成功
+INFO - 2021-10-13 11:25:16,991 - new_apply_order.py[line:208]: 个人信息提交成功！
+INFO - 2021-10-13 11:25:17,221 - new_apply_order.py[line:241]: 创建预审订单成功！
+INFO - 2021-10-13 11:25:17,241 - new_apply_order.py[line:249]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-13 11:25:17,260 - new_apply_order.py[line:252]: 更新初始额度！更新条数 1
+INFO - 2021-10-13 11:25:17,586 - new_apply_order.py[line:269]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-13 11:25:17,638 - new_apply_order.py[line:279]: 视频认证通过！
+INFO - 2021-10-13 11:25:18,802 - new_apply_order.py[line:367]: curp上传成功!
+INFO - 2021-10-13 11:25:18,978 - new_apply_order.py[line:376]: curp_rfc校验通过！
+INFO - 2021-10-13 11:25:19,532 - new_apply_order.py[line:512]: 不绑卡成功跳过！
+INFO - 2021-10-13 11:25:19,753 - new_apply_order.py[line:528]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-10-13 11:25:20,787 - new_apply_order.py[line:534]: 订单表更新1条，信审更新1条
+INFO - 2021-10-13 11:25:21,338 - new_apply_order.py[line:548]: 查询loan_order_id成功！
+INFO - 2021-10-13 11:25:21,379 - new_apply_order.py[line:563]: 订单回调复审通过成功！
+INFO - 2021-10-13 11:25:22,199 - new_apply_order.py[line:585]: 获取token成功！token=bearer ca76a2a1-8b53-4135-a34d-afe8a2d75cee！
+INFO - 2021-10-13 11:25:22,785 - new_apply_order.py[line:548]: 查询loan_order_id成功！
+INFO - 2021-10-13 11:25:23,136 - new_apply_order.py[line:603]: 后台已触发放款成功！
+INFO - 2021-10-13 11:25:23,151 - new_apply_order.py[line:617]: xxl_job web 登录成功！
+INFO - 2021-10-13 11:25:23,165 - new_apply_order.py[line:633]: xxl_job 放款准备作业执行成功！
+INFO - 2021-10-13 11:25:24,714 - new_apply_order.py[line:548]: 查询loan_order_id成功！
+INFO - 2021-10-13 11:25:24,742 - new_apply_order.py[line:641]: 修改放款准备完成时间成功！
+INFO - 2021-10-13 11:25:24,751 - new_apply_order.py[line:649]: xxl_job 放款完成作业执行成功！
+INFO - 2021-10-13 11:25:25,058 - new_apply_order.py[line:821]: 校验重试查询第1次
+ERROR - 2021-10-13 11:25:26,095 - new_apply_order.py[line:717]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-13 11:25:26,096 - new_apply_order.py[line:718]: {'app': 'monni', 'loan_order_id': '1448127674271535104', 'mobile': '3634095516', 'order_status': 35}
+INFO - 2021-10-13 11:25:26,600 - new_apply_order.py[line:821]: 校验重试查询第2次
+ERROR - 2021-10-13 11:25:27,617 - new_apply_order.py[line:717]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-13 11:25:27,617 - new_apply_order.py[line:718]: {'app': 'monni', 'loan_order_id': '1448127674271535104', 'mobile': '3634095516', 'order_status': 35}
+INFO - 2021-10-13 11:25:28,124 - new_apply_order.py[line:821]: 校验重试查询第3次
+ERROR - 2021-10-13 11:25:29,140 - new_apply_order.py[line:717]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-13 11:25:29,141 - new_apply_order.py[line:718]: {'app': 'monni', 'loan_order_id': '1448127674271535104', 'mobile': '3634095516', 'order_status': 35}
+INFO - 2021-10-13 11:25:29,644 - new_apply_order.py[line:821]: 校验重试查询第4次
+ERROR - 2021-10-13 11:25:30,663 - new_apply_order.py[line:717]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-13 11:25:30,663 - new_apply_order.py[line:718]: {'app': 'monni', 'loan_order_id': '1448127674271535104', 'mobile': '3634095516', 'order_status': 35}
+INFO - 2021-10-13 11:25:31,171 - new_apply_order.py[line:821]: 校验重试查询第5次
+ERROR - 2021-10-13 11:25:32,200 - new_apply_order.py[line:717]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-13 11:25:32,200 - new_apply_order.py[line:718]: {'app': 'monni', 'loan_order_id': '1448127674271535104', 'mobile': '3634095516', 'order_status': 35}
+INFO - 2021-10-13 11:25:32,707 - new_apply_order.py[line:821]: 校验重试查询第6次
+ERROR - 2021-10-13 11:25:33,717 - new_apply_order.py[line:717]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-13 11:25:33,718 - new_apply_order.py[line:718]: {'app': 'monni', 'loan_order_id': '1448127674271535104', 'mobile': '3634095516', 'order_status': 35}
+INFO - 2021-10-13 11:25:34,225 - new_apply_order.py[line:821]: 校验重试查询第7次
+ERROR - 2021-10-13 11:25:35,237 - new_apply_order.py[line:717]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-10-13 11:25:35,238 - new_apply_order.py[line:718]: {'app': 'monni', 'loan_order_id': '1448127674271535104', 'mobile': '3634095516', 'order_status': 35}
+INFO - 2021-10-13 11:25:35,745 - new_apply_order.py[line:821]: 校验重试查询第8次

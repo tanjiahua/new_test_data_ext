@@ -1,0 +1,8 @@
+INFO - 2021-09-04 10:19:06,311 - new_apply_order.py[line:523]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-04 10:19:06,312 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630721946 ======
+ERROR - 2021-09-04 10:19:09,680 - new_apply_order.py[line:569]: string indices must be integers
+ERROR - 2021-09-04 10:19:09,681 - new_apply_order.py[line:570]: None
+INFO - 2021-09-04 10:19:09,686 - new_apply_order.py[line:523]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-04 10:19:09,686 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630721949 ======
+ERROR - 2021-09-04 10:19:10,303 - new_apply_order.py[line:569]: string indices must be integers
+ERROR - 2021-09-04 10:19:10,304 - new_apply_order.py[line:570]: None

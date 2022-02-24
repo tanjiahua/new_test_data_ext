@@ -1,0 +1,11 @@
+INFO - 2021-08-30 11:39:15,674 - new_apply_order.py[line:453]: 开始第 quickcash【1】次进件……
+INFO - 2021-08-30 11:39:15,675 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630294755 ======
+INFO - 2021-08-30 11:39:16,055 - new_apply_order.py[line:88]: 01630294755 检测用户存在成功！
+INFO - 2021-08-30 11:39:16,089 - new_apply_order.py[line:95]: 01630294755 短信发送成功！
+INFO - 2021-08-30 11:39:16,125 - new_apply_order.py[line:105]: 01630294755 注册成功！
+ERROR - 2021-08-30 11:39:16,151 - new_apply_order.py[line:124]: 登录失败!
+ERROR - 2021-08-30 11:39:16,179 - new_apply_order.py[line:170]: 个人信息提交失败！
+ERROR - 2021-08-30 11:39:16,197 - new_apply_order.py[line:179]: 联系人信息提交失败！
+ERROR - 2021-08-30 11:39:16,215 - new_apply_order.py[line:196]: 创建预审失败{"code":"9001","msg":"System unknown error","data":null}
+ERROR - 2021-08-30 11:39:26,230 - new_apply_order.py[line:499]: (2003, "Can't connect to MySQL server on '172.20.240.225' (timed out)")
+ERROR - 2021-08-30 11:39:26,234 - new_apply_order.py[line:500]: None

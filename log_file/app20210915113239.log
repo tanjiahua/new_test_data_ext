@@ -1,0 +1,19 @@
+INFO - 2021-09-15 11:32:39,546 - new_apply_order.py[line:683]: 开始第 pcamion【1】次进件……
+INFO - 2021-09-15 11:32:39,547 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3631676759 ======
+INFO - 2021-09-15 11:32:39,977 - new_apply_order.py[line:95]: 3631676759 检测用户存在成功！
+INFO - 2021-09-15 11:32:40,116 - new_apply_order.py[line:104]: 3631676759 短信发送成功！
+INFO - 2021-09-15 11:32:40,208 - new_apply_order.py[line:117]: 3631676759 注册成功！
+INFO - 2021-09-15 11:32:40,327 - new_apply_order.py[line:133]: 3631676759 登录短信发送成功！
+INFO - 2021-09-15 11:32:40,428 - new_apply_order.py[line:143]: userId=4951080916210819072,mobile=3631676759,token=fcaf363a0184a58ac79f811e4cb49e51 登录成功
+INFO - 2021-09-15 11:32:40,602 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-09-15 11:32:41,145 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-09-15 11:32:41,168 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-15 11:32:41,188 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-15 11:32:41,523 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-15 11:32:41,596 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-09-15 11:32:42,781 - new_apply_order.py[line:331]: curp上传成功!
+INFO - 2021-09-15 11:32:42,893 - new_apply_order.py[line:340]: curp_rfc校验通过！
+INFO - 2021-09-15 11:32:43,571 - new_apply_order.py[line:413]: 不绑卡成功跳过！
+ERROR - 2021-09-15 11:32:43,818 - new_apply_order.py[line:434]: {"code":"50001004","msg":"Not eligible for borrowing","data":null}
+ERROR - 2021-09-15 11:32:44,183 - new_apply_order.py[line:729]: 'NoneType' object is not subscriptable
+ERROR - 2021-09-15 11:32:44,184 - new_apply_order.py[line:730]: None

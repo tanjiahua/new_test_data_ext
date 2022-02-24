@@ -1,0 +1,12 @@
+INFO - 2021-12-27 09:25:20,682 - new_apply_order.py[line:892]: 开始第 kucash【1】次进件……
+INFO - 2021-12-27 09:25:20,683 - new_apply_order.py[line:83]: ======【pre_nga测试环境】生成手机号：01640568320 ======
+INFO - 2021-12-27 09:25:21,075 - new_apply_order.py[line:96]: 01640568320 检测用户存在成功！
+INFO - 2021-12-27 09:25:21,139 - new_apply_order.py[line:105]: 01640568320 短信发送成功！
+INFO - 2021-12-27 09:25:21,193 - new_apply_order.py[line:118]: 01640568320 注册成功！
+INFO - 2021-12-27 09:25:21,261 - new_apply_order.py[line:134]: 01640568320 登录短信发送成功！
+INFO - 2021-12-27 09:25:21,339 - new_apply_order.py[line:144]: userId=6246666026013302784,mobile=01640568320,token=53a7ee52466bec42d8959b6be7ef3126 登录成功
+INFO - 2021-12-27 09:25:21,477 - new_apply_order.py[line:211]: 个人信息提交成功！
+INFO - 2021-12-27 09:25:21,563 - new_apply_order.py[line:222]: 联系人信息提交成功！
+INFO - 2021-12-27 09:25:26,264 - new_apply_order.py[line:254]: 创建预审订单成功！
+ERROR - 2021-12-27 09:25:26,266 - new_apply_order.py[line:938]: local variable 'test_ini_name' referenced before assignment
+ERROR - 2021-12-27 09:25:26,269 - new_apply_order.py[line:939]: None

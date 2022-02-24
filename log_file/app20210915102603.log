@@ -1,0 +1,9 @@
+INFO - 2021-09-15 10:26:03,119 - new_apply_order.py[line:646]: 开始第 pcamion【1】次进件……
+INFO - 2021-09-15 10:26:03,119 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3631672763 ======
+INFO - 2021-09-15 10:26:03,711 - new_apply_order.py[line:95]: 3631672763 检测用户存在成功！
+INFO - 2021-09-15 10:26:03,804 - new_apply_order.py[line:104]: 3631672763 短信发送成功！
+INFO - 2021-09-15 10:26:03,882 - new_apply_order.py[line:117]: 3631672763 注册成功！
+INFO - 2021-09-15 10:26:03,974 - new_apply_order.py[line:133]: 3631672763 登录短信发送成功！
+INFO - 2021-09-15 10:26:04,048 - new_apply_order.py[line:143]: userId=4951064154736041984,mobile=3631672763,token=4bb14a9038f1f227d494b2078b256d7d 登录成功
+ERROR - 2021-09-15 10:26:04,051 - new_apply_order.py[line:692]: 'data_fillInUserInfo_mx_co'
+ERROR - 2021-09-15 10:26:04,052 - new_apply_order.py[line:693]: None

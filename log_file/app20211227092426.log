@@ -1,0 +1,9 @@
+INFO - 2021-12-27 09:24:26,640 - new_apply_order.py[line:892]: 开始第 kucash【1】次进件……
+INFO - 2021-12-27 09:24:26,641 - new_apply_order.py[line:83]: ======【pre_nga测试环境】生成手机号：01640568266 ======
+INFO - 2021-12-27 09:24:27,065 - new_apply_order.py[line:96]: 01640568266 检测用户存在成功！
+INFO - 2021-12-27 09:24:27,166 - new_apply_order.py[line:105]: 01640568266 短信发送成功！
+INFO - 2021-12-27 09:24:27,241 - new_apply_order.py[line:118]: 01640568266 注册成功！
+INFO - 2021-12-27 09:24:27,333 - new_apply_order.py[line:134]: 01640568266 登录短信发送成功！
+INFO - 2021-12-27 09:24:27,416 - new_apply_order.py[line:144]: userId=6246665799722213376,mobile=01640568266,token=de6f573968f273a388a3d0fc7852952d 登录成功
+ERROR - 2021-12-27 09:24:27,425 - new_apply_order.py[line:938]: local variable 'data1' referenced before assignment
+ERROR - 2021-12-27 09:24:27,426 - new_apply_order.py[line:939]: None

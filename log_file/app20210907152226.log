@@ -1,0 +1,18 @@
+INFO - 2021-09-07 15:22:27,023 - new_apply_order.py[line:541]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-07 15:22:27,023 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630999347 ======
+INFO - 2021-09-07 15:22:27,399 - new_apply_order.py[line:93]: 01630999347 检测用户存在成功！
+INFO - 2021-09-07 15:22:27,457 - new_apply_order.py[line:102]: 01630999347 短信发送成功！
+INFO - 2021-09-07 15:22:27,513 - new_apply_order.py[line:115]: 01630999347 注册成功！
+INFO - 2021-09-07 15:22:27,584 - new_apply_order.py[line:131]: 01630999347 登录短信发送成功！
+INFO - 2021-09-07 15:22:27,626 - new_apply_order.py[line:141]: userId=6206530841197420544,mobile=01630999347,token=2604e37baee94f6a69476c66ebb43c66 登录成功
+ERROR - 2021-09-07 15:22:27,634 - new_apply_order.py[line:587]: module 'common.params_init' has no attribute 'url_fillInUserInfo'
+ERROR - 2021-09-07 15:22:27,635 - new_apply_order.py[line:588]: None
+INFO - 2021-09-07 15:22:27,638 - new_apply_order.py[line:541]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-07 15:22:27,639 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630999347 ======
+INFO - 2021-09-07 15:22:27,992 - new_apply_order.py[line:93]: 01630999347 检测用户存在成功！
+INFO - 2021-09-07 15:22:28,026 - new_apply_order.py[line:102]: 01630999347 短信发送成功！
+INFO - 2021-09-07 15:22:28,056 - new_apply_order.py[line:115]: 01630999347 注册成功！
+INFO - 2021-09-07 15:22:28,117 - new_apply_order.py[line:131]: 01630999347 登录短信发送成功！
+INFO - 2021-09-07 15:22:28,169 - new_apply_order.py[line:141]: userId=6206530843558813696,mobile=01630999347,token=672e00648125f33c93efb9226de2eed5 登录成功
+ERROR - 2021-09-07 15:22:28,172 - new_apply_order.py[line:587]: module 'common.params_init' has no attribute 'url_fillInUserInfo'
+ERROR - 2021-09-07 15:22:28,172 - new_apply_order.py[line:588]: None

@@ -1,0 +1,1051 @@
+INFO - 2021-11-23 09:55:37,932 - new_apply_order.py[line:882]: 开始第 LendCash【1】次进件……
+INFO - 2021-11-23 09:55:37,932 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632537 ======
+INFO - 2021-11-23 09:55:38,375 - new_apply_order.py[line:97]: 01637632537 检测用户存在成功！
+INFO - 2021-11-23 09:55:38,482 - new_apply_order.py[line:106]: 01637632537 短信发送成功！
+INFO - 2021-11-23 09:55:38,616 - new_apply_order.py[line:119]: 01637632537 注册成功！
+INFO - 2021-11-23 09:55:38,744 - new_apply_order.py[line:135]: 01637632537 登录短信发送成功！
+INFO - 2021-11-23 09:55:38,828 - new_apply_order.py[line:145]: userId=6234352461126574080,mobile=01637632537,token=ec22e086a1560c1b8146df5a729e6c7c 登录成功
+INFO - 2021-11-23 09:55:39,015 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:55:39,136 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:55:39,812 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:55:39,827 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:55:39,842 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:55:40,166 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:55:40,296 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:55:41,504 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:55:41,811 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:55:42,201 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:55:43,247 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:55:43,675 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:55:43,759 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:55:44,586 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:55:44,988 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:55:45,432 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:55:45,453 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:55:45,469 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:55:46,895 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:55:46,913 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:55:46,924 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:55:47,230 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:55:48,249 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:55:48,250 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963020561387520', 'mobile': '01637632537', 'order_status': 35}
+INFO - 2021-11-23 09:55:48,758 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:55:49,775 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:55:49,776 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963020561387520', 'mobile': '01637632537', 'order_status': 40}
+INFO - 2021-11-23 09:55:49,776 - new_apply_order.py[line:922]: ===========完成第【1】次进件===========
+INFO - 2021-11-23 09:55:49,776 - new_apply_order.py[line:882]: 开始第 LendCash【2】次进件……
+INFO - 2021-11-23 09:55:49,778 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632549 ======
+INFO - 2021-11-23 09:55:50,163 - new_apply_order.py[line:97]: 01637632549 检测用户存在成功！
+INFO - 2021-11-23 09:55:50,249 - new_apply_order.py[line:106]: 01637632549 短信发送成功！
+INFO - 2021-11-23 09:55:50,330 - new_apply_order.py[line:119]: 01637632549 注册成功！
+INFO - 2021-11-23 09:55:50,430 - new_apply_order.py[line:135]: 01637632549 登录短信发送成功！
+INFO - 2021-11-23 09:55:50,520 - new_apply_order.py[line:145]: userId=6234352510409646080,mobile=01637632549,token=c9a3034eb431fcd65523f3f4824ed76b 登录成功
+INFO - 2021-11-23 09:55:50,683 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:55:50,793 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:55:51,188 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:55:51,212 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:55:51,233 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:55:51,552 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:55:51,618 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:55:52,930 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:55:53,246 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:55:53,634 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:55:54,672 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:55:55,097 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:55:55,165 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:55:56,009 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:55:56,463 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:55:56,832 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:57:03,850 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:57:03,864 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:57:05,267 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:57:05,280 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:57:05,288 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:57:05,595 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:57:06,610 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:57:06,610 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963069152399360', 'mobile': '01637632549', 'order_status': 35}
+INFO - 2021-11-23 09:57:07,116 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:57:08,134 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:57:08,134 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963069152399360', 'mobile': '01637632549', 'order_status': 40}
+INFO - 2021-11-23 09:57:08,135 - new_apply_order.py[line:922]: ===========完成第【2】次进件===========
+INFO - 2021-11-23 09:57:08,135 - new_apply_order.py[line:882]: 开始第 LendCash【3】次进件……
+INFO - 2021-11-23 09:57:08,137 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632628 ======
+INFO - 2021-11-23 09:57:08,534 - new_apply_order.py[line:97]: 01637632628 检测用户存在成功！
+INFO - 2021-11-23 09:57:08,652 - new_apply_order.py[line:106]: 01637632628 短信发送成功！
+INFO - 2021-11-23 09:57:08,737 - new_apply_order.py[line:119]: 01637632628 注册成功！
+INFO - 2021-11-23 09:57:08,858 - new_apply_order.py[line:135]: 01637632628 登录短信发送成功！
+INFO - 2021-11-23 09:57:08,967 - new_apply_order.py[line:145]: userId=6234352839259856896,mobile=01637632628,token=6a6b8cbd8df735e03138568a067fddd1 登录成功
+INFO - 2021-11-23 09:57:09,118 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:57:09,207 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:57:09,544 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:57:09,565 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:57:09,579 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:57:09,895 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:57:09,953 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:57:11,152 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:57:11,457 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:57:11,848 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:57:12,877 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:57:13,260 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:57:13,331 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:57:14,117 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:57:14,496 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:57:14,920 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:57:14,930 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:57:14,938 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:57:16,330 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:57:16,344 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:57:16,350 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:57:16,657 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:57:17,675 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:57:17,675 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963398010998784', 'mobile': '01637632628', 'order_status': 35}
+INFO - 2021-11-23 09:57:18,184 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:57:19,196 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:57:19,196 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963398010998784', 'mobile': '01637632628', 'order_status': 40}
+INFO - 2021-11-23 09:57:19,197 - new_apply_order.py[line:922]: ===========完成第【3】次进件===========
+INFO - 2021-11-23 09:57:19,197 - new_apply_order.py[line:882]: 开始第 LendCash【4】次进件……
+INFO - 2021-11-23 09:57:19,198 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632639 ======
+INFO - 2021-11-23 09:57:19,568 - new_apply_order.py[line:97]: 01637632639 检测用户存在成功！
+INFO - 2021-11-23 09:57:19,655 - new_apply_order.py[line:106]: 01637632639 短信发送成功！
+INFO - 2021-11-23 09:57:19,738 - new_apply_order.py[line:119]: 01637632639 注册成功！
+INFO - 2021-11-23 09:57:19,853 - new_apply_order.py[line:135]: 01637632639 登录短信发送成功！
+INFO - 2021-11-23 09:57:19,967 - new_apply_order.py[line:145]: userId=6234352885430755328,mobile=01637632639,token=c7523a52eb7db4e960b4d3a1c88405a2 登录成功
+INFO - 2021-11-23 09:57:20,115 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:57:20,226 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:57:20,543 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:57:20,563 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:57:20,575 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:57:20,840 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:57:20,896 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:57:22,043 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:57:22,357 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:57:22,712 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:57:23,742 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:57:24,117 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:57:24,178 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:57:24,952 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:57:25,342 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:57:25,702 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:57:25,712 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:57:25,723 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:57:27,099 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:57:27,109 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:57:27,115 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:57:27,420 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:57:28,433 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:57:28,433 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963444244811776', 'mobile': '01637632639', 'order_status': 35}
+INFO - 2021-11-23 09:57:28,940 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:57:29,956 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:57:29,956 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963444244811776', 'mobile': '01637632639', 'order_status': 40}
+INFO - 2021-11-23 09:57:29,957 - new_apply_order.py[line:922]: ===========完成第【4】次进件===========
+INFO - 2021-11-23 09:57:29,957 - new_apply_order.py[line:882]: 开始第 LendCash【5】次进件……
+INFO - 2021-11-23 09:57:29,958 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632649 ======
+INFO - 2021-11-23 09:57:30,366 - new_apply_order.py[line:97]: 01637632649 检测用户存在成功！
+INFO - 2021-11-23 09:57:30,460 - new_apply_order.py[line:106]: 01637632649 短信发送成功！
+INFO - 2021-11-23 09:57:30,562 - new_apply_order.py[line:119]: 01637632649 注册成功！
+INFO - 2021-11-23 09:57:30,657 - new_apply_order.py[line:135]: 01637632649 登录短信发送成功！
+INFO - 2021-11-23 09:57:30,740 - new_apply_order.py[line:145]: userId=6234352930766987264,mobile=01637632649,token=0a4a7b6c7661cd74939e057c6a8a2ce9 登录成功
+INFO - 2021-11-23 09:57:30,891 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:57:31,006 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:57:34,790 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:57:34,812 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:57:34,826 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:57:35,107 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:57:35,153 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:57:36,211 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:57:36,528 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:57:36,838 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:57:37,874 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:57:38,249 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:57:38,311 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:57:39,133 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:57:39,508 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:57:39,942 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:57:39,959 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:57:39,972 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:57:41,345 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:57:41,360 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:57:41,367 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:57:41,671 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:57:42,689 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:57:42,689 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963489656541184', 'mobile': '01637632649', 'order_status': 35}
+INFO - 2021-11-23 09:57:43,197 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:57:44,213 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:57:44,214 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963489656541184', 'mobile': '01637632649', 'order_status': 40}
+INFO - 2021-11-23 09:57:44,214 - new_apply_order.py[line:922]: ===========完成第【5】次进件===========
+INFO - 2021-11-23 09:57:44,214 - new_apply_order.py[line:882]: 开始第 LendCash【6】次进件……
+INFO - 2021-11-23 09:57:44,216 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632664 ======
+INFO - 2021-11-23 09:57:44,615 - new_apply_order.py[line:97]: 01637632664 检测用户存在成功！
+INFO - 2021-11-23 09:57:44,686 - new_apply_order.py[line:106]: 01637632664 短信发送成功！
+INFO - 2021-11-23 09:57:44,778 - new_apply_order.py[line:119]: 01637632664 注册成功！
+INFO - 2021-11-23 09:57:44,881 - new_apply_order.py[line:135]: 01637632664 登录短信发送成功！
+INFO - 2021-11-23 09:57:44,957 - new_apply_order.py[line:145]: userId=6234352990451933184,mobile=01637632664,token=0e9e7cfc501bbeb73c9ee9261d293020 登录成功
+INFO - 2021-11-23 09:57:45,117 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:57:45,197 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:57:45,531 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:57:45,553 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:57:45,570 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:57:45,840 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:57:45,908 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:57:47,050 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:57:47,373 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:57:47,675 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:57:48,705 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:57:49,083 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:57:49,149 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:57:49,988 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:57:50,362 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:57:50,687 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:57:50,699 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:57:50,707 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:57:52,093 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:57:52,104 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:57:52,111 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:57:52,418 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:57:53,431 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:57:53,431 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963548917862400', 'mobile': '01637632664', 'order_status': 35}
+INFO - 2021-11-23 09:57:53,939 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:57:54,953 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:57:54,954 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963548917862400', 'mobile': '01637632664', 'order_status': 40}
+INFO - 2021-11-23 09:57:54,954 - new_apply_order.py[line:922]: ===========完成第【6】次进件===========
+INFO - 2021-11-23 09:57:54,954 - new_apply_order.py[line:882]: 开始第 LendCash【7】次进件……
+INFO - 2021-11-23 09:57:54,956 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632674 ======
+INFO - 2021-11-23 09:57:55,327 - new_apply_order.py[line:97]: 01637632674 检测用户存在成功！
+INFO - 2021-11-23 09:57:55,404 - new_apply_order.py[line:106]: 01637632674 短信发送成功！
+INFO - 2021-11-23 09:57:55,483 - new_apply_order.py[line:119]: 01637632674 注册成功！
+INFO - 2021-11-23 09:57:55,592 - new_apply_order.py[line:135]: 01637632674 登录短信发送成功！
+INFO - 2021-11-23 09:57:55,660 - new_apply_order.py[line:145]: userId=6234353035293237248,mobile=01637632674,token=50edc9eb040aa7c060223a6a27d2b0d2 登录成功
+INFO - 2021-11-23 09:57:55,799 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:57:55,873 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:57:56,173 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:57:56,186 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:57:56,196 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:57:56,461 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:57:56,513 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:57:57,674 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:57:57,978 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:57:58,343 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:57:59,384 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:57:59,762 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:57:59,823 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:58:00,636 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:58:01,004 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:01,362 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:58:01,382 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:58:01,394 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:58:02,765 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:02,784 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:58:02,793 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:58:03,099 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:58:04,112 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:58:04,112 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963593675280384', 'mobile': '01637632674', 'order_status': 35}
+INFO - 2021-11-23 09:58:04,623 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:58:05,632 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:58:05,632 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963593675280384', 'mobile': '01637632674', 'order_status': 40}
+INFO - 2021-11-23 09:58:05,633 - new_apply_order.py[line:922]: ===========完成第【7】次进件===========
+INFO - 2021-11-23 09:58:05,633 - new_apply_order.py[line:882]: 开始第 LendCash【8】次进件……
+INFO - 2021-11-23 09:58:05,634 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632685 ======
+INFO - 2021-11-23 09:58:06,006 - new_apply_order.py[line:97]: 01637632685 检测用户存在成功！
+INFO - 2021-11-23 09:58:06,068 - new_apply_order.py[line:106]: 01637632685 短信发送成功！
+INFO - 2021-11-23 09:58:06,126 - new_apply_order.py[line:119]: 01637632685 注册成功！
+INFO - 2021-11-23 09:58:06,236 - new_apply_order.py[line:135]: 01637632685 登录短信发送成功！
+INFO - 2021-11-23 09:58:06,335 - new_apply_order.py[line:145]: userId=6234353080004517888,mobile=01637632685,token=85701e2246c8ee7901811fbe2aefad76 登录成功
+INFO - 2021-11-23 09:58:06,476 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:58:06,557 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:58:06,871 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:58:06,891 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:58:06,907 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:58:07,191 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:58:07,246 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:58:08,275 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:58:08,588 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:58:08,887 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:58:09,919 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:58:10,295 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:10,353 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:58:11,148 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:58:11,520 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:11,888 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:58:11,900 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:58:11,908 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:58:13,267 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:13,278 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:58:13,285 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:58:13,594 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:58:14,606 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:58:14,606 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963638495612928', 'mobile': '01637632685', 'order_status': 35}
+INFO - 2021-11-23 09:58:15,112 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:58:16,125 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:58:16,126 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963638495612928', 'mobile': '01637632685', 'order_status': 40}
+INFO - 2021-11-23 09:58:16,126 - new_apply_order.py[line:922]: ===========完成第【8】次进件===========
+INFO - 2021-11-23 09:58:16,127 - new_apply_order.py[line:882]: 开始第 LendCash【9】次进件……
+INFO - 2021-11-23 09:58:16,128 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632696 ======
+INFO - 2021-11-23 09:58:16,521 - new_apply_order.py[line:97]: 01637632696 检测用户存在成功！
+INFO - 2021-11-23 09:58:16,589 - new_apply_order.py[line:106]: 01637632696 短信发送成功！
+INFO - 2021-11-23 09:58:16,649 - new_apply_order.py[line:119]: 01637632696 注册成功！
+INFO - 2021-11-23 09:58:16,729 - new_apply_order.py[line:135]: 01637632696 登录短信发送成功！
+INFO - 2021-11-23 09:58:16,820 - new_apply_order.py[line:145]: userId=6234353124149567488,mobile=01637632696,token=6fd78d929ae626b5b580e3091c06a050 登录成功
+INFO - 2021-11-23 09:58:16,944 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:58:17,015 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:58:17,343 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:58:17,361 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:58:17,373 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:58:17,674 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:58:17,723 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:58:18,813 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:58:19,124 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:58:19,424 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:58:20,451 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:58:20,825 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:20,882 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:58:21,707 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:58:22,082 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:22,421 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:58:22,437 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:58:22,447 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:58:23,811 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:23,823 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:58:23,829 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:58:24,136 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:58:25,153 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:58:25,153 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963682447724544', 'mobile': '01637632696', 'order_status': 35}
+INFO - 2021-11-23 09:58:25,664 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:58:26,681 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:58:26,681 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963682447724544', 'mobile': '01637632696', 'order_status': 40}
+INFO - 2021-11-23 09:58:26,682 - new_apply_order.py[line:922]: ===========完成第【9】次进件===========
+INFO - 2021-11-23 09:58:26,682 - new_apply_order.py[line:882]: 开始第 LendCash【10】次进件……
+INFO - 2021-11-23 09:58:26,683 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632706 ======
+INFO - 2021-11-23 09:58:27,042 - new_apply_order.py[line:97]: 01637632706 检测用户存在成功！
+INFO - 2021-11-23 09:58:27,100 - new_apply_order.py[line:106]: 01637632706 短信发送成功！
+INFO - 2021-11-23 09:58:27,151 - new_apply_order.py[line:119]: 01637632706 注册成功！
+INFO - 2021-11-23 09:58:27,221 - new_apply_order.py[line:135]: 01637632706 登录短信发送成功！
+INFO - 2021-11-23 09:58:27,282 - new_apply_order.py[line:145]: userId=6234353168193953792,mobile=01637632706,token=5df505a8f6d47f1e280c15c11e647b2f 登录成功
+INFO - 2021-11-23 09:58:27,389 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:58:27,459 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:58:27,770 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:58:27,796 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:58:27,809 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:58:28,081 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:58:28,138 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:58:29,258 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:58:29,575 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:58:29,856 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:58:30,893 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:58:31,254 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:31,311 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:58:32,134 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:58:32,493 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:32,809 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:58:32,825 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:58:32,840 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:58:34,212 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:34,231 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:58:34,240 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:58:34,545 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:58:35,560 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:58:35,561 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963726156566528', 'mobile': '01637632706', 'order_status': 35}
+INFO - 2021-11-23 09:58:36,069 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:58:37,080 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:58:37,080 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963726156566528', 'mobile': '01637632706', 'order_status': 40}
+INFO - 2021-11-23 09:58:37,080 - new_apply_order.py[line:922]: ===========完成第【10】次进件===========
+INFO - 2021-11-23 09:58:37,080 - new_apply_order.py[line:882]: 开始第 LendCash【11】次进件……
+INFO - 2021-11-23 09:58:37,081 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632717 ======
+INFO - 2021-11-23 09:58:37,472 - new_apply_order.py[line:97]: 01637632717 检测用户存在成功！
+INFO - 2021-11-23 09:58:37,554 - new_apply_order.py[line:106]: 01637632717 短信发送成功！
+INFO - 2021-11-23 09:58:37,609 - new_apply_order.py[line:119]: 01637632717 注册成功！
+INFO - 2021-11-23 09:58:37,709 - new_apply_order.py[line:135]: 01637632717 登录短信发送成功！
+INFO - 2021-11-23 09:58:37,774 - new_apply_order.py[line:145]: userId=6234353212057985024,mobile=01637632717,token=c10923d7afaf6c2a0a87bf8ee35d15ae 登录成功
+INFO - 2021-11-23 09:58:37,888 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:58:37,974 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:58:38,331 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:58:38,346 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:58:38,360 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:58:38,670 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:58:38,738 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:58:39,824 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:58:40,147 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:58:40,454 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:58:41,490 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:58:41,906 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:42,004 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:58:42,839 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:58:43,218 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:43,605 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:58:43,621 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:58:43,633 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:58:45,003 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:45,015 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:58:45,022 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:58:45,328 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:58:46,343 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:58:46,344 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963770372919296', 'mobile': '01637632717', 'order_status': 35}
+INFO - 2021-11-23 09:58:46,853 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:58:47,865 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:58:47,865 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963770372919296', 'mobile': '01637632717', 'order_status': 40}
+INFO - 2021-11-23 09:58:47,866 - new_apply_order.py[line:922]: ===========完成第【11】次进件===========
+INFO - 2021-11-23 09:58:47,866 - new_apply_order.py[line:882]: 开始第 LendCash【12】次进件……
+INFO - 2021-11-23 09:58:47,867 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632727 ======
+INFO - 2021-11-23 09:58:48,253 - new_apply_order.py[line:97]: 01637632727 检测用户存在成功！
+INFO - 2021-11-23 09:58:48,341 - new_apply_order.py[line:106]: 01637632727 短信发送成功！
+INFO - 2021-11-23 09:58:48,398 - new_apply_order.py[line:119]: 01637632727 注册成功！
+INFO - 2021-11-23 09:58:48,548 - new_apply_order.py[line:135]: 01637632727 登录短信发送成功！
+INFO - 2021-11-23 09:58:48,622 - new_apply_order.py[line:145]: userId=6234353257301942272,mobile=01637632727,token=afb7746bd56bfd77ec874463297fd6bc 登录成功
+INFO - 2021-11-23 09:58:48,767 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:58:48,850 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:58:49,161 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:58:49,183 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:58:49,197 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:58:49,467 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:58:49,528 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:58:50,660 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:58:50,966 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:58:51,285 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:58:52,324 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:58:52,695 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:52,751 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:58:53,614 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:58:53,983 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:54,317 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:58:54,334 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:58:54,349 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:58:55,721 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:58:55,735 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:58:55,743 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:58:56,049 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:58:57,065 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:58:57,066 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963815914672128', 'mobile': '01637632727', 'order_status': 35}
+INFO - 2021-11-23 09:58:57,575 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:58:58,590 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:58:58,591 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963815914672128', 'mobile': '01637632727', 'order_status': 40}
+INFO - 2021-11-23 09:58:58,592 - new_apply_order.py[line:922]: ===========完成第【12】次进件===========
+INFO - 2021-11-23 09:58:58,592 - new_apply_order.py[line:882]: 开始第 LendCash【13】次进件……
+INFO - 2021-11-23 09:58:58,593 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632738 ======
+INFO - 2021-11-23 09:58:58,963 - new_apply_order.py[line:97]: 01637632738 检测用户存在成功！
+INFO - 2021-11-23 09:58:59,028 - new_apply_order.py[line:106]: 01637632738 短信发送成功！
+INFO - 2021-11-23 09:58:59,097 - new_apply_order.py[line:119]: 01637632738 注册成功！
+INFO - 2021-11-23 09:58:59,189 - new_apply_order.py[line:135]: 01637632738 登录短信发送成功！
+INFO - 2021-11-23 09:58:59,272 - new_apply_order.py[line:145]: userId=6234353302160023552,mobile=01637632738,token=fc50ce6ab8dbf6b341693446b1049ad4 登录成功
+INFO - 2021-11-23 09:58:59,392 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:58:59,470 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:58:59,751 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:58:59,770 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:58:59,787 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:59:00,068 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:59:00,142 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:59:01,174 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:59:01,483 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:59:01,768 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:59:02,800 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:59:03,176 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:03,230 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:59:04,022 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:59:04,388 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:04,779 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:59:04,795 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:59:04,807 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:59:06,178 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:06,197 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:59:06,206 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:59:06,512 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:59:07,529 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:59:07,530 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963860424626176', 'mobile': '01637632738', 'order_status': 35}
+INFO - 2021-11-23 09:59:08,042 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:59:09,056 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:59:09,057 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963860424626176', 'mobile': '01637632738', 'order_status': 40}
+INFO - 2021-11-23 09:59:09,057 - new_apply_order.py[line:922]: ===========完成第【13】次进件===========
+INFO - 2021-11-23 09:59:09,057 - new_apply_order.py[line:882]: 开始第 LendCash【14】次进件……
+INFO - 2021-11-23 09:59:09,059 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632749 ======
+INFO - 2021-11-23 09:59:09,422 - new_apply_order.py[line:97]: 01637632749 检测用户存在成功！
+INFO - 2021-11-23 09:59:09,477 - new_apply_order.py[line:106]: 01637632749 短信发送成功！
+INFO - 2021-11-23 09:59:09,539 - new_apply_order.py[line:119]: 01637632749 注册成功！
+INFO - 2021-11-23 09:59:09,621 - new_apply_order.py[line:135]: 01637632749 登录短信发送成功！
+INFO - 2021-11-23 09:59:09,691 - new_apply_order.py[line:145]: userId=6234353345965334528,mobile=01637632749,token=1f602c78da5890e1e9307985606623a4 登录成功
+INFO - 2021-11-23 09:59:09,849 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:59:09,938 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:59:10,263 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:59:10,284 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:59:10,298 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:59:10,574 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:59:10,626 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:59:11,667 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:59:11,970 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:59:12,221 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:59:13,248 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:59:13,619 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:13,674 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:59:14,489 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:59:14,860 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:15,256 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:59:15,272 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:59:15,284 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:59:16,678 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:16,697 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:59:16,704 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:59:17,013 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:59:18,028 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:59:18,028 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963904397709312', 'mobile': '01637632749', 'order_status': 35}
+INFO - 2021-11-23 09:59:18,536 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:59:19,555 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:59:19,555 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963904397709312', 'mobile': '01637632749', 'order_status': 40}
+INFO - 2021-11-23 09:59:19,556 - new_apply_order.py[line:922]: ===========完成第【14】次进件===========
+INFO - 2021-11-23 09:59:19,556 - new_apply_order.py[line:882]: 开始第 LendCash【15】次进件……
+INFO - 2021-11-23 09:59:19,558 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632759 ======
+INFO - 2021-11-23 09:59:19,952 - new_apply_order.py[line:97]: 01637632759 检测用户存在成功！
+INFO - 2021-11-23 09:59:20,021 - new_apply_order.py[line:106]: 01637632759 短信发送成功！
+INFO - 2021-11-23 09:59:20,101 - new_apply_order.py[line:119]: 01637632759 注册成功！
+INFO - 2021-11-23 09:59:20,175 - new_apply_order.py[line:135]: 01637632759 登录短信发送成功！
+INFO - 2021-11-23 09:59:20,263 - new_apply_order.py[line:145]: userId=6234353390269767680,mobile=01637632759,token=48709d551ec4f3804a348f7be389435e 登录成功
+INFO - 2021-11-23 09:59:20,424 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:59:20,522 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:59:21,019 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:59:21,041 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:59:21,055 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:59:21,365 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:59:21,425 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:59:22,574 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:59:22,908 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:59:23,341 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:59:24,374 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:59:24,770 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:24,925 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:59:25,742 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:59:26,107 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:26,441 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:59:26,457 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:59:26,469 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:59:27,839 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:27,857 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:59:27,867 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:59:28,177 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:59:29,191 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:59:29,191 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963948966383616', 'mobile': '01637632759', 'order_status': 35}
+INFO - 2021-11-23 09:59:29,698 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:59:30,714 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:59:30,715 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963948966383616', 'mobile': '01637632759', 'order_status': 40}
+INFO - 2021-11-23 09:59:30,715 - new_apply_order.py[line:922]: ===========完成第【15】次进件===========
+INFO - 2021-11-23 09:59:30,715 - new_apply_order.py[line:882]: 开始第 LendCash【16】次进件……
+INFO - 2021-11-23 09:59:30,717 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632770 ======
+INFO - 2021-11-23 09:59:31,085 - new_apply_order.py[line:97]: 01637632770 检测用户存在成功！
+INFO - 2021-11-23 09:59:31,154 - new_apply_order.py[line:106]: 01637632770 短信发送成功！
+INFO - 2021-11-23 09:59:31,206 - new_apply_order.py[line:119]: 01637632770 注册成功！
+INFO - 2021-11-23 09:59:31,277 - new_apply_order.py[line:135]: 01637632770 登录短信发送成功！
+INFO - 2021-11-23 09:59:31,340 - new_apply_order.py[line:145]: userId=6234353436855902208,mobile=01637632770,token=f9b6f030bad38c0e7856427733b9b426 登录成功
+INFO - 2021-11-23 09:59:31,448 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:59:31,523 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:59:31,800 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:59:31,824 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:59:31,838 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:59:32,037 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:59:32,085 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:59:33,058 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:59:33,372 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:59:33,685 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:59:34,729 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:59:35,104 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:35,156 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:59:35,988 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:59:36,358 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:36,676 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:59:36,693 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:59:36,708 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:59:38,074 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:38,089 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:59:38,098 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:59:38,407 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:59:39,424 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:59:39,425 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963994856263680', 'mobile': '01637632770', 'order_status': 35}
+INFO - 2021-11-23 09:59:39,934 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:59:40,951 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:59:40,952 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462963994856263680', 'mobile': '01637632770', 'order_status': 40}
+INFO - 2021-11-23 09:59:40,952 - new_apply_order.py[line:922]: ===========完成第【16】次进件===========
+INFO - 2021-11-23 09:59:40,952 - new_apply_order.py[line:882]: 开始第 LendCash【17】次进件……
+INFO - 2021-11-23 09:59:40,954 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632780 ======
+INFO - 2021-11-23 09:59:41,325 - new_apply_order.py[line:97]: 01637632780 检测用户存在成功！
+INFO - 2021-11-23 09:59:41,391 - new_apply_order.py[line:106]: 01637632780 短信发送成功！
+INFO - 2021-11-23 09:59:41,446 - new_apply_order.py[line:119]: 01637632780 注册成功！
+INFO - 2021-11-23 09:59:41,526 - new_apply_order.py[line:135]: 01637632780 登录短信发送成功！
+INFO - 2021-11-23 09:59:41,591 - new_apply_order.py[line:145]: userId=6234353479792992256,mobile=01637632780,token=7b4d9b1583491d415d436e6ca22541df 登录成功
+INFO - 2021-11-23 09:59:41,703 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:59:41,779 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:59:42,055 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:59:42,074 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:59:42,087 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:59:42,348 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:59:42,399 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:59:43,500 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:59:43,795 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:59:44,067 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:59:45,104 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:59:45,471 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:45,525 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:59:46,239 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:59:46,627 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:46,993 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:59:47,008 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:59:47,023 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:59:48,383 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:48,397 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:59:48,405 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:59:48,711 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 09:59:49,727 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 09:59:49,728 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964037860462592', 'mobile': '01637632780', 'order_status': 35}
+INFO - 2021-11-23 09:59:50,237 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 09:59:51,250 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 09:59:51,250 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964037860462592', 'mobile': '01637632780', 'order_status': 40}
+INFO - 2021-11-23 09:59:51,251 - new_apply_order.py[line:922]: ===========完成第【17】次进件===========
+INFO - 2021-11-23 09:59:51,251 - new_apply_order.py[line:882]: 开始第 LendCash【18】次进件……
+INFO - 2021-11-23 09:59:51,252 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632791 ======
+INFO - 2021-11-23 09:59:51,613 - new_apply_order.py[line:97]: 01637632791 检测用户存在成功！
+INFO - 2021-11-23 09:59:51,670 - new_apply_order.py[line:106]: 01637632791 短信发送成功！
+INFO - 2021-11-23 09:59:51,721 - new_apply_order.py[line:119]: 01637632791 注册成功！
+INFO - 2021-11-23 09:59:51,825 - new_apply_order.py[line:135]: 01637632791 登录短信发送成功！
+INFO - 2021-11-23 09:59:51,902 - new_apply_order.py[line:145]: userId=6234353522897854464,mobile=01637632791,token=2e60e1e3faec06d8bc32865a56fc7c69 登录成功
+INFO - 2021-11-23 09:59:52,008 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 09:59:52,072 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 09:59:52,355 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 09:59:52,373 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 09:59:52,388 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 09:59:52,681 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 09:59:52,729 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 09:59:53,786 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 09:59:54,098 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 09:59:54,401 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 09:59:55,428 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 09:59:55,789 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:55,835 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 09:59:56,655 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 09:59:57,014 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:57,297 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 09:59:57,309 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 09:59:57,320 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 09:59:58,688 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 09:59:58,704 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 09:59:58,711 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 09:59:59,019 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 10:00:00,039 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 10:00:00,044 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964081003073536', 'mobile': '01637632791', 'order_status': 35}
+INFO - 2021-11-23 10:00:00,555 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 10:00:01,573 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 10:00:01,574 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964081003073536', 'mobile': '01637632791', 'order_status': 40}
+INFO - 2021-11-23 10:00:01,574 - new_apply_order.py[line:922]: ===========完成第【18】次进件===========
+INFO - 2021-11-23 10:00:01,574 - new_apply_order.py[line:882]: 开始第 LendCash【19】次进件……
+INFO - 2021-11-23 10:00:01,576 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632801 ======
+INFO - 2021-11-23 10:00:01,949 - new_apply_order.py[line:97]: 01637632801 检测用户存在成功！
+INFO - 2021-11-23 10:00:02,004 - new_apply_order.py[line:106]: 01637632801 短信发送成功！
+INFO - 2021-11-23 10:00:02,060 - new_apply_order.py[line:119]: 01637632801 注册成功！
+INFO - 2021-11-23 10:00:02,147 - new_apply_order.py[line:135]: 01637632801 登录短信发送成功！
+INFO - 2021-11-23 10:00:02,216 - new_apply_order.py[line:145]: userId=6234353566271152128,mobile=01637632801,token=21018c055e8e964cf167cf20c771c11a 登录成功
+INFO - 2021-11-23 10:00:02,378 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 10:00:02,486 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 10:00:02,822 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 10:00:02,839 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 10:00:02,851 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 10:00:03,124 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 10:00:03,180 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 10:00:04,331 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 10:00:04,658 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 10:00:04,963 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 10:00:05,992 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 10:00:06,366 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:06,424 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 10:00:07,242 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 10:00:07,610 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:07,954 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 10:00:07,968 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 10:00:07,980 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 10:00:09,352 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:09,373 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 10:00:09,384 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 10:00:09,691 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 10:00:10,706 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 10:00:10,706 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964124711915520', 'mobile': '01637632801', 'order_status': 35}
+INFO - 2021-11-23 10:00:11,217 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 10:00:12,235 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 10:00:12,235 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964124711915520', 'mobile': '01637632801', 'order_status': 40}
+INFO - 2021-11-23 10:00:12,236 - new_apply_order.py[line:922]: ===========完成第【19】次进件===========
+INFO - 2021-11-23 10:00:12,236 - new_apply_order.py[line:882]: 开始第 LendCash【20】次进件……
+INFO - 2021-11-23 10:00:12,237 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632812 ======
+INFO - 2021-11-23 10:00:12,605 - new_apply_order.py[line:97]: 01637632812 检测用户存在成功！
+INFO - 2021-11-23 10:00:12,672 - new_apply_order.py[line:106]: 01637632812 短信发送成功！
+INFO - 2021-11-23 10:00:12,729 - new_apply_order.py[line:119]: 01637632812 注册成功！
+INFO - 2021-11-23 10:00:12,807 - new_apply_order.py[line:135]: 01637632812 登录短信发送成功！
+INFO - 2021-11-23 10:00:12,868 - new_apply_order.py[line:145]: userId=6234353611003404288,mobile=01637632812,token=55f9a23216101bcbcbdcf70b8e65213f 登录成功
+INFO - 2021-11-23 10:00:13,006 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 10:00:13,085 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 10:00:13,430 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 10:00:13,445 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 10:00:13,457 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 10:00:13,740 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 10:00:13,798 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 10:00:14,907 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 10:00:15,222 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 10:00:15,500 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 10:00:16,543 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 10:00:16,944 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:17,001 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 10:00:17,850 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 10:00:18,221 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:18,543 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 10:00:18,558 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 10:00:18,570 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 10:00:19,949 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:19,965 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 10:00:19,974 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 10:00:20,282 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 10:00:21,302 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 10:00:21,302 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964169200898048', 'mobile': '01637632812', 'order_status': 35}
+INFO - 2021-11-23 10:00:21,811 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 10:00:22,832 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 10:00:22,833 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964169200898048', 'mobile': '01637632812', 'order_status': 40}
+INFO - 2021-11-23 10:00:22,833 - new_apply_order.py[line:922]: ===========完成第【20】次进件===========
+INFO - 2021-11-23 10:00:22,834 - new_apply_order.py[line:882]: 开始第 LendCash【21】次进件……
+INFO - 2021-11-23 10:00:22,835 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632822 ======
+INFO - 2021-11-23 10:00:23,198 - new_apply_order.py[line:97]: 01637632822 检测用户存在成功！
+INFO - 2021-11-23 10:00:23,265 - new_apply_order.py[line:106]: 01637632822 短信发送成功！
+INFO - 2021-11-23 10:00:23,327 - new_apply_order.py[line:119]: 01637632822 注册成功！
+INFO - 2021-11-23 10:00:23,412 - new_apply_order.py[line:135]: 01637632822 登录短信发送成功！
+INFO - 2021-11-23 10:00:23,477 - new_apply_order.py[line:145]: userId=6234353655433666560,mobile=01637632822,token=27e36030e9e95220e0d7cd5c5e77e51f 登录成功
+INFO - 2021-11-23 10:00:23,625 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 10:00:23,714 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 10:00:24,007 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 10:00:24,025 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 10:00:24,040 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 10:00:24,278 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 10:00:24,326 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 10:00:25,334 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 10:00:25,654 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 10:00:25,892 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 10:00:26,938 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 10:00:27,305 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:27,355 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 10:00:28,196 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 10:00:28,563 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:28,893 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 10:00:28,908 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 10:00:28,921 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 10:00:30,296 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:30,315 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 10:00:30,325 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 10:00:30,637 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 10:00:31,650 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 10:00:31,650 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964213803126784', 'mobile': '01637632822', 'order_status': 35}
+INFO - 2021-11-23 10:00:32,162 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 10:00:33,177 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 10:00:33,177 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964213803126784', 'mobile': '01637632822', 'order_status': 40}
+INFO - 2021-11-23 10:00:33,178 - new_apply_order.py[line:922]: ===========完成第【21】次进件===========
+INFO - 2021-11-23 10:00:33,178 - new_apply_order.py[line:882]: 开始第 LendCash【22】次进件……
+INFO - 2021-11-23 10:00:33,179 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632833 ======
+INFO - 2021-11-23 10:00:33,544 - new_apply_order.py[line:97]: 01637632833 检测用户存在成功！
+INFO - 2021-11-23 10:00:33,607 - new_apply_order.py[line:106]: 01637632833 短信发送成功！
+INFO - 2021-11-23 10:00:33,662 - new_apply_order.py[line:119]: 01637632833 注册成功！
+INFO - 2021-11-23 10:00:33,733 - new_apply_order.py[line:135]: 01637632833 登录短信发送成功！
+INFO - 2021-11-23 10:00:33,800 - new_apply_order.py[line:145]: userId=6234353698798575616,mobile=01637632833,token=cf8bc43e325cd4369b764ee29cfbdbdf 登录成功
+INFO - 2021-11-23 10:00:33,923 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 10:00:33,989 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 10:00:34,240 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 10:00:34,260 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 10:00:34,275 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 10:00:34,564 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 10:00:34,613 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 10:00:35,691 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 10:00:36,011 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 10:00:36,272 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 10:00:37,309 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 10:00:37,683 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:37,749 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 10:00:38,560 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 10:00:38,920 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:39,277 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 10:00:39,293 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 10:00:39,308 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 10:00:40,680 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:40,697 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 10:00:40,708 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 10:00:41,018 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 10:00:42,035 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 10:00:42,035 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964256832491520', 'mobile': '01637632833', 'order_status': 35}
+INFO - 2021-11-23 10:00:42,546 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 10:00:43,557 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 10:00:43,557 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964256832491520', 'mobile': '01637632833', 'order_status': 40}
+INFO - 2021-11-23 10:00:43,558 - new_apply_order.py[line:922]: ===========完成第【22】次进件===========
+INFO - 2021-11-23 10:00:43,558 - new_apply_order.py[line:882]: 开始第 LendCash【23】次进件……
+INFO - 2021-11-23 10:00:43,560 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632843 ======
+INFO - 2021-11-23 10:00:43,929 - new_apply_order.py[line:97]: 01637632843 检测用户存在成功！
+INFO - 2021-11-23 10:00:43,994 - new_apply_order.py[line:106]: 01637632843 短信发送成功！
+INFO - 2021-11-23 10:00:44,057 - new_apply_order.py[line:119]: 01637632843 注册成功！
+INFO - 2021-11-23 10:00:44,149 - new_apply_order.py[line:135]: 01637632843 登录短信发送成功！
+INFO - 2021-11-23 10:00:44,212 - new_apply_order.py[line:145]: userId=6234353742394171392,mobile=01637632843,token=d9d0f80b87838eacfdb5268acc8fea1a 登录成功
+INFO - 2021-11-23 10:00:44,347 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 10:00:44,435 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 10:00:44,731 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 10:00:44,751 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 10:00:44,770 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 10:00:45,066 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 10:00:45,117 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 10:00:46,153 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 10:00:46,469 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 10:00:46,719 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 10:00:47,760 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 10:00:48,126 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:48,181 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 10:00:48,998 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 10:00:49,359 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:49,676 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 10:00:49,695 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 10:00:49,710 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 10:00:51,088 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:51,105 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 10:00:51,115 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 10:00:51,425 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 10:00:52,438 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 10:00:52,439 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964300704911360', 'mobile': '01637632843', 'order_status': 35}
+INFO - 2021-11-23 10:00:52,947 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 10:00:53,962 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 10:00:53,962 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964300704911360', 'mobile': '01637632843', 'order_status': 40}
+INFO - 2021-11-23 10:00:53,963 - new_apply_order.py[line:922]: ===========完成第【23】次进件===========
+INFO - 2021-11-23 10:00:53,963 - new_apply_order.py[line:882]: 开始第 LendCash【24】次进件……
+INFO - 2021-11-23 10:00:53,965 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632853 ======
+INFO - 2021-11-23 10:00:54,338 - new_apply_order.py[line:97]: 01637632853 检测用户存在成功！
+INFO - 2021-11-23 10:00:54,400 - new_apply_order.py[line:106]: 01637632853 短信发送成功！
+INFO - 2021-11-23 10:00:54,453 - new_apply_order.py[line:119]: 01637632853 注册成功！
+INFO - 2021-11-23 10:00:54,534 - new_apply_order.py[line:135]: 01637632853 登录短信发送成功！
+INFO - 2021-11-23 10:00:54,595 - new_apply_order.py[line:145]: userId=6234353786006544384,mobile=01637632853,token=a8e2651dff9d878be1a885b2aa9c39a6 登录成功
+INFO - 2021-11-23 10:00:54,717 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 10:00:54,793 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 10:00:55,130 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 10:00:55,146 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 10:00:55,160 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 10:00:55,452 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 10:00:55,516 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 10:00:56,581 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 10:00:56,890 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 10:00:57,151 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 10:00:58,188 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 10:00:58,559 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:00:58,617 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 10:00:59,449 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 10:00:59,836 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:00,174 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 10:01:00,190 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 10:01:00,203 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 10:01:01,560 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:01,575 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 10:01:01,583 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 10:01:01,891 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 10:01:02,906 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 10:01:02,906 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964344212426752', 'mobile': '01637632853', 'order_status': 35}
+INFO - 2021-11-23 10:01:03,417 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 10:01:04,428 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 10:01:04,428 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964344212426752', 'mobile': '01637632853', 'order_status': 40}
+INFO - 2021-11-23 10:01:04,428 - new_apply_order.py[line:922]: ===========完成第【24】次进件===========
+INFO - 2021-11-23 10:01:04,428 - new_apply_order.py[line:882]: 开始第 LendCash【25】次进件……
+INFO - 2021-11-23 10:01:04,429 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632864 ======
+INFO - 2021-11-23 10:01:04,809 - new_apply_order.py[line:97]: 01637632864 检测用户存在成功！
+INFO - 2021-11-23 10:01:04,871 - new_apply_order.py[line:106]: 01637632864 短信发送成功！
+INFO - 2021-11-23 10:01:04,926 - new_apply_order.py[line:119]: 01637632864 注册成功！
+INFO - 2021-11-23 10:01:05,024 - new_apply_order.py[line:135]: 01637632864 登录短信发送成功！
+INFO - 2021-11-23 10:01:05,085 - new_apply_order.py[line:145]: userId=6234353829929295872,mobile=01637632864,token=04fabc548405cc833e1c1eca1e180b00 登录成功
+INFO - 2021-11-23 10:01:05,196 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 10:01:05,251 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 10:01:05,507 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 10:01:05,525 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 10:01:05,540 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 10:01:05,816 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 10:01:05,854 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 10:01:06,808 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 10:01:07,110 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 10:01:07,394 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 10:01:08,425 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 10:01:08,781 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:08,830 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 10:01:09,638 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 10:01:09,999 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:10,310 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 10:01:10,327 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 10:01:10,341 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 10:01:11,710 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:11,730 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 10:01:11,739 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 10:01:12,048 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 10:01:13,064 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 10:01:13,064 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964387950628864', 'mobile': '01637632864', 'order_status': 35}
+INFO - 2021-11-23 10:01:13,575 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 10:01:14,592 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 10:01:14,592 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964387950628864', 'mobile': '01637632864', 'order_status': 40}
+INFO - 2021-11-23 10:01:14,593 - new_apply_order.py[line:922]: ===========完成第【25】次进件===========
+INFO - 2021-11-23 10:01:14,593 - new_apply_order.py[line:882]: 开始第 LendCash【26】次进件……
+INFO - 2021-11-23 10:01:14,594 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632874 ======
+INFO - 2021-11-23 10:01:14,966 - new_apply_order.py[line:97]: 01637632874 检测用户存在成功！
+INFO - 2021-11-23 10:01:15,026 - new_apply_order.py[line:106]: 01637632874 短信发送成功！
+INFO - 2021-11-23 10:01:15,093 - new_apply_order.py[line:119]: 01637632874 注册成功！
+INFO - 2021-11-23 10:01:15,166 - new_apply_order.py[line:135]: 01637632874 登录短信发送成功！
+INFO - 2021-11-23 10:01:15,241 - new_apply_order.py[line:145]: userId=6234353872556007424,mobile=01637632874,token=4929b6fe071d7e7060f6424fcd6d5744 登录成功
+INFO - 2021-11-23 10:01:15,347 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 10:01:15,416 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 10:01:15,708 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 10:01:15,727 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 10:01:15,739 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 10:01:16,052 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 10:01:16,093 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 10:01:17,138 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 10:01:17,463 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 10:01:17,716 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 10:01:18,757 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 10:01:19,122 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:19,176 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 10:01:19,989 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 10:01:20,353 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:20,691 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 10:01:20,708 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 10:01:20,722 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 10:01:22,081 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:22,091 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 10:01:22,098 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 10:01:22,402 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 10:01:23,412 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 10:01:23,412 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964430598311936', 'mobile': '01637632874', 'order_status': 35}
+INFO - 2021-11-23 10:01:23,921 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 10:01:24,937 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 10:01:24,937 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964430598311936', 'mobile': '01637632874', 'order_status': 40}
+INFO - 2021-11-23 10:01:24,938 - new_apply_order.py[line:922]: ===========完成第【26】次进件===========
+INFO - 2021-11-23 10:01:24,938 - new_apply_order.py[line:882]: 开始第 LendCash【27】次进件……
+INFO - 2021-11-23 10:01:24,940 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632884 ======
+INFO - 2021-11-23 10:01:25,307 - new_apply_order.py[line:97]: 01637632884 检测用户存在成功！
+INFO - 2021-11-23 10:01:25,365 - new_apply_order.py[line:106]: 01637632884 短信发送成功！
+INFO - 2021-11-23 10:01:25,419 - new_apply_order.py[line:119]: 01637632884 注册成功！
+INFO - 2021-11-23 10:01:25,498 - new_apply_order.py[line:135]: 01637632884 登录短信发送成功！
+INFO - 2021-11-23 10:01:25,562 - new_apply_order.py[line:145]: userId=6234353915883167744,mobile=01637632884,token=de9e8ccac3477b47fb49784f6a8f3183 登录成功
+INFO - 2021-11-23 10:01:25,683 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 10:01:25,756 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 10:01:26,029 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 10:01:26,050 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 10:01:26,070 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 10:01:26,382 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 10:01:26,430 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 10:01:27,521 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 10:01:27,836 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 10:01:28,120 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 10:01:29,151 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 10:01:29,516 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:29,571 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 10:01:30,383 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 10:01:30,753 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:31,121 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 10:01:31,138 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 10:01:31,153 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 10:01:32,508 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:32,529 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 10:01:32,537 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 10:01:32,843 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 10:01:33,861 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 10:01:33,862 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964473967415296', 'mobile': '01637632884', 'order_status': 35}
+INFO - 2021-11-23 10:01:34,374 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 10:01:35,395 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 10:01:35,395 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964473967415296', 'mobile': '01637632884', 'order_status': 40}
+INFO - 2021-11-23 10:01:35,396 - new_apply_order.py[line:922]: ===========完成第【27】次进件===========
+INFO - 2021-11-23 10:01:35,396 - new_apply_order.py[line:882]: 开始第 LendCash【28】次进件……
+INFO - 2021-11-23 10:01:35,399 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632895 ======
+INFO - 2021-11-23 10:01:35,765 - new_apply_order.py[line:97]: 01637632895 检测用户存在成功！
+INFO - 2021-11-23 10:01:35,822 - new_apply_order.py[line:106]: 01637632895 短信发送成功！
+INFO - 2021-11-23 10:01:35,877 - new_apply_order.py[line:119]: 01637632895 注册成功！
+INFO - 2021-11-23 10:01:35,955 - new_apply_order.py[line:135]: 01637632895 登录短信发送成功！
+INFO - 2021-11-23 10:01:36,017 - new_apply_order.py[line:145]: userId=6234353959747198976,mobile=01637632895,token=3187f12a6cf1100a872743693ae9cd9b 登录成功
+INFO - 2021-11-23 10:01:36,156 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 10:01:36,233 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 10:01:36,472 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 10:01:36,495 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 10:01:36,511 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 10:01:36,811 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 10:01:36,857 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 10:01:37,885 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 10:01:38,191 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 10:01:38,448 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 10:01:39,487 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 10:01:39,860 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:39,911 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 10:01:40,743 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 10:01:41,106 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:41,428 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 10:01:41,444 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 10:01:41,457 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 10:01:42,825 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:42,842 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 10:01:42,852 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 10:01:43,158 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 10:01:44,175 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 10:01:44,176 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964517906944000', 'mobile': '01637632895', 'order_status': 35}
+INFO - 2021-11-23 10:01:44,684 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 10:01:45,698 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 10:01:45,699 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964517906944000', 'mobile': '01637632895', 'order_status': 40}
+INFO - 2021-11-23 10:01:45,699 - new_apply_order.py[line:922]: ===========完成第【28】次进件===========
+INFO - 2021-11-23 10:01:45,700 - new_apply_order.py[line:882]: 开始第 LendCash【29】次进件……
+INFO - 2021-11-23 10:01:45,701 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632905 ======
+INFO - 2021-11-23 10:01:46,084 - new_apply_order.py[line:97]: 01637632905 检测用户存在成功！
+INFO - 2021-11-23 10:01:46,150 - new_apply_order.py[line:106]: 01637632905 短信发送成功！
+INFO - 2021-11-23 10:01:46,220 - new_apply_order.py[line:119]: 01637632905 注册成功！
+INFO - 2021-11-23 10:01:46,339 - new_apply_order.py[line:135]: 01637632905 登录短信发送成功！
+INFO - 2021-11-23 10:01:46,416 - new_apply_order.py[line:145]: userId=6234354003095330816,mobile=01637632905,token=bd7e9c8725f80359d7814c7b1b36c3df 登录成功
+INFO - 2021-11-23 10:01:46,527 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 10:01:46,603 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 10:01:46,891 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 10:01:46,907 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 10:01:46,919 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 10:01:47,200 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 10:01:47,255 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 10:01:48,312 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 10:01:48,654 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 10:01:48,952 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 10:01:49,990 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 10:01:50,353 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:50,407 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 10:01:51,230 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 10:01:51,592 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:51,915 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 10:01:51,927 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 10:01:51,937 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 10:01:53,296 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:01:53,314 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 10:01:53,323 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 10:01:53,632 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 10:01:54,650 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 10:01:54,650 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964561406070784', 'mobile': '01637632905', 'order_status': 35}
+INFO - 2021-11-23 10:01:55,161 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 10:01:56,176 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 10:01:56,176 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964561406070784', 'mobile': '01637632905', 'order_status': 40}
+INFO - 2021-11-23 10:01:56,177 - new_apply_order.py[line:922]: ===========完成第【29】次进件===========
+INFO - 2021-11-23 10:01:56,177 - new_apply_order.py[line:882]: 开始第 LendCash【30】次进件……
+INFO - 2021-11-23 10:01:56,178 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01637632916 ======
+INFO - 2021-11-23 10:01:56,538 - new_apply_order.py[line:97]: 01637632916 检测用户存在成功！
+INFO - 2021-11-23 10:01:56,593 - new_apply_order.py[line:106]: 01637632916 短信发送成功！
+INFO - 2021-11-23 10:01:56,643 - new_apply_order.py[line:119]: 01637632916 注册成功！
+INFO - 2021-11-23 10:01:56,708 - new_apply_order.py[line:135]: 01637632916 登录短信发送成功！
+INFO - 2021-11-23 10:01:56,764 - new_apply_order.py[line:145]: userId=6234354046850310144,mobile=01637632916,token=dfb43bf170ee613f7e12445125f4f116 登录成功
+INFO - 2021-11-23 10:01:56,874 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-11-23 10:01:56,953 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-11-23 10:01:57,263 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-11-23 10:01:57,285 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-11-23 10:01:57,304 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-23 10:01:57,589 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-11-23 10:01:57,639 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-11-23 10:01:58,761 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-11-23 10:01:59,106 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-11-23 10:01:59,375 - new_apply_order.py[line:612]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-11-23 10:02:00,418 - new_apply_order.py[line:618]: 订单表更新1条，信审更新1条
+INFO - 2021-11-23 10:02:00,794 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:02:00,846 - new_apply_order.py[line:647]: 订单回调复审通过成功！
+INFO - 2021-11-23 10:02:01,646 - new_apply_order.py[line:669]: 获取token成功！token=bearer 5dbeb4f8-1fb7-4dd5-a47e-b8985c152bb1！
+INFO - 2021-11-23 10:02:02,007 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:02:02,388 - new_apply_order.py[line:687]: 后台已触发放款成功！
+INFO - 2021-11-23 10:02:02,402 - new_apply_order.py[line:701]: xxl_job web 登录成功！
+INFO - 2021-11-23 10:02:02,413 - new_apply_order.py[line:717]: xxl_job 放款准备作业执行成功！
+INFO - 2021-11-23 10:02:03,784 - new_apply_order.py[line:632]: 查询loan_order_id成功！
+INFO - 2021-11-23 10:02:03,801 - new_apply_order.py[line:725]: 修改放款准备完成时间成功！
+INFO - 2021-11-23 10:02:03,810 - new_apply_order.py[line:733]: xxl_job 放款完成作业执行成功！
+INFO - 2021-11-23 10:02:04,118 - new_apply_order.py[line:905]: 校验重试查询第1次
+ERROR - 2021-11-23 10:02:05,132 - new_apply_order.py[line:801]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-11-23 10:02:05,133 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964604800339968', 'mobile': '01637632916', 'order_status': 35}
+INFO - 2021-11-23 10:02:05,642 - new_apply_order.py[line:905]: 校验重试查询第2次
+INFO - 2021-11-23 10:02:06,662 - new_apply_order.py[line:799]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-11-23 10:02:06,662 - new_apply_order.py[line:802]: {'app': 'LendCash', 'loan_order_id': '1462964604800339968', 'mobile': '01637632916', 'order_status': 40}
+INFO - 2021-11-23 10:02:06,663 - new_apply_order.py[line:922]: ===========完成第【30】次进件===========
+INFO - 2021-11-23 10:02:06,663 - new_apply_order.py[line:925]: ======完成第【30】次进件,耗时388.73s=====

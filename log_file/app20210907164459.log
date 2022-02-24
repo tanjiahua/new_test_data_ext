@@ -1,0 +1,28 @@
+INFO - 2021-09-07 16:44:59,258 - new_apply_order.py[line:618]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-07 16:44:59,258 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01631004299 ======
+INFO - 2021-09-07 16:44:59,628 - new_apply_order.py[line:93]: 01631004299 检测用户存在成功！
+INFO - 2021-09-07 16:44:59,674 - new_apply_order.py[line:102]: 01631004299 短信发送成功！
+INFO - 2021-09-07 16:44:59,708 - new_apply_order.py[line:115]: 01631004299 注册成功！
+INFO - 2021-09-07 16:44:59,755 - new_apply_order.py[line:131]: 01631004299 登录短信发送成功！
+INFO - 2021-09-07 16:44:59,795 - new_apply_order.py[line:141]: userId=6206551612582010880,mobile=01631004299,token=7003a9553ea13cf3fa412e4564e08e1d 登录成功
+INFO - 2021-09-07 16:44:59,858 - new_apply_order.py[line:198]: 个人信息提交成功！
+INFO - 2021-09-07 16:44:59,908 - new_apply_order.py[line:209]: 联系人信息提交成功！
+INFO - 2021-09-07 16:45:00,460 - new_apply_order.py[line:231]: 创建预审订单成功！
+INFO - 2021-09-07 16:45:00,482 - new_apply_order.py[line:239]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-07 16:45:00,500 - new_apply_order.py[line:242]: 更新初始额度！更新条数 1
+ERROR - 2021-09-07 16:45:00,505 - new_apply_order.py[line:664]: name 'date' is not defined
+ERROR - 2021-09-07 16:45:00,507 - new_apply_order.py[line:665]: None
+INFO - 2021-09-07 16:45:00,511 - new_apply_order.py[line:618]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-07 16:45:00,512 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01631004300 ======
+INFO - 2021-09-07 16:45:00,856 - new_apply_order.py[line:93]: 01631004300 检测用户存在成功！
+INFO - 2021-09-07 16:45:00,896 - new_apply_order.py[line:102]: 01631004300 短信发送成功！
+INFO - 2021-09-07 16:45:00,935 - new_apply_order.py[line:115]: 01631004300 注册成功！
+INFO - 2021-09-07 16:45:00,984 - new_apply_order.py[line:131]: 01631004300 登录短信发送成功！
+INFO - 2021-09-07 16:45:01,026 - new_apply_order.py[line:141]: userId=6206551617724227584,mobile=01631004300,token=f436ed0855e4d1e372dec3a195a8fa3c 登录成功
+INFO - 2021-09-07 16:45:01,089 - new_apply_order.py[line:198]: 个人信息提交成功！
+INFO - 2021-09-07 16:45:01,135 - new_apply_order.py[line:209]: 联系人信息提交成功！
+INFO - 2021-09-07 16:45:01,376 - new_apply_order.py[line:231]: 创建预审订单成功！
+INFO - 2021-09-07 16:45:01,397 - new_apply_order.py[line:239]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-07 16:45:01,412 - new_apply_order.py[line:242]: 更新初始额度！更新条数 1
+ERROR - 2021-09-07 16:45:01,417 - new_apply_order.py[line:664]: name 'date' is not defined
+ERROR - 2021-09-07 16:45:01,417 - new_apply_order.py[line:665]: None

@@ -1,0 +1,39 @@
+INFO - 2021-12-14 14:02:14,872 - new_apply_order.py[line:893]: 开始第 pickcash【1】次进件……
+INFO - 2021-12-14 14:02:14,873 - new_apply_order.py[line:84]: ======【nga测试环境】生成手机号：01639461734 ======
+INFO - 2021-12-14 14:02:15,263 - new_apply_order.py[line:97]: 01639461734 检测用户存在成功！
+INFO - 2021-12-14 14:02:15,329 - new_apply_order.py[line:106]: 01639461734 短信发送成功！
+INFO - 2021-12-14 14:02:15,394 - new_apply_order.py[line:119]: 01639461734 注册成功！
+INFO - 2021-12-14 14:02:15,472 - new_apply_order.py[line:135]: 01639461734 登录短信发送成功！
+INFO - 2021-12-14 14:02:15,533 - new_apply_order.py[line:145]: userId=6242024668566790144,mobile=01639461734,token=a16624afeb491f2fa9591113d525f277 登录成功
+INFO - 2021-12-14 14:02:15,689 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-14 14:02:15,765 - new_apply_order.py[line:223]: 联系人信息提交成功！
+INFO - 2021-12-14 14:02:16,129 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-14 14:02:16,149 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-14 14:02:16,167 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-14 14:02:16,497 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-14 14:02:16,544 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-12-14 14:02:17,821 - new_apply_order.py[line:511]: bvn和银行卡绑卡认证通过！
+INFO - 2021-12-14 14:02:18,127 - new_apply_order.py[line:562]: user更新1条
+INFO - 2021-12-14 14:02:19,228 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-14 14:02:21,002 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-14 14:02:21,426 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-14 14:02:22,603 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-14 14:02:23,378 - new_apply_order.py[line:680]: 获取token成功！token=bearer 67bac182-6d6b-4ab9-8ef2-504323af1e5c！
+INFO - 2021-12-14 14:02:23,733 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-14 14:02:24,261 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-14 14:02:24,276 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-14 14:02:24,287 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-14 14:02:25,646 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-14 14:02:25,668 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-14 14:02:25,679 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-14 14:02:25,986 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-14 14:02:27,005 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-14 14:02:27,005 - new_apply_order.py[line:813]: {'app': 'pickcash', 'loan_order_id': '1470635226808586240', 'mobile': '01639461734', 'order_status': 35}
+INFO - 2021-12-14 14:02:27,514 - new_apply_order.py[line:916]: 校验重试查询第2次
+ERROR - 2021-12-14 14:02:28,529 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-14 14:02:28,530 - new_apply_order.py[line:813]: {'app': 'pickcash', 'loan_order_id': '1470635226808586240', 'mobile': '01639461734', 'order_status': 35}
+INFO - 2021-12-14 14:02:29,040 - new_apply_order.py[line:916]: 校验重试查询第3次
+INFO - 2021-12-14 14:02:30,053 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-14 14:02:30,054 - new_apply_order.py[line:813]: {'app': 'pickcash', 'loan_order_id': '1470635226808586240', 'mobile': '01639461734', 'order_status': 40}
+INFO - 2021-12-14 14:02:30,055 - new_apply_order.py[line:933]: ===========完成第【1】次进件===========
+INFO - 2021-12-14 14:02:30,056 - new_apply_order.py[line:936]: ======完成第【1】次进件,耗时15.18s=====

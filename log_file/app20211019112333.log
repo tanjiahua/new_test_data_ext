@@ -1,0 +1,18 @@
+INFO - 2021-10-19 11:23:33,634 - new_apply_order.py[line:890]: 开始第 quickmoney【1】次进件……
+INFO - 2021-10-19 11:23:33,635 - new_apply_order.py[line:84]: ======【pk测试环境】生成手机号：1634613813 ======
+INFO - 2021-10-19 11:23:34,013 - new_apply_order.py[line:97]: 1634613813 检测用户存在成功！
+INFO - 2021-10-19 11:23:34,080 - new_apply_order.py[line:106]: 1634613813 短信发送成功！
+INFO - 2021-10-19 11:23:34,134 - new_apply_order.py[line:119]: 1634613813 注册成功！
+INFO - 2021-10-19 11:23:34,199 - new_apply_order.py[line:135]: 1634613813 登录短信发送成功！
+INFO - 2021-10-19 11:23:34,250 - new_apply_order.py[line:145]: userId=6221691013277818880,mobile=1634613813,token=9df49975bff0b0a03d634dc38a123867 登录成功
+INFO - 2021-10-19 11:23:34,338 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-10-19 11:23:34,399 - new_apply_order.py[line:241]: 联系人信息提交成功！
+INFO - 2021-10-19 11:23:34,919 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-10-19 11:23:34,938 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-19 11:23:34,996 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-10-19 11:23:39,583 - new_apply_order.py[line:283]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-19 11:23:39,625 - new_apply_order.py[line:293]: 视频认证通过！
+ERROR - 2021-10-19 11:23:39,936 - new_apply_order.py[line:606]: 绑卡失败！{"code":"10001010","msg":"bindType.NotBlank","data":null}
+ERROR - 2021-10-19 11:23:40,006 - new_apply_order.py[line:628]: {"code":"50001003","msg":"Please complete the application information","data":null}
+ERROR - 2021-10-19 11:23:40,337 - new_apply_order.py[line:936]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-19 11:23:40,338 - new_apply_order.py[line:937]: None

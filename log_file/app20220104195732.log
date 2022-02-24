@@ -1,0 +1,15 @@
+INFO - 2022-01-04 19:57:32,754 - new_apply_order.py[line:891]: 开始第 aceloan【1】次进件……
+INFO - 2022-01-04 19:57:33,176 - new_apply_order.py[line:95]: 01634872783 检测用户存在成功！
+INFO - 2022-01-04 19:57:33,272 - new_apply_order.py[line:104]: 01634872783 短信发送成功！
+INFO - 2022-01-04 19:57:33,354 - new_apply_order.py[line:117]: 01634872783 注册成功！
+INFO - 2022-01-04 19:57:33,421 - new_apply_order.py[line:133]: 01634872783 登录短信发送成功！
+INFO - 2022-01-04 19:57:33,493 - new_apply_order.py[line:143]: userId=6249724227822297088,mobile=01634872783,token=1f66e2b8d8642452a0a422b641009c39 登录成功
+INFO - 2022-01-04 19:57:33,613 - new_apply_order.py[line:210]: 个人信息提交成功！
+INFO - 2022-01-04 19:57:33,702 - new_apply_order.py[line:221]: 联系人信息提交成功！
+INFO - 2022-01-04 19:57:34,012 - new_apply_order.py[line:253]: 创建预审订单成功！
+INFO - 2022-01-04 19:57:34,110 - new_apply_order.py[line:261]: 预审状态修改为通过,更新条数 1
+INFO - 2022-01-04 19:57:34,191 - new_apply_order.py[line:264]: 更新初始额度！更新条数 1
+INFO - 2022-01-04 19:57:34,535 - new_apply_order.py[line:340]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2022-01-04 19:57:34,611 - new_apply_order.py[line:350]: 视频认证通过！
+ERROR - 2022-01-04 19:57:34,823 - new_apply_order.py[line:937]: No option 'mobile' in section: 'global_param_aceloan'
+ERROR - 2022-01-04 19:57:34,833 - new_apply_order.py[line:938]: None

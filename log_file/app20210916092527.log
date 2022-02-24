@@ -1,0 +1,96 @@
+INFO - 2021-09-16 09:25:27,650 - new_apply_order.py[line:696]: 开始第 Mipeso【1】次进件……
+INFO - 2021-09-16 09:25:27,828 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-09-16 09:25:27,829 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1631755527 ======
+INFO - 2021-09-16 09:25:28,233 - new_apply_order.py[line:95]: 1631755527 检测用户存在成功！
+INFO - 2021-09-16 09:25:28,287 - new_apply_order.py[line:104]: 1631755527 短信发送成功！
+INFO - 2021-09-16 09:25:28,350 - new_apply_order.py[line:117]: 1631755527 注册成功！
+INFO - 2021-09-16 09:25:28,414 - new_apply_order.py[line:133]: 1631755527 登录短信发送成功！
+INFO - 2021-09-16 09:25:28,464 - new_apply_order.py[line:143]: userId=4951411293852672000,mobile=1631755527,token=b57e66a51b9aafcbee4e24f19bd30188 登录成功
+INFO - 2021-09-16 09:25:28,559 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-09-16 09:25:29,083 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-09-16 09:25:29,097 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-16 09:25:29,107 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-16 09:25:31,459 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-09-16 09:25:31,590 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-09-16 09:25:32,390 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-09-16 09:25:32,978 - new_apply_order.py[line:395]: 绑卡成功！
+ERROR - 2021-09-16 09:25:33,098 - new_apply_order.py[line:434]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-09-16 09:25:33,430 - new_apply_order.py[line:742]: 'NoneType' object is not subscriptable
+ERROR - 2021-09-16 09:25:33,432 - new_apply_order.py[line:743]: None
+INFO - 2021-09-16 09:25:33,434 - new_apply_order.py[line:696]: 开始第 m_efectivo【1】次进件……
+INFO - 2021-09-16 09:25:33,550 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4951411293852672000"
+INFO - 2021-09-16 09:25:33,605 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-09-16 09:25:33,606 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1631755533 ======
+INFO - 2021-09-16 09:25:33,947 - new_apply_order.py[line:95]: 1631755533 检测用户存在成功！
+INFO - 2021-09-16 09:25:33,986 - new_apply_order.py[line:104]: 1631755533 短信发送成功！
+INFO - 2021-09-16 09:25:34,030 - new_apply_order.py[line:117]: 1631755533 注册成功！
+INFO - 2021-09-16 09:25:34,071 - new_apply_order.py[line:133]: 1631755533 登录短信发送成功！
+INFO - 2021-09-16 09:25:34,114 - new_apply_order.py[line:143]: userId=4951411317722456064,mobile=1631755533,token=ed13ee1dfbb921c1892ce3a02e426b39 登录成功
+INFO - 2021-09-16 09:25:34,196 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-09-16 09:25:34,410 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-09-16 09:25:34,418 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-16 09:25:34,425 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-16 09:25:36,541 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-09-16 09:25:36,658 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-09-16 09:25:37,487 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-09-16 09:25:38,062 - new_apply_order.py[line:395]: 绑卡成功！
+ERROR - 2021-09-16 09:25:38,185 - new_apply_order.py[line:434]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-09-16 09:25:38,512 - new_apply_order.py[line:742]: 'NoneType' object is not subscriptable
+ERROR - 2021-09-16 09:25:38,513 - new_apply_order.py[line:743]: None
+INFO - 2021-09-16 09:25:38,515 - new_apply_order.py[line:696]: 开始第 porpeso【1】次进件……
+INFO - 2021-09-16 09:25:38,607 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4951411317722456064"
+INFO - 2021-09-16 09:25:38,684 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-09-16 09:25:38,685 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1631755538 ======
+INFO - 2021-09-16 09:25:39,022 - new_apply_order.py[line:95]: 1631755538 检测用户存在成功！
+INFO - 2021-09-16 09:25:39,068 - new_apply_order.py[line:104]: 1631755538 短信发送成功！
+INFO - 2021-09-16 09:25:39,110 - new_apply_order.py[line:117]: 1631755538 注册成功！
+INFO - 2021-09-16 09:25:39,162 - new_apply_order.py[line:133]: 1631755538 登录短信发送成功！
+INFO - 2021-09-16 09:25:39,214 - new_apply_order.py[line:143]: userId=4951411339012743168,mobile=1631755538,token=53c9af317bfe3d0044e4b32f57b4e9f5 登录成功
+INFO - 2021-09-16 09:25:39,285 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-09-16 09:25:39,475 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-09-16 09:25:39,491 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-16 09:25:39,504 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-16 09:25:42,072 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-09-16 09:25:42,196 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-09-16 09:25:43,015 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-09-16 09:25:43,550 - new_apply_order.py[line:395]: 绑卡成功！
+ERROR - 2021-09-16 09:25:43,656 - new_apply_order.py[line:434]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-09-16 09:25:43,995 - new_apply_order.py[line:742]: 'NoneType' object is not subscriptable
+ERROR - 2021-09-16 09:25:43,996 - new_apply_order.py[line:743]: None
+INFO - 2021-09-16 09:25:44,000 - new_apply_order.py[line:696]: 开始第 Prestamo【1】次进件……
+INFO - 2021-09-16 09:25:44,133 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4951411339012743168"
+INFO - 2021-09-16 09:25:44,190 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-09-16 09:25:44,190 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1631755544 ======
+INFO - 2021-09-16 09:25:44,535 - new_apply_order.py[line:95]: 1631755544 检测用户存在成功！
+INFO - 2021-09-16 09:25:44,583 - new_apply_order.py[line:104]: 1631755544 短信发送成功！
+INFO - 2021-09-16 09:25:44,623 - new_apply_order.py[line:117]: 1631755544 注册成功！
+INFO - 2021-09-16 09:25:44,673 - new_apply_order.py[line:133]: 1631755544 登录短信发送成功！
+INFO - 2021-09-16 09:25:44,719 - new_apply_order.py[line:143]: userId=4951411362140135424,mobile=1631755544,token=c0f0759e3d753a00ee0d436aab47e7db 登录成功
+INFO - 2021-09-16 09:25:44,811 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-09-16 09:25:45,029 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-09-16 09:25:45,045 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-16 09:25:45,058 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-16 09:25:47,477 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-09-16 09:25:47,589 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-09-16 09:25:48,523 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-09-16 09:25:49,093 - new_apply_order.py[line:395]: 绑卡成功！
+ERROR - 2021-09-16 09:25:49,208 - new_apply_order.py[line:434]: {"code":"50001012","msg":"The loan amount has increased, please pull down to refresh to get.","data":null}
+ERROR - 2021-09-16 09:25:49,542 - new_apply_order.py[line:742]: 'NoneType' object is not subscriptable
+ERROR - 2021-09-16 09:25:49,543 - new_apply_order.py[line:743]: None
+INFO - 2021-09-16 09:25:49,547 - new_apply_order.py[line:696]: 开始第 askborrow【1】次进件……
+INFO - 2021-09-16 09:25:49,672 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4951411362140135424"
+INFO - 2021-09-16 09:25:49,728 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-09-16 09:25:49,729 - new_apply_order.py[line:82]: ======【mx测试环境】生成手机号：1631755549 ======
+INFO - 2021-09-16 09:25:50,078 - new_apply_order.py[line:95]: 1631755549 检测用户存在成功！
+INFO - 2021-09-16 09:25:50,125 - new_apply_order.py[line:104]: 1631755549 短信发送成功！
+INFO - 2021-09-16 09:25:50,167 - new_apply_order.py[line:117]: 1631755549 注册成功！
+INFO - 2021-09-16 09:25:50,220 - new_apply_order.py[line:133]: 1631755549 登录短信发送成功！
+INFO - 2021-09-16 09:25:50,266 - new_apply_order.py[line:143]: userId=4951411385380773888,mobile=1631755549,token=83f5fa164a77859796b4213350566ecc 登录成功
+INFO - 2021-09-16 09:25:50,333 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-09-16 09:25:50,524 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-09-16 09:25:50,540 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-16 09:25:50,552 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-16 09:25:54,066 - new_apply_order.py[line:285]: curp上传成功!
+INFO - 2021-09-16 09:25:54,200 - new_apply_order.py[line:294]: curp_rfc校验通过！
+INFO - 2021-09-16 09:25:55,023 - new_apply_order.py[line:305]: 人脸识别成功!
+INFO - 2021-09-16 09:25:55,555 - new_apply_order.py[line:395]: 绑卡成功！

@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:51:53,770 - new_apply_order.py[line:525]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:51:53,771 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630684313 ======
+ERROR - 2021-09-03 23:51:54,086 - new_apply_order.py[line:571]: 'dict' object has no attribute 'url_checkUserExist'
+ERROR - 2021-09-03 23:51:54,088 - new_apply_order.py[line:572]: None
+INFO - 2021-09-03 23:51:54,090 - new_apply_order.py[line:525]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:51:54,091 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630684314 ======
+ERROR - 2021-09-03 23:51:54,404 - new_apply_order.py[line:571]: 'dict' object has no attribute 'url_checkUserExist'
+ERROR - 2021-09-03 23:51:54,405 - new_apply_order.py[line:572]: None

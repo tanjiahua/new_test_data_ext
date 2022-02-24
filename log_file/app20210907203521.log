@@ -1,0 +1,13 @@
+INFO - 2021-09-07 20:35:21,825 - new_apply_order.py[line:618]: 开始第 Mipeso【1】次进件……
+INFO - 2021-09-07 20:35:21,992 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-09-07 20:35:21,992 - new_apply_order.py[line:80]: ======【mx测试环境】生成手机号：1631018121 ======
+INFO - 2021-09-07 20:35:22,367 - new_apply_order.py[line:93]: 1631018121 检测用户存在成功！
+INFO - 2021-09-07 20:35:22,420 - new_apply_order.py[line:102]: 1631018121 短信发送成功！
+INFO - 2021-09-07 20:35:22,466 - new_apply_order.py[line:115]: 1631018121 注册成功！
+INFO - 2021-09-07 20:35:22,532 - new_apply_order.py[line:131]: 1631018121 登录短信发送成功！
+INFO - 2021-09-07 20:35:22,579 - new_apply_order.py[line:141]: userId=4948318389319376896,mobile=1631018121,token=9d7829daa02e345606693ab62b6c5171 登录成功
+INFO - 2021-09-07 20:35:22,657 - new_apply_order.py[line:198]: 个人信息提交成功！
+INFO - 2021-09-07 20:35:23,218 - new_apply_order.py[line:231]: 创建预审订单成功！
+INFO - 2021-09-07 20:35:23,237 - new_apply_order.py[line:239]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-07 20:35:23,250 - new_apply_order.py[line:242]: 更新初始额度！更新条数 1
+INFO - 2021-09-07 20:35:25,653 - new_apply_order.py[line:278]: curp上传成功!

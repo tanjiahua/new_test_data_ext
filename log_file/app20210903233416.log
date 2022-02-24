@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:34:16,912 - new_apply_order.py[line:520]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:34:16,913 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630683256 ======
+ERROR - 2021-09-03 23:34:17,222 - new_apply_order.py[line:566]: No section: 'global_param_global_param_borrowme'
+ERROR - 2021-09-03 23:34:17,228 - new_apply_order.py[line:567]: None
+INFO - 2021-09-03 23:34:17,232 - new_apply_order.py[line:520]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:34:17,233 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630683257 ======
+ERROR - 2021-09-03 23:34:17,539 - new_apply_order.py[line:566]: No section: 'global_param_global_param_quickcash'
+ERROR - 2021-09-03 23:34:17,539 - new_apply_order.py[line:567]: None

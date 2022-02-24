@@ -1,0 +1,40 @@
+INFO - 2021-09-07 17:06:22,203 - new_apply_order.py[line:618]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-07 17:06:22,204 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01631005582 ======
+INFO - 2021-09-07 17:06:22,586 - new_apply_order.py[line:93]: 01631005582 检测用户存在成功！
+INFO - 2021-09-07 17:06:22,648 - new_apply_order.py[line:102]: 01631005582 短信发送成功！
+INFO - 2021-09-07 17:06:22,690 - new_apply_order.py[line:115]: 01631005582 注册成功！
+INFO - 2021-09-07 17:06:28,926 - new_apply_order.py[line:131]: 01631005582 登录短信发送成功！
+INFO - 2021-09-07 17:06:28,974 - new_apply_order.py[line:141]: userId=6206556993718853632,mobile=01631005582,token=af66ed1f2588b843a760aab225b59274 登录成功
+INFO - 2021-09-07 17:06:35,215 - new_apply_order.py[line:198]: 个人信息提交成功！
+INFO - 2021-09-07 17:06:35,263 - new_apply_order.py[line:209]: 联系人信息提交成功！
+INFO - 2021-09-07 17:06:41,879 - new_apply_order.py[line:231]: 创建预审订单成功！
+INFO - 2021-09-07 17:06:41,901 - new_apply_order.py[line:239]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-07 17:06:41,921 - new_apply_order.py[line:242]: 更新初始额度！更新条数 1
+INFO - 2021-09-07 17:06:42,237 - new_apply_order.py[line:259]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-07 17:06:42,271 - new_apply_order.py[line:269]: 视频认证通过！
+INFO - 2021-09-07 17:07:14,118 - new_apply_order.py[line:325]: bvn和银行卡绑卡认证通过！
+INFO - 2021-09-07 17:07:14,421 - new_apply_order.py[line:346]: user更新1条
+INFO - 2021-09-07 17:07:45,449 - new_apply_order.py[line:375]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-09-07 17:07:46,473 - new_apply_order.py[line:381]: 订单表更新0条，信审更新0条
+ERROR - 2021-09-07 17:07:46,827 - new_apply_order.py[line:664]: 'NoneType' object is not subscriptable
+ERROR - 2021-09-07 17:07:46,831 - new_apply_order.py[line:665]: None
+INFO - 2021-09-07 17:07:46,837 - new_apply_order.py[line:618]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-07 17:07:46,839 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01631005666 ======
+INFO - 2021-09-07 17:07:47,180 - new_apply_order.py[line:93]: 01631005666 检测用户存在成功！
+INFO - 2021-09-07 17:07:53,419 - new_apply_order.py[line:102]: 01631005666 短信发送成功！
+INFO - 2021-09-07 17:07:53,488 - new_apply_order.py[line:115]: 01631005666 注册成功！
+INFO - 2021-09-07 17:07:59,681 - new_apply_order.py[line:131]: 01631005666 登录短信发送成功！
+INFO - 2021-09-07 17:07:59,726 - new_apply_order.py[line:141]: userId=6206557374481965056,mobile=01631005666,token=db974ece711c32fb2b2d04b22a244de1 登录成功
+INFO - 2021-09-07 17:07:59,794 - new_apply_order.py[line:198]: 个人信息提交成功！
+INFO - 2021-09-07 17:07:59,841 - new_apply_order.py[line:209]: 联系人信息提交成功！
+INFO - 2021-09-07 17:08:18,741 - new_apply_order.py[line:231]: 创建预审订单成功！
+INFO - 2021-09-07 17:08:18,761 - new_apply_order.py[line:239]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-07 17:08:18,774 - new_apply_order.py[line:242]: 更新初始额度！更新条数 1
+INFO - 2021-09-07 17:08:19,043 - new_apply_order.py[line:259]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-07 17:08:19,097 - new_apply_order.py[line:269]: 视频认证通过！
+INFO - 2021-09-07 17:08:44,805 - new_apply_order.py[line:325]: bvn和银行卡绑卡认证通过！
+INFO - 2021-09-07 17:08:45,120 - new_apply_order.py[line:346]: user更新1条
+INFO - 2021-09-07 17:09:16,084 - new_apply_order.py[line:375]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-09-07 17:09:17,110 - new_apply_order.py[line:381]: 订单表更新0条，信审更新0条
+ERROR - 2021-09-07 17:09:17,476 - new_apply_order.py[line:664]: 'NoneType' object is not subscriptable
+ERROR - 2021-09-07 17:09:17,477 - new_apply_order.py[line:665]: None

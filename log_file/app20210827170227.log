@@ -1,0 +1,4 @@
+INFO - 2021-08-27 17:02:27,769 - new_apply_order.py[line:449]: 开始第 quickcash【1】次进件……
+INFO - 2021-08-27 17:02:27,769 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630054947 ======
+ERROR - 2021-08-27 17:02:28,107 - new_apply_order.py[line:495]: HTTPConnectionPool(host='http', port=80): Max retries exceeded with url: //172.20.240.143:8012/app/api/multi/v2/checkUserExist/QC03 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fb54d40a670>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+ERROR - 2021-08-27 17:02:28,126 - new_apply_order.py[line:496]: None

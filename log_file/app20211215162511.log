@@ -1,0 +1,28 @@
+INFO - 2021-12-15 16:25:11,758 - new_apply_order.py[line:893]: 开始第 Mipeso【1】次进件……
+INFO - 2021-12-15 16:25:11,939 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-12-15 16:25:11,940 - new_apply_order.py[line:84]: ======【mx测试环境】生成手机号：1639556711 ======
+INFO - 2021-12-15 16:25:12,316 - new_apply_order.py[line:97]: 1639556711 检测用户存在成功！
+INFO - 2021-12-15 16:25:12,415 - new_apply_order.py[line:106]: 1639556711 短信发送成功！
+INFO - 2021-12-15 16:25:12,478 - new_apply_order.py[line:119]: 1639556711 注册成功！
+INFO - 2021-12-15 16:25:12,564 - new_apply_order.py[line:135]: 1639556711 登录短信发送成功！
+INFO - 2021-12-15 16:25:12,618 - new_apply_order.py[line:145]: userId=4984131831369572352,mobile=1639556711,token=db80457a96c5bfff78540021d791117b 登录成功
+INFO - 2021-12-15 16:25:12,743 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-15 16:25:13,238 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-15 16:25:13,252 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-15 16:25:13,261 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-15 16:25:15,552 - new_apply_order.py[line:361]: curp上传成功!
+INFO - 2021-12-15 16:25:15,730 - new_apply_order.py[line:370]: curp_rfc校验通过！
+INFO - 2021-12-15 16:25:16,606 - new_apply_order.py[line:381]: 人脸识别成功!
+INFO - 2021-12-15 16:25:17,247 - new_apply_order.py[line:569]: 绑卡成功！
+INFO - 2021-12-15 16:25:17,496 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-15 16:25:18,536 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-15 16:25:18,908 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-15 16:25:18,962 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-15 16:25:19,827 - new_apply_order.py[line:680]: 获取token成功！token=bearer f8877a6e-308c-470d-aa9d-54834b3a07ff！
+INFO - 2021-12-15 16:25:20,179 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-15 16:25:20,859 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-15 16:25:21,019 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-15 16:25:21,117 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-15 16:25:22,490 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-15 16:25:22,498 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-15 16:25:22,508 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！

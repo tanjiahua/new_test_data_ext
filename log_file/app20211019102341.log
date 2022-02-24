@@ -1,0 +1,12 @@
+INFO - 2021-10-19 10:23:41,471 - new_apply_order.py[line:880]: 开始第 quickmoney【1】次进件……
+INFO - 2021-10-19 10:23:41,472 - new_apply_order.py[line:84]: ======【pk测试环境】生成手机号：1634610221 ======
+INFO - 2021-10-19 10:23:41,846 - new_apply_order.py[line:97]: 1634610221 检测用户存在成功！
+INFO - 2021-10-19 10:23:41,944 - new_apply_order.py[line:106]: 1634610221 短信发送成功！
+INFO - 2021-10-19 10:23:42,001 - new_apply_order.py[line:119]: 1634610221 注册成功！
+INFO - 2021-10-19 10:23:42,064 - new_apply_order.py[line:135]: 1634610221 登录短信发送成功！
+INFO - 2021-10-19 10:23:42,124 - new_apply_order.py[line:145]: userId=6221675946582876160,mobile=1634610221,token=30a2a18b1032fe373833ba6fb7629ea1 登录成功
+INFO - 2021-10-19 10:23:42,205 - new_apply_order.py[line:212]: 个人信息提交成功！
+ERROR - 2021-10-19 10:23:42,237 - new_apply_order.py[line:243]: 联系人信息提交失败！
+ERROR - 2021-10-19 10:23:42,498 - new_apply_order.py[line:257]: 创建预审失败{"code":"30001043","msg":"System unknown error","data":null}
+ERROR - 2021-10-19 10:23:42,499 - new_apply_order.py[line:926]: local variable 'test_ini_name' referenced before assignment
+ERROR - 2021-10-19 10:23:42,500 - new_apply_order.py[line:927]: None

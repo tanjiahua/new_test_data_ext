@@ -1,0 +1,4 @@
+INFO - 2021-09-15 10:38:28,724 - new_apply_order.py[line:648]: 开始第 pcamion【1】次进件……
+INFO - 2021-09-15 10:38:28,725 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3631673508 ======
+ERROR - 2021-09-15 10:38:29,033 - new_apply_order.py[line:694]: name 'false' is not defined
+ERROR - 2021-09-15 10:38:29,037 - new_apply_order.py[line:695]: None

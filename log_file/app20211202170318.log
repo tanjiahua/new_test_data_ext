@@ -1,0 +1,16 @@
+INFO - 2021-12-02 17:03:18,272 - new_apply_order.py[line:892]: 开始第 kencash【1】次进件……
+INFO - 2021-12-02 17:03:18,273 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：738435798 ======
+INFO - 2021-12-02 17:03:18,683 - new_apply_order.py[line:97]: 738435798 检测用户存在成功！
+INFO - 2021-12-02 17:03:18,758 - new_apply_order.py[line:106]: 738435798 短信发送成功！
+INFO - 2021-12-02 17:03:18,828 - new_apply_order.py[line:119]: 738435798 注册成功！
+INFO - 2021-12-02 17:03:18,902 - new_apply_order.py[line:135]: 738435798 登录短信发送成功！
+INFO - 2021-12-02 17:03:18,974 - new_apply_order.py[line:145]: userId=6237721578933592064,mobile=738435798,token=422e3c98b67f764e1087c9a2a4195b13 登录成功
+INFO - 2021-12-02 17:03:19,150 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-02 17:03:19,238 - new_apply_order.py[line:232]: 联系人信息提交成功！
+INFO - 2021-12-02 17:03:19,650 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-02 17:03:19,671 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-02 17:03:19,687 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-02 17:03:19,953 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-02 17:03:20,016 - new_apply_order.py[line:352]: 视频认证通过！
+ERROR - 2021-12-02 17:03:20,288 - new_apply_order.py[line:938]: local variable 'mobile' referenced before assignment
+ERROR - 2021-12-02 17:03:20,290 - new_apply_order.py[line:939]: None

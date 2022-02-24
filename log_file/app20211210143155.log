@@ -1,0 +1,394 @@
+INFO - 2021-12-10 14:31:55,909 - new_apply_order.py[line:893]: 开始第 G_Prestamo【1】次进件……
+INFO - 2021-12-10 14:31:55,994 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4982219484949651456"
+INFO - 2021-12-10 14:31:56,062 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4963734105355591680"
+INFO - 2021-12-10 14:31:56,070 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4982012530507653120"
+INFO - 2021-12-10 14:31:56,108 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-12-10 14:31:56,109 - new_apply_order.py[line:84]: ======【mx测试环境】生成手机号：1639117915 ======
+INFO - 2021-12-10 14:31:56,709 - new_apply_order.py[line:97]: 1639117915 检测用户存在成功！
+INFO - 2021-12-10 14:31:56,790 - new_apply_order.py[line:106]: 1639117915 短信发送成功！
+INFO - 2021-12-10 14:31:57,239 - new_apply_order.py[line:119]: 1639117915 注册成功！
+INFO - 2021-12-10 14:31:57,310 - new_apply_order.py[line:135]: 1639117915 登录短信发送成功！
+INFO - 2021-12-10 14:31:57,381 - new_apply_order.py[line:145]: userId=4982291389354745856,mobile=1639117915,token=a727f2ca6b3d341d5308c675e02d08d0 登录成功
+INFO - 2021-12-10 14:31:57,756 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-10 14:31:58,195 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-10 14:31:58,208 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-10 14:31:58,219 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-10 14:32:01,394 - new_apply_order.py[line:361]: curp上传成功!
+INFO - 2021-12-10 14:32:01,917 - new_apply_order.py[line:370]: curp_rfc校验通过！
+INFO - 2021-12-10 14:32:02,818 - new_apply_order.py[line:381]: 人脸识别成功!
+INFO - 2021-12-10 14:32:03,753 - new_apply_order.py[line:569]: 绑卡成功！
+INFO - 2021-12-10 14:32:04,074 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-10 14:32:05,115 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-10 14:32:05,476 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:05,517 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-10 14:32:06,337 - new_apply_order.py[line:680]: 获取token成功！token=bearer 425d65ac-e1bf-4955-b7ea-c0f43a25d3cd！
+INFO - 2021-12-10 14:32:06,690 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:07,233 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-10 14:32:07,249 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-10 14:32:07,263 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-10 14:32:08,661 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:08,680 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-10 14:32:08,692 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-10 14:32:09,051 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:09,366 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-10 14:32:10,378 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-10 14:32:10,378 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193149850587136', 'mobile': '1639117915', 'order_status': 35}
+INFO - 2021-12-10 14:32:11,234 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:11,338 - new_apply_order.py[line:765]: 放款回调成功！
+INFO - 2021-12-10 14:32:11,339 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-10 14:32:12,353 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-10 14:32:12,353 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193149850587136', 'mobile': '1639117915', 'order_status': 40}
+INFO - 2021-12-10 14:32:12,355 - new_apply_order.py[line:933]: ===========完成第【1】次进件===========
+INFO - 2021-12-10 14:32:12,355 - new_apply_order.py[line:893]: 开始第 G_Prestamo【2】次进件……
+INFO - 2021-12-10 14:32:12,465 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4982291389354745856"
+INFO - 2021-12-10 14:32:12,516 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-12-10 14:32:12,516 - new_apply_order.py[line:84]: ======【mx测试环境】生成手机号：1639117932 ======
+INFO - 2021-12-10 14:32:12,883 - new_apply_order.py[line:97]: 1639117932 检测用户存在成功！
+INFO - 2021-12-10 14:32:12,933 - new_apply_order.py[line:106]: 1639117932 短信发送成功！
+INFO - 2021-12-10 14:32:12,992 - new_apply_order.py[line:119]: 1639117932 注册成功！
+INFO - 2021-12-10 14:32:13,051 - new_apply_order.py[line:135]: 1639117932 登录短信发送成功！
+INFO - 2021-12-10 14:32:13,114 - new_apply_order.py[line:145]: userId=4982291456828514304,mobile=1639117932,token=ab8c1f8a2e1b33d57234ee034a47d8c8 登录成功
+INFO - 2021-12-10 14:32:13,295 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-10 14:32:13,856 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-10 14:32:13,871 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-10 14:32:13,886 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-10 14:32:16,205 - new_apply_order.py[line:361]: curp上传成功!
+INFO - 2021-12-10 14:32:16,368 - new_apply_order.py[line:370]: curp_rfc校验通过！
+INFO - 2021-12-10 14:32:17,224 - new_apply_order.py[line:381]: 人脸识别成功!
+INFO - 2021-12-10 14:32:17,864 - new_apply_order.py[line:569]: 绑卡成功！
+INFO - 2021-12-10 14:32:18,104 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-10 14:32:19,134 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-10 14:32:19,485 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:19,523 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-10 14:32:20,321 - new_apply_order.py[line:680]: 获取token成功！token=bearer 425d65ac-e1bf-4955-b7ea-c0f43a25d3cd！
+INFO - 2021-12-10 14:32:20,686 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:21,011 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-10 14:32:21,023 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-10 14:32:21,032 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-10 14:32:22,384 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:22,395 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-10 14:32:22,402 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-10 14:32:22,748 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:23,059 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-10 14:32:24,074 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-10 14:32:24,074 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193214971351040', 'mobile': '1639117932', 'order_status': 35}
+INFO - 2021-12-10 14:32:24,933 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:25,097 - new_apply_order.py[line:765]: 放款回调成功！
+INFO - 2021-12-10 14:32:25,097 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-10 14:32:26,113 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-10 14:32:26,114 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193214971351040', 'mobile': '1639117932', 'order_status': 40}
+INFO - 2021-12-10 14:32:26,114 - new_apply_order.py[line:933]: ===========完成第【2】次进件===========
+INFO - 2021-12-10 14:32:26,114 - new_apply_order.py[line:893]: 开始第 G_Prestamo【3】次进件……
+INFO - 2021-12-10 14:32:26,180 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4982291456828514304"
+INFO - 2021-12-10 14:32:26,274 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-12-10 14:32:26,275 - new_apply_order.py[line:84]: ======【mx测试环境】生成手机号：1639117946 ======
+INFO - 2021-12-10 14:32:26,624 - new_apply_order.py[line:97]: 1639117946 检测用户存在成功！
+INFO - 2021-12-10 14:32:26,689 - new_apply_order.py[line:106]: 1639117946 短信发送成功！
+INFO - 2021-12-10 14:32:26,744 - new_apply_order.py[line:119]: 1639117946 注册成功！
+INFO - 2021-12-10 14:32:26,817 - new_apply_order.py[line:135]: 1639117946 登录短信发送成功！
+INFO - 2021-12-10 14:32:26,888 - new_apply_order.py[line:145]: userId=4982291514512777216,mobile=1639117946,token=efa89a9a2425c5d2ab4403743647b20e 登录成功
+INFO - 2021-12-10 14:32:27,077 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-10 14:32:27,367 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-10 14:32:27,379 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-10 14:32:27,393 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-10 14:32:29,754 - new_apply_order.py[line:361]: curp上传成功!
+INFO - 2021-12-10 14:32:29,912 - new_apply_order.py[line:370]: curp_rfc校验通过！
+INFO - 2021-12-10 14:32:30,733 - new_apply_order.py[line:381]: 人脸识别成功!
+INFO - 2021-12-10 14:32:31,394 - new_apply_order.py[line:569]: 绑卡成功！
+INFO - 2021-12-10 14:32:31,608 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-10 14:32:32,637 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-10 14:32:32,992 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:33,033 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-10 14:32:33,827 - new_apply_order.py[line:680]: 获取token成功！token=bearer 425d65ac-e1bf-4955-b7ea-c0f43a25d3cd！
+INFO - 2021-12-10 14:32:34,173 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:34,517 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-10 14:32:34,529 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-10 14:32:34,537 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-10 14:32:35,886 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:35,898 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-10 14:32:35,906 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-10 14:32:36,261 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:36,573 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-10 14:32:37,590 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-10 14:32:37,590 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193272647225344', 'mobile': '1639117946', 'order_status': 35}
+INFO - 2021-12-10 14:32:38,446 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:38,552 - new_apply_order.py[line:765]: 放款回调成功！
+INFO - 2021-12-10 14:32:38,553 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-10 14:32:39,564 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-10 14:32:39,565 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193272647225344', 'mobile': '1639117946', 'order_status': 40}
+INFO - 2021-12-10 14:32:39,565 - new_apply_order.py[line:933]: ===========完成第【3】次进件===========
+INFO - 2021-12-10 14:32:39,565 - new_apply_order.py[line:893]: 开始第 G_Prestamo【4】次进件……
+INFO - 2021-12-10 14:32:39,687 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4982291514512777216"
+INFO - 2021-12-10 14:32:39,751 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-12-10 14:32:39,752 - new_apply_order.py[line:84]: ======【mx测试环境】生成手机号：1639117959 ======
+INFO - 2021-12-10 14:32:40,113 - new_apply_order.py[line:97]: 1639117959 检测用户存在成功！
+INFO - 2021-12-10 14:32:40,152 - new_apply_order.py[line:106]: 1639117959 短信发送成功！
+INFO - 2021-12-10 14:32:40,219 - new_apply_order.py[line:119]: 1639117959 注册成功！
+INFO - 2021-12-10 14:32:40,274 - new_apply_order.py[line:135]: 1639117959 登录短信发送成功！
+INFO - 2021-12-10 14:32:40,332 - new_apply_order.py[line:145]: userId=4982291570997469184,mobile=1639117959,token=040cfcbc211c5ffb78d069e71884e425 登录成功
+INFO - 2021-12-10 14:32:40,500 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-10 14:32:40,772 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-10 14:32:40,784 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-10 14:32:40,796 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-10 14:32:43,133 - new_apply_order.py[line:361]: curp上传成功!
+INFO - 2021-12-10 14:32:43,303 - new_apply_order.py[line:370]: curp_rfc校验通过！
+INFO - 2021-12-10 14:32:44,015 - new_apply_order.py[line:381]: 人脸识别成功!
+INFO - 2021-12-10 14:32:44,610 - new_apply_order.py[line:569]: 绑卡成功！
+INFO - 2021-12-10 14:32:44,843 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-10 14:32:45,865 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-10 14:32:46,209 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:46,241 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-10 14:32:47,008 - new_apply_order.py[line:680]: 获取token成功！token=bearer 425d65ac-e1bf-4955-b7ea-c0f43a25d3cd！
+INFO - 2021-12-10 14:32:47,355 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:47,637 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-10 14:32:47,653 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-10 14:32:47,666 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-10 14:32:49,018 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:49,026 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-10 14:32:49,032 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-10 14:32:49,396 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:49,708 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-10 14:32:50,723 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-10 14:32:50,723 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193328888647680', 'mobile': '1639117959', 'order_status': 35}
+INFO - 2021-12-10 14:32:51,598 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:51,711 - new_apply_order.py[line:765]: 放款回调成功！
+INFO - 2021-12-10 14:32:51,711 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-10 14:32:52,724 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-10 14:32:52,724 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193328888647680', 'mobile': '1639117959', 'order_status': 40}
+INFO - 2021-12-10 14:32:52,725 - new_apply_order.py[line:933]: ===========完成第【4】次进件===========
+INFO - 2021-12-10 14:32:52,725 - new_apply_order.py[line:893]: 开始第 G_Prestamo【5】次进件……
+INFO - 2021-12-10 14:32:52,799 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4982291570997469184"
+INFO - 2021-12-10 14:32:52,887 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-12-10 14:32:52,888 - new_apply_order.py[line:84]: ======【mx测试环境】生成手机号：1639117972 ======
+INFO - 2021-12-10 14:32:53,249 - new_apply_order.py[line:97]: 1639117972 检测用户存在成功！
+INFO - 2021-12-10 14:32:53,296 - new_apply_order.py[line:106]: 1639117972 短信发送成功！
+INFO - 2021-12-10 14:32:53,363 - new_apply_order.py[line:119]: 1639117972 注册成功！
+INFO - 2021-12-10 14:32:53,437 - new_apply_order.py[line:135]: 1639117972 登录短信发送成功！
+INFO - 2021-12-10 14:32:53,501 - new_apply_order.py[line:145]: userId=4982291626148372480,mobile=1639117972,token=5d23ed52f5472c1f2d8c12d8dbc937df 登录成功
+INFO - 2021-12-10 14:32:53,630 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-10 14:32:53,899 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-10 14:32:53,916 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-10 14:32:53,929 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-10 14:32:56,235 - new_apply_order.py[line:361]: curp上传成功!
+INFO - 2021-12-10 14:32:56,415 - new_apply_order.py[line:370]: curp_rfc校验通过！
+INFO - 2021-12-10 14:32:57,221 - new_apply_order.py[line:381]: 人脸识别成功!
+INFO - 2021-12-10 14:32:57,844 - new_apply_order.py[line:569]: 绑卡成功！
+INFO - 2021-12-10 14:32:58,063 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-10 14:32:59,094 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-10 14:32:59,450 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:32:59,492 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-10 14:33:00,316 - new_apply_order.py[line:680]: 获取token成功！token=bearer 425d65ac-e1bf-4955-b7ea-c0f43a25d3cd！
+INFO - 2021-12-10 14:33:00,665 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:00,984 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-10 14:33:00,995 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-10 14:33:01,004 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-10 14:33:02,357 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:02,370 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-10 14:33:02,379 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-10 14:33:02,734 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:03,045 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-10 14:33:04,061 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-10 14:33:04,061 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193383985025024', 'mobile': '1639117972', 'order_status': 35}
+INFO - 2021-12-10 14:33:04,921 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:05,035 - new_apply_order.py[line:765]: 放款回调成功！
+INFO - 2021-12-10 14:33:05,036 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-10 14:33:06,045 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-10 14:33:06,045 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193383985025024', 'mobile': '1639117972', 'order_status': 40}
+INFO - 2021-12-10 14:33:06,046 - new_apply_order.py[line:933]: ===========完成第【5】次进件===========
+INFO - 2021-12-10 14:33:06,046 - new_apply_order.py[line:893]: 开始第 G_Prestamo【6】次进件……
+INFO - 2021-12-10 14:33:06,195 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4982291626148372480"
+INFO - 2021-12-10 14:33:06,213 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-12-10 14:33:06,214 - new_apply_order.py[line:84]: ======【mx测试环境】生成手机号：1639117986 ======
+INFO - 2021-12-10 14:33:06,565 - new_apply_order.py[line:97]: 1639117986 检测用户存在成功！
+INFO - 2021-12-10 14:33:06,609 - new_apply_order.py[line:106]: 1639117986 短信发送成功！
+INFO - 2021-12-10 14:33:06,662 - new_apply_order.py[line:119]: 1639117986 注册成功！
+INFO - 2021-12-10 14:33:06,724 - new_apply_order.py[line:135]: 1639117986 登录短信发送成功！
+INFO - 2021-12-10 14:33:06,782 - new_apply_order.py[line:145]: userId=4982291681945198592,mobile=1639117986,token=f0e82c5f433c0be92f106ef7cbeeb47e 登录成功
+INFO - 2021-12-10 14:33:06,968 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-10 14:33:07,439 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-10 14:33:07,452 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-10 14:33:07,466 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-10 14:33:09,738 - new_apply_order.py[line:361]: curp上传成功!
+INFO - 2021-12-10 14:33:09,872 - new_apply_order.py[line:370]: curp_rfc校验通过！
+INFO - 2021-12-10 14:33:10,617 - new_apply_order.py[line:381]: 人脸识别成功!
+INFO - 2021-12-10 14:33:11,208 - new_apply_order.py[line:569]: 绑卡成功！
+INFO - 2021-12-10 14:33:11,385 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-10 14:33:12,409 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-10 14:33:12,758 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:12,799 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-10 14:33:13,595 - new_apply_order.py[line:680]: 获取token成功！token=bearer 425d65ac-e1bf-4955-b7ea-c0f43a25d3cd！
+INFO - 2021-12-10 14:33:13,942 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:14,247 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-10 14:33:14,258 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-10 14:33:14,267 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-10 14:33:15,610 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:15,622 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-10 14:33:15,628 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-10 14:33:15,979 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:16,289 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-10 14:33:17,297 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-10 14:33:17,297 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193439928651776', 'mobile': '1639117986', 'order_status': 35}
+INFO - 2021-12-10 14:33:18,152 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:18,248 - new_apply_order.py[line:765]: 放款回调成功！
+INFO - 2021-12-10 14:33:18,249 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-10 14:33:19,267 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-10 14:33:19,267 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193439928651776', 'mobile': '1639117986', 'order_status': 40}
+INFO - 2021-12-10 14:33:19,267 - new_apply_order.py[line:933]: ===========完成第【6】次进件===========
+INFO - 2021-12-10 14:33:19,268 - new_apply_order.py[line:893]: 开始第 G_Prestamo【7】次进件……
+INFO - 2021-12-10 14:33:19,333 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4982219484949651456"
+INFO - 2021-12-10 14:33:19,337 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4982291681945198592"
+INFO - 2021-12-10 14:33:19,445 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-12-10 14:33:19,446 - new_apply_order.py[line:84]: ======【mx测试环境】生成手机号：1639117999 ======
+INFO - 2021-12-10 14:33:19,801 - new_apply_order.py[line:97]: 1639117999 检测用户存在成功！
+INFO - 2021-12-10 14:33:19,856 - new_apply_order.py[line:106]: 1639117999 短信发送成功！
+INFO - 2021-12-10 14:33:19,913 - new_apply_order.py[line:119]: 1639117999 注册成功！
+INFO - 2021-12-10 14:33:20,017 - new_apply_order.py[line:135]: 1639117999 登录短信发送成功！
+INFO - 2021-12-10 14:33:20,091 - new_apply_order.py[line:145]: userId=4982291737519726592,mobile=1639117999,token=7b9232ed726c8a12aabec2d22ca55e3a 登录成功
+INFO - 2021-12-10 14:33:20,234 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-10 14:33:20,488 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-10 14:33:20,502 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-10 14:33:20,514 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-10 14:33:22,872 - new_apply_order.py[line:361]: curp上传成功!
+INFO - 2021-12-10 14:33:23,012 - new_apply_order.py[line:370]: curp_rfc校验通过！
+INFO - 2021-12-10 14:33:23,940 - new_apply_order.py[line:381]: 人脸识别成功!
+INFO - 2021-12-10 14:33:24,537 - new_apply_order.py[line:569]: 绑卡成功！
+INFO - 2021-12-10 14:33:24,746 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-10 14:33:25,763 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-10 14:33:26,124 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:26,168 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-10 14:33:26,981 - new_apply_order.py[line:680]: 获取token成功！token=bearer 425d65ac-e1bf-4955-b7ea-c0f43a25d3cd！
+INFO - 2021-12-10 14:33:27,327 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:27,632 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-10 14:33:27,648 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-10 14:33:27,660 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-10 14:33:29,011 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:29,024 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-10 14:33:29,031 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-10 14:33:29,381 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:29,693 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-10 14:33:30,704 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-10 14:33:30,704 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193495545122816', 'mobile': '1639117999', 'order_status': 35}
+INFO - 2021-12-10 14:33:31,563 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:31,675 - new_apply_order.py[line:765]: 放款回调成功！
+INFO - 2021-12-10 14:33:31,675 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-10 14:33:32,688 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-10 14:33:32,688 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193495545122816', 'mobile': '1639117999', 'order_status': 40}
+INFO - 2021-12-10 14:33:32,688 - new_apply_order.py[line:933]: ===========完成第【7】次进件===========
+INFO - 2021-12-10 14:33:32,689 - new_apply_order.py[line:893]: 开始第 G_Prestamo【8】次进件……
+INFO - 2021-12-10 14:33:32,736 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4982291737519726592"
+INFO - 2021-12-10 14:33:32,852 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-12-10 14:33:32,852 - new_apply_order.py[line:84]: ======【mx测试环境】生成手机号：1639118012 ======
+INFO - 2021-12-10 14:33:33,220 - new_apply_order.py[line:97]: 1639118012 检测用户存在成功！
+INFO - 2021-12-10 14:33:33,273 - new_apply_order.py[line:106]: 1639118012 短信发送成功！
+INFO - 2021-12-10 14:33:33,324 - new_apply_order.py[line:119]: 1639118012 注册成功！
+INFO - 2021-12-10 14:33:33,382 - new_apply_order.py[line:135]: 1639118012 登录短信发送成功！
+INFO - 2021-12-10 14:33:33,472 - new_apply_order.py[line:145]: userId=4982291793773731840,mobile=1639118012,token=cb9df02d8d5589c18815230b3cf33376 登录成功
+INFO - 2021-12-10 14:33:33,592 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-10 14:33:34,127 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-10 14:33:34,142 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-10 14:33:34,155 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-10 14:33:36,479 - new_apply_order.py[line:361]: curp上传成功!
+INFO - 2021-12-10 14:33:36,624 - new_apply_order.py[line:370]: curp_rfc校验通过！
+INFO - 2021-12-10 14:33:37,464 - new_apply_order.py[line:381]: 人脸识别成功!
+INFO - 2021-12-10 14:33:38,027 - new_apply_order.py[line:569]: 绑卡成功！
+INFO - 2021-12-10 14:33:38,325 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-10 14:33:39,360 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-10 14:33:39,707 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:39,744 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-10 14:33:40,508 - new_apply_order.py[line:680]: 获取token成功！token=bearer 425d65ac-e1bf-4955-b7ea-c0f43a25d3cd！
+INFO - 2021-12-10 14:33:40,852 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:41,175 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-10 14:33:41,191 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-10 14:33:41,203 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-10 14:33:42,548 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:42,559 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-10 14:33:42,566 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-10 14:33:42,921 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:43,229 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-10 14:33:44,246 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-10 14:33:44,247 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193551589412864', 'mobile': '1639118012', 'order_status': 35}
+INFO - 2021-12-10 14:33:45,102 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:45,213 - new_apply_order.py[line:765]: 放款回调成功！
+INFO - 2021-12-10 14:33:45,213 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-10 14:33:46,224 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-10 14:33:46,224 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193551589412864', 'mobile': '1639118012', 'order_status': 40}
+INFO - 2021-12-10 14:33:46,224 - new_apply_order.py[line:933]: ===========完成第【8】次进件===========
+INFO - 2021-12-10 14:33:46,224 - new_apply_order.py[line:893]: 开始第 G_Prestamo【9】次进件……
+INFO - 2021-12-10 14:33:46,305 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4982291793773731840"
+INFO - 2021-12-10 14:33:46,395 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-12-10 14:33:46,396 - new_apply_order.py[line:84]: ======【mx测试环境】生成手机号：1639118026 ======
+INFO - 2021-12-10 14:33:46,753 - new_apply_order.py[line:97]: 1639118026 检测用户存在成功！
+INFO - 2021-12-10 14:33:46,798 - new_apply_order.py[line:106]: 1639118026 短信发送成功！
+INFO - 2021-12-10 14:33:46,846 - new_apply_order.py[line:119]: 1639118026 注册成功！
+INFO - 2021-12-10 14:33:46,911 - new_apply_order.py[line:135]: 1639118026 登录短信发送成功！
+INFO - 2021-12-10 14:33:46,962 - new_apply_order.py[line:145]: userId=4982291850493304832,mobile=1639118026,token=c2ba5e21a372ddcbedd6816e06422476 登录成功
+INFO - 2021-12-10 14:33:47,082 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-10 14:33:47,376 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-10 14:33:47,393 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-10 14:33:47,409 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-10 14:33:49,753 - new_apply_order.py[line:361]: curp上传成功!
+INFO - 2021-12-10 14:33:49,904 - new_apply_order.py[line:370]: curp_rfc校验通过！
+INFO - 2021-12-10 14:33:50,706 - new_apply_order.py[line:381]: 人脸识别成功!
+INFO - 2021-12-10 14:33:51,277 - new_apply_order.py[line:569]: 绑卡成功！
+INFO - 2021-12-10 14:33:51,467 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-10 14:33:52,498 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-10 14:33:52,840 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:52,877 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-10 14:33:53,633 - new_apply_order.py[line:680]: 获取token成功！token=bearer 425d65ac-e1bf-4955-b7ea-c0f43a25d3cd！
+INFO - 2021-12-10 14:33:53,983 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:54,258 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-10 14:33:54,269 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-10 14:33:54,278 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-10 14:33:55,625 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:55,636 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-10 14:33:55,644 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-10 14:33:56,003 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:56,313 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-10 14:33:57,326 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-10 14:33:57,326 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193608170573824', 'mobile': '1639118026', 'order_status': 35}
+INFO - 2021-12-10 14:33:58,182 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:33:58,294 - new_apply_order.py[line:765]: 放款回调成功！
+INFO - 2021-12-10 14:33:58,295 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-10 14:33:59,313 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-10 14:33:59,313 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193608170573824', 'mobile': '1639118026', 'order_status': 40}
+INFO - 2021-12-10 14:33:59,314 - new_apply_order.py[line:933]: ===========完成第【9】次进件===========
+INFO - 2021-12-10 14:33:59,314 - new_apply_order.py[line:893]: 开始第 G_Prestamo【10】次进件……
+INFO - 2021-12-10 14:33:59,397 - new_apply_order.py[line:60]: 删除redis key: "mx:cfs:user:userid:4982291850493304832"
+INFO - 2021-12-10 14:33:59,477 - new_apply_order.py[line:75]: 更新脏数据0条
+INFO - 2021-12-10 14:33:59,477 - new_apply_order.py[line:84]: ======【mx测试环境】生成手机号：1639118039 ======
+INFO - 2021-12-10 14:33:59,837 - new_apply_order.py[line:97]: 1639118039 检测用户存在成功！
+INFO - 2021-12-10 14:33:59,883 - new_apply_order.py[line:106]: 1639118039 短信发送成功！
+INFO - 2021-12-10 14:33:59,934 - new_apply_order.py[line:119]: 1639118039 注册成功！
+INFO - 2021-12-10 14:33:59,991 - new_apply_order.py[line:135]: 1639118039 登录短信发送成功！
+INFO - 2021-12-10 14:34:00,052 - new_apply_order.py[line:145]: userId=4982291905384161280,mobile=1639118039,token=44c3ec5ef5985a3a6087e98e9c9e2613 登录成功
+INFO - 2021-12-10 14:34:00,169 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-10 14:34:00,408 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-10 14:34:00,422 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-10 14:34:00,433 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-10 14:34:02,726 - new_apply_order.py[line:361]: curp上传成功!
+INFO - 2021-12-10 14:34:02,872 - new_apply_order.py[line:370]: curp_rfc校验通过！
+INFO - 2021-12-10 14:34:03,706 - new_apply_order.py[line:381]: 人脸识别成功!
+INFO - 2021-12-10 14:34:04,268 - new_apply_order.py[line:569]: 绑卡成功！
+INFO - 2021-12-10 14:34:04,461 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-10 14:34:05,493 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条
+INFO - 2021-12-10 14:34:05,840 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:34:05,873 - new_apply_order.py[line:658]: 订单回调复审通过成功！
+INFO - 2021-12-10 14:34:06,628 - new_apply_order.py[line:680]: 获取token成功！token=bearer 425d65ac-e1bf-4955-b7ea-c0f43a25d3cd！
+INFO - 2021-12-10 14:34:06,978 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:34:07,259 - new_apply_order.py[line:698]: 后台已触发放款成功！
+INFO - 2021-12-10 14:34:07,274 - new_apply_order.py[line:712]: xxl_job web 登录成功！
+INFO - 2021-12-10 14:34:07,286 - new_apply_order.py[line:728]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-10 14:34:08,633 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:34:08,641 - new_apply_order.py[line:736]: 修改放款准备完成时间成功！
+INFO - 2021-12-10 14:34:08,647 - new_apply_order.py[line:744]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-10 14:34:09,001 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:34:09,313 - new_apply_order.py[line:916]: 校验重试查询第1次
+ERROR - 2021-12-10 14:34:10,325 - new_apply_order.py[line:812]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-10 14:34:10,326 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193663044653056', 'mobile': '1639118039', 'order_status': 35}
+INFO - 2021-12-10 14:34:11,182 - new_apply_order.py[line:643]: 查询loan_order_id成功！
+INFO - 2021-12-10 14:34:11,272 - new_apply_order.py[line:765]: 放款回调成功！
+INFO - 2021-12-10 14:34:11,273 - new_apply_order.py[line:916]: 校验重试查询第2次
+INFO - 2021-12-10 14:34:12,285 - new_apply_order.py[line:810]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-10 14:34:12,286 - new_apply_order.py[line:813]: {'app': 'G_Prestamo', 'loan_order_id': '1469193663044653056', 'mobile': '1639118039', 'order_status': 40}
+INFO - 2021-12-10 14:34:12,286 - new_apply_order.py[line:933]: ===========完成第【10】次进件===========
+INFO - 2021-12-10 14:34:12,286 - new_apply_order.py[line:936]: ======完成第【10】次进件,耗时136.38s=====

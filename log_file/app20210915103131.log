@@ -1,0 +1,17 @@
+INFO - 2021-09-15 10:31:31,410 - new_apply_order.py[line:646]: 开始第 pcamion【1】次进件……
+INFO - 2021-09-15 10:31:31,411 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3631673091 ======
+INFO - 2021-09-15 10:31:31,804 - new_apply_order.py[line:95]: 3631673091 检测用户存在成功！
+INFO - 2021-09-15 10:31:31,893 - new_apply_order.py[line:104]: 3631673091 短信发送成功！
+INFO - 2021-09-15 10:31:31,977 - new_apply_order.py[line:117]: 3631673091 注册成功！
+INFO - 2021-09-15 10:31:32,084 - new_apply_order.py[line:133]: 3631673091 登录短信发送成功！
+INFO - 2021-09-15 10:31:32,174 - new_apply_order.py[line:143]: userId=4951065530849435648,mobile=3631673091,token=41e429a46ed56f3dfbab4e4199e311d3 登录成功
+ERROR - 2021-09-15 10:31:32,209 - new_apply_order.py[line:205]: 个人信息提交失败！
+ERROR - 2021-09-15 10:31:32,373 - new_apply_order.py[line:238]: 创建预审失败{"code":"30001043","msg":"System unknown error","data":null}
+INFO - 2021-09-15 10:31:32,384 - new_apply_order.py[line:244]: 预审状态修改为通过,更新条数 0
+INFO - 2021-09-15 10:31:32,398 - new_apply_order.py[line:247]: 更新初始额度！更新条数 1
+INFO - 2021-09-15 10:31:32,654 - new_apply_order.py[line:264]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-15 10:31:32,729 - new_apply_order.py[line:274]: 视频认证通过！
+ERROR - 2021-09-15 10:31:33,651 - new_apply_order.py[line:378]: 绑卡跳过失败！{"code":"60006008","msg":"Please enter correct CLABE.","data":null}
+ERROR - 2021-09-15 10:31:33,751 - new_apply_order.py[line:397]: {"code":"50001003","msg":"Please complete the application information","data":null}
+ERROR - 2021-09-15 10:31:34,103 - new_apply_order.py[line:692]: 'NoneType' object is not subscriptable
+ERROR - 2021-09-15 10:31:34,105 - new_apply_order.py[line:693]: None

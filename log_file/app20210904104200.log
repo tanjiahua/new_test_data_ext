@@ -1,0 +1,10 @@
+INFO - 2021-09-04 10:42:00,415 - new_apply_order.py[line:529]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-04 10:42:00,416 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630723320 ======
+INFO - 2021-09-04 10:42:23,103 - new_apply_order.py[line:95]: 01630723320 检测用户存在成功！
+ERROR - 2021-09-04 10:42:23,104 - new_apply_order.py[line:575]: Invalid URL 'o': No schema supplied. Perhaps you meant http://o?
+ERROR - 2021-09-04 10:42:23,105 - new_apply_order.py[line:576]: None
+INFO - 2021-09-04 10:42:23,107 - new_apply_order.py[line:529]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-04 10:42:23,107 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630723343 ======
+INFO - 2021-09-04 10:42:24,036 - new_apply_order.py[line:95]: 01630723343 检测用户存在成功！
+ERROR - 2021-09-04 10:42:24,037 - new_apply_order.py[line:575]: Invalid URL 'o': No schema supplied. Perhaps you meant http://o?
+ERROR - 2021-09-04 10:42:24,037 - new_apply_order.py[line:576]: None

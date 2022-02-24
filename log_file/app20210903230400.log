@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:04:00,658 - new_apply_order.py[line:518]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:04:00,659 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630681440 ======
+ERROR - 2021-09-03 23:04:00,962 - new_apply_order.py[line:566]: register() takes 1 positional argument but 3 were given
+ERROR - 2021-09-03 23:04:00,964 - new_apply_order.py[line:567]: None
+INFO - 2021-09-03 23:04:00,968 - new_apply_order.py[line:518]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:04:00,969 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630681440 ======
+ERROR - 2021-09-03 23:04:01,271 - new_apply_order.py[line:566]: register() takes 1 positional argument but 3 were given
+ERROR - 2021-09-03 23:04:01,272 - new_apply_order.py[line:567]: None

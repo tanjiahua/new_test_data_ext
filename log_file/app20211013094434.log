@@ -1,0 +1,39 @@
+INFO - 2021-10-13 09:44:34,854 - new_apply_order.py[line:792]: 开始第 ikash【1】次进件……
+INFO - 2021-10-13 09:44:34,855 - new_apply_order.py[line:82]: ======【ke测试环境】生成手机号：734089474 ======
+INFO - 2021-10-13 09:44:35,285 - new_apply_order.py[line:95]: 734089474 检测用户存在成功！
+INFO - 2021-10-13 09:44:35,395 - new_apply_order.py[line:104]: 734089474 短信发送成功！
+INFO - 2021-10-13 09:44:35,589 - new_apply_order.py[line:117]: 734089474 注册成功！
+INFO - 2021-10-13 09:44:35,692 - new_apply_order.py[line:133]: 734089474 登录短信发送成功！
+INFO - 2021-10-13 09:44:35,765 - new_apply_order.py[line:143]: userId=6219491777652334592,mobile=734089474,token=ad804bde6fba4e075641b7b30f95766a 登录成功
+ERROR - 2021-10-13 09:44:35,850 - new_apply_order.py[line:207]: 个人信息提交失败！
+INFO - 2021-10-13 09:44:36,037 - new_apply_order.py[line:225]: 联系人信息提交成功！
+ERROR - 2021-10-13 09:44:36,712 - new_apply_order.py[line:240]: 创建预审失败{"code":"30001043","msg":"System unknown error","data":null}
+INFO - 2021-10-13 09:44:36,725 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 0
+INFO - 2021-10-13 09:44:36,739 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-13 09:44:37,302 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-13 09:44:37,384 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-13 09:44:37,823 - new_apply_order.py[line:500]: 绑卡成功！
+ERROR - 2021-10-13 09:44:38,780 - new_apply_order.py[line:530]: {"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+ERROR - 2021-10-13 09:44:39,147 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-13 09:44:39,151 - new_apply_order.py[line:839]: None
+INFO - 2021-10-13 09:44:39,154 - new_apply_order.py[line:792]: 开始第 kencash【1】次进件……
+INFO - 2021-10-13 09:44:39,155 - new_apply_order.py[line:82]: ======【ke测试环境】生成手机号：734089479 ======
+INFO - 2021-10-13 09:44:39,516 - new_apply_order.py[line:95]: 734089479 检测用户存在成功！
+INFO - 2021-10-13 09:44:39,592 - new_apply_order.py[line:104]: 734089479 短信发送成功！
+INFO - 2021-10-13 09:44:39,662 - new_apply_order.py[line:117]: 734089479 注册成功！
+INFO - 2021-10-13 09:44:39,750 - new_apply_order.py[line:133]: 734089479 登录短信发送成功！
+INFO - 2021-10-13 09:44:39,813 - new_apply_order.py[line:143]: userId=6219491795012558848,mobile=734089479,token=226ee38a1e889a7680f580c9cf58aead 登录成功
+ERROR - 2021-10-13 09:44:39,850 - new_apply_order.py[line:207]: 个人信息提交失败！
+INFO - 2021-10-13 09:44:39,911 - new_apply_order.py[line:225]: 联系人信息提交成功！
+ERROR - 2021-10-13 09:44:40,132 - new_apply_order.py[line:240]: 创建预审失败{"code":"30001043","msg":"System unknown error","data":null}
+INFO - 2021-10-13 09:44:40,142 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 0
+INFO - 2021-10-13 09:44:40,153 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-10-13 09:44:40,463 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-13 09:44:40,507 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-10-13 09:44:40,825 - new_apply_order.py[line:500]: 绑卡成功！
+ERROR - 2021-10-13 09:44:41,052 - new_apply_order.py[line:530]: {"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+ERROR - 2021-10-13 09:44:41,392 - new_apply_order.py[line:838]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-13 09:44:41,393 - new_apply_order.py[line:839]: None
+INFO - 2021-10-13 09:44:41,394 - new_apply_order.py[line:792]: 开始第 oranch【1】次进件……
+INFO - 2021-10-13 09:44:41,395 - new_apply_order.py[line:82]: ======【ke测试环境】生成手机号：734089481 ======
+INFO - 2021-10-13 09:44:41,756 - new_apply_order.py[line:95]: 734089481 检测用户存在成功！

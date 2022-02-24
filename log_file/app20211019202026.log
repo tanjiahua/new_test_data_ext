@@ -1,0 +1,32 @@
+INFO - 2021-10-19 20:20:26,741 - new_apply_order.py[line:919]: 开始第 monni【1】次进件……
+INFO - 2021-10-19 20:20:26,741 - new_apply_order.py[line:84]: ======【co测试环境】生成手机号：3634646026 ======
+INFO - 2021-10-19 20:20:27,132 - new_apply_order.py[line:97]: 3634646026 检测用户存在成功！
+INFO - 2021-10-19 20:20:27,198 - new_apply_order.py[line:106]: 3634646026 短信发送成功！
+INFO - 2021-10-19 20:20:27,255 - new_apply_order.py[line:119]: 3634646026 注册成功！
+INFO - 2021-10-19 20:20:27,336 - new_apply_order.py[line:135]: 3634646026 登录短信发送成功！
+INFO - 2021-10-19 20:20:27,392 - new_apply_order.py[line:145]: userId=4963534924742402048,mobile=3634646026,token=c89e6e909e7af882f8421f8253e74a2c 登录成功
+INFO - 2021-10-19 20:20:27,479 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-10-19 20:20:27,778 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-10-19 20:20:27,797 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-19 20:20:27,815 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-10-19 20:20:28,107 - new_apply_order.py[line:312]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-19 20:20:28,155 - new_apply_order.py[line:322]: 视频认证通过！
+ERROR - 2021-10-19 20:20:28,778 - new_apply_order.py[line:625]: 绑卡跳过失败！{"code":"60006008","msg":"Please enter correct CLABE.","data":null}
+ERROR - 2021-10-19 20:20:28,864 - new_apply_order.py[line:657]: {"code":"50001003","msg":"Please complete the application information","data":null}
+ERROR - 2021-10-19 20:20:29,205 - new_apply_order.py[line:965]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-19 20:20:29,207 - new_apply_order.py[line:966]: None
+INFO - 2021-10-19 20:20:29,210 - new_apply_order.py[line:919]: 开始第 prestamodinero【1】次进件……
+INFO - 2021-10-19 20:20:29,210 - new_apply_order.py[line:84]: ======【co测试环境】生成手机号：3634646029 ======
+INFO - 2021-10-19 20:20:29,557 - new_apply_order.py[line:97]: 3634646029 检测用户存在成功！
+INFO - 2021-10-19 20:20:29,611 - new_apply_order.py[line:106]: 3634646029 短信发送成功！
+INFO - 2021-10-19 20:20:29,657 - new_apply_order.py[line:119]: 3634646029 注册成功！
+INFO - 2021-10-19 20:20:29,726 - new_apply_order.py[line:135]: 3634646029 登录短信发送成功！
+INFO - 2021-10-19 20:20:29,779 - new_apply_order.py[line:145]: userId=4963534934838091776,mobile=3634646029,token=6b716e3e097654aa183cb483caf3dc7c 登录成功
+INFO - 2021-10-19 20:20:29,882 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-10-19 20:20:30,212 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-10-19 20:20:30,236 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-19 20:20:30,260 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-10-19 20:20:30,561 - new_apply_order.py[line:312]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-19 20:20:30,610 - new_apply_order.py[line:322]: 视频认证通过！
+ERROR - 2021-10-19 20:20:31,243 - new_apply_order.py[line:625]: 绑卡跳过失败！{"code":"60006008","msg":"Please enter correct CLABE.","data":null}
+ERROR - 2021-10-19 20:20:31,320 - new_apply_order.py[line:657]: {"code":"50001003","msg":"Please complete the application information","data":null}

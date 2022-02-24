@@ -1,0 +1,13 @@
+INFO - 2021-08-30 11:41:01,568 - new_apply_order.py[line:451]: 开始第 quickcash【1】次进件……
+INFO - 2021-08-30 11:41:01,568 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630294861 ======
+INFO - 2021-08-30 11:41:01,946 - new_apply_order.py[line:88]: 01630294861 检测用户存在成功！
+INFO - 2021-08-30 11:41:02,004 - new_apply_order.py[line:95]: 01630294861 短信发送成功！
+INFO - 2021-08-30 11:41:02,048 - new_apply_order.py[line:105]: 01630294861 注册成功！
+ERROR - 2021-08-30 11:41:02,073 - new_apply_order.py[line:124]: 登录失败!
+ERROR - 2021-08-30 11:41:02,098 - new_apply_order.py[line:170]: 个人信息提交失败！
+ERROR - 2021-08-30 11:41:02,114 - new_apply_order.py[line:179]: 联系人信息提交失败！
+ERROR - 2021-08-30 11:41:02,128 - new_apply_order.py[line:196]: 创建预审失败{"code":"9001","msg":"System unknown error","data":null}
+INFO - 2021-08-30 11:41:02,135 - new_apply_order.py[line:202]: 预审状态修改为通过,更新条数 0
+INFO - 2021-08-30 11:41:02,141 - new_apply_order.py[line:205]: 更新初始额度！更新条数 0
+ERROR - 2021-08-30 11:41:02,174 - new_apply_order.py[line:497]: 'NoneType' object is not subscriptable
+ERROR - 2021-08-30 11:41:02,174 - new_apply_order.py[line:498]: None

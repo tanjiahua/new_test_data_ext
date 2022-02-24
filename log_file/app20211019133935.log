@@ -1,0 +1,61 @@
+INFO - 2021-10-19 13:39:35,540 - new_apply_order.py[line:954]: 开始第 quickmoney【1】次进件……
+INFO - 2021-10-19 13:39:35,540 - new_apply_order.py[line:84]: ======【pk测试环境】生成手机号：1634621975 ======
+INFO - 2021-10-19 13:39:35,924 - new_apply_order.py[line:97]: 1634621975 检测用户存在成功！
+INFO - 2021-10-19 13:39:35,990 - new_apply_order.py[line:106]: 1634621975 短信发送成功！
+INFO - 2021-10-19 13:39:36,043 - new_apply_order.py[line:119]: 1634621975 注册成功！
+INFO - 2021-10-19 13:39:36,110 - new_apply_order.py[line:135]: 1634621975 登录短信发送成功！
+INFO - 2021-10-19 13:39:36,166 - new_apply_order.py[line:145]: userId=6221725246578892800,mobile=1634621975,token=d5240274b3ea96ab192790dcb7ec8369 登录成功
+INFO - 2021-10-19 13:39:36,254 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-10-19 13:39:36,318 - new_apply_order.py[line:241]: 联系人信息提交成功！
+INFO - 2021-10-19 13:39:36,763 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-10-19 13:39:36,779 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-10-19 13:39:36,796 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-10-19 13:39:47,469 - new_apply_order.py[line:280]: curp上传成功!
+INFO - 2021-10-19 13:39:47,521 - new_apply_order.py[line:289]: curp_rfc校验通过！
+INFO - 2021-10-19 13:39:49,357 - new_apply_order.py[line:347]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-19 13:39:49,402 - new_apply_order.py[line:357]: 视频认证通过！
+INFO - 2021-10-19 13:39:49,714 - new_apply_order.py[line:668]: 绑卡成功！
+INFO - 2021-10-19 13:39:49,943 - new_apply_order.py[line:684]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-10-19 13:39:50,988 - new_apply_order.py[line:690]: 订单表更新1条，信审更新1条
+INFO - 2021-10-19 13:39:51,334 - new_apply_order.py[line:704]: 查询loan_order_id成功！
+INFO - 2021-10-19 13:39:51,390 - new_apply_order.py[line:719]: 订单回调复审通过成功！
+INFO - 2021-10-19 13:39:52,216 - new_apply_order.py[line:741]: 获取token成功！token=bearer 0d6fffd1-b226-4a98-950a-bb1489d06b2c！
+INFO - 2021-10-19 13:39:52,559 - new_apply_order.py[line:704]: 查询loan_order_id成功！
+ERROR - 2021-10-19 13:39:53,166 - new_apply_order.py[line:761]: 后台已触发放款失败{"code":"9999","msg":"System unknown error","notSuccess":true,"success":false}!
+INFO - 2021-10-19 13:39:53,182 - new_apply_order.py[line:773]: xxl_job web 登录成功！
+INFO - 2021-10-19 13:39:53,194 - new_apply_order.py[line:789]: xxl_job 放款准备作业执行成功！
+INFO - 2021-10-19 13:39:54,541 - new_apply_order.py[line:704]: 查询loan_order_id成功！
+INFO - 2021-10-19 13:39:54,549 - new_apply_order.py[line:797]: 修改放款准备完成时间成功！
+INFO - 2021-10-19 13:39:54,557 - new_apply_order.py[line:805]: xxl_job 放款完成作业执行成功！
+INFO - 2021-10-19 13:39:54,864 - new_apply_order.py[line:977]: 校验重试查询第1次
+ERROR - 2021-10-19 13:39:55,878 - new_apply_order.py[line:873]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-10-19 13:39:55,878 - new_apply_order.py[line:874]: {'app': 'quickmoney', 'loan_order_id': '1450335804392738816', 'mobile': '1634621975', 'order_status': 30}
+INFO - 2021-10-19 13:39:55,879 - new_apply_order.py[line:977]: 校验重试查询第2次
+ERROR - 2021-10-19 13:39:56,895 - new_apply_order.py[line:873]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-10-19 13:39:56,895 - new_apply_order.py[line:874]: {'app': 'quickmoney', 'loan_order_id': '1450335804392738816', 'mobile': '1634621975', 'order_status': 30}
+INFO - 2021-10-19 13:39:56,895 - new_apply_order.py[line:977]: 校验重试查询第3次
+ERROR - 2021-10-19 13:39:57,908 - new_apply_order.py[line:873]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-10-19 13:39:57,909 - new_apply_order.py[line:874]: {'app': 'quickmoney', 'loan_order_id': '1450335804392738816', 'mobile': '1634621975', 'order_status': 30}
+INFO - 2021-10-19 13:39:57,909 - new_apply_order.py[line:977]: 校验重试查询第4次
+ERROR - 2021-10-19 13:39:58,923 - new_apply_order.py[line:873]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-10-19 13:39:58,924 - new_apply_order.py[line:874]: {'app': 'quickmoney', 'loan_order_id': '1450335804392738816', 'mobile': '1634621975', 'order_status': 30}
+INFO - 2021-10-19 13:39:58,924 - new_apply_order.py[line:977]: 校验重试查询第5次
+ERROR - 2021-10-19 13:39:59,932 - new_apply_order.py[line:873]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-10-19 13:39:59,933 - new_apply_order.py[line:874]: {'app': 'quickmoney', 'loan_order_id': '1450335804392738816', 'mobile': '1634621975', 'order_status': 30}
+INFO - 2021-10-19 13:39:59,933 - new_apply_order.py[line:977]: 校验重试查询第6次
+ERROR - 2021-10-19 13:40:00,939 - new_apply_order.py[line:873]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-10-19 13:40:00,939 - new_apply_order.py[line:874]: {'app': 'quickmoney', 'loan_order_id': '1450335804392738816', 'mobile': '1634621975', 'order_status': 30}
+INFO - 2021-10-19 13:40:00,939 - new_apply_order.py[line:977]: 校验重试查询第7次
+ERROR - 2021-10-19 13:40:01,955 - new_apply_order.py[line:873]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-10-19 13:40:01,955 - new_apply_order.py[line:874]: {'app': 'quickmoney', 'loan_order_id': '1450335804392738816', 'mobile': '1634621975', 'order_status': 30}
+INFO - 2021-10-19 13:40:01,955 - new_apply_order.py[line:977]: 校验重试查询第8次
+ERROR - 2021-10-19 13:40:02,968 - new_apply_order.py[line:873]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-10-19 13:40:02,969 - new_apply_order.py[line:874]: {'app': 'quickmoney', 'loan_order_id': '1450335804392738816', 'mobile': '1634621975', 'order_status': 30}
+INFO - 2021-10-19 13:40:02,969 - new_apply_order.py[line:977]: 校验重试查询第9次
+ERROR - 2021-10-19 13:40:03,980 - new_apply_order.py[line:873]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-10-19 13:40:03,981 - new_apply_order.py[line:874]: {'app': 'quickmoney', 'loan_order_id': '1450335804392738816', 'mobile': '1634621975', 'order_status': 30}
+INFO - 2021-10-19 13:40:03,981 - new_apply_order.py[line:977]: 校验重试查询第10次
+ERROR - 2021-10-19 13:40:04,994 - new_apply_order.py[line:873]: 放款完成或准备失败,目前的订单状态是30
+INFO - 2021-10-19 13:40:04,994 - new_apply_order.py[line:874]: {'app': 'quickmoney', 'loan_order_id': '1450335804392738816', 'mobile': '1634621975', 'order_status': 30}
+INFO - 2021-10-19 13:40:04,994 - new_apply_order.py[line:994]: ===========完成第【1】次进件===========
+INFO - 2021-10-19 13:40:04,995 - new_apply_order.py[line:997]: ======完成第【1】次进件,耗时29.45s=====

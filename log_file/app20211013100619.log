@@ -1,0 +1,23 @@
+INFO - 2021-10-13 10:06:19,376 - new_apply_order.py[line:795]: 开始第 ikash【1】次进件……
+INFO - 2021-10-13 10:06:19,376 - new_apply_order.py[line:82]: ======【ke测试环境】生成手机号：734090779 ======
+INFO - 2021-10-13 10:06:19,895 - new_apply_order.py[line:95]: 734090779 检测用户存在成功！
+INFO - 2021-10-13 10:06:20,028 - new_apply_order.py[line:104]: 734090779 短信发送成功！
+INFO - 2021-10-13 10:06:20,588 - new_apply_order.py[line:117]: 734090779 注册成功！
+INFO - 2021-10-13 10:06:20,667 - new_apply_order.py[line:133]: 734090779 登录短信发送成功！
+INFO - 2021-10-13 10:06:21,278 - new_apply_order.py[line:143]: userId=6219497249931534336,mobile=734090779,token=e2bb2a5345e3dd34e36ecdcc5a753dc2 登录成功
+INFO - 2021-10-13 10:06:22,026 - new_apply_order.py[line:208]: 个人信息提交成功！
+INFO - 2021-10-13 10:06:22,309 - new_apply_order.py[line:228]: 联系人信息提交成功！
+ERROR - 2021-10-13 10:06:23,207 - new_apply_order.py[line:243]: 创建预审失败{"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2021-10-13 10:06:23,217 - new_apply_order.py[line:249]: 预审状态修改为通过,更新条数 0
+INFO - 2021-10-13 10:06:23,230 - new_apply_order.py[line:252]: 更新初始额度！更新条数 1
+INFO - 2021-10-13 10:06:23,776 - new_apply_order.py[line:269]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-10-13 10:06:23,910 - new_apply_order.py[line:279]: 视频认证通过！
+INFO - 2021-10-13 10:06:24,593 - new_apply_order.py[line:503]: 绑卡成功！
+ERROR - 2021-10-13 10:06:25,708 - new_apply_order.py[line:533]: {"code":"10099001","msg":"The Server is busy, Please try again later","data":null}
+ERROR - 2021-10-13 10:06:26,053 - new_apply_order.py[line:841]: 'NoneType' object is not subscriptable
+ERROR - 2021-10-13 10:06:26,054 - new_apply_order.py[line:842]: None
+INFO - 2021-10-13 10:06:26,055 - new_apply_order.py[line:795]: 开始第 kencash【1】次进件……
+INFO - 2021-10-13 10:06:26,055 - new_apply_order.py[line:82]: ======【ke测试环境】生成手机号：734090786 ======
+INFO - 2021-10-13 10:06:26,446 - new_apply_order.py[line:95]: 734090786 检测用户存在成功！
+INFO - 2021-10-13 10:06:26,571 - new_apply_order.py[line:104]: 734090786 短信发送成功！
+INFO - 2021-10-13 10:06:26,651 - new_apply_order.py[line:117]: 734090786 注册成功！

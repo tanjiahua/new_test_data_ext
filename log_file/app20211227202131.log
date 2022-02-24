@@ -1,0 +1,44 @@
+INFO - 2021-12-27 20:21:31,432 - new_apply_order.py[line:892]: 开始第 nairaease【1】次进件……
+INFO - 2021-12-27 20:21:31,433 - new_apply_order.py[line:83]: ======【nga测试环境】生成手机号：01640607691 ======
+INFO - 2021-12-27 20:21:31,805 - new_apply_order.py[line:96]: 01640607691 检测用户存在成功！
+INFO - 2021-12-27 20:21:31,879 - new_apply_order.py[line:105]: 01640607691 短信发送成功！
+INFO - 2021-12-27 20:21:31,929 - new_apply_order.py[line:118]: 01640607691 注册成功！
+INFO - 2021-12-27 20:21:31,977 - new_apply_order.py[line:134]: 01640607691 登录短信发送成功！
+INFO - 2021-12-27 20:21:32,020 - new_apply_order.py[line:144]: userId=6246831158940409856,mobile=01640607691,token=411b539693225ea6acbd5abe810c5fd0 登录成功
+INFO - 2021-12-27 20:21:32,107 - new_apply_order.py[line:211]: 个人信息提交成功！
+INFO - 2021-12-27 20:21:32,179 - new_apply_order.py[line:222]: 联系人信息提交成功！
+INFO - 2021-12-27 20:21:32,457 - new_apply_order.py[line:254]: 创建预审订单成功！
+INFO - 2021-12-27 20:21:32,477 - new_apply_order.py[line:262]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-27 20:21:32,495 - new_apply_order.py[line:265]: 更新初始额度！更新条数 1
+INFO - 2021-12-27 20:21:32,802 - new_apply_order.py[line:341]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-27 20:21:32,842 - new_apply_order.py[line:351]: 视频认证通过！
+INFO - 2021-12-27 20:21:33,794 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-12-27 20:21:34,129 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-12-27 20:21:34,321 - new_apply_order.py[line:622]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-27 20:21:35,361 - new_apply_order.py[line:628]: 订单表更新1条，信审更新1条
+INFO - 2021-12-27 20:21:35,742 - new_apply_order.py[line:642]: 查询loan_order_id成功！
+INFO - 2021-12-27 20:21:35,783 - new_apply_order.py[line:657]: 订单回调复审通过成功！
+INFO - 2021-12-27 20:21:36,571 - new_apply_order.py[line:679]: 获取token成功！token=bearer 81ccf804-f170-41a0-958c-7937cb0ad723！
+INFO - 2021-12-27 20:21:36,934 - new_apply_order.py[line:642]: 查询loan_order_id成功！
+INFO - 2021-12-27 20:21:37,562 - new_apply_order.py[line:697]: 后台已触发放款成功！
+INFO - 2021-12-27 20:21:37,578 - new_apply_order.py[line:711]: xxl_job web 登录成功！
+INFO - 2021-12-27 20:21:37,593 - new_apply_order.py[line:727]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-27 20:21:38,990 - new_apply_order.py[line:642]: 查询loan_order_id成功！
+INFO - 2021-12-27 20:21:39,003 - new_apply_order.py[line:735]: 修改放款准备完成时间成功！
+INFO - 2021-12-27 20:21:39,009 - new_apply_order.py[line:743]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-27 20:21:39,316 - new_apply_order.py[line:915]: 校验重试查询第1次
+ERROR - 2021-12-27 20:21:40,334 - new_apply_order.py[line:811]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-12-27 20:21:40,335 - new_apply_order.py[line:812]: {'app': 'nairaease', 'loan_order_id': '1475441716676923392', 'mobile': '01640607691', 'order_status': 32}
+INFO - 2021-12-27 20:21:40,350 - new_apply_order.py[line:711]: xxl_job web 登录成功！
+INFO - 2021-12-27 20:21:40,363 - new_apply_order.py[line:727]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-27 20:21:41,782 - new_apply_order.py[line:642]: 查询loan_order_id成功！
+INFO - 2021-12-27 20:21:41,802 - new_apply_order.py[line:735]: 修改放款准备完成时间成功！
+INFO - 2021-12-27 20:21:41,811 - new_apply_order.py[line:743]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-27 20:21:42,312 - new_apply_order.py[line:915]: 校验重试查询第2次
+ERROR - 2021-12-27 20:21:43,328 - new_apply_order.py[line:811]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-27 20:21:43,329 - new_apply_order.py[line:812]: {'app': 'nairaease', 'loan_order_id': '1475441716676923392', 'mobile': '01640607691', 'order_status': 35}
+INFO - 2021-12-27 20:21:43,840 - new_apply_order.py[line:915]: 校验重试查询第3次
+INFO - 2021-12-27 20:21:44,859 - new_apply_order.py[line:809]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-27 20:21:44,859 - new_apply_order.py[line:812]: {'app': 'nairaease', 'loan_order_id': '1475441716676923392', 'mobile': '01640607691', 'order_status': 40}
+INFO - 2021-12-27 20:21:44,861 - new_apply_order.py[line:932]: ===========完成第【1】次进件===========
+INFO - 2021-12-27 20:21:44,861 - new_apply_order.py[line:935]: ======完成第【1】次进件,耗时13.43s=====

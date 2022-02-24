@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:07:43,015 - new_apply_order.py[line:518]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:07:43,015 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630681663 ======
+ERROR - 2021-09-03 23:07:43,327 - new_apply_order.py[line:566]: 'NoneType' object has no attribute 'url_checkUserExist'
+ERROR - 2021-09-03 23:07:43,328 - new_apply_order.py[line:567]: None
+INFO - 2021-09-03 23:07:43,331 - new_apply_order.py[line:518]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:07:43,332 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630681663 ======
+ERROR - 2021-09-03 23:07:43,646 - new_apply_order.py[line:566]: 'NoneType' object has no attribute 'url_checkUserExist'
+ERROR - 2021-09-03 23:07:43,646 - new_apply_order.py[line:567]: None

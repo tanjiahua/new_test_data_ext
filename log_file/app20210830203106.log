@@ -1,0 +1,21 @@
+INFO - 2021-08-30 20:31:06,911 - new_apply_order.py[line:449]: 开始第 borrowme【1】次进件……
+INFO - 2021-08-30 20:31:06,911 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630326666 ======
+INFO - 2021-08-30 20:31:07,291 - new_apply_order.py[line:86]: 01630326666 检测用户存在成功！
+INFO - 2021-08-30 20:31:07,347 - new_apply_order.py[line:93]: 01630326666 短信发送成功！
+INFO - 2021-08-30 20:31:07,387 - new_apply_order.py[line:103]: 01630326666 注册成功！
+INFO - 2021-08-30 20:31:07,432 - new_apply_order.py[line:115]: userId=6203709416232722432,mobile=01630326666,token=389103184fea8cb7b2cf68066b11accd 登录成功
+INFO - 2021-08-30 20:31:07,496 - new_apply_order.py[line:166]: 个人信息提交成功！
+INFO - 2021-08-30 20:31:07,534 - new_apply_order.py[line:175]: 联系人信息提交成功！
+INFO - 2021-08-30 20:31:07,984 - new_apply_order.py[line:192]: 创建预审订单成功！
+INFO - 2021-08-30 20:31:07,996 - new_apply_order.py[line:200]: 预审状态修改为通过,更新条数 1
+INFO - 2021-08-30 20:31:08,007 - new_apply_order.py[line:203]: 更新初始额度！更新条数 1
+INFO - 2021-08-30 20:31:08,291 - new_apply_order.py[line:215]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-08-30 20:31:08,326 - new_apply_order.py[line:224]: 视频认证通过！
+INFO - 2021-08-30 20:31:09,384 - new_apply_order.py[line:270]: bvn和银行卡绑卡认证通过！
+INFO - 2021-08-30 20:31:09,672 - new_apply_order.py[line:291]: user更新1条
+INFO - 2021-08-30 20:31:09,938 - new_apply_order.py[line:311]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-08-30 20:31:10,963 - new_apply_order.py[line:317]: 订单表更新1条，信审更新1条
+INFO - 2021-08-30 20:31:11,302 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-30 20:31:11,337 - new_apply_order.py[line:336]: 订单回调复审通过成功！
+ERROR - 2021-08-30 20:31:12,081 - new_apply_order.py[line:495]: 'NoneType' object is not subscriptable
+ERROR - 2021-08-30 20:31:12,082 - new_apply_order.py[line:496]: None

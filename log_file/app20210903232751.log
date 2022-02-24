@@ -1,0 +1,8 @@
+INFO - 2021-09-03 23:27:52,010 - new_apply_order.py[line:520]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-03 23:27:52,011 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630682872 ======
+ERROR - 2021-09-03 23:27:52,318 - new_apply_order.py[line:566]: name 'return_param' is not defined
+ERROR - 2021-09-03 23:27:52,321 - new_apply_order.py[line:567]: None
+INFO - 2021-09-03 23:27:52,325 - new_apply_order.py[line:520]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-03 23:27:52,326 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630682872 ======
+ERROR - 2021-09-03 23:27:52,627 - new_apply_order.py[line:566]: name 'return_param' is not defined
+ERROR - 2021-09-03 23:27:52,628 - new_apply_order.py[line:567]: None

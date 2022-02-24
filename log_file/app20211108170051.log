@@ -1,0 +1,16 @@
+INFO - 2021-11-08 17:00:51,450 - new_apply_order.py[line:882]: 开始第 borrowedpop【1】次进件……
+INFO - 2021-11-08 17:00:51,648 - new_apply_order.py[line:75]: 更新脏数据9条
+INFO - 2021-11-08 17:00:51,649 - new_apply_order.py[line:84]: ======【mx测试环境】生成手机号：1636362051 ======
+INFO - 2021-11-08 17:00:52,245 - new_apply_order.py[line:97]: 1636362051 检测用户存在成功！
+INFO - 2021-11-08 17:00:52,323 - new_apply_order.py[line:106]: 1636362051 短信发送成功！
+INFO - 2021-11-08 17:00:52,399 - new_apply_order.py[line:119]: 1636362051 注册成功！
+INFO - 2021-11-08 17:00:52,527 - new_apply_order.py[line:135]: 1636362051 登录短信发送成功！
+INFO - 2021-11-08 17:00:52,644 - new_apply_order.py[line:145]: userId=4970732455672553472,mobile=1636362051,token=9179bf254361fc2f66250585cf4089b0 登录成功
+ERROR - 2021-11-08 17:00:53,471 - new_apply_order.py[line:214]: 个人信息提交失败！
+ERROR - 2021-11-08 17:00:53,938 - new_apply_order.py[line:257]: 创建预审失败{"code":"30001043","msg":"System unknown error","data":null}
+INFO - 2021-11-08 17:00:53,946 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 0
+INFO - 2021-11-08 17:00:53,960 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-11-08 17:00:59,783 - new_apply_order.py[line:361]: curp上传成功!
+INFO - 2021-11-08 17:01:00,482 - new_apply_order.py[line:370]: curp_rfc校验通过！
+INFO - 2021-11-08 17:01:01,549 - new_apply_order.py[line:381]: 人脸识别成功!
+INFO - 2021-11-08 17:01:04,611 - new_apply_order.py[line:568]: 绑卡成功！

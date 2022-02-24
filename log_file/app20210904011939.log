@@ -1,0 +1,8 @@
+INFO - 2021-09-04 01:19:39,403 - new_apply_order.py[line:524]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-04 01:19:39,403 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630689579 ======
+ERROR - 2021-09-04 01:19:39,710 - new_apply_order.py[line:570]: the JSON object must be str, bytes or bytearray, not dict
+ERROR - 2021-09-04 01:19:39,715 - new_apply_order.py[line:571]: None
+INFO - 2021-09-04 01:19:39,719 - new_apply_order.py[line:524]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-04 01:19:39,720 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630689579 ======
+ERROR - 2021-09-04 01:19:40,028 - new_apply_order.py[line:570]: the JSON object must be str, bytes or bytearray, not dict
+ERROR - 2021-09-04 01:19:40,029 - new_apply_order.py[line:571]: None

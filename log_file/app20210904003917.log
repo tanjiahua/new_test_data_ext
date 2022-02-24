@@ -1,0 +1,8 @@
+INFO - 2021-09-04 00:39:17,639 - new_apply_order.py[line:521]: 开始第 borrowme【1】次进件……
+INFO - 2021-09-04 00:39:17,639 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630687157 ======
+ERROR - 2021-09-04 00:39:17,949 - new_apply_order.py[line:567]: name 'url_checkUserExist' is not defined
+ERROR - 2021-09-04 00:39:17,951 - new_apply_order.py[line:568]: None
+INFO - 2021-09-04 00:39:17,955 - new_apply_order.py[line:521]: 开始第 quickcash【1】次进件……
+INFO - 2021-09-04 00:39:17,956 - new_apply_order.py[line:80]: ======【nga测试环境】生成手机号：01630687157 ======
+ERROR - 2021-09-04 00:39:18,263 - new_apply_order.py[line:567]: name 'url_checkUserExist' is not defined
+ERROR - 2021-09-04 00:39:18,264 - new_apply_order.py[line:568]: None

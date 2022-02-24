@@ -1,0 +1,108 @@
+INFO - 2021-08-31 11:02:34,082 - new_apply_order.py[line:511]: 开始第 borrowme【1】次进件……
+INFO - 2021-08-31 11:02:34,083 - new_apply_order.py[line:79]: ======【nga测试环境】生成手机号：01630378954 ======
+INFO - 2021-08-31 11:02:34,513 - new_apply_order.py[line:86]: 01630378954 检测用户存在成功！
+INFO - 2021-08-31 11:02:34,602 - new_apply_order.py[line:93]: 01630378954 短信发送成功！
+INFO - 2021-08-31 11:02:34,681 - new_apply_order.py[line:103]: 01630378954 注册成功！
+ERROR - 2021-08-31 11:02:34,722 - new_apply_order.py[line:122]: 登录失败!
+INFO - 2021-08-31 11:02:34,797 - new_apply_order.py[line:166]: 个人信息提交成功！
+INFO - 2021-08-31 11:02:34,849 - new_apply_order.py[line:175]: 联系人信息提交成功！
+ERROR - 2021-08-31 11:02:35,002 - new_apply_order.py[line:194]: 创建预审失败{"code":"9999","msg":"The Server is busy, Please try again later","data":null}
+INFO - 2021-08-31 11:02:35,016 - new_apply_order.py[line:200]: 预审状态修改为通过,更新条数 0
+INFO - 2021-08-31 11:02:35,024 - new_apply_order.py[line:203]: 更新初始额度！更新条数 0
+INFO - 2021-08-31 11:02:35,406 - new_apply_order.py[line:215]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-08-31 11:02:35,450 - new_apply_order.py[line:224]: 视频认证通过！
+INFO - 2021-08-31 11:02:36,587 - new_apply_order.py[line:270]: bvn和银行卡绑卡认证通过！
+INFO - 2021-08-31 11:02:36,884 - new_apply_order.py[line:291]: user更新1条
+ERROR - 2021-08-31 11:02:37,070 - new_apply_order.py[line:319]: {"code":"50001004","msg":"Not eligible for borrowing","data":null}
+INFO - 2021-08-31 11:02:37,536 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:02:37,560 - new_apply_order.py[line:336]: 订单回调复审通过成功！
+INFO - 2021-08-31 11:02:38,466 - new_apply_order.py[line:352]: 获取token成功！token=bearer bf51653c-283e-47c5-b902-66a96a35688d！
+INFO - 2021-08-31 11:02:38,930 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:02:39,236 - new_apply_order.py[line:364]: 后台已触发放款成功！
+INFO - 2021-08-31 11:02:39,246 - new_apply_order.py[line:372]: xxl_job web 登录成功！
+INFO - 2021-08-31 11:02:39,256 - new_apply_order.py[line:379]: xxl_job 放款准备作业执行成功！
+INFO - 2021-08-31 11:02:40,758 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:02:40,778 - new_apply_order.py[line:384]: 修改放款准备完成时间成功！
+INFO - 2021-08-31 11:02:40,786 - new_apply_order.py[line:387]: xxl_job 放款完成作业执行成功！
+INFO - 2021-08-31 11:02:41,092 - new_apply_order.py[line:534]: 校验重试查询第1次
+ERROR - 2021-08-31 11:02:42,111 - new_apply_order.py[line:430]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-08-31 11:02:42,111 - new_apply_order.py[line:431]: {'app': 'borrowme', 'loan_order_id': '1432507683397570560', 'mobile': '01630371420', 'order_status': 32}
+INFO - 2021-08-31 11:02:42,121 - new_apply_order.py[line:372]: xxl_job web 登录成功！
+INFO - 2021-08-31 11:02:42,131 - new_apply_order.py[line:379]: xxl_job 放款准备作业执行成功！
+INFO - 2021-08-31 11:02:43,587 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:02:43,597 - new_apply_order.py[line:384]: 修改放款准备完成时间成功！
+INFO - 2021-08-31 11:02:43,601 - new_apply_order.py[line:387]: xxl_job 放款完成作业执行成功！
+INFO - 2021-08-31 11:02:44,104 - new_apply_order.py[line:534]: 校验重试查询第2次
+ERROR - 2021-08-31 11:02:45,116 - new_apply_order.py[line:430]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-08-31 11:02:45,116 - new_apply_order.py[line:431]: {'app': 'borrowme', 'loan_order_id': '1432507683397570560', 'mobile': '01630371420', 'order_status': 32}
+INFO - 2021-08-31 11:02:45,122 - new_apply_order.py[line:372]: xxl_job web 登录成功！
+INFO - 2021-08-31 11:02:45,128 - new_apply_order.py[line:379]: xxl_job 放款准备作业执行成功！
+INFO - 2021-08-31 11:02:46,593 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:02:46,607 - new_apply_order.py[line:384]: 修改放款准备完成时间成功！
+INFO - 2021-08-31 11:02:46,615 - new_apply_order.py[line:387]: xxl_job 放款完成作业执行成功！
+INFO - 2021-08-31 11:02:47,116 - new_apply_order.py[line:534]: 校验重试查询第3次
+ERROR - 2021-08-31 11:02:48,129 - new_apply_order.py[line:430]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-08-31 11:02:48,130 - new_apply_order.py[line:431]: {'app': 'borrowme', 'loan_order_id': '1432507683397570560', 'mobile': '01630371420', 'order_status': 32}
+INFO - 2021-08-31 11:02:48,138 - new_apply_order.py[line:372]: xxl_job web 登录成功！
+INFO - 2021-08-31 11:02:48,149 - new_apply_order.py[line:379]: xxl_job 放款准备作业执行成功！
+INFO - 2021-08-31 11:02:49,584 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:02:49,597 - new_apply_order.py[line:384]: 修改放款准备完成时间成功！
+INFO - 2021-08-31 11:02:49,604 - new_apply_order.py[line:387]: xxl_job 放款完成作业执行成功！
+INFO - 2021-08-31 11:02:50,109 - new_apply_order.py[line:534]: 校验重试查询第4次
+ERROR - 2021-08-31 11:02:51,122 - new_apply_order.py[line:430]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-08-31 11:02:51,123 - new_apply_order.py[line:431]: {'app': 'borrowme', 'loan_order_id': '1432507683397570560', 'mobile': '01630371420', 'order_status': 32}
+INFO - 2021-08-31 11:02:51,130 - new_apply_order.py[line:372]: xxl_job web 登录成功！
+INFO - 2021-08-31 11:02:51,138 - new_apply_order.py[line:379]: xxl_job 放款准备作业执行成功！
+INFO - 2021-08-31 11:02:52,603 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:02:52,619 - new_apply_order.py[line:384]: 修改放款准备完成时间成功！
+INFO - 2021-08-31 11:02:52,626 - new_apply_order.py[line:387]: xxl_job 放款完成作业执行成功！
+INFO - 2021-08-31 11:02:53,131 - new_apply_order.py[line:534]: 校验重试查询第5次
+ERROR - 2021-08-31 11:02:54,146 - new_apply_order.py[line:430]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-08-31 11:02:54,147 - new_apply_order.py[line:431]: {'app': 'borrowme', 'loan_order_id': '1432507683397570560', 'mobile': '01630371420', 'order_status': 32}
+INFO - 2021-08-31 11:02:54,156 - new_apply_order.py[line:372]: xxl_job web 登录成功！
+INFO - 2021-08-31 11:02:54,164 - new_apply_order.py[line:379]: xxl_job 放款准备作业执行成功！
+INFO - 2021-08-31 11:02:55,585 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:02:55,602 - new_apply_order.py[line:384]: 修改放款准备完成时间成功！
+INFO - 2021-08-31 11:02:55,609 - new_apply_order.py[line:387]: xxl_job 放款完成作业执行成功！
+INFO - 2021-08-31 11:02:56,114 - new_apply_order.py[line:534]: 校验重试查询第6次
+ERROR - 2021-08-31 11:02:57,130 - new_apply_order.py[line:430]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-08-31 11:02:57,130 - new_apply_order.py[line:431]: {'app': 'borrowme', 'loan_order_id': '1432507683397570560', 'mobile': '01630371420', 'order_status': 32}
+INFO - 2021-08-31 11:02:57,138 - new_apply_order.py[line:372]: xxl_job web 登录成功！
+INFO - 2021-08-31 11:02:57,145 - new_apply_order.py[line:379]: xxl_job 放款准备作业执行成功！
+INFO - 2021-08-31 11:02:58,574 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:02:58,593 - new_apply_order.py[line:384]: 修改放款准备完成时间成功！
+INFO - 2021-08-31 11:02:58,601 - new_apply_order.py[line:387]: xxl_job 放款完成作业执行成功！
+INFO - 2021-08-31 11:02:59,105 - new_apply_order.py[line:534]: 校验重试查询第7次
+ERROR - 2021-08-31 11:03:00,123 - new_apply_order.py[line:430]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-08-31 11:03:00,123 - new_apply_order.py[line:431]: {'app': 'borrowme', 'loan_order_id': '1432507683397570560', 'mobile': '01630371420', 'order_status': 32}
+INFO - 2021-08-31 11:03:00,132 - new_apply_order.py[line:372]: xxl_job web 登录成功！
+INFO - 2021-08-31 11:03:00,141 - new_apply_order.py[line:379]: xxl_job 放款准备作业执行成功！
+INFO - 2021-08-31 11:03:01,566 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:03:01,582 - new_apply_order.py[line:384]: 修改放款准备完成时间成功！
+INFO - 2021-08-31 11:03:01,588 - new_apply_order.py[line:387]: xxl_job 放款完成作业执行成功！
+INFO - 2021-08-31 11:03:02,092 - new_apply_order.py[line:534]: 校验重试查询第8次
+ERROR - 2021-08-31 11:03:03,105 - new_apply_order.py[line:430]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-08-31 11:03:03,105 - new_apply_order.py[line:431]: {'app': 'borrowme', 'loan_order_id': '1432507683397570560', 'mobile': '01630371420', 'order_status': 32}
+INFO - 2021-08-31 11:03:03,113 - new_apply_order.py[line:372]: xxl_job web 登录成功！
+INFO - 2021-08-31 11:03:03,121 - new_apply_order.py[line:379]: xxl_job 放款准备作业执行成功！
+INFO - 2021-08-31 11:03:04,547 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:03:04,564 - new_apply_order.py[line:384]: 修改放款准备完成时间成功！
+INFO - 2021-08-31 11:03:04,572 - new_apply_order.py[line:387]: xxl_job 放款完成作业执行成功！
+INFO - 2021-08-31 11:03:05,076 - new_apply_order.py[line:534]: 校验重试查询第9次
+ERROR - 2021-08-31 11:03:06,092 - new_apply_order.py[line:430]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-08-31 11:03:06,093 - new_apply_order.py[line:431]: {'app': 'borrowme', 'loan_order_id': '1432507683397570560', 'mobile': '01630371420', 'order_status': 32}
+INFO - 2021-08-31 11:03:06,102 - new_apply_order.py[line:372]: xxl_job web 登录成功！
+INFO - 2021-08-31 11:03:06,111 - new_apply_order.py[line:379]: xxl_job 放款准备作业执行成功！
+INFO - 2021-08-31 11:03:07,542 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:03:07,560 - new_apply_order.py[line:384]: 修改放款准备完成时间成功！
+INFO - 2021-08-31 11:03:07,569 - new_apply_order.py[line:387]: xxl_job 放款完成作业执行成功！
+INFO - 2021-08-31 11:03:08,073 - new_apply_order.py[line:534]: 校验重试查询第10次
+ERROR - 2021-08-31 11:03:09,088 - new_apply_order.py[line:430]: 放款完成或准备失败,目前的订单状态是32
+INFO - 2021-08-31 11:03:09,088 - new_apply_order.py[line:431]: {'app': 'borrowme', 'loan_order_id': '1432507683397570560', 'mobile': '01630371420', 'order_status': 32}
+INFO - 2021-08-31 11:03:09,096 - new_apply_order.py[line:372]: xxl_job web 登录成功！
+INFO - 2021-08-31 11:03:09,103 - new_apply_order.py[line:379]: xxl_job 放款准备作业执行成功！
+INFO - 2021-08-31 11:03:10,553 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-31 11:03:10,569 - new_apply_order.py[line:384]: 修改放款准备完成时间成功！
+INFO - 2021-08-31 11:03:10,576 - new_apply_order.py[line:387]: xxl_job 放款完成作业执行成功！
+INFO - 2021-08-31 11:03:11,078 - new_apply_order.py[line:551]: ===========完成第【1】次进件===========
+INFO - 2021-08-31 11:03:11,079 - new_apply_order.py[line:554]: ======完成第【1】次进件,耗时37.00s=====

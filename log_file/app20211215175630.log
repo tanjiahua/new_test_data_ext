@@ -1,0 +1,18 @@
+INFO - 2021-12-15 17:56:30,078 - new_apply_order.py[line:893]: 开始第 tiktek【1】次进件……
+INFO - 2021-12-15 17:56:30,079 - new_apply_order.py[line:84]: ======【ke测试环境】生成手机号：739562190 ======
+INFO - 2021-12-15 17:56:30,470 - new_apply_order.py[line:97]: 739562190 检测用户存在成功！
+INFO - 2021-12-15 17:56:30,593 - new_apply_order.py[line:106]: 739562190 短信发送成功！
+INFO - 2021-12-15 17:56:30,660 - new_apply_order.py[line:119]: 739562190 注册成功！
+INFO - 2021-12-15 17:56:30,740 - new_apply_order.py[line:135]: 739562190 登录短信发送成功！
+INFO - 2021-12-15 17:56:30,809 - new_apply_order.py[line:145]: userId=6242446008591458304,mobile=739562190,token=7b94ac4a0f6abb6edfb4fea2724c6808 登录成功
+INFO - 2021-12-15 17:56:31,026 - new_apply_order.py[line:212]: 个人信息提交成功！
+INFO - 2021-12-15 17:56:31,096 - new_apply_order.py[line:232]: 联系人信息提交成功！
+INFO - 2021-12-15 17:56:31,523 - new_apply_order.py[line:255]: 创建预审订单成功！
+INFO - 2021-12-15 17:56:31,538 - new_apply_order.py[line:263]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-15 17:56:31,549 - new_apply_order.py[line:266]: 更新初始额度！更新条数 1
+INFO - 2021-12-15 17:56:31,876 - new_apply_order.py[line:342]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-15 17:56:31,932 - new_apply_order.py[line:352]: 视频认证通过！
+INFO - 2021-12-15 17:56:32,226 - new_apply_order.py[line:579]: 739562190 短信发送成功！
+INFO - 2021-12-15 17:56:32,378 - new_apply_order.py[line:588]: 绑卡成功！
+INFO - 2021-12-15 17:56:33,016 - new_apply_order.py[line:623]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-15 17:56:34,056 - new_apply_order.py[line:629]: 订单表更新1条，信审更新1条

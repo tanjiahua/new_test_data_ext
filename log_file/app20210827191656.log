@@ -1,0 +1,39 @@
+INFO - 2021-08-27 19:16:56,949 - new_apply_order.py[line:449]: 开始第 Mipeso【1】次进件……
+INFO - 2021-08-27 19:16:57,141 - new_apply_order.py[line:74]: 更新脏数据0条
+INFO - 2021-08-27 19:16:57,141 - new_apply_order.py[line:79]: ======【mx测试环境】生成手机号：1630063016 ======
+INFO - 2021-08-27 19:16:57,508 - new_apply_order.py[line:86]: 1630063016 检测用户存在成功！
+INFO - 2021-08-27 19:16:57,558 - new_apply_order.py[line:93]: 1630063016 短信发送成功！
+INFO - 2021-08-27 19:16:57,609 - new_apply_order.py[line:103]: 1630063016 注册成功！
+INFO - 2021-08-27 19:16:57,652 - new_apply_order.py[line:115]: userId=4944312389234991104,mobile=1630063016,token=49606e21eb263b612137b969d933540d 登录成功
+INFO - 2021-08-27 19:16:57,719 - new_apply_order.py[line:166]: 个人信息提交成功！
+INFO - 2021-08-27 19:16:58,214 - new_apply_order.py[line:192]: 创建预审订单成功！
+INFO - 2021-08-27 19:16:58,229 - new_apply_order.py[line:200]: 预审状态修改为通过,更新条数 1
+INFO - 2021-08-27 19:16:58,242 - new_apply_order.py[line:203]: 更新初始额度！更新条数 1
+INFO - 2021-08-27 19:17:00,748 - new_apply_order.py[line:231]: curp上传成功!
+INFO - 2021-08-27 19:17:00,885 - new_apply_order.py[line:238]: curp_rfc校验通过！
+INFO - 2021-08-27 19:17:01,671 - new_apply_order.py[line:247]: 人脸识别成功!
+INFO - 2021-08-27 19:17:02,238 - new_apply_order.py[line:296]: 绑卡成功！
+INFO - 2021-08-27 19:17:02,428 - new_apply_order.py[line:311]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-08-27 19:17:03,463 - new_apply_order.py[line:317]: 订单表更新1条，信审更新1条
+INFO - 2021-08-27 19:17:03,803 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-27 19:17:03,852 - new_apply_order.py[line:336]: 订单回调复审通过成功！
+INFO - 2021-08-27 19:17:04,666 - new_apply_order.py[line:352]: 获取token成功！token=bearer ca833056-27ee-4c20-8691-20cd4734ca43！
+INFO - 2021-08-27 19:17:05,013 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-27 19:17:05,599 - new_apply_order.py[line:364]: 后台已触发放款成功！
+INFO - 2021-08-27 19:17:05,611 - new_apply_order.py[line:372]: xxl_job web 登录成功！
+INFO - 2021-08-27 19:17:05,619 - new_apply_order.py[line:379]: xxl_job 放款准备作业执行成功！
+INFO - 2021-08-27 19:17:06,967 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-27 19:17:06,983 - new_apply_order.py[line:384]: 修改放款准备完成时间成功！
+INFO - 2021-08-27 19:17:06,992 - new_apply_order.py[line:387]: xxl_job 放款完成作业执行成功！
+INFO - 2021-08-27 19:17:07,342 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-27 19:17:07,657 - new_apply_order.py[line:472]: 校验重试查询第1次
+ERROR - 2021-08-27 19:17:08,673 - new_apply_order.py[line:430]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-08-27 19:17:08,673 - new_apply_order.py[line:431]: {'app': 'Mipeso', 'loan_order_id': '1431214146412220416', 'mobile': '1630063016', 'order_status': 35}
+INFO - 2021-08-27 19:17:09,525 - new_apply_order.py[line:326]: 查询loan_order_id成功！
+INFO - 2021-08-27 19:17:09,615 - new_apply_order.py[line:403]: 放款回调成功！
+INFO - 2021-08-27 19:17:09,616 - new_apply_order.py[line:472]: 校验重试查询第2次
+INFO - 2021-08-27 19:17:10,630 - new_apply_order.py[line:428]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-08-27 19:17:10,631 - new_apply_order.py[line:431]: {'app': 'Mipeso', 'loan_order_id': '1431214146412220416', 'mobile': '1630063016', 'order_status': 40}
+INFO - 2021-08-27 19:17:10,632 - new_apply_order.py[line:489]: ===========完成第【1】次进件===========
+INFO - 2021-08-27 19:17:10,632 - new_apply_order.py[line:492]: ======完成第【1】次进件,耗时13.68s=====
+INFO - 2021-08-27 19:17:10,735 - new_apply_order.py[line:59]: 删除redis key: "mx:cfs:user:userid:4944312389234991104"

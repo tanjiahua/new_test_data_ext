@@ -1,0 +1,3 @@
+INFO - 2021-12-27 09:31:46,883 - new_apply_order.py[line:892]: 开始第 kucash【1】次进件……
+ERROR - 2021-12-27 09:31:46,884 - new_apply_order.py[line:938]: local variable 'mobile' referenced before assignment
+ERROR - 2021-12-27 09:31:46,884 - new_apply_order.py[line:939]: None

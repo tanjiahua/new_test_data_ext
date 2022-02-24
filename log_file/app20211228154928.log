@@ -1,0 +1,36 @@
+INFO - 2021-12-28 15:49:28,308 - new_apply_order.py[line:892]: 开始第 kucash【1】次进件……
+INFO - 2021-12-28 15:49:28,309 - new_apply_order.py[line:83]: ======【nga测试环境】生成手机号：01640677768 ======
+INFO - 2021-12-28 15:49:28,961 - new_apply_order.py[line:96]: 01640677768 检测用户存在成功！
+INFO - 2021-12-28 15:49:29,049 - new_apply_order.py[line:105]: 01640677768 短信发送成功！
+INFO - 2021-12-28 15:49:29,121 - new_apply_order.py[line:118]: 01640677768 注册成功！
+INFO - 2021-12-28 15:49:29,235 - new_apply_order.py[line:134]: 01640677768 登录短信发送成功！
+INFO - 2021-12-28 15:49:29,310 - new_apply_order.py[line:144]: userId=6247125083677663232,mobile=01640677768,token=1217b8b66d53eefd5a125c67b4823aa2 登录成功
+INFO - 2021-12-28 15:49:29,470 - new_apply_order.py[line:211]: 个人信息提交成功！
+INFO - 2021-12-28 15:49:29,560 - new_apply_order.py[line:222]: 联系人信息提交成功！
+INFO - 2021-12-28 15:49:29,973 - new_apply_order.py[line:254]: 创建预审订单成功！
+INFO - 2021-12-28 15:49:29,989 - new_apply_order.py[line:262]: 预审状态修改为通过,更新条数 1
+INFO - 2021-12-28 15:49:30,003 - new_apply_order.py[line:265]: 更新初始额度！更新条数 1
+INFO - 2021-12-28 15:49:30,345 - new_apply_order.py[line:341]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-12-28 15:49:30,397 - new_apply_order.py[line:351]: 视频认证通过！
+INFO - 2021-12-28 15:49:31,851 - new_apply_order.py[line:510]: bvn和银行卡绑卡认证通过！
+INFO - 2021-12-28 15:49:32,176 - new_apply_order.py[line:561]: user更新1条
+INFO - 2021-12-28 15:49:32,560 - new_apply_order.py[line:622]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-12-28 15:49:33,605 - new_apply_order.py[line:628]: 订单表更新1条，信审更新1条
+INFO - 2021-12-28 15:49:34,303 - new_apply_order.py[line:642]: 查询loan_order_id成功！
+INFO - 2021-12-28 15:49:34,384 - new_apply_order.py[line:657]: 订单回调复审通过成功！
+INFO - 2021-12-28 15:49:35,238 - new_apply_order.py[line:679]: 获取token成功！token=bearer b363d7a2-23bc-4658-98cb-5d9ea80c0a82！
+INFO - 2021-12-28 15:49:35,647 - new_apply_order.py[line:642]: 查询loan_order_id成功！
+INFO - 2021-12-28 15:49:36,287 - new_apply_order.py[line:697]: 后台已触发放款成功！
+INFO - 2021-12-28 15:49:36,304 - new_apply_order.py[line:711]: xxl_job web 登录成功！
+INFO - 2021-12-28 15:49:36,320 - new_apply_order.py[line:727]: xxl_job 放款准备作业执行成功！
+INFO - 2021-12-28 15:49:37,715 - new_apply_order.py[line:642]: 查询loan_order_id成功！
+INFO - 2021-12-28 15:49:37,732 - new_apply_order.py[line:735]: 修改放款准备完成时间成功！
+INFO - 2021-12-28 15:49:37,744 - new_apply_order.py[line:743]: xxl_job 放款完成作业执行成功！
+INFO - 2021-12-28 15:49:38,055 - new_apply_order.py[line:915]: 校验重试查询第1次
+ERROR - 2021-12-28 15:49:39,072 - new_apply_order.py[line:811]: 放款完成或准备失败,目前的订单状态是35
+INFO - 2021-12-28 15:49:39,072 - new_apply_order.py[line:812]: {'app': 'kucash', 'loan_order_id': '1475735642339676160', 'mobile': '01640677768', 'order_status': 35}
+INFO - 2021-12-28 15:49:39,581 - new_apply_order.py[line:915]: 校验重试查询第2次
+INFO - 2021-12-28 15:49:40,600 - new_apply_order.py[line:809]: 放款完成或准备成功,目前的订单状态是40
+INFO - 2021-12-28 15:49:40,600 - new_apply_order.py[line:812]: {'app': 'kucash', 'loan_order_id': '1475735642339676160', 'mobile': '01640677768', 'order_status': 40}
+INFO - 2021-12-28 15:49:40,601 - new_apply_order.py[line:932]: ===========完成第【1】次进件===========
+INFO - 2021-12-28 15:49:40,601 - new_apply_order.py[line:935]: ======完成第【1】次进件,耗时12.29s=====

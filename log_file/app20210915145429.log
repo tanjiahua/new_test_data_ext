@@ -1,0 +1,31 @@
+INFO - 2021-09-15 14:54:30,012 - new_apply_order.py[line:690]: 开始第 pcamion【1】次进件……
+INFO - 2021-09-15 14:54:30,013 - new_apply_order.py[line:82]: ======【co测试环境】生成手机号：3631688870 ======
+INFO - 2021-09-15 14:54:30,396 - new_apply_order.py[line:95]: 3631688870 检测用户存在成功！
+INFO - 2021-09-15 14:54:30,509 - new_apply_order.py[line:104]: 3631688870 短信发送成功！
+INFO - 2021-09-15 14:54:30,572 - new_apply_order.py[line:117]: 3631688870 注册成功！
+INFO - 2021-09-15 14:54:30,687 - new_apply_order.py[line:133]: 3631688870 登录短信发送成功！
+INFO - 2021-09-15 14:54:30,753 - new_apply_order.py[line:143]: userId=4951131710704459776,mobile=3631688870,token=842599aefec4d3f32bb91be378e815be 登录成功
+INFO - 2021-09-15 14:54:30,865 - new_apply_order.py[line:205]: 个人信息提交成功！
+INFO - 2021-09-15 14:54:31,386 - new_apply_order.py[line:238]: 创建预审订单成功！
+INFO - 2021-09-15 14:54:31,407 - new_apply_order.py[line:246]: 预审状态修改为通过,更新条数 1
+INFO - 2021-09-15 14:54:31,426 - new_apply_order.py[line:249]: 更新初始额度！更新条数 1
+INFO - 2021-09-15 14:54:31,728 - new_apply_order.py[line:266]: 活体图片上传成功！回写配置文件global_param.mp4_url
+INFO - 2021-09-15 14:54:31,790 - new_apply_order.py[line:276]: 视频认证通过！
+INFO - 2021-09-15 14:54:32,961 - new_apply_order.py[line:331]: curp上传成功!
+INFO - 2021-09-15 14:54:33,057 - new_apply_order.py[line:340]: curp_rfc校验通过！
+INFO - 2021-09-15 14:54:33,664 - new_apply_order.py[line:413]: 不绑卡成功跳过！
+INFO - 2021-09-15 14:54:33,978 - new_apply_order.py[line:426]: 进件成功！执行sql将订单改为风控中……
+INFO - 2021-09-15 14:54:35,016 - new_apply_order.py[line:432]: 订单表更新1条，信审更新1条
+INFO - 2021-09-15 14:54:35,592 - new_apply_order.py[line:446]: 查询loan_order_id成功！
+INFO - 2021-09-15 14:54:35,651 - new_apply_order.py[line:461]: 订单回调复审通过成功！
+INFO - 2021-09-15 14:54:36,493 - new_apply_order.py[line:483]: 获取token成功！token=bearer 8a896575-c293-423c-873f-d7d6312422e8！
+INFO - 2021-09-15 14:54:37,111 - new_apply_order.py[line:446]: 查询loan_order_id成功！
+INFO - 2021-09-15 14:54:37,450 - new_apply_order.py[line:501]: 后台已触发放款成功！
+INFO - 2021-09-15 14:54:37,464 - new_apply_order.py[line:515]: xxl_job web 登录成功！
+INFO - 2021-09-15 14:54:37,477 - new_apply_order.py[line:531]: xxl_job 放款准备作业执行成功！
+INFO - 2021-09-15 14:54:39,060 - new_apply_order.py[line:446]: 查询loan_order_id成功！
+INFO - 2021-09-15 14:54:39,077 - new_apply_order.py[line:539]: 修改放款准备完成时间成功！
+INFO - 2021-09-15 14:54:39,086 - new_apply_order.py[line:547]: xxl_job 放款完成作业执行成功！
+INFO - 2021-09-15 14:54:39,703 - new_apply_order.py[line:446]: 查询loan_order_id成功！
+ERROR - 2021-09-15 14:54:39,712 - new_apply_order.py[line:736]: 'NoneType' object is not subscriptable
+ERROR - 2021-09-15 14:54:39,714 - new_apply_order.py[line:737]: None
