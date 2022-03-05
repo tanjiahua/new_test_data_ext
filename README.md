@@ -12,6 +12,8 @@
 - test_data 测试数据存放
 - tset_case 测试用例调用
 - report 测试报告存放目录
+- wdpy-master Django项目文件目录
+- y1_ke_test_data_kencash 测试业务支持存放目录
 
 **运行环境请看Wiki**
 
