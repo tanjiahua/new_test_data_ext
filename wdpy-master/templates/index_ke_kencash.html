@@ -1,0 +1,406 @@
+<!DOCTYPE html >
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>impression test data</title>
+    <style>
+        div {
+            color: #0cd38f;
+        }
+
+        h3 {
+            color: #548011;
+        }
+    </style>
+    <script src="/static/jquery-1.12.4.js"></script>
+    <h3 id='appname_1' style="margin: 20px;">各个状态预审订单生成:</h3>
+    <script type="text/javascript">
+        $(function () {
+            $('#backup_all_pre30').click(function () {
+                var socket = new WebSocket("ws://" + window.location.host + "/faker_data_ke_kencash");
+                console.log(socket);
+                $('#messagecontainer').html('')
+                socket.onopen = function () {
+                    console.log('WebSocket open');//成功连接上Websocket
+                    socket.send($('#backup_all_pre30').val());//发送数据到服务端
+                };
+                socket.onmessage = function (e) {
+                    console.log('message: ' + e.data);//打印服务端返回的数据
+                    $('#messagecontainer').append(e.data + '<br/>');
+
+                };
+            });
+        });
+    </script>
+    <script>
+        function copyText() {
+            document.getElementById("field2").value = document.getElementById("field1").value;
+        }
+        function clearData() {
+            console.log(123)
+
+            copyText()
+        }
+    </script>
+</head>
+<button οnclick="javascript:{this.disabled=true;clearData()}"
+        style="margin: 20px;height: 40px;background-color: #c3091f;" type="button" id="backup_all_pre30" value="backup_all_pre30">
+        预审订单拒绝【30】生成
+</button>
+    <script type="text/javascript">
+        $(function () {
+            $('#backup_all_pre40').click(function () {
+                var socket = new WebSocket("ws://" + window.location.host + "/faker_data_ke_kencash");
+                console.log(socket);
+                $('#messagecontainer').html('')
+                socket.onopen = function () {
+                    console.log('WebSocket open');//成功连接上Websocket
+                    socket.send($('#backup_all_pre40').val());//发送数据到服务端
+                };
+                socket.onmessage = function (e) {
+                    console.log('message: ' + e.data);//打印服务端返回的数据
+                    $('#messagecontainer').append(e.data + '<br/>');
+
+                };
+            });
+        });
+    </script>
+    <script>
+        function copyText() {
+            document.getElementById("field2").value = document.getElementById("field1").value;
+        }
+        function clearData() {
+            console.log(123)
+
+            copyText()
+        }
+    </script>
+</head>
+<button οnclick="javascript:{this.disabled=true;clearData()}"
+        style="margin: 20px;height: 40px;background-color: #98c379;" type="button" id="backup_all_pre40" value="backup_all_pre40">
+    预审订单通过【40】生成
+</button>
+</button>
+    <script type="text/javascript">
+        $(function () {
+            $('#backup_all_bind').click(function () {
+                var socket = new WebSocket("ws://" + window.location.host + "/faker_data_nga_aceloan");
+                console.log(socket);
+                $('#messagecontainer').html('')
+                socket.onopen = function () {
+                    console.log('WebSocket open');//成功连接上Websocket
+                    socket.send($('#backup_all_bind').val());//发送数据到服务端
+                };
+                socket.onmessage = function (e) {
+                    console.log('message: ' + e.data);//打印服务端返回的数据
+                    $('#messagecontainer').append(e.data + '<br/>');
+
+                };
+            });
+        });
+    </script>
+    <script>
+        function copyText() {
+            document.getElementById("field2").value = document.getElementById("field1").value;
+        }
+        function clearData() {
+            console.log(123)
+
+            copyText()
+        }
+    </script>
+</head>
+<button οnclick="javascript:{this.disabled=true;clearData()}"
+        style="margin: 20px;height: 40px;background-color: #98c379;" type="button" id="backup_all_bind" value="backup_all_bind">
+    绑卡成功待进件
+</button>
+</button>
+    <script type="text/javascript">
+        $(function () {
+            $('#backup_apply_reduction').click(function () {
+                var socket = new WebSocket("ws://" + window.location.host + "/faker_data_nga_aceloan");
+                console.log(socket);
+                $('#messagecontainer').html('')
+                socket.onopen = function () {
+                    console.log('WebSocket open');//成功连接上Websocket
+                    socket.send($('#backup_apply_reduction').val());//发送数据到服务端
+                };
+                socket.onmessage = function (e) {
+                    console.log('message: ' + e.data);//打印服务端返回的数据
+                    $('#messagecontainer').append(e.data + '<br/>');
+
+                };
+            });
+        });
+    </script>
+    <script>
+        function copyText() {
+            document.getElementById("field2").value = document.getElementById("field1").value;
+        }
+        function clearData() {
+            console.log(123)
+
+            copyText()
+        }
+    </script>
+</head>
+<button οnclick="javascript:{this.disabled=true;clearData()}"
+        style="margin: 20px;height: 40px;background-color: #98c379;" type="button" id="backup_apply_reduction" value="backup_apply_reduction">
+    待还款订单发起减免
+</button>
+<hr>
+    <script type="text/javascript">
+        $(function () {
+            $('#backup_all').click(function () {
+                var socket = new WebSocket("ws://" + window.location.host + "/faker_data_ke_kencash");
+                console.log(socket);
+                $('#messagecontainer').html('')
+                socket.onopen = function () {
+                    console.log('WebSocket open');//成功连接上Websocket
+                    socket.send($('#backup_all').val());//发送数据到服务端
+                };
+                socket.onmessage = function (e) {
+                    console.log('message: ' + e.data);//打印服务端返回的数据
+                    $('#messagecontainer').append(e.data + '<br/>');
+
+                };
+            });
+        });
+    </script>
+    <script>
+        function copyText() {
+            document.getElementById("field2").value = document.getElementById("field1").value;
+        }
+        function clearData() {
+            console.log(123)
+
+            copyText()
+        }
+    </script>
+</head>
+<body>
+<h3 id= 'appname_2' style="margin: 20px;">各个状态借款订单生成:</h3>
+<button οnclick="javascript:{this.disabled=true;clearData()}"
+        style="margin: 20px;height: 40px;background-color: #98c379;" type="button" id="backup_all" value="backup_all">
+    待放款订单【30】生成
+</button>
+    <script type="text/javascript">
+
+        $(function () {
+            $('#backup_all_32').click(function () {
+                var socket = new WebSocket("ws://" + window.location.host + "/faker_data_ke_kencash");
+                console.log(socket);
+                $('#messagecontainer').html('')
+                socket.onopen = function () {
+                    console.log('WebSocket open');//成功连接上Websocket
+                    socket.send($('#backup_all_32').val());//发送数据到服务端
+                };
+                socket.onmessage = function (e) {
+                    console.log('message: ' + e.data);//打印服务端返回的数据
+                    $('#messagecontainer').append(e.data + '<br/>');
+                };
+            });
+        });
+    </script>
+    <script>
+        function copyText() {
+            document.getElementById("field2").value = document.getElementById("field1").value;
+        }
+    </script>
+</head>
+</body>
+<button οnclick="javascript:{this.disabled=true;copyText()}"
+        style="margin: 20px;height: 40px;background-color: #98c379;" type="button" id="backup_all_32" value="backup_all_32">
+    放款准备完成订单【32】生成
+</button>
+    <script type="text/javascript">
+
+        $(function () {
+            $('#backup_all_36').click(function () {
+                var socket = new WebSocket("ws://" + window.location.host + "/faker_data_ke_kencash");
+                console.log(socket);
+                $('#messagecontainer').html('')
+                socket.onopen = function () {
+                    console.log('WebSocket open');//成功连接上Websocket
+                    socket.send($('#backup_all_36').val());//发送数据到服务端
+                };
+                socket.onmessage = function (e) {
+                    console.log('message: ' + e.data);//打印服务端返回的数据
+                    $('#messagecontainer').append(e.data + '<br/>');
+                };
+            });
+        });
+    </script>
+    <script>
+        function copyText() {
+            document.getElementById("field2").value = document.getElementById("field1").value;
+        }
+    </script>
+</head>
+</body>
+<button οnclick="javascript:{this.disabled=true;copyText()}"
+        style="margin: 20px;height: 40px;background-color: #c3091f;" type="button" id="backup_all_36" value="backup_all_36">
+    放款失败订单【36】生成
+</button>
+    <script type="text/javascript">
+
+        $(function () {
+            $('#backup_all_1').click(function () {
+                var socket = new WebSocket("ws://" + window.location.host + "/faker_data_ke_kencash");
+                console.log(socket);
+                $('#messagecontainer').html('')
+                socket.onopen = function () {
+                    console.log('WebSocket open');//成功连接上Websocket
+                    socket.send($('#backup_all_1').val());//发送数据到服务端
+                };
+                socket.onmessage = function (e) {
+                    console.log('message: ' + e.data);//打印服务端返回的数据
+                    $('#messagecontainer').append(e.data + '<br/>');
+                };
+            });
+        });
+    </script>
+    <script>
+        function copyText() {
+            document.getElementById("field2").value = document.getElementById("field1").value;
+        }
+    </script>
+</head>
+</body>
+<button οnclick="javascript:{this.disabled=true;copyText()}"
+        style="margin: 20px;height: 40px;background-color: #98c379;" type="button" id="backup_all_1" value="backup_all_1">
+    待还款订单【40】生成
+</button>
+    <script type="text/javascript">
+
+        $(function () {
+            $('#backup_all_60').click(function () {
+                var socket = new WebSocket("ws://" + window.location.host + "/faker_data_ke_kencash");
+                console.log(socket);
+                $('#messagecontainer').html('')
+                socket.onopen = function () {
+                    console.log('WebSocket open');//成功连接上Websocket
+                    socket.send($('#backup_all_60').val());//发送数据到服务端
+                };
+                socket.onmessage = function (e) {
+                    console.log('message: ' + e.data);//打印服务端返回的数据
+                    $('#messagecontainer').append(e.data + '<br/>');
+                };
+            });
+        });
+    </script>
+    <script>
+        function copyText() {
+            document.getElementById("field2").value = document.getElementById("field1").value;
+        }
+    </script>
+</head>
+</body>
+<button οnclick="javascript:{this.disabled=true;copyText()}"
+        style="margin: 20px;height: 40px;background-color: #98c379;" type="button" id="backup_all_60" value="backup_all_60">
+    逾期订单【60】生成
+</button>
+</button>
+    <script type="text/javascript">
+
+        $(function () {
+            $('#backup_all_99').click(function () {
+                var socket = new WebSocket("ws://" + window.location.host + "/faker_data_nga_aceloan");
+                console.log(socket);
+                $('#messagecontainer').html('')
+                socket.onopen = function () {
+                    console.log('WebSocket open');//成功连接上Websocket
+                    socket.send($('#backup_all_99').val());//发送数据到服务端
+                };
+                socket.onmessage = function (e) {
+                    console.log('message: ' + e.data);//打印服务端返回的数据
+                    $('#messagecontainer').append(e.data + '<br/>');
+                };
+            });
+        });
+    </script>
+    <script>
+        function copyText() {
+            document.getElementById("field2").value = document.getElementById("field1").value;
+        }
+    </script>
+</head>
+</body>
+<button οnclick="javascript:{this.disabled=true;copyText()}"
+        style="margin: 20px;height: 40px;background-color: #c0c334;" type="button" id="backup_all_99" value="backup_all_99">
+    风控人工取消【99】订单生成
+</button>
+</button>
+    <script type="text/javascript">
+
+        $(function () {
+            $('#backup_all_d0').click(function () {
+                var socket = new WebSocket("ws://" + window.location.host + "/faker_data_ke_kencash");
+                console.log(socket);
+                $('#messagecontainer').html('')
+                socket.onopen = function () {
+                    console.log('WebSocket open');//成功连接上Websocket
+                    socket.send($('#backup_all_d0').val());//发送数据到服务端
+                };
+                socket.onmessage = function (e) {
+                    console.log('message: ' + e.data);//打印服务端返回的数据
+                    $('#messagecontainer').append(e.data + '<br/>');
+                };
+            });
+        });
+    </script>
+    <script>
+        function copyText() {
+            document.getElementById("field2").value = document.getElementById("field1").value;
+        }
+    </script>
+</head>
+</body>
+<button οnclick="javascript:{this.disabled=true;copyText()}"
+        style="margin: 20px;height: 40px;background-color: #98c379;" type="button" id="backup_all_d0" value="backup_all_d0">
+    D0临期订单允许展期生成
+</button>
+</button>
+    <script type="text/javascript">
+
+        $(function () {
+            $('#backup_all_d1').click(function () {
+                var socket = new WebSocket("ws://" + window.location.host + "/faker_data_ke_kencash");
+                console.log(socket);
+                $('#messagecontainer').html('')
+                socket.onopen = function () {
+                    console.log('WebSocket open');//成功连接上Websocket
+                    socket.send($('#backup_all_d1').val());//发送数据到服务端
+                };
+                socket.onmessage = function (e) {
+                    console.log('message: ' + e.data);//打印服务端返回的数据
+                    $('#messagecontainer').append(e.data + '<br/>');
+                };
+            });
+        });
+    </script>
+    <script>
+        function copyText() {
+            document.getElementById("field2").value = document.getElementById("field1").value;
+        }
+    </script>
+</head>
+</body>
+<button οnclick="javascript:{this.disabled=true;copyText()}"
+        style="margin: 20px;height: 40px;background-color: #c3091f;" type="button" id="backup_all_d1" value="backup_all_d1">
+    D1逾期订单允许展期生成
+</button>
+<hr/>
+<h3 style="margin: 20px;">python脚本执行实时输出结果:</h3>
+<div id="messagecontainer" style="margin: 20px;background-color: rgba(34,34,34,0.84);">
+</div>
+<hr/>
+<script type="text/javascript">
+        var url_ = location.href.slice(location.href.indexOf('data_'));
+        var index = url_.lastIndexOf('_');
+        url_ = url_.substring(index + 1, url_.length);
+        console.log(url_);
+        appname_1.innerHTML = url_ + ' 进件前及常用场景'
+        appname_2.innerHTML = url_ + ' 各个状态订单生成'
+</script>
+</html>

@@ -1,0 +1,2 @@
+ERROR - 2022-03-06 01:48:44,575 - baseapi.py[line:933]: unhashable type: 'dict'
+ERROR - 2022-03-06 01:48:44,576 - baseapi.py[line:934]: None

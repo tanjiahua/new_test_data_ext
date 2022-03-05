@@ -1,0 +1,2 @@
+ERROR - 2022-03-06 01:46:23,261 - baseapi.py[line:932]: 'BaseApi' object has no attribute 'cfg_test_ini'
+ERROR - 2022-03-06 01:46:23,262 - baseapi.py[line:933]: None

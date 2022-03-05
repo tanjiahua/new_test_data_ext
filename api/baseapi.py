@@ -1,73 +1,39 @@
-# !/usr/local/python3
 # -*- coding:utf-8 -*-
 # Date      :2021/3/27
-# FileName  :baseapi.py
-# Describe  :
-# Author    :jack
+# Author    :'Jack'
 import importlib
 import os
 import random
-import string
 import time
 import traceback
-from configparser import RawConfigParser
-from pymongo import MongoClient
 import datetime
 from requests.auth import HTTPDigestAuth
-from common import logging_func
 from common import params_init as p
 from common import test_mysql as db
 import json
 import requests
-from rediscluster import RedisCluster
+from common.common import delete_redis_key, read_ini
+from common.params_init import loan_data
+from common import logging_func
+
 log = logging_func.Logger().logger
 path = os.path.dirname(os.path.abspath(__file__))
 
 
-class BaseApi(object):
-    def __init__(self, env_mark, test_ini, sql_ini, app_name):
-        self.env_mark = env_mark
-        self.test_ini = test_ini
-        self.sql_ini = sql_ini
-        self.cfg_sql_ini = self.read_ini(self.sql_ini)
-        self.cfg_test_ini = self.read_ini(self.test_ini)
-        self.param = 'global_param_' + app_name
-        self.app_name = app_name
-
-    @staticmethod
-    def read_ini(filename):
-        cfg_test_ini = RawConfigParser()
-        cfg_test_ini.read(path + '/config_ini/' + filename)
-        return cfg_test_ini
-
-    @staticmethod
-    def delete_redis_key():
-        conn_list = [
-            {"host": "172.20.240.45", "port": "2001"},
-            {"host": "172.20.240.45", "port": "2002"},
-            {"host": "172.20.240.45", "port": "2003"},
-            {"host": "172.20.240.45", "port": "2004"},
-            {"host": "172.20.240.45", "port": "2005"},
-            {"host": "172.20.240.45", "port": "2006"}
-        ]
-
-        con_redis = RedisCluster(startup_nodes=conn_list, password='testmx123456', decode_responses=True)
-        key = '"mx:cfs:user:userid:'
-        keys = con_redis.scan_iter(match=f"*{key}*")
-        for key in keys:
-            log.info('删除redis key' + f": {key}")
-            con_redis.delete(f"{key}")
+class BaseApi(loan_data):
 
     def new_mobile(self):
+        mobile=""
         if self.env_mark == 'nga':
             mobile = '0' + str(int(time.time()))
             # mobile=mobile_num
         elif self.env_mark == 'mx':
             mobile = str(int(time.time()))
             # mobile=mobile_num
-            self.delete_redis_key()
-            sql = self.cfg_sql_ini.get('user_id_card', 'id_card_1') % mobile
-            sql_1 = self.cfg_sql_ini.get('user_id_card', 'id_card_2') % mobile
+            delete_redis_key()
+            cfg_sql_ini=read_ini(self.sql_ini)
+            sql = cfg_sql_ini.get('user_id_card', 'id_card_1') % mobile
+            sql_1 = cfg_sql_ini.get('user_id_card', 'id_card_2') % mobile
             user = db.update(sql, self.env_mark)
             order = db.update(sql_1, self.env_mark)
             log.info('更新脏数据%s条' % str(user + order))
@@ -77,15 +43,14 @@ class BaseApi(object):
             mobile = '3' + str(int(time.time()))[1:]
         elif self.env_mark == 'pk':
             mobile = str(int(time.time()))
+        self.cfg_test_ini=read_ini(self.test_ini)
         self.cfg_test_ini.set(self.param, 'mobile', mobile)
         self.cfg_test_ini.write(open(path + '/config_ini/' + self.test_ini, 'r+', encoding='utf-8'))
         log.info('======【%s测试环境】生成手机号：%s ======' % (self.env_mark, mobile))
         return mobile
 
     def register(self):
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data(self,mark,param)
+        data = self.return_data()
         mobile = data['data_checkUserExist']['mobile']
         register_url = data['url_checkUserExist']
         register_headers = data['headers_checkUserExist']
@@ -95,7 +60,6 @@ class BaseApi(object):
             log.info('%s 检测用户存在成功！' % mobile)
         else:
             log.error('%s 检测用户存在失败！' % res_check.text)
-            self.mobile()
         sendSmsCode_url = data['url_sendSmsCode']
         sendSmsCode_headers = data['headers_sendSmsCode']
         sendSmsCode_data = json.dumps( data['data_sendSmsCode'] )
@@ -121,9 +85,7 @@ class BaseApi(object):
         return mobile
 
     def login(self):
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+        data = self.return_data()
         mobile = data['data_checkUserExist']['mobile']
         url_sendloginSmsCode=data['url_sendloginSmsCode']
         headers_sendloginSmsCode=data['headers_sendloginSmsCode']
@@ -149,50 +111,17 @@ class BaseApi(object):
         else:
             log.error('登录失败!')
 
-    def insert_sdk_data(self):
-        if self.env_mark == 'nga':
-            my_client = MongoClient("mongodb://172.20.240.225:27017/")
-            my_db = my_client.get_database("nga_sdk_pro")
-        elif self.env_mark == 'mx':
-            my_client = MongoClient("mongodb://172.20.240.45:27017/")
-            my_db = my_client.get_database("mx_sdk_pro")
-        elif self.env_mark == 'ke':
-            my_client = MongoClient("mongodb://172.20.240.133:27017/")
-            my_db = my_client.get_database("ke_sdk_pro")
-        elif self.env_mark == 'co':
-            my_client = MongoClient( "mongodb://172.20.240.255:27017/" )
-            my_db = my_client.get_database( "co_sdk_pro" )
-            return
-        data1 = {
-            "userId": self.user_id,
-            "sdkType": "5",
-            "batchNumber": "NDE2ODNkNjQtY2JlNi00MDVhLWJmN2ItZGUwZmM1ZTRkZjUz",
-            "createTime": datetime.datetime.strptime("2021-07-01T11:21:02.316Z", "%Y-%m-%dT%H:%M:%S.%fZ"),
-            "updateTime": datetime.datetime.strptime("2021-07-01T11:21:02.316Z", "%Y-%m-%dT%H:%M:%S.%fZ"),
-            "appKey": "app-nga-biz-004",
-            "dataCount": 100
-        }
-
-        my_col = my_db['sdk_first_upload_result']
-        data_list = []
-        for type in ['1', '2', '4', '5']:
-            data1['sdkType'] = type
-            data_list.append(data1.copy())
-        my_col.insert_many(data_list)
-        log.info('{%s}风控云数据记录插入mongo成功！' % self.user_id)
-
     def submit_user_ext_contacts(self):
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+        data = self.return_data()
+        test_data = ""
         if self.env_mark == 'nga':
-            data1 = json.dumps(data['data_fillInUserInfo'])
+            test_data = json.dumps(data['data_fillInUserInfo'])
         elif self.env_mark == 'mx':
-            data1 = json.dumps(data['data_fillInUserInfo_mx'])
+            test_data = json.dumps(data['data_fillInUserInfo_mx'])
         elif self.env_mark == 'co':
-            data1 = json.dumps( data['data_fillInUserInfo_co'] )
+            test_data = json.dumps( data['data_fillInUserInfo_co'] )
         elif self.env_mark == 'pk':
-            data1 = json.dumps( data['data_fillInUserInfo'] )
+            test_data = json.dumps( data['data_fillInUserInfo'] )
         elif self.env_mark == 'ke':
             nin = str(int(time.time()))[2:]
             ninFrontUrl = "http://172.20.240.138:8002/file/v1/fud/pri/pic/f2fe31e34cad4004b69cec74ea4bf505.jpeg"
@@ -201,10 +130,10 @@ class BaseApi(object):
             data['data_fillInUserInfo'].update(nin=nin)
             data['data_fillInUserInfo']['ninFrontUrl'] = ninFrontUrl
             data['data_fillInUserInfo']['ninBackUrl'] = ninBackUrl
-            data1 = json.dumps(data['data_fillInUserInfo'])
+            test_data = json.dumps(data['data_fillInUserInfo'])
         url_fillInUserInfo = data['url_fillInUserInfo']
         headers_fillInUserInfo = data['headers_fillInUserInfo']
-        data_fillInUserInfo= data1
+        data_fillInUserInfo= test_data
         res_fillInUserInfo = requests.post(url_fillInUserInfo, headers=headers_fillInUserInfo, data=data_fillInUserInfo)
         if '0000' in res_fillInUserInfo.text:
             log.info('个人信息提交成功！')
@@ -242,9 +171,8 @@ class BaseApi(object):
 
 
     def create_pre_order(self):
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+ 
+        data = self.return_data()
         url_createApplyPreOrder = data['url_createApplyPreOrder']
         headers_createApplyPreOrder = data['headers_createApplyPreOrder']
         data_createApplyPreOrder = json.dumps(data['data_createApplyPreOrder'])
@@ -256,6 +184,7 @@ class BaseApi(object):
 
     def modify_pre_order_status(self):
         importlib.reload(db)
+        self.cfg_sql_ini = read_ini( self.sql_ini )
         sql = self.cfg_sql_ini.get('pre_order_update', 'pre_order_status') % self.user_id
         a = db.update(sql, self.env_mark)
         log.info('预审状态修改为通过,更新条数 %s' % a)
@@ -264,9 +193,8 @@ class BaseApi(object):
         log.info('更新初始额度！更新条数 %s' % b)
 
     def upload_image(self):
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+ 
+        data = self.return_data()
         if self.env_mark == 'pk':
             id_card = [
                 ('image', ('mx_curp_front.png', open(path+'config_ini/mx_id_card/mx_curp_front.png', 'rb'), 'image/png')),
@@ -286,6 +214,41 @@ class BaseApi(object):
             if '0000' in res_curp_rfc_check.text:
                 log.info('curp_rfc校验通过！')
                 mobile = str(int(time.time()))
+                namelist = ['Aaron', 'Abe', 'Abelard', 'Abraham', 'Adam', 'Adrian', 'Aidan', 'Alva', 'Alex',
+                            'Alexander', 'Alan', 'Eilian', 'Ailin', 'Albert', 'Alfred', 'Andrew', 'Andy', 'Angus',
+                            'Anthony', 'Apollo', 'Arnold', 'Arthur', 'August', 'Austin', 'Ben', 'Benjamin', 'Bert',
+                            'Benson', 'Bill', 'Billy', 'Blake', 'Bob', 'Bobby', 'Brad', 'Brandon', 'Brant', 'Brent',
+                            'Bryan', 'Brown', 'Bruce', 'Caleb', 'Cameron', 'Carl',
+                            'Carlos', 'Cary', 'Caspar', 'Cecil', 'Charles', 'Cheney', 'Chris', 'Christian',
+                            'Christopher', 'Clark', 'Cliff', 'Cody', 'Cole', 'Colin', 'Cosmo', 'Daniel', 'Denny',
+                            'Darwin', 'David', 'Dennis', 'Derek', 'Dick', 'Donald', 'Douglas', 'Duke', 'Dylan', 'Eddie',
+                            'Edgar', 'Edison', 'Edmund', 'Edward', 'Edwin', 'Elijah', 'Elliott', 'Elvis', 'Eric',
+                            'Frederick', 'Ethan', 'Eugene', 'Evan',
+                            'Enterprise', 'Ford', 'Francis', 'Frank', 'Francis', 'Franklin', 'Fred', 'Gabriel', 'Gaby',
+                            'Gabriel', 'Garfield', 'Gary', 'Gavin', 'Geoffrey', 'George', 'Gino', 'Glen', 'Glendon',
+                            'Hank', 'Hardy', 'Harrison', 'Harry', 'Hayden', 'Henry', 'Hilton', 'Hugo', 'Hunk', 'Howard',
+                            'Henry', 'Ian',
+                            'Ignativs', 'Ignace', 'Ignatz', 'Ivan', 'Isaac', 'Isaiah', 'Jack', 'Jackson', 'Jacob',
+                            'James', 'Jason', 'Jay', 'Jeffery', 'Jerome', 'Jerry', 'Gerald', 'Jeremiah', 'Jerome',
+                            'Jesse', 'Jim',
+                            'James', 'Jimmy', 'Joe', 'John', 'Johnny', 'Jonathan', 'Jordan', 'Joseph', 'Joshua',
+                            'Justin', 'Keith', 'Ken', 'Kennedy', 'Kenneth', 'Kenny', 'Kevin', 'Kyle', 'Lance', 'Larry',
+                            'Laurent', 'Lawrence', 'Leander', 'Lee', 'Leo', 'Leander', 'Leonard', 'Leopold', 'Leonard',
+                            'Leopold', 'Leslie ', 'Loren', 'Lorry', 'Lorin', 'Louis', 'Luke', 'Marcus', 'Marcy', 'Mark',
+                            'Marks', 'Mars', 'Marshal', 'Martin', 'Marvin', 'Mason', 'Matthew', 'Max', 'Michael',
+                            'Mickey',
+                            'Mike', 'Nathan', 'Nathaniel', 'Neil', 'Nelson', 'Nicholas', 'Nick', 'Noah', 'Norman',
+                            'Oliver', 'Oscar', 'Owen', 'Patrick', 'Paul', 'Peter', 'Philip', 'Phoebe', 'Quentin',
+                            'Randal',
+                            'Randolph', 'Randy', 'Ray', 'Raymond', 'Reed', 'Rex', 'Richard', 'Richie', 'Rick', 'Ricky',
+                            'Riley', 'Robert', 'Robin', 'Robinson', 'Rock', 'Roger', 'Ronald', 'Rowan', 'Roy', 'Ryan',
+                            'Sam山', 'Sammy', 'Samuel', 'Scott', 'Sean', 'Shawn', 'Sidney', 'Simon', 'Solomon', 'Spark',
+                            'Spencer', 'Spike', 'Stanley', 'Steve', 'Steven', 'Stewart', 'Stuart', 'Terence', 'Terry',
+                            'Ted', 'Thomas', 'Tim', 'Timothy', 'Todd', 'Tommy', 'Tom', 'Thomas', 'Tony', 'Tyler',
+                            'Ultraman', 'Ulysses', 'Van', 'Vern', 'Vernon', 'Victor', 'Vincent', 'Warner', 'Warren',
+                            'Wayne', 'Wesley', 'William', 'Willy', 'Zack', 'Zachary']
+                random_name = random.choice( namelist )
+                name = 'Jack ' + random_name
                 appId = self.cfg_test_ini.get( self.param, 'appId' )
                 channelCode = self.cfg_test_ini.get( self.param, 'channelCode' )
                 # random_str = ''.join(random.choice(string.ascii_uppercase + string.digits) for _ in range(7))
@@ -429,9 +392,8 @@ class BaseApi(object):
                 ('image', ('mx_curp_front.png', open( '../config_ini/mx_id_card/mx_curp_front.png', 'rb' ), 'image/png')),
                 ('image', ('mx_curp_back.png', open( '../config_ini/mx_id_card/mx_curp_back.png', 'rb' ), 'image/png'))]
             importlib.reload( p )
-            mark = self.env_mark
-            param = self.param
-            data = p.loan_data.return_data( self, mark, param )
+     
+            data = self.return_data()
             url_uploadImages_id = data['url_uploadImages_pk']
             headers_uploadImages = data['headers_uploadImages']
             res_upload_image = requests.post(url_uploadImages_id, headers=headers_uploadImages, files=id_card)
@@ -494,9 +456,8 @@ class BaseApi(object):
                 log.error('curp_rfc校验失败！')
 
     def band_authBindRequest(self):
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+ 
+        data = self.return_data()
         mobile = data['data_checkUserExist']['mobile']
         if self.env_mark == 'nga':
             # id_card_num=str(int(time.time() * 10))
@@ -607,9 +568,8 @@ class BaseApi(object):
                 log.error( '绑卡失败！%s' % res_bind_card.text )
 
     def apply_order(self):
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+ 
+        data = self.return_data()
         if self.env_mark == 'co':
             amount = 10
             data['data_createApply'].update( amount=amount )
@@ -630,9 +590,8 @@ class BaseApi(object):
 
     def get_order_id(self):
         time.sleep(0.3)
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+ 
+        data = self.return_data()
         url_getOrderDetail = data['url_getOrderDetail']
         headers_getOrderDetail = data['headers_getOrderDetai']
         res_get_order_id = requests.get(url_getOrderDetail, headers=headers_getOrderDetail)
@@ -645,9 +604,8 @@ class BaseApi(object):
         return loan_order_id
 
     def credit_order_callback_pass(self):
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+ 
+        data = self.return_data()
         url_callback_order = data['url_callback_order']
         headers_callback_order = data['headers_callback_order']
         data_callback_order = json.dumps(data['data_callback_order']).replace('loan_order_id', str(self.get_order_id()))
@@ -660,9 +618,8 @@ class BaseApi(object):
             log.error("-------订单回调复审通过失败！%s" % res_callback_order.text)
 
     def get_admin_token(self, role_type):
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+ 
+        data = self.return_data()
         if role_type == 'dun':
             data['data_admin']['username'] = 'tanjiahua4'
             data['data_admin']['password'] = 't123456'
@@ -682,9 +639,8 @@ class BaseApi(object):
 
     def transfer_loan(self):
         time.sleep(0.2)
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+ 
+        data = self.return_data()
         url_transfer = data['url_transfer']
         headers_transfer = data['headers_transfer']
         data_transfer = data['data_transfer']
@@ -699,9 +655,8 @@ class BaseApi(object):
 
     def xxl_job_login(self):
         s = requests.session()
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+ 
+        data = self.return_data()
         url_job_login = data['url_job_login']
         headers_job_login = data['headers_job_login']
         data_job_login = data['data_job_login']
@@ -714,9 +669,8 @@ class BaseApi(object):
 
     def xxl_job_execute(self):
         s = self.xxl_job_login()
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+ 
+        data = self.return_data()
         # 放款准备
         url_job_pre = data['url_job_pre']
         headers_job_pre = data['headers_job_pre']
@@ -744,9 +698,8 @@ class BaseApi(object):
             log.info('xxl_job 放款完成作业执行失败！')
 
     def pay_notify(self):
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+ 
+        data = self.return_data()
         if self.env_mark == 'mx':
             loan_order_id = self.get_order_id()
             url_pay = 'http://172.20.240.89:8301/v1/pandapay-notify/payoutNotify'
@@ -882,9 +835,8 @@ class BaseApi(object):
 
     def get_loanBillPlanId(self):
         time.sleep(0.3)
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+ 
+        data = self.return_data()
         url_loanBillPlanId = data['url_loanBillPlanId']
         headers_loanBillPlanId = data['headers_loanBillPlanId']
         headers_ = json.dumps( headers_loanBillPlanId ).replace( 'access_token', self.get_admin_token( 'admin' ) )
@@ -903,9 +855,8 @@ class BaseApi(object):
 
     def repay(self):
         time.sleep( 0.2 )
-        mark = self.env_mark
-        param = self.param
-        data = p.loan_data.return_data( self, mark, param )
+ 
+        data = self.return_data()
         url_repay = data['url_repay']
         headers_repay = data['headers_repay']
         data_repay = data['data_repay']
@@ -928,7 +879,8 @@ class BaseApi(object):
                 # with open('mobile.txt', 'r', encoding='utf-8') as f:
                 #     mobile = [x.strip('\n') for x in f.readlines()]
                 # for m in mobile:
-                app_name = self.cfg_test_ini.get(self.param, 'channelcode')
+                self.cfg_test_ini=read_ini(self.test_ini)
+                app_name = self.app_name
                 # log.info('开始第【%s】次进件……' % str(mobile.index(m) + 1))
                 log.info('开始第 %s【%s】次进件……' % (app_name, i))
                 # self.new_mobile()

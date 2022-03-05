@@ -1,67 +1,35 @@
-# !/usr/local/python3
-# -*- coding:utf-8 -*-
-# Date      :2021/3/27
-# FileName  :param_init.py
-# Describe  :
-# Author    :jack
+# coding=utf-8
+# author= 'Jack'
+# time：2022/3/5
 import random
-import string
 import time
-import os
-from configparser import ConfigParser
-from config_ini import loan_list
-
+from common.common import get_init_file
 
 class loan_data(object):
-
-    cfg_list = loan_list.nga_list
 
     def __init__(self, env_mark, test_ini, sql_ini, app_name):
         self.env_mark = env_mark
         self.test_ini = test_ini
         self.sql_ini = sql_ini
-        self.cfg_sql_ini = self.read_ini(self.sql_ini)
-        self.cfg_test_ini = self.read_ini(self.test_ini)
-        self.param = 'global_param_' + app_name
+        self.global_param = 'global_param_' + app_name
         self.app_name = app_name
-        self.user_id = self.cfg_test_ini.get(self.param, 'userid')
-    def get_init_file(self,test_mark):
-        self.test_mark=test_mark
-        if self.test_mark == 'nga':
-            self.test_ini_name = 'test_ini_nga.ini'
-        elif self.test_mark == 'mx':
-            self.test_ini_name = 'test_ini_mx.ini'
-        elif test_mark == 'ke':
-            self.test_ini_name = 'test_ini_ke.ini'
-        elif test_mark == 'co':
-            self.test_ini_name = 'test_ini_co.ini'
-        elif test_mark == 'pk':
-            self.test_ini_name = 'test_ini_pk.ini'
-        cfg = ConfigParser()
-        path = os.path.dirname(os.path.abspath(__file__))
-        cfg.read(path + '/../config_ini/%s' % self.test_ini_name)
-        return cfg
-
-
-    def return_data(self,mark,param):
-        self.cfg_ = loan_data.get_init_file(self,mark)
-        self.appid = self.cfg_.get(param, 'appid')
-        self.channelcode = self.cfg_.get(param, 'channelcode')
-        self.clientcode = self.cfg_.get(param, 'clientcode')
-        self.appversion = self.cfg_.get(param, 'appversion')
-        self.language = self.cfg_.get(param, 'language')
-        self.mobile = self.cfg_.get('mobile_idcard', 'mobile')
-        self.idcard = self.cfg_.get('mobile_idcard', 'idcard')
-        self.url = self.cfg_.get( 'app_url', 'app_url' )
-        self.admin_web_url = self.cfg_.get('admin_web', 'url')
-        self.xxl_job = self.cfg_.get('admin_web', 'xxl_job')
-        self.transfer_url = self.cfg_.get('admin_web', 'transfer_url')
-        self.appPackageName = self.cfg_.get(param, 'appPackageName')
-        self.registersource = self.cfg_.get(param, 'registersource')
-        self.appname = self.cfg_.get(param, 'appname')
-        self.mp4_url = self.cfg_.get(param, 'mp4_url')
-        self.authorization = self.cfg_.get(param, 'authorization')
-        self.userId = self.cfg_.get(param, 'userId')
+        self.cfg_ = get_init_file(  self.env_mark )
+        self.appid = self.cfg_.get(  self.global_param, 'appid' )
+        self.channelcode = self.cfg_.get(  self.global_param, 'channelcode' )
+        self.clientcode = self.cfg_.get(  self.global_param, 'clientcode' )
+        self.appversion = self.cfg_.get(  self.global_param, 'appversion' )
+        self.language = self.cfg_.get(  self.global_param, 'language' )
+        self.mobile = self.cfg_.get(  self.global_param, 'mobile' )
+        self.url = self.cfg_.get( self.global_param, 'url' )
+        self.admin_web_url = self.cfg_.get( 'admin_web', 'url' )
+        self.xxl_job = self.cfg_.get( 'admin_web', 'xxl_job' )
+        self.transfer_url = self.cfg_.get( 'admin_web', 'transfer_url' )
+        self.appPackageName = self.cfg_.get(  self.global_param, 'appPackageName' )
+        self.registersource = self.cfg_.get(  self.global_param, 'registersource' )
+        self.appname = self.cfg_.get(  self.global_param, 'appname' )
+        self.mp4_url = self.cfg_.get(  self.global_param, 'mp4_url' )
+        self.authorization = self.cfg_.get(  self.global_param, 'authorization' )
+        self.userId = self.cfg_.get(  self.global_param, 'userId' )
         key = ['appname', 'appid', 'channelcode', 'clientcode', 'appversion',
                'language', 'mobile', 'url', 'admin_web_url', 'xxl_job',
                'transfer_url', 'appPackageName', 'registersource', 'mp4_url',
@@ -69,94 +37,96 @@ class loan_data(object):
         value = [self.appname, self.appid, self.channelcode, self.clientcode, self.appversion, self.language,
                  self.mobile, self.url, self.admin_web_url, self.xxl_job, self.transfer_url, self.appPackageName,
                  self.registersource, self.mp4_url, self.authorization, self.userId]
-        param = dict(zip(key, value))
+        self.param = dict( zip( key, value ) )
+
+    def return_data(self):
         # 检测手机号是否注册
         self.headers_checkUserExist = {
             'accept': 'application/json',
-            'appversion': param['appversion'],
+            'appversion': self.param['appversion'],
             'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD',
             'authorization': '',
-            'accept-language': param['language'],
-            'clientCode': param['clientcode'],
+            'accept-language': self.param['language'],
+            'clientCode': self.param['clientcode'],
             'Content-Type': 'application/json; charset=UTF-8',
-            'Host':  param['url'],
+            'Host':  self.param['url'],
             'User-Agent': 'okhttp/4.9.0',
         }
 
         self.data_checkUserExist = {
-            "mobile": param['mobile'],
-            "appId": param['appid'],
-            "appName": param['appname'],
-            "appPackageName": param['appPackageName'],
-            "appVersion": param['appversion'],
+            "mobile": self.param['mobile'],
+            "appId": self.param['appid'],
+            "appName": self.param['appname'],
+            "appPackageName": self.param['appPackageName'],
+            "appVersion": self.param['appversion'],
             "brand": "Xiaomi",
-            "channelCode": param['channelcode'],
+            "channelCode": self.param['channelcode'],
             "clientType": "ANDROID",
             "devLatitude": 23.099306,
             "devLongitude": 113.309291,
             "devToken": "cb95881f542ac58170:BB:E9:91:D3:CD",
             "gaid": "f1682b87-c032-4409-9272-0ad94548e5fa",
-            "language": param['language'],
+            "language": self.param['language'],
             "mobileType": "platina",
             "os": "28", "osVersion": "9",
-            "version": param['appversion']}
+            "version": self.param['appversion']}
 
-        self.url_checkUserExist = 'http://' + param['url'] + '/app/api/multi/v2/checkUserExist/' + param['appid']
+        self.url_checkUserExist = 'http://' + self.param['url'] + '/app/api/multi/v2/checkUserExist/' + self.param['appid']
 
         # 发送注册短信
         self.headers_sendSmsCode = {
             'accept': 'application/json',
-            'appversion': param['appversion'],
+            'appversion': self.param['appversion'],
             'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD',
-            'accept-language': param['language'],
-            'clientCode': param['clientcode'],
+            'accept-language': self.param['language'],
+            'clientCode': self.param['clientcode'],
             'Content-Type': 'application/json; charset=UTF-8',
-            'Host':  param['url'],
+            'Host':  self.param['url'],
             'User-Agent': 'okhttp/4.9.0',
         }
         self.data_sendSmsCode = {"loginType": "0",
-                            "mobile": param['mobile'],
+                            "mobile": self.param['mobile'],
                             "smsCodeType": "REGISTER",
-                            "appId": param['appid'],
-                            "appName": param['appname'],
-                            "appPackageName": param['appid'],
-                            "appVersion": param['appversion'],
+                            "appId": self.param['appid'],
+                            "appName": self.param['appname'],
+                            "appPackageName": self.param['appid'],
+                            "appVersion": self.param['appversion'],
                             "brand": "Xiaomi",
-                            "channelCode": param['channelcode'],
+                            "channelCode": self.param['channelcode'],
                             "clientType": "ANDROID",
                             "devLatitude": 23.099306,
                             "devLongitude": 113.309291,
                             "devToken": "cb95881f542ac58170:BB:E9:91:D3:CD",
                             "gaid": "f1682b87-c032-4409-9272-0ad94548e5fa",
-                            "language": param['language'],
+                            "language": self.param['language'],
                             "mobileType": "platina",
                             "os": "28",
                             "osVersion": "9",
-                            "version": param['appversion']}
-        self.url_sendSmsCode = 'http://' + param['url'] + '/app/api/multi/v2/sendSmsCode/' + param['appid']
+                            "version": self.param['appversion']}
+        self.url_sendSmsCode = 'http://' + self.param['url'] + '/app/api/multi/v2/sendSmsCode/' + self.param['appid']
 
         # 用户注册
         self.headers_userRegister = {
             'accept': 'application/json',
-            'appversion': param['appversion'],
+            'appversion': self.param['appversion'],
             'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD',
-            'accept-language': param['language'],
-            'clientCode': param['clientcode'],
+            'accept-language': self.param['language'],
+            'clientCode': self.param['clientcode'],
             'Content-Type': 'application/json; charset=UTF-8',
-            'Host':  param['url'],
+            'Host':  self.param['url'],
             'User-Agent': 'okhttp/4.9.0'
         }
         self.data_userRegister = {
             "devI": "",
             "imei": "",
             "isSkipDecrypt": True,
-            "mobile": param['mobile'],
+            "mobile": self.param['mobile'],
             "otpMode": "1",
             "password": "31872",  # mx
             # "password": "13416",#nga
             "referer": "",
             "registerPageType": "0",
-            "registerSource": param['registersource'],
+            "registerSource": self.param['registersource'],
             "smsCode": "123456",
             "tdToken": "",
             "twogIp": "",
@@ -164,74 +134,74 @@ class loan_data(object):
             "wifiAddr": "",
             "wifiLatitude": 0,
             "wifiLongitude": 0,
-            "appId": param['appid'],
-            "appName": param['appname'],
-            "appPackageName": param['appPackageName'],
-            "appVersion": param['appversion'],
+            "appId": self.param['appid'],
+            "appName": self.param['appname'],
+            "appPackageName": self.param['appPackageName'],
+            "appVersion": self.param['appversion'],
             "brand": "Xiaomi",
-            "channelCode": param['channelcode'],
+            "channelCode": self.param['channelcode'],
             "clientType": "ANDROID",
             "devLatitude": 23.099306,
             "devLongitude": 113.309291,
             "devToken": "cb95881f542ac58170:BB:E9:91:D3:CD",
             "gaid": "f1682b87-c032-4409-9272-0ad94548e5fa",
-            "language": param['language'],
+            "language": self.param['language'],
             "mobileType": "platina",
             "os": "28",
             "osVersion": "9",
-            "version": param['appversion']
+            "version": self.param['appversion']
         }
-        self.url_userRegister = 'http://' + param['url'] + '/app/api/multi/v2/userRegister/' + param['appid']
+        self.url_userRegister = 'http://' + self.param['url'] + '/app/api/multi/v2/userRegister/' + self.param['appid']
 
         # 发送登录短信
         self.headers_sendloginSmsCode = {
             'accept': 'application/json',
-            'appversion': param['appversion'],
+            'appversion': self.param['appversion'],
             'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD',
-            'accept-language': param['language'],
-            'clientCode': param['clientcode'],
+            'accept-language': self.param['language'],
+            'clientCode': self.param['clientcode'],
             'Content-Type': 'application/json; charset=UTF-8',
-            'Host':  param['url'],
+            'Host':  self.param['url'],
             'User-Agent': 'okhttp/4.9.0',
         }
         self.data_sendloginSmsCode = {"loginType": "0",
-                            "mobile": param['mobile'],
+                            "mobile": self.param['mobile'],
                             "smsCodeType": "LOGIN",
-                            "appId": param['appid'],
-                            "appName": param['appname'],
-                            "appPackageName": param['appid'],
-                            "appVersion": param['appversion'],
+                            "appId": self.param['appid'],
+                            "appName": self.param['appname'],
+                            "appPackageName": self.param['appid'],
+                            "appVersion": self.param['appversion'],
                             "brand": "Xiaomi",
-                            "channelCode": param['channelcode'],
+                            "channelCode": self.param['channelcode'],
                             "clientType": "ANDROID",
                             "devLatitude": 23.099306,
                             "devLongitude": 113.309291,
                             "devToken": "cb95881f542ac58170:BB:E9:91:D3:CD",
                             "gaid": "f1682b87-c032-4409-9272-0ad94548e5fa",
-                            "language": param['language'],
+                            "language": self.param['language'],
                             "mobileType": "platina",
                             "os": "28",
                             "osVersion": "9",
-                            "version": param['appversion']}
-        self.url_sendloginSmsCode = 'http://' + param['url'] + '/app/api/multi/v2/sendSmsCode/' + param['appid']
+                            "version": self.param['appversion']}
+        self.url_sendloginSmsCode = 'http://' + self.param['url'] + '/app/api/multi/v2/sendSmsCode/' + self.param['appid']
 
         # 用户短信验证码登录
         self.headers_smslogin = {
             'accept': 'application/json',
-            'appversion': param['appversion'],
+            'appversion': self.param['appversion'],
             'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD',
             'authorization': '',
-            'accept-language': param['language'],
-            'clientCode': param['clientcode'],
+            'accept-language': self.param['language'],
+            'clientCode': self.param['clientcode'],
             'Content-Type': 'application/json; charset=UTF-8',
-            'Host':  param['url'],
+            'Host':  self.param['url'],
             'User-Agent': 'okhttp/4.9.0',
         }
 
         self.data_smslogin = {
             "devIp": "",
             "imei": "",
-            "mobile": param['mobile'],
+            "mobile": self.param['mobile'],
             "otpMode": "1",
             "pushToken": "test push token",
             "smsCode": "123456",
@@ -239,39 +209,39 @@ class loan_data(object):
             "tdToken": "",
             "udid": "",
             "wifiAddr": "",
-            "appId": param['appid'],
-            "appName": param['appname'],
-            "appPackageName": param['appPackageName'],
-            "appVersion": param['appversion'],
+            "appId": self.param['appid'],
+            "appName": self.param['appname'],
+            "appPackageName": self.param['appPackageName'],
+            "appVersion": self.param['appversion'],
             "brand": "Xiaomi",
-            "channelCode": param['channelcode'],
+            "channelCode": self.param['channelcode'],
             "clientType": "ANDROID",
             "devLatitude": 23.099306,
             "devLongitude": 113.309291,
             "devToken": "cb95881f542ac58170:BB:E9:91:D3:CD",
             "gaid": "f1682b87-c032-4409-9272-0ad94548e5fa",
-            "language": param['language'],
+            "language": self.param['language'],
             "mobileType": "platina",
             "os": "28",
             "osVersion": "9",
-            "version": param['appversion'],
+            "version": self.param['appversion'],
         }
-        self.url_smslogin = 'http://' + param['url'] + '/app/api/multi/v2/smsLogin/' + param['appid']
+        self.url_smslogin = 'http://' + self.param['url'] + '/app/api/multi/v2/smsLogin/' + self.param['appid']
 
         # 提交个人信息
         self.headers_fillInUserInfo = {
-            'Host':  param['url'],
+            'Host':  self.param['url'],
             'Pragma': 'no-cache',
             'Cache-Control': 'no-cache',
             'Origin': 'http://172.20.240.121',
-            'Accept-Language': param['language'],
-            'Authorization': param['authorization'],
+            'Accept-Language': self.param['language'],
+            'Authorization': self.param['authorization'],
             'Content-Type': 'application/json; charset=utf-8',
             'Accept': 'application/json',
             'User-Agent': 'Mozilla/5.0 (Linux; Android 9; MI 8 Lite Build/PKQ1.181007.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36',
-            'AppVersion': param['appversion'],
-            'Referer': 'http://172.20.240.121/static/native_web/%s/' % (param['appid']),
-            'X-Requested-With': param['appPackageName']
+            'AppVersion': self.param['appversion'],
+            'Referer': 'http://172.20.240.121/static/native_web/%s/' % (self.param['appid']),
+            'X-Requested-With': self.param['appPackageName']
         }
         namelist=['Aaron','Abe','Abelard','Abraham','Adam','Adrian','Aidan','Alva','Alex','Alexander','Alan','Eilian','Ailin','Albert','Alfred','Andrew','Andy','Angus','Anthony','Apollo','Arnold','Arthur','August','Austin','Ben','Benjamin','Bert','Benson','Bill','Billy','Blake','Bob','Bobby','Brad','Brandon','Brant','Brent','Bryan','Brown','Bruce','Caleb','Cameron','Carl',
                 'Carlos','Cary','Caspar','Cecil','Charles','Cheney','Chris','Christian','Christopher','Clark','Cliff','Cody','Cole','Colin','Cosmo','Daniel','Denny','Darwin','David','Dennis','Derek','Dick','Donald','Douglas','Duke','Dylan','Eddie','Edgar','Edison','Edmund','Edward','Edwin','Elijah','Elliott','Elvis','Eric','Frederick','Ethan','Eugene','Evan',
@@ -286,8 +256,8 @@ class loan_data(object):
         name = 'Jack ' + last_name
 
         self.data_fillInUserInfo = {
-            "appId": param['appid'],
-            "channelCode": param['channelcode'],
+            "appId": self.param['appid'],
+            "channelCode": self.param['channelcode'],
             "email": "jack@gmail.com",
             "education": "1",
             "firstName": "Jack ",
@@ -302,15 +272,15 @@ class loan_data(object):
         }
 
         self.data_fillInUserInfo_mx = {
-            "appId": param['appid'],
-            "channelCode": param['channelcode'],
+            "appId": self.param['appid'],
+            "channelCode": self.param['channelcode'],
             "email": "jack@gmail.com",
             "education": 10,
             "name": name,
             "sex": 1,
             "birthday": "2001-02-01",
             "state": "MORELOS COA",
-            "whatsApp": param['mobile'],
+            "whatsApp": self.param['mobile'],
             "contacts": [
                 {
                     "name": "Armender",
@@ -385,18 +355,18 @@ class loan_data(object):
                 }
             }]
         }
-        self.url_fillInUserInfo = 'http://' + param['url'] + '/app/api/multi/v2/user/fillInUserInfo/' + param['appid']
+        self.url_fillInUserInfo = 'http://' + self.param['url'] + '/app/api/multi/v2/user/fillInUserInfo/' + self.param['appid']
 
         # 保存联系人信息
         self.headers_saveContacts = {
             'accept': 'application/json',
-            'appversion': param['appversion'],
+            'appversion': self.param['appversion'],
             'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD',
-            'authorization': param['authorization'],
-            'accept-language': param['language'],
-            'clientCode': param['clientcode'],
+            'authorization': self.param['authorization'],
+            'accept-language': self.param['language'],
+            'clientCode': self.param['clientcode'],
             'Content-Type': 'application/json; charset=UTF-8',
-            'Host':  param['url'],
+            'Host':  self.param['url'],
             'User-Agent': 'okhttp/4.9.0',
         }
         self.data_saveContacts = {
@@ -419,22 +389,22 @@ class loan_data(object):
             ],
             "devLatitudeX": 0,
             "devLongitudeX": 0,
-            "appId": param['appid'],
-            "appName": param['appname'],
-            "appPackageName": param['appPackageName'],
-            "appVersion": param['appversion'],
+            "appId": self.param['appid'],
+            "appName": self.param['appname'],
+            "appPackageName": self.param['appPackageName'],
+            "appVersion": self.param['appversion'],
             "brand": "Xiaomi",
-            "channelCode": param['channelcode'],
+            "channelCode": self.param['channelcode'],
             "clientType": "ANDROID",
             "devLatitude": 23.099306,
             "devLongitude": 113.309291,
             "devToken": "cb95881f542ac58170:BB:E9:91:D3:CD",
             "gaid": "f1682b87-c032-4409-9272-0ad94548e5fa",
-            "language": param['language'],
+            "language": self.param['language'],
             "mobileType": "platina",
             "os": "28",
             "osVersion": "9",
-            "version": param['appversion'],
+            "version": self.param['appversion'],
         }
 
         self.data_saveContacts_ke = {
@@ -457,22 +427,22 @@ class loan_data(object):
             ],
             "devLatitudeX": 0,
             "devLongitudeX": 0,
-            "appId": param['appid'],
-            "appName": param['appname'],
-            "appPackageName": param['appPackageName'],
-            "appVersion": param['appversion'],
+            "appId": self.param['appid'],
+            "appName": self.param['appname'],
+            "appPackageName": self.param['appPackageName'],
+            "appVersion": self.param['appversion'],
             "brand": "Xiaomi",
-            "channelCode": param['channelcode'],
+            "channelCode": self.param['channelcode'],
             "clientType": "ANDROID",
             "devLatitude": 23.099306,
             "devLongitude": 113.309291,
             "devToken": "cb95881f542ac58170:BB:E9:91:D3:CD",
             "gaid": "f1682b87-c032-4409-9272-0ad94548e5fa",
-            "language": param['language'],
+            "language": self.param['language'],
             "mobileType": "platina",
             "os": "28",
             "osVersion": "9",
-            "version": param['appversion'],
+            "version": self.param['appversion'],
         }
 
         self.data_saveContacts_pk = {
@@ -491,12 +461,12 @@ class loan_data(object):
             }],
             "devLatitudeX": 0,
             "devLongitudeX": 0,
-            "appId": param['appid'],
-            "appName": param['appname'],
-            "appPackageName": param['appPackageName'],
+            "appId": self.param['appid'],
+            "appName": self.param['appname'],
+            "appPackageName": self.param['appPackageName'],
             "appVersion": "1.3.0.0",
             "brand": "vivo",
-            "channelCode": param['channelcode'],
+            "channelCode": self.param['channelcode'],
             "clientType": "ANDROID",
             "devLatitude": 23.0991485,
             "devLongitude": 113.309405,
@@ -509,34 +479,34 @@ class loan_data(object):
             "version": "1.3.0.0"
         }
 
-        self.url_saveContacts = 'http://' + param['url'] + '/app/api/multi/v2/saveContacts/' + param['appid']
+        self.url_saveContacts = 'http://' + self.param['url'] + '/app/api/multi/v2/saveContacts/' + self.param['appid']
 
         # 创建预审订单
         self.headers_createApplyPreOrder = {
             'accept': 'application/json',
-            'appversion': param['appversion'],
+            'appversion': self.param['appversion'],
             'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD',
-            'authorization': param['authorization'],
-            'accept-language': param['language'],
-            'clientCode': param['clientcode'],
+            'authorization': self.param['authorization'],
+            'accept-language': self.param['language'],
+            'clientCode': self.param['clientcode'],
             'Content-Type': 'application/json; charset=UTF-8',
-            'Host':  param['url'],
+            'Host':  self.param['url'],
             'User-Agent': 'okhttp/4.9.0',
         }
         self.data_createApplyPreOrder = {
-            "applySource": param['channelcode'],
+            "applySource": self.param['channelcode'],
             "loanDevInfo": {
-                "appInstalledName": param['appid'],
+                "appInstalledName": self.param['appid'],
                 "brand": "Xiaomi",
                 "callRecord": [
                     {
                         "callDate": "60",
                         "callSeconds": 20,
                         "contactName": "",
-                        "contactPhone": param['mobile']
+                        "contactPhone": self.param['mobile']
                     }
                 ],
-                "contactPhone": param['mobile'],
+                "contactPhone": self.param['mobile'],
                 "devIp": "8888",
                 "devLatitude": 23.09395,
                 "devLongitude": 113.316034,
@@ -565,46 +535,46 @@ class loan_data(object):
                 "wifiLatitude": 23.09395,
                 "wifiLongitude": 113.316034
             },
-            "mobile": param['mobile'],
-            "userId": param['userId'],
-            "appId": param['appid'],
-            "appName": param['appname'],
-            "appPackageName": param['appPackageName'],
-            "appVersion": param['appversion'],
+            "mobile": self.param['mobile'],
+            "userId": self.param['userId'],
+            "appId": self.param['appid'],
+            "appName": self.param['appname'],
+            "appPackageName": self.param['appPackageName'],
+            "appVersion": self.param['appversion'],
             "brand": "Xiaomi",
-            "channelCode": param['channelcode'],
+            "channelCode": self.param['channelcode'],
             "clientType": "ANDROID",
             "devLatitude": 23.09395,
             "devLongitude": 113.316034,
             "devToken": "cb95881f542ac58170:BB:E9:91:D3:CD",
             "gaid": "f1682b87-c032-4409-9272-0ad94548e5fa",
-            "language": param['language'],
+            "language": self.param['language'],
             "mobileType": "platina",
             "os": "28",
             "osVersion": "9",
-            "version": param['appversion'],
+            "version": self.param['appversion'],
         }
-        self.url_createApplyPreOrder = 'http://' + param['url'] + '/app/api/multi/v2/user/creatApplyPreOrder/' + param['appid']
+        self.url_createApplyPreOrder = 'http://' + self.param['url'] + '/app/api/multi/v2/user/creatApplyPreOrder/' + self.param['appid']
 
         # 获取预审状态
         self.headers_getPreOrderStatus = {
             'accept': 'application/json',
-            'appversion': param['appversion'],
+            'appversion': self.param['appversion'],
             'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD',
-            'authorization': param['authorization'],
-            'accept-language': param['language'],
-            'clientCode': param['clientcode'],
+            'authorization': self.param['authorization'],
+            'accept-language': self.param['language'],
+            'clientCode': self.param['clientcode'],
             'Content-Type': 'application/json; charset=UTF-8',
-            'Host':  param['url'],
+            'Host':  self.param['url'],
             'User-Agent': 'okhttp/4.9.0',
         }
         self.data_getPreOrderStatus = {
-            "appId": param['appid'],
-            "appName": param['appname'],
-            "appPackageName": param['appPackageName'],
-            "appVersion": param['appversion'],
+            "appId": self.param['appid'],
+            "appName": self.param['appname'],
+            "appPackageName": self.param['appPackageName'],
+            "appVersion": self.param['appversion'],
             "brand": "Xiaomi",
-            "channelCode": param['channelcode'],
+            "channelCode": self.param['channelcode'],
             "clientType": "ANDROID",
             "devLatitude": 0,
             "devLongitude": 0,
@@ -612,124 +582,124 @@ class loan_data(object):
             "mobileType": "platina",
             "os": "28",
             "osVersion": "9",
-            "version": param['appversion'],
+            "version": self.param['appversion'],
         }
-        self.url_getPreOrderStatus = 'http://' + param['url'] + '/app/api/multi/v2/user/getPreOrderStatus/' + param['appid']
+        self.url_getPreOrderStatus = 'http://' + self.param['url'] + '/app/api/multi/v2/user/getPreOrderStatus/' + self.param['appid']
 
         # 上传活体图片视频
         self.headers_uploadImages = {
             # 'accept': 'application/json',
-            'appversion': param['appversion'],
+            'appversion': self.param['appversion'],
             'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD',
-            'authorization': param['authorization'],
-            'accept-language': param['language'],
-            'clientCode': param['clientcode'],
+            'authorization': self.param['authorization'],
+            'accept-language': self.param['language'],
+            'clientCode': self.param['clientcode'],
             # 'Content-Type': 'multipart/form-data; boundary=1ed0e7ca-a679-4ae9-9373-6937bc5cbd59',
-            'Host':  param['url'],
+            'Host':  self.param['url'],
             'User-Agent': 'okhttp/4.9.0',
         }
-        self.app_id = param['appid']
-        self.url_uploadImages = 'http://' + param['url'] + '/app/api/multi/v2/uploadImages/' + param['appid']
-        self.url_uploadImages_id = 'http://' + param['url'] + '/app/api/multi/v2/uploadIdCardImage/%s?appId=%s&picType=INE&livenessId=' % (
+        self.app_id = self.param['appid']
+        self.url_uploadImages = 'http://' + self.param['url'] + '/app/api/multi/v2/uploadImages/' + self.param['appid']
+        self.url_uploadImages_id = 'http://' + self.param['url'] + '/app/api/multi/v2/uploadIdCardImage/%s?appId=%s&picType=INE&livenessId=' % (
             self.app_id, self.app_id)
-        self.url_uploadImages_mx = 'http://' + param['url'] + '/app/api/multi/v2/uploadIdCardImage/%s?appId=%s&picType=FACE&livenessId=' % (
+        self.url_uploadImages_mx = 'http://' + self.param['url'] + '/app/api/multi/v2/uploadIdCardImage/%s?appId=%s&picType=FACE&livenessId=' % (
             self.app_id, self.app_id)
-        self.url_uploadImages_pk = 'http://' + param['url'] + '/app/api/multi/v2/uploadIdCardImage/%s?appId=%s&picType=AADHAAR&livenessId=' % (
+        self.url_uploadImages_pk = 'http://' + self.param['url'] + '/app/api/multi/v2/uploadIdCardImage/%s?appId=%s&picType=AADHAAR&livenessId=' % (
             self.app_id, self.app_id)
 
 
         # 提交视频认证
         self.headers_video_certification = {
             'accept': 'application/json',
-            'appversion': param['appversion'],
+            'appversion': self.param['appversion'],
             'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD',
-            'authorization': param['authorization'],
-            'accept-language': param['language'],
-            'clientCode': param['clientcode'],
+            'authorization': self.param['authorization'],
+            'accept-language': self.param['language'],
+            'clientCode': self.param['clientcode'],
             'Content-Type': 'application/json; charset=UTF-8',
-            'Host':  param['url'],
+            'Host':  self.param['url'],
             'User-Agent': 'okhttp/4.9.0',
         }
         self.data_video_certification = {
-            "appId": param['appid'],
+            "appId": self.param['appid'],
             "readNumber": "3959",
-            "videoUrl": param['mp4_url'],
+            "videoUrl": self.param['mp4_url'],
         }
-        self.url_video_certification = 'http://' + param['url'] + '/app/api/multi/v2/video-certification-submit'
+        self.url_video_certification = 'http://' + self.param['url'] + '/app/api/multi/v2/video-certification-submit'
 
         # curp 认证
         self. headers_curp_rfc_check = {
-            'Host': param['authorization'],
+            'Host': self.param['authorization'],
             'Pragma': 'no-cache',
             'Cache-Control': 'no-cache',
             'Origin': 'http://172.20.240.121',
-            'Accept-Language': param['language'],
-            'Authorization': param['authorization'],
+            'Accept-Language': self.param['language'],
+            'Authorization': self.param['authorization'],
             'Content-Type': 'application/json; charset=utf-8',
             'Accept': 'application/json',
             'User-Agent': 'Mozilla/5.0 (Linux; Android 9; MI 8 Lite Build/PKQ1.181007.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36',
-            'AppVersion': param['appversion'],
-            'Referer': 'http://172.20.240.121/static/native_web/%s/' % (param['appid']),
-            'X-Requested-With': param['appid']
+            'AppVersion': self.param['appversion'],
+            'Referer': 'http://172.20.240.121/static/native_web/%s/' % (self.param['appid']),
+            'X-Requested-With': self.param['appid']
         }
 
         self.data_curp_rfc_check = {
             "curp": 'MOHA741013MOCRRN04',
             "rfc": "MOHA741013MOC",
-            "appId": param['appid'],
-            "appName": param['appname'],
-            "appPackageName": param['appPackageName'],
-            "appVersion": param['appversion'],
+            "appId": self.param['appid'],
+            "appName": self.param['appname'],
+            "appPackageName": self.param['appPackageName'],
+            "appVersion": self.param['appversion'],
             "brand": "Xiaomi",
-            "channelCode": param['channelcode'],
+            "channelCode": self.param['channelcode'],
             "clientType": "ANDROID",
             "devLatitude": 23.099311,
             "devLongitude": 113.309342,
             "devToken": "f4ae3f8debcb939670:BB:E9:91:D3:CD",
             "gaid": "f1682b87-c032-4409-9272-0ad94548e5fa",
-            "language": param['language'],
+            "language": self.param['language'],
             "mobileType": "platina",
             "os": "Android",
             "osVersion": "9",
-            "version": param['appversion']
+            "version": self.param['appversion']
         }
-        self.url_curp_rfc_check = 'http://' + param['url'] + '/app/api/multi/v2/user/curp-rfc-check/' + self.app_id
+        self.url_curp_rfc_check = 'http://' + self.param['url'] + '/app/api/multi/v2/user/curp-rfc-check/' + self.app_id
 
         # nga 绑卡认证
         self. headers_authBindRequest = {
-            'Host': param['authorization'],
+            'Host': self.param['authorization'],
             'Pragma': 'no-cache',
             'Cache-Control': 'no-cache',
             'Origin': 'http://172.20.240.121',
-            'Accept-Language': param['language'],
-            'Authorization': param['authorization'],
+            'Accept-Language': self.param['language'],
+            'Authorization': self.param['authorization'],
             'Content-Type': 'application/json; charset=utf-8',
             'Accept': 'application/json',
             'User-Agent': 'Mozilla/5.0 (Linux; Android 9; MI 8 Lite Build/PKQ1.181007.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36',
-            'AppVersion': param['appversion'],
-            'Referer': 'http://172.20.240.121/static/native_web/%s/' % (param['appid']),
-            'X-Requested-With': param['appid']
+            'AppVersion': self.param['appversion'],
+            'Referer': 'http://172.20.240.121/static/native_web/%s/' % (self.param['appid']),
+            'X-Requested-With': self.param['appid']
         }
         # bvn = str(int(time.time() * 10))
-        self.cardNo = param['mobile']
-        self.data_authBindRequest = {"appId": param['appid'],
-                                "channelCode": param['channelcode'],
+        self.cardNo = self.param['mobile']
+        self.data_authBindRequest = {"appId": self.param['appid'],
+                                "channelCode": self.param['channelcode'],
                                 "bvn": '%s',
                                 "cardNo": self.cardNo,
                                 "bankCode": "801"}
-        self.url_authBindRequest = 'http://' + param['url'] + '/app/api/multi/v2/user/authBindRequest/' + param['appid']
+        self.url_authBindRequest = 'http://' + self.param['url'] + '/app/api/multi/v2/user/authBindRequest/' + self.param['appid']
 
         # ke 绑卡参数
         self.band_card_date_ke = {
-            "appId": param['appid'],
-            "channelCode": param['channelcode'],
-            "cardNo": param['mobile'],
+            "appId": self.param['appid'],
+            "channelCode": self.param['channelcode'],
+            "cardNo": self.param['mobile'],
             "smsCode": "123456"
         }
         self.data_sendSmsCode_band = {
-            "appId": param['appid'],
-            "channelCode": param['channelcode'],
-            "mobile": param['mobile'],
+            "appId": self.param['appid'],
+            "channelCode": self.param['channelcode'],
+            "mobile": self.param['mobile'],
             "loginType": "0",
             "language": "en_US",
             "smsCodeType": "BIND_MPESA"
@@ -737,13 +707,13 @@ class loan_data(object):
         # mx 绑卡
         self.headers_bind_card = {
             'accept': 'application/json',
-            'appversion': param['appversion'],
+            'appversion': self.param['appversion'],
             'devtoken': 'f4ae3f8debcb939670:BB:E9:91:D3:CD',
-            'authorization': param['authorization'],
-            'accept-language': param['language'],
-            'clientCode': param['clientcode'],
+            'authorization': self.param['authorization'],
+            'accept-language': self.param['language'],
+            'clientCode': self.param['clientcode'],
             'Content-Type': 'application/json; charset=UTF-8',
-            'Host':  param['url'],
+            'Host':  self.param['url'],
             'User-Agent': 'okhttp/4.9.0',
         }
         # cardNo_mx = str(int(time.time()*100*100*100))
@@ -752,12 +722,12 @@ class loan_data(object):
             "bankCode": "40112",
             "bindCardType": "0",
             "cardNo": self.cardNo_mx,
-            "appId": param['appid'],
-            "appName": param['appname'],
-            "appPackageName": param['appPackageName'],
-            "appVersion": param['appversion'],
+            "appId": self.param['appid'],
+            "appName": self.param['appname'],
+            "appPackageName": self.param['appPackageName'],
+            "appVersion": self.param['appversion'],
             "brand": "Xiaomi",
-            "channelCode": param['channelcode'],
+            "channelCode": self.param['channelcode'],
             "clientType": "ANDROID",
             "devLatitude": 23.099311,
             "devLongitude": 113.309342,
@@ -767,7 +737,7 @@ class loan_data(object):
             "mobileType": "platina",
             "os": "Android",
             "osVersion": "9",
-            "version": param['appversion'],
+            "version": self.param['appversion'],
         }
         # 哥伦比亚不绑卡
         self.band_card_date_co = {
@@ -803,51 +773,51 @@ class loan_data(object):
 
         # 代扣支付认证
         # headers_authBindPaymentRequest = {
-        #     'Host':  param['url'],
+        #     'Host':  self.param['url'],
         #     'Pragma': 'no-cache',
         #     'Cache-Control': 'no-cache',
         #     'Origin': 'http://172.20.240.121',
-        #     'Accept-Language': param['language'],
-        #     'Authorization': param['authorization'],
+        #     'Accept-Language': self.param['language'],
+        #     'Authorization': self.param['authorization'],
         #     'Content-Type': 'application/json; charset=utf-8',
         #     'Accept': 'application/json',
         #     'User-Agent': 'Mozilla/5.0 (Linux; Android 9; MI 8 Lite Build/PKQ1.181007.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36',
-        #     'AppVersion': param['appversion'],
-        #     'Referer': 'http://172.20.240.121/static/native_web/%s/' % (param['appid']),
-        #     'X-Requested-With': param['appid']
+        #     'AppVersion': self.param['appversion'],
+        #     'Referer': 'http://172.20.240.121/static/native_web/%s/' % (self.param['appid']),
+        #     'X-Requested-With': self.param['appid']
         # }
-        # data_authBindPaymentRequest = {"appId": param['appid'],
-        #                                "channelCode": param['channelcode'],
+        # data_authBindPaymentRequest = {"appId": self.param['appid'],
+        #                                "channelCode": self.param['channelcode'],
         #                                "bvn": bvn, "cardNo": cardNo, "bankCode": "801", "realName": "Alick Lee"}
-        # url_authBindPaymentRequest = 'http://' + param['url'] + '/app/api/multi/v2/user/authBindPaymentRequest'
+        # url_authBindPaymentRequest = 'http://' + self.param['url'] + '/app/api/multi/v2/user/authBindPaymentRequest'
 
         # 申请进件接口
         self.headers_createApply = {
             'accept': 'application/json',
             'appversion': '1.3.0.0',
             'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD',
-            'authorization': param['authorization'],
-            'accept-language': param['language'],
-            'clientCode': param['clientcode'],
+            'authorization': self.param['authorization'],
+            'accept-language': self.param['language'],
+            'clientCode': self.param['clientcode'],
             'Content-Type': 'application/json; charset=UTF-8',
-            'Host':  param['url'],
+            'Host':  self.param['url'],
             'User-Agent': 'okhttp/4.9.0',
         }
         self.data_createApply = {
             "amount": 1100,
-            "applySource": param['appPackageName'],
+            "applySource": self.param['appPackageName'],
             "loanDevInfo": {
-                "appInstalledName": param['appid'],
+                "appInstalledName": self.param['appid'],
                 "brand": "Xiaomi",
                 "callRecord": [
                     {
                         "callDate": "60",
                         "callSeconds": 20,
                         "contactName": "",
-                        "contactPhone": param['mobile']
+                        "contactPhone": self.param['mobile']
                     }
                 ],
-                "contactPhone": param['mobile'],
+                "contactPhone": self.param['mobile'],
                 "devIp": "8888",
                 "devLatitude": 23.09395,
                 "devLongitude": 113.316034,
@@ -876,42 +846,42 @@ class loan_data(object):
                 "wifiLatitude": 23.09395,
                 "wifiLongitude": 113.316034
             },
-            "mobile": param['mobile'],
+            "mobile": self.param['mobile'],
             "period": "1",
             "repayAndReloanFlag": 0,
-            "userId": param['userId'],
-            "appId": param['appid'],
-            "appName": param['appname'],
-            "appPackageName": param['appPackageName'],
-            "appVersion": param['appversion'],
+            "userId": self.param['userId'],
+            "appId": self.param['appid'],
+            "appName": self.param['appname'],
+            "appPackageName": self.param['appPackageName'],
+            "appVersion": self.param['appversion'],
             "brand": "Xiaomi",
-            "channelCode": param['channelcode'],
+            "channelCode": self.param['channelcode'],
             "clientType": "ANDROID",
             "devLatitude": 23.09395,
             "devLongitude": 113.316034,
             "devToken": "cb95881f542ac58170:BB:E9:91:D3:CD",
             "gaid": "f1682b87-c032-4409-9272-0ad94548e5fa",
-            "language": param['language'],
+            "language": self.param['language'],
             "mobileType": "platina",
             "os": "28",
             "osVersion": "9",
-            "version": param['appversion'],
+            "version": self.param['appversion'],
         }
-        self.url_createApply = 'http://' + param['url'] + '/app/api/multi/v2/user/creatApply/' + param['appid']
+        self.url_createApply = 'http://' + self.param['url'] + '/app/api/multi/v2/user/creatApply/' + self.param['appid']
 
         # 获取订单id
         self.headers_getOrderDetail = {
             'accept': 'application/json',
             'content-type': 'application/json; charset=utf-8',
-            'appversion': param['appversion'],
+            'appversion': self.param['appversion'],
             'devtoken': 'cb95881f542ac58170:BB:E9:91:D3:CD',
-            'authorization': param['authorization'],
-            'accept-language': param['language'],
-            'clientCode': param['clientcode'],
-            'Host':  param['url'],
+            'authorization': self.param['authorization'],
+            'accept-language': self.param['language'],
+            'clientCode': self.param['clientcode'],
+            'Host':  self.param['url'],
             'User-Agent': 'okhttp/4.9.0',
         }
-        self.url_getOrderDetail = 'http://' + param['url'] + '/app/api/multi/v2/user/getOrderDetail/' + param['appid']
+        self.url_getOrderDetail = 'http://' + self.param['url'] + '/app/api/multi/v2/user/getOrderDetail/' + self.param['appid']
 
         # 复审回调通过
         self.headers_callback_order = {
@@ -921,7 +891,7 @@ class loan_data(object):
             "busOrderId": 'loan_order_id',
             "result": "agree"
         }
-        self.url_callback_order = 'http://' + param['transfer_url']
+        self.url_callback_order = 'http://' + self.param['transfer_url']
 
         # 运营后台获取token
         self.headers_admin = {
@@ -932,7 +902,7 @@ class loan_data(object):
             'password': '123456',
             'grant_type': 'password'
         }
-        self.url_admin = 'http://' + param['admin_web_url'] + '/oauth/token'
+        self.url_admin = 'http://' + self.param['admin_web_url'] + '/oauth/token'
 
         # 运营后台点击放款
         self.headers_transfer = {
@@ -940,7 +910,7 @@ class loan_data(object):
             'Authorization': 'access_token'
         }
         self.data_transfer = {"loanOrderIds": ["loan_order_id"], "payChannel": "RAZOR"}
-        self.url_transfer = 'http://' + param['admin_web_url'] + '/order/order/batchTransfer'
+        self.url_transfer = 'http://' + self.param['admin_web_url'] + '/order/order/batchTransfer'
 
         # xxl-job login
         self.headers_job_login = {
@@ -949,42 +919,42 @@ class loan_data(object):
             # 'X-Requested-With': 'XMLHttpRequest',
             # 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
             'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-            # 'Origin': param['xxl_job'],
-            # 'Referer': param['xxl_job'] + '/xxl-job-admin/toLogin',
+            # 'Origin': self.param['xxl_job'],
+            # 'Referer': self.param['xxl_job'] + '/xxl-job-admin/toLogin',
             # 'Accept-Language': 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
         }
         self.data_job_login = {
             'userName': 'admin',
             'password': '123456'
         }
-        self.url_job_login = 'http://' + param['xxl_job'] + '/xxl-job-admin/login'
+        self.url_job_login = 'http://' + self.param['xxl_job'] + '/xxl-job-admin/login'
 
         # xxl-job 放款准备
         self.headers_job_pre = {
             # 'Accept': 'application/json, text/javascript, */*; q=0.01',
-            # 'Referer': param['admin_web_url'] + '/xxl-job-admin/jobinfo?jobGroup=11',
+            # 'Referer': self.param['admin_web_url'] + '/xxl-job-admin/jobinfo?jobGroup=11',
             # 'X-Requested-With': 'XMLHttpRequest',
             # 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
             'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
         }
         self.data_job_pre = {
             'id': '19',
-            'executorParam': ''
+            'executorself.param': ''
         }
 
-        self.url_job_pre = 'http://' + param['xxl_job'] + '/xxl-job-admin/jobinfo/trigger'
+        self.url_job_pre = 'http://' + self.param['xxl_job'] + '/xxl-job-admin/jobinfo/trigger'
 
         # xxl-job 完成放款
         self.headers_job_over = {
             'Accept': 'application/json, text/javascript, */*; q=0.01',
-            'Referer': 'http://' + param['admin_web_url'] + '/xxl-job-admin/jobinfo?jobGroup=11',
+            'Referer': 'http://' + self.param['admin_web_url'] + '/xxl-job-admin/jobinfo?jobGroup=11',
             'X-Requested-With': 'XMLHttpRequest',
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 11_2_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36',
             'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
         }
         self.data_job_over = {
             'id': '18',
-            'executorParam': ''
+            'executorself.param': ''
         }
         # 肯尼亚放款回调
         self.payoutNotify_ke = {
@@ -995,8 +965,8 @@ class loan_data(object):
                 "OriginatorConversationID": "10571-7910404-1",
                 "ConversationID": "AG_20210721_000068264cb11a46e64d",
                 "TransactionID": "NLJ41HAY6Q",
-                "ResultParameters": {
-                    "ResultParameter": [
+                "Resultself.parameters": {
+                    "Resultself.parameter": [
                         {
                             "Key": "TransactionAmount",
                             "Value": 10
@@ -1079,17 +1049,17 @@ class loan_data(object):
             "transactionReference": "eb41fa79-d936-4798-999a-001fc45767ab"
         }
 
-        self.url_job_over = 'http://' + param['xxl_job'] + '/xxl-job-admin/jobinfo/trigger'
+        self.url_job_over = 'http://' + self.param['xxl_job'] + '/xxl-job-admin/jobinfo/trigger'
 
         # d-2同步催收
         self.data_job_cs = {
             'id': '9',
-            'executorParam': ''
+            'executorself.param': ''
         }
 
         self.data_job_overdue = {
             'id': '8',
-            'executorParam': ''
+            'executorself.param': ''
         }
 
         self.assign_headers = {
@@ -1099,7 +1069,7 @@ class loan_data(object):
 
         self.assign_data = {"dunAgencyId": "1", "dunGroupId": "1", "dunUserId": "1326", "loanOrderIds": "loan_order_id",
                        "assignType": "DUN_USER"}
-        self.admin_web_assign = 'http://' + param['admin_web_url'] + '/dun/dun/order/assign'
+        self.admin_web_assign = 'http://' + self.param['admin_web_url'] + '/dun/dun/order/assign'
 
         # 允许展期
         self.extension_headers = {
@@ -1108,11 +1078,11 @@ class loan_data(object):
         }
 
         self.extension_data = {"loanOrderId": "loan_order_id"}
-        self.extension_url = 'http://' + param['admin_web_url'] + '/dun/dun/extension/apply'
+        self.extension_url = 'http://' + self.param['admin_web_url'] + '/dun/dun/extension/apply'
 
         # 运营后台完成还款
         # 获取还款计划
-        self.url_loanBillPlanId = 'http://' + param['admin_web_url'] + '/order/query/repayment/plan/detail'
+        self.url_loanBillPlanId = 'http://' + self.param['admin_web_url'] + '/order/query/repayment/plan/detail'
         self.headers_loanBillPlanId = {
             'Content-Type': 'application/json;charset=utf-8',
             'Authorization': 'access_token'
@@ -1120,7 +1090,7 @@ class loan_data(object):
         self.data_loanBillPlanId = {"loanOrderId": "loan_order_id"}
 
         # 执行还款
-        self.url_repay = 'http://' + param['admin_web_url'] + '/order/offline/repayment'
+        self.url_repay = 'http://' + self.param['admin_web_url'] + '/order/offline/repayment'
         self.headers_repay = {
             'Content-Type': 'application/json;charset=utf-8',
             'Authorization': 'access_token'
